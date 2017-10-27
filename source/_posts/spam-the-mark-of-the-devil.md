@@ -1,0 +1,12 @@
+---
+title: 'Spam, the mark of the devil..'
+id: 400
+categories:
+  - Photos &amp; Personal
+date: 2009-03-27 10:38:41
+tags:
+---
+
+666 spam in my inbox, what happens now? do i win a pize?
+
+![workofthedevil](https://mikecann.co.uk/wp-content/uploads/2009/03/workofthedevil.png "workofthedevil")

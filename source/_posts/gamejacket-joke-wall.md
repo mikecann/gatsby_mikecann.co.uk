@@ -1,0 +1,13 @@
+---
+title: GameJacket Joke Wall
+id: 417
+categories:
+  - Photos &amp; Personal
+  - Programming
+date: 2009-04-16 09:15:01
+tags:
+---
+
+Joke a day keep the bugs at bay!
+
+![photo1](https://mikecann.co.uk/wp-content/uploads/2009/04/photo1.jpg "photo1")
