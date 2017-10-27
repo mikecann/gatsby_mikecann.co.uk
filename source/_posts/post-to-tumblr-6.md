@@ -29,43 +29,43 @@ I eventually fought through the tooling quagmire and ended up with a Gulp / Webp
 
 Anyways, now that I have a shiney new client codebase I decided to go through some of the features that people have suggested and implement them so since version 6 came out I have done 6 more updates:
 
-> - v6.7 - 25/01/2016> 
-> + Added a new option to general that lets you set what state the format post window should be opened in:> 
-> + Added a privacy policy to the account page> 
-> + Require privacy policy to be accepted before signing up> 
-> + Added a "clear formatting" button to the format page.> 
-> + Users that arent logged in must not provide an email when reporting an error> 
-> + Fixed a spelling mistake (Thanks Tom)> 
-> + Logs older than 2 days are now removed> 
+> - v6.7 - 25/01/2016
+> + Added a new option to general that lets you set what state the format post window should be opened in:
+> + Added a privacy policy to the account page
+> + Require privacy policy to be accepted before signing up
+> + Added a "clear formatting" button to the format page.
+> + Users that arent logged in must not provide an email when reporting an error
+> + Fixed a spelling mistake (Thanks Tom)
+> + Logs older than 2 days are now removed
 > 
-> - v6.6 - 19/01/2016> 
-> + The "Remind Me in A Month" and Two Weeks are now working as expected, sorry about that!> 
-> + One-click now also gets a reminder.> 
+> - v6.6 - 19/01/2016
+> + The "Remind Me in A Month" and Two Weeks are now working as expected, sorry about that!
+> + One-click now also gets a reminder.
 > 
-> - v6.5 - 18/01/2016> 
-> + The donate button now correctly links to the donation page.> 
-> + Added another donation popup, only showing it every 6 months.> 
-> + Removed some unnecessary logging to preserve privacy.> 
+> - v6.5 - 18/01/2016
+> + The donate button now correctly links to the donation page.
+> + Added another donation popup, only showing it every 6 months.
+> + Removed some unnecessary logging to preserve privacy.
 > 
-> - v6.4 - 14/01/2016> 
-> + Increased the size of the format post page a little, its 2016 after all ;)> 
-> + HTML editing text areas are now resizeable.> 
-> + Previous tag sets are now listed in reverse date order that they were used. It displays a maximum of 6 tags. If you have more tags sets you can optionally select to view them.> 
-> + Fixed an issue with context menu items not refreshing after adding an account> 
+> - v6.4 - 14/01/2016
+> + Increased the size of the format post page a little, its 2016 after all ;)
+> + HTML editing text areas are now resizeable.
+> + Previous tag sets are now listed in reverse date order that they were used. It displays a maximum of 6 tags. If you have more tags sets you can optionally select to view them.
+> + Fixed an issue with context menu items not refreshing after adding an account
 > 
-> - v6.3 - 14/01/2016> 
-> + Post scheduling is back in addition to queuing. Queuing a post just adds it to the queue, scheduling lets you pick a specific date. (thanks joe, vitor, blinkingline, and others!)> 
-> + Fixed an error in the oneclick options which was causing a few errors including not able to rearrange sibling menu items. (thanks adena)> 
-> + Reduced the number of plugins TinyMCE is using in the format post window which I hope will increase performance of the text areas, let me know if you are still experiencing issues. (thanks shiinto)> 
+> - v6.3 - 14/01/2016
+> + Post scheduling is back in addition to queuing. Queuing a post just adds it to the queue, scheduling lets you pick a specific date. (thanks joe, vitor, blinkingline, and others!)
+> + Fixed an error in the oneclick options which was causing a few errors including not able to rearrange sibling menu items. (thanks adena)
+> + Reduced the number of plugins TinyMCE is using in the format post window which I hope will increase performance of the text areas, let me know if you are still experiencing issues. (thanks shiinto)
 > 
-> - v6.2 - 12/01/2016> 
-> + Added saved tags back to the format post page> 
+> - v6.2 - 12/01/2016
+> + Added saved tags back to the format post page
 > 
-> - v6.1 - 12/01/2016> 
-> + Added HTML editing back to the various text areas in the extension, sorry about that!> 
-> + Currently you cannot click a text area in the format post window to have it auto-fill with a value, im working on it :)> 
+> - v6.1 - 12/01/2016
+> + Added HTML editing back to the various text areas in the extension, sorry about that!
+> + Currently you cannot click a text area in the format post window to have it auto-fill with a value, im working on it :)
 > 
-> - v6.0 - 11/01/2016> 
+> - v6.0 - 11/01/2016
 > + Huge new internal update, should make future changes much easier but may have caused a few bugs, please do report them if you see them!
 
 So im keen to do new features and upgrades so email me if you have suggestions!

@@ -15,10 +15,10 @@ categories:
 date: 2014-11-11 01:24:32
 ---
 
-> This is part of a three-post series on working with Parse.com in Unity. For more info please see the other posts in the series:> 
+> This is part of a three-post series on working with Parse.com in Unity. For more info please see the other posts in the series:
 > 
-> [Part 1 - Intro and App Structure](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-3d-part-1-intro-and-app-structure/)> 
-> Part 2 - Services, Helpers and Looming> 
+> [Part 1 - Intro and App Structure](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-3d-part-1-intro-and-app-structure/)
+> Part 2 - Services, Helpers and Looming
 > [Part 3 - Tests, Typescript and Common Code](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-part-3-tests-typescript-and-common-code/)
 
 In the last post I covered the basic app structure, in this post I want to cover some of the specifics of the front end, the Unity part.

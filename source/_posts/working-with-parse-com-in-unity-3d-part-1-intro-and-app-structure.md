@@ -12,10 +12,10 @@ categories:
 date: 2014-11-11 01:24:26
 ---
 
-> This is part of a three-post series on working with Parse.com in Unity. For more info please see the other posts in the series:> 
+> This is part of a three-post series on working with Parse.com in Unity. For more info please see the other posts in the series:
 > 
-> Part 1 - Intro and App Structure> 
-> [Part 2 - Services, Helpers and Looming](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-part-2-services-helpers-and-looming/)> 
+> Part 1 - Intro and App Structure
+> [Part 2 - Services, Helpers and Looming](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-part-2-services-helpers-and-looming/)
 > [Part 3 - Tests, Typescript and Common Code](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-part-3-tests-typescript-and-common-code/)
 
 For a while it has been my intention to follow up [my work with Parse.com in Unity](https://www.mikecann.co.uk/programming/fixing-unitys-internal-compiler-error/), but other things have always gotten in the way and thus I have only just managed to get round to it.

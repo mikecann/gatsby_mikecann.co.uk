@@ -17,9 +17,9 @@ date: 2015-07-03 05:08:07
 
 Well its been almost two weeks since [I declared the (tough) scheduled plan](https://www.mikecann.co.uk/myprojects/mr-nibbles-forever-getting-it-done/) for the release of Mr Nibbles Forever. In it I planned that last week was to be:
 
-> 22nd-28th June> 
-> 1) Design landing page for the game. This is important as I will need a place to put the trailer and to send people who are interested in the game. I have read several good resources on how this page should look. Some examples of other landing pages are: https://www.pixelprospector.com/list-of-websites-and-blogs-from-game-developers/. Once landing page is designed, run it pass some designer friends for help improving it.> 
-> 2) Pester people for feedback on Alpha 8\. I need to get some real-world feedback for the game so I can fix bugs and improve the polish for release 9.> 
+> 22nd-28th June
+> 1) Design landing page for the game. This is important as I will need a place to put the trailer and to send people who are interested in the game. I have read several good resources on how this page should look. Some examples of other landing pages are: https://www.pixelprospector.com/list-of-websites-and-blogs-from-game-developers/. Once landing page is designed, run it pass some designer friends for help improving it.
+> 2) Pester people for feedback on Alpha 8\. I need to get some real-world feedback for the game so I can fix bugs and improve the polish for release 9.
 > 3) Contact some marketing people for help and advice.
 
 Well I managed to do 1) and 2) but I decided that I didnt need to do 3) just yet, instead I made do with the excellent advice on these two pages:
@@ -51,7 +51,7 @@ So although last week was supposed to just be design, I decided to go the full-h
 
 Speaking of development, this week we [supposed to be a bug-fixing and polish pass](https://www.mikecann.co.uk/myprojects/mr-nibbles-forever-getting-it-done/):
 
-> 29th June – 5th July> 
+> 29th June – 5th July
 > 1) Do bug-fixing and polish pass of the game. Push release 9 of the game to people for testing and feedback.
 
 Its true that I did indeed fix some minor bugs...

@@ -14,10 +14,10 @@ categories:
 date: 2014-11-11 01:24:38
 ---
 
-> This is part of a three-post series on working with Parse.com in Unity. For more info please see the other posts in the series:> 
+> This is part of a three-post series on working with Parse.com in Unity. For more info please see the other posts in the series:
 > 
-> [Part 1 - Intro and App Structure](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-3d-part-1-intro-and-app-structure/)> 
-> [Part 2 - Services, Helpers and Looming](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-part-2-services-helpers-and-looming/)> 
+> [Part 1 - Intro and App Structure](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-3d-part-1-intro-and-app-structure/)
+> [Part 2 - Services, Helpers and Looming](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-part-2-services-helpers-and-looming/)
 > Part 3 - Tests, Typescript and Common Code
 
 In the last post I covered how to use Parse.com in Unity itself, in this post I want to talk about to to go about writing backend code.

@@ -76,7 +76,7 @@ Task.Factory.StartNew(StartBusyIndicator)
 
 The only problem is that when I tried to implement his C# library Unity started throwing the dreaded Internal Compiler Error:
 
-> **Internal compiler error. See the console log for more information. output was:**> 
+> **Internal compiler error. See the console log for more information. output was:**
 > ** Unhandled Exception: System.ArgumentNullException: Argument cannot be null.**
 
 It took me a while to work out what was going on. I managed to simplify the entire problem down to this simple example:
