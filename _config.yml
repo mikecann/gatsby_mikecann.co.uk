@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: MikeCann.co.uk
 subtitle:
 description:
-author: John Doe
-language:
+author: Mike Cann
+language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://mikecann.co.uk
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -42,7 +42,12 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -73,3 +78,17 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: tranquilpeak
+
+keywords:
+- typescript
+- game developer
+- haxe
+- c#
+- programming
+- travel
+- drone
+- photography
+- england
+- australia
+- coder
+- javascript
