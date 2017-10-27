@@ -9,7 +9,8 @@
     "deploy": "hexo generate && aws s3 sync public s3://mikecann-web",
     "generate": "hexo generate",
     "dev": "hexo server -p 4500",
-    "migrate": "hexo migrate wordpress mikecanncouk.wordpress.2017-10-27_Part_001_of_53.xml"
+    "migrate": "hexo migrate wordpress mikecanncouk.wordpress.2017-10-27_Part_001_of_53.xml",
+    "migrate2": "hexo migrate test-plugin"
   },
   "dependencies": {
     "hexo": "^3.2.0",
@@ -20,7 +21,7 @@
     "hexo-generator-feed": "^1.2.2",
     "hexo-generator-index": "^0.2.0",
     "hexo-generator-tag": "^0.2.0",
-    "hexo-migrator-wordpress": "^0.1.2",
+    "hexo-migrator-wordpress": "file:./hexo-migrator-wordpress",
     "hexo-renderer-ejs": "^0.3.0",
     "hexo-renderer-marked": "^0.3.0",
     "hexo-renderer-stylus": "^0.3.1",
