@@ -8,6 +8,7 @@ tags:
   - languages
   - spider
   - typescript
+url: 2189.html
 id: 2189
 categories:
   - Chrome Crawler
@@ -19,7 +20,7 @@ date: 2012-10-20 06:52:57
 [![](https://mikecann.co.uk/wp-content/uploads/2012/10/ts2.png "ts2")](https://mikecann.co.uk/wp-content/uploads/2012/10/ts2.png)
 
 In the spirit of [David Wagner's try { harder } talk on 'the value of tinkering'](https://mikecann.co.uk/photos-personal/try-harder-2012/) I decided to do a little tinkering with a new language from Microsoft called [TypeScript](typescriptlang.org).
-
+<!-- more -->
 TypeScript attracted me for three reasons. Its the new project from Anders Hejlsberg the creator of C#, it brings type safety to JavaScript and im a sucker for new technology.
 
 TypeScript is basically a superset of Javascript much in the same way C++ is to C. So every single JS project is a valid TS project. This is good if you are familiar with JS already, you should be able to pick up TS fast and then get to grips with the other cool bits it bring.

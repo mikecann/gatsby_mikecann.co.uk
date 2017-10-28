@@ -9,6 +9,7 @@ tags:
   - talk
   - Tool
   - tryharder
+url: 2194.html
 id: 2194
 categories:
   - Misc

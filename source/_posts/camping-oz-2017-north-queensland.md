@@ -5,8 +5,9 @@ tags:
   - Drone
   - photo
   - travel
+url: 6179.html
 id: 6179
-comment: false
+comments: false
 categories:
   - Above Under
 date: 2017-07-25 07:34:00
@@ -15,7 +16,7 @@ date: 2017-07-25 07:34:00
  
 
 A few days after leaving Daly Waters and the NT we arrived into Cairns in the north of Queensland.
-
+<!-- more -->
 I was excited to arrive because I knew this was going to be the destination where I ticked off one item from my bucket list; swim at the Great Barrier Reef.
 
 ![me snorkelling](//cdn.shopify.com/s/files/1/1830/7597/files/YDXJ0626_1024x1024.jpg?v=1500961620)

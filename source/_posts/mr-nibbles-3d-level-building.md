@@ -1,14 +1,17 @@
 ---
 title: Mr Nibbles 3D - Level Building
+url: 5286.html
 id: 5286
 categories:
   - Mr Nibbles 3D
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/07/wdactfst.csv'
+coverMeta: out
 date: 2014-07-04 00:58:22
 tags:
 ---
 
 As this is a level based puzzle game one of the big requirements for the project will be the ability to quickly build and test levels. In the original Mr Nibbles the levels were all 2D generated from a bitmap image where each pixel represents a single tile in the world. So for example here is level 4:
-
+<!-- more -->
 [![lev](https://www.mikecann.co.uk/wp-content/uploads/2014/07/lev.png)](https://www.mikecann.co.uk/wp-content/uploads/2014/07/lev.png)
 
 Representing the levels as a bitmap image meant that Photoshop became my level editor which allowed me to very quickly make changes and test the levels as I made them. 

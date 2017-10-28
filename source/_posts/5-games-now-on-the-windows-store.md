@@ -5,6 +5,7 @@ tags:
   - Games
   - promo
   - windows store
+url: 6093.html
 id: 6093
 categories:
   - 'Blastwave: Lost At Sea'
@@ -13,11 +14,14 @@ categories:
   - Monkey Mines
   - Mr Nibbles
   - Mr Nibbles Forever
+coverImage: >-
+  https://www.mikecann.co.uk/wp-content/uploads/2016/12/English_Get_it_Win_10_InvariantCulture_Default.png
+coverMeta: out
 date: 2016-12-29 00:24:27
 ---
 
 Over the Christmas period Microsoft were running a promotion to developers; "Publish your apps to the Windows store before the 23rd of December and we will give you some Microsoft store credit". Well as I had already spent a whole bunch of time learning how to publish natives desktop apps to the Windows Store during the development of [Glancer](https://www.mikecann.co.uk/myprojects/glancer/introducing-glancer-pc-vitals-at-a-glance/) I thought sure, why not capitalize on that.
-<!--more-->
+<!-- more -->
 
 So as of last week the following games from my back catalog are available on the Windows Store:
 

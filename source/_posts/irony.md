@@ -1,5 +1,6 @@
 ---
 title: Irony
+url: 354.html
 id: 354
 categories:
   - Misc

@@ -7,14 +7,17 @@ tags:
   - Game
   - Programming
   - unity
+url: 5296.html
 id: 5296
 categories:
   - UnityAsteroids
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/07/screenshot_0022.png'
+coverMeta: out
 date: 2014-07-08 10:49:01
 ---
 
 I decided to take a break from the [game development](https://www.mikecann.co.uk/myprojects/mr-nibbles-3d/mr-nibbles-3d-menus-obscuring/) today to scratch an itch I had had for a while.
-
+<!-- more -->
 Its no secret that im a fan of Entity-Component systems having used various flavours of them for years. My particular favourite however is found in [Richard Lord's Ash Framework](https://www.ashframework.org/). I have used it on numerous projects including my [3-game prototype challenge](https://mikecann.co.uk/personal-project/the-three-game-challenge/).
 
 <!--more-->

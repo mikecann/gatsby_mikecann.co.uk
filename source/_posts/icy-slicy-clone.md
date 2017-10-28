@@ -1,5 +1,6 @@
 ---
 title: Icy Slicy Like Game
+url: 294.html
 id: 294
 categories:
   - Flash

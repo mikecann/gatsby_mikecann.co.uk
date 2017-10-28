@@ -1,5 +1,6 @@
 ---
 title: Artificial Studios 1 - Intro
+url: 126.html
 id: 126
 categories:
   - Flash

@@ -6,6 +6,7 @@ tags:
   - Photos
   - stream
   - upload
+url: 1547.html
 id: 1547
 categories:
   - Misc
@@ -16,7 +17,7 @@ date: 2011-05-09 21:57:03
 [![](https://mikecann.co.uk/wp-content/uploads/2011/05/02.jpg "02")](https://mikecann.co.uk/wp-content/uploads/2011/05/02.jpg)
 
 I have just returned from a little trip to Germany.
-
+<!-- more -->
 While I was there I made extensive use of the [Instagram](https://instagr.am/) app for iPhone. Its a great way to make normal pictures taken on your phone look semi good.
 
 The only problem is that there is currently no web interface for the app, so all those great pictures you take cannot be shown off in a gallery format unless you "share" the image to a stream such as flickr or tumbr or something.

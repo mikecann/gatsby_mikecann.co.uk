@@ -1,5 +1,6 @@
 ---
 title: Homebrewin' Tip
+url: 1848.html
 id: 1848
 categories:
   - Misc
@@ -10,7 +11,7 @@ tags:
 [![](https://mikecann.co.uk/wp-content/uploads/2012/01/head.jpg "head")](https://mikecann.co.uk/wp-content/uploads/2012/01/head.jpg)
 
 This post is a little off the normal beaten track for my blog. I have been so super busy of late on a project that I havent really had any time for technical personal projects.
-
+<!-- more -->
 I have however had time to do a little home-brewing so I thought I would share a little tip I had picked up. A little white back a friend lent me his kit for homebrewing. Its so simple all you have to do is fill a two litre bottle with juice and sugar, add a little yeast and cap it off with a simple valve-cap. Leave it for a few weeks and you have a 'tastey' strong beverage.
 
 The problem however is knowing how long to leave it. The instructions say 2-3weeks but that is heavily dependant on a number of factors such as the ambient temperature of the room. At first what I was doing was putting the juice, yeast and sugar in at the same time then giving it a good shake so all the sugar was disolved.

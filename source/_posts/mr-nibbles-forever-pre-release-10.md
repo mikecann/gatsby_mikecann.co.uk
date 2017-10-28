@@ -5,16 +5,19 @@ tags:
   - development
   - Game
   - mr nibbles forever
+url: 5706.html
 id: 5706
 categories:
   - Games
   - Mr Nibbles Forever
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/07/remove-ads.jpg'
+coverMeta: out
 date: 2015-07-12 07:59:34
 ---
 
 Its been almost exactly a week since the last developmental release of Mr Nibbles Forever. According to [the plan](https://www.mikecann.co.uk/myprojects/mr-nibbles-forever-getting-it-done/) this week should have been about implementing the landing page and gathering feedback from people, as I managed to get the landing page sorted in the first week I decided to spend the time developing the game instead.
-
+<!-- more -->
 So this week I have concentrated on decreasing the loading times for the game. On my Nexus 7 the loading time was about one minute which is way too long. The main reason for the load times is the way I construct the levels. 
 
 As mentioned [way back in my second post](https://www.mikecann.co.uk/myprojects/mr-nibbles-forever-prototype-2/) for the game the levels are made up of pre-defined chunks:

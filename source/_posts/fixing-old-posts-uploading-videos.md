@@ -1,5 +1,6 @@
 ---
 title: Fixing Old Posts & Uploading Videos
+url: 1098.html
 id: 1098
 categories:
   - Fun &amp; Videos
@@ -9,7 +10,7 @@ tags:
 ---
 
 I just realised the other day when I was trying to show someone some of my old projects that half of my old posts are broken.Videos are missing, download links gone, images half broken. Basically the thing is a shambles.
-
+<!-- more -->
 I can only assume that things have gone whoops during the various moves this site has had over the years.
 
 So over the course of the next week or so im going to go back through and fix all my old posts and make sure everything is working again. I would greatly appreciate it if you could drop me a comment or an email if you see any post that is still broken and ill take a look at it. Cheers!

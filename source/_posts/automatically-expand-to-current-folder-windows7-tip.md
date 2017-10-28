@@ -4,6 +4,7 @@ tags:
   - handy
   - tips
   - windows7
+url: 1469.html
 id: 1469
 categories:
   - Misc
@@ -13,7 +14,7 @@ date: 2010-12-20 19:47:50
 [![](https://mikecann.co.uk/wp-content/uploads/2010/12/Shot_0032.png "Shot_003")](https://mikecann.co.uk/wp-content/uploads/2010/12/Shot_0032.png)
 
 Forgive me if you already know this but I just discovered it by accident and think its pretty neat.
-
+<!-- more -->
 Open a windows explorer window (windows &amp; e) then click on Organise &gt; Folder and Search Options:
 
 [![](https://mikecann.co.uk/wp-content/uploads/2010/12/Shot_0021-237x300.png "Shot_002")](https://mikecann.co.uk/wp-content/uploads/2010/12/Shot_0021.png)

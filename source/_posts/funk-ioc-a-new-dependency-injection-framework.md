@@ -11,6 +11,7 @@ tags:
   - Programming
   - Robot Legs
   - Swift Suspenders
+url: 1020.html
 id: 1020
 categories:
   - Actionscript
@@ -22,7 +23,7 @@ date: 2010-04-08 21:17:10
 [![](https://mikecann.co.uk/wp-content/uploads/2010/04/ScreenHunter_01-Apr.-08-20.11.gif "ScreenHunter_01 Apr. 08 20.11")](https://mikecann.co.uk/wp-content/uploads/2010/04/ScreenHunter_01-Apr.-08-20.11.gif)
 
 Twitter can be a funny beast, what makes it great can also make it poor. I use [Twhirl ](https://www.twhirl.org/)which keeps me updated any time one of the people I follow tweets about something, the only problem is that so many people tweet that if I dont happen to see it within about and hour or so of the Tweet, ill miss it. This time however I was lucky enough to catch a tweet by [@Joa](https://twitter.com/joa) about his new Inversion of Control and functional-programming-like library, [Funk AS3](https://code.google.com/p/funk-as3/).
-
+<!-- more -->
 As I have been getting well into [RobotLegs](https://www.robotlegs.org/) (a Dependency Injection MVCS framework) recently I was extremely interested to hear about this new project by Joa who I respect very much as a brilliant coder not least because of his excellent work on low-level Flash byte-code optimisation (see [Apparat](https://code.google.com/p/apparat/)).
 
 Joa has taken a different approach to doing dependency injection. The approach most frequently used (and the one used in SwiftSuspenders / RobotLegs) is to use meta-data to declare to a number of variables for injection. You then map a class to be injected and instantiate it using the injector.
@@ -112,9 +113,14 @@ So how does Joa perform this magic? By abusing a little used ability of the Acti
 
 Performance wise, im not entirely sure whether by using package-level functions instead of describeType() calls used in meta-data driven IoC frameworks is any faster as Till Schneidereit of Swift Suspenders suggests:
 > I don't think that Funk's approach is any faster than an optimized
+> 
 > metadata-based IoC container: describeType may be slow (as in "takes a
+> 
 > few dozen microseconds to run"), but is only ever called once for each
+> 
 > class an instance of which is injected into. After that, it's just a
+> 
 > straight iteration over an array for all injection points instead of
+> 
 > Funk's multiple method calls for each injection point.
 So the next step for me is to run some tests to see how things pan out. Either way im very impressed with both approaches and cant wait to see what kind of exciting advances will be developed in the coming months.

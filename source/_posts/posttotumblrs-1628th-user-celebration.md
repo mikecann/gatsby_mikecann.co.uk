@@ -8,6 +8,7 @@ tags:
   - Javascript
   - Update
   - users
+url: 1480.html
 id: 1480
 categories:
   - Post To Tumbr
@@ -17,7 +18,7 @@ date: 2011-01-04 20:58:30
 [![](https://mikecann.co.uk/wp-content/uploads/2011/01/Shot_003.png "Shot_003")](https://mikecann.co.uk/wp-content/uploads/2011/01/Shot_003.png)
 
 To celebrate the 1,628th user of my Chrome extension [PostToTumblr](https://chrome.google.com/extensions/detail/dbpicbbcpanckagpdjflgojlknomoiah) I have just uploaded a new version that adds a requested feature.
-
+<!-- more -->
 The new feature allows the user to post to multiple Tumblr blogs.
 
 [![](https://mikecann.co.uk/wp-content/uploads/2011/01/Shot_001-2-276x300.png "Shot_001-2")](https://mikecann.co.uk/wp-content/uploads/2011/01/Shot_001-2.png)

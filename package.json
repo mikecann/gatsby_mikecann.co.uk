@@ -9,8 +9,7 @@
     "deploy": "hexo generate && aws s3 sync public s3://mikecann-web",
     "generate": "hexo generate",
     "dev": "hexo server -p 4500",
-    "migrate": "hexo migrate wordpress mikecanncouk.wordpress.2017-10-27_Part_001_of_53.xml",
-    "migrate2": "hexo migrate test-plugin"
+    "migrate": "hexo migrate wordpress migration/mikecanncouk.wordpress.2017-10-27-ORIGINAL.xml"
   },
   "dependencies": {
     "hexo": "^3.2.0",

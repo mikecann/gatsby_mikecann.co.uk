@@ -1,5 +1,6 @@
 ---
 title: sword
+url: 60.html
 id: 60
 categories:
   - Art

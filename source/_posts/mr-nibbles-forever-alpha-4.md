@@ -7,15 +7,18 @@ tags:
   - indie
   - mr nibbles
   - unity
+url: 5542.html
 id: 5542
 categories:
   - Mr Nibbles Forever
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/02/2015-02-09_09-40-25.png'
+coverMeta: out
 date: 2015-02-09 01:55:08
 ---
 
 The 4th week of development is over and although I haven't had as much time as I would have liked this week (reinstalled windows AGAIN, prepared for my open-water swim) I still managed to make some significant progress, checkout the video below:
-
+<!-- more -->
 <iframe width="1280" height="750" src="https://www.youtube.com/embed/CK_iMVFTiu0" frameborder="0" allowfullscreen></iframe>
 
 I have managed to the "Wheel of Fortune" in and the "Dressing Room". They aren't quite complete yet but you can see where i'm going with it. You can spend your collected nibbles on the wheel:

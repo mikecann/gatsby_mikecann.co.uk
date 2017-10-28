@@ -1,5 +1,6 @@
 ---
 title: matrix-cells
+url: 50.html
 id: 50
 categories:
   - Art

@@ -1,5 +1,6 @@
 ---
 title: Martin-Kaye Case Tracker
+url: 118.html
 id: 118
 categories:
   - Actionscript
@@ -13,7 +14,7 @@ tags:
 
 ![](/wp-content/uploads/Image/ecase.gif)
 This is my first commercial Rich Internet App written in flash. It was written for the legal firm Martin-Kaye as a front end for thier extensive database. 
-
+<!-- more -->
 It allows clients to login and view thier currently active case's and view a myriad of infomation about each case. It also allows the client to add &quot;activities&quot; to individual cases for the firm to view.
 
 It was written in flash 8 and uses amfphp to communicate with an MSSQL backend. It was designed to be used on multiple sites for multiple brokers so has been split into modules allowing for easy skinning accross multiple websites.

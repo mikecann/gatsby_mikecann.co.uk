@@ -9,6 +9,7 @@ tags:
   - tumblr
   - Update
   - version
+url: 1569.html
 id: 1569
 categories:
   - Javascript
@@ -20,7 +21,7 @@ date: 2011-06-19 22:11:05
 [![](https://mikecann.co.uk/wp-content/uploads/2011/06/Shot_01.png "Shot_01")](https://mikecann.co.uk/wp-content/uploads/2011/06/Shot_01.png)
 
 I cant believe how well my humble little extension for the chrome browser is doing. [8000 users](https://chrome.google.com/webstore/developer/detail/dbpicbbcpanckagpdjflgojlknomoiah/publish-accepted) when just a few months ago [I was celebrating 1.5k](https://mikecann.co.uk/personal-project/posttotumblrs-1628th-user-celebration/).
-
+<!-- more -->
 There were so many requests for new features and things that I thought I would push an update out this evening to add a little more functionality.
 
 From the change log:

@@ -5,14 +5,17 @@ tags:
   - Mobile
   - React-Native
   - typescript
+url: 5861.html
 id: 5861
 categories:
   - Credit Redeemer
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2016/03/feature-1024x500.png'
+coverMeta: out
 date: 2016-03-15 02:41:38
 ---
 
 The past couple of weeks I have been working on a new project and something a little different from my usual games related projects.
-
+<!-- more -->
 A few weeks ago a colleague in the office (TheBroth) mentioned an idea for an app but didn't have the time / energy to work on it so I thought I would have a stab at it.
 
 The idea is simple. It lets you convert unused Google Play credit into cash. 

@@ -10,6 +10,7 @@ tags:
   - Particles
   - Programming
   - WebGL
+url: 1687.html
 id: 1687
 categories:
   - GLSL
@@ -18,12 +19,14 @@ categories:
   - Programming
   - Projects
   - WebGL
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2011/10/gpu-preserve.png'
+coverMeta: out
 date: 2011-10-20 12:02:35
 ---
 
 Well this is the post I didnt think was going to happen. I have been struggling for weeks with this little bit of tech, ill explain more about why it has been so difficult in another post. For now however, ill just talk about this sample.
 
-<!--more-->
+<!-- more -->
 
 So the idea was to build upon what I had been working with previously with my [stateless particles systems with WebGL and HaXe](https://mikecann.co.uk/programming/5000000-chrome-crawlers-why-not-haxe-webgl/). The intention from the start was to replicate some of my [very early work](https://mikecann.co.uk/university-projects/xnagpuparticles-1000000-dynamic-particles/) (from 2007) on state preserving particle systems in WebGL.
 

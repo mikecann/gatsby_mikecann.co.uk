@@ -4,6 +4,7 @@ tags:
   - Personal
   - Social
   - Update
+url: 1056.html
 id: 1056
 categories:
   - Projects
@@ -11,7 +12,7 @@ date: 2010-05-16 15:07:13
 ---
 
 Well as it appears that every day there is a new "Must Join" social network and I appear to have joined most of them I thought I would write a little rundown post of where you can find my digital presence.
-
+<!-- more -->
 [![](https://mikecann.co.uk/wp-content/uploads/2010/05/ScreenHunter_01-May.-16-14.53.gif "ScreenHunter_01 May. 16 14.53")](https://www.facebook.com/mikeysee)
 
 [https://www.facebook.com/mikeysee](https://www.facebook.com/mikeysee)

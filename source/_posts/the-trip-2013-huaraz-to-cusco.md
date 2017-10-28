@@ -7,6 +7,7 @@ tags:
   - peru
   - travel
   - Trip
+url: 4101.html
 id: 4101
 categories:
   - 2013 Trip
@@ -19,7 +20,7 @@ date: 2013-11-17 22:38:25
 ![screenshot_02](https://mikecann.co.uk/wp-content/uploads/2013/11/screenshot_02.png)
 
 From the highlands of Huaraz we made our way back down to the coast and the capital city of Peru, Lima.
-
+<!-- more -->
 [![photo-2](https://mikecann.co.uk/wp-content/uploads/2013/11/photo-2.jpg)](https://www.facebook.com/photo.php?fbid=10152010035916031&amp;set=a.10152010035196031.1073741853.59)
 
 We had one night and day there before joining our next GAdvetures tour group that would take us through southern Peru, ending in Bolivia 21 days late. We spent the day wandering around some of the city before meeting up with our group in the evening.

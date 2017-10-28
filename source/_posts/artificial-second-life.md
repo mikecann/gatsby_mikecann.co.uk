@@ -5,6 +5,7 @@ tags:
   - dubstep
   - Mix
   - Music
+url: 1863.html
 id: 1863
 categories:
   - Audio
@@ -15,7 +16,7 @@ date: 2012-02-26 17:10:56
 [![](https://mikecann.co.uk/wp-content/uploads/2012/02/header.png "header")](https://mikecann.co.uk/wp-content/uploads/2012/02/header.png)
 
 Just finished and uploaded a new mix I have been putting together over the last couple of weeks. The mix is mostly Dubstep with some Drum'n'Bass thrown in to mix it up a bit. The tracks are mostly all favourites I have had on repeat in the last 6 months.
-
+<!-- more -->
 Give it at listen, see what you think:
 
 <iframe width="100%" height="180" src="//www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fmikeysee%2Fartificial-second-life%2F&amp;embed_type=widget_standard&amp;embed_uuid=c75fe1f0-fab9-479f-998a-220a90507f45&amp;hide_tracklist=1&amp;hide_cover=1" frameborder="0"></iframe><div style="clear: both; height: 3px; width: auto;"></div>

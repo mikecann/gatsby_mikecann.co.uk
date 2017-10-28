@@ -8,6 +8,7 @@ tags:
   - textures
   - threejs
   - WebGL
+url: 1698.html
 id: 1698
 categories:
   - Programming
@@ -18,7 +19,7 @@ date: 2011-10-21 17:36:42
 [![](https://mikecann.co.uk/wp-content/uploads/2011/10/head02.png "head02")](https://mikecann.co.uk/wp-content/uploads/2011/10/head02.png)
 
 For some time now I have been working with WebGL and have developed a sort of love/hate relationship with it. I love the ability to instantly target millions of people with GPU accelerated code without any plugins or barriers (excluding the targets that dont support it). However as a developer, writing code that takes advantage of WebGL kinda sucks.
-
+<!-- more -->
 ## Procedural Based
 
 First off is the way you have to structure your GL calls. For example take a look at the following generic bit of webGL harvested from the net:

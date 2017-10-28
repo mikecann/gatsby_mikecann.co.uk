@@ -1,5 +1,6 @@
 ---
 title: MazeHunt
+url: 75.html
 id: 75
 categories:
   - 'C#'
@@ -11,7 +12,7 @@ tags:
 
 <span>This is another little project i did in the earlier part of my second year at university. It was my second project i ever did in DirectX and as such is rather limited. 
 
-<!--more-->
+
 
 The theme of the project was maze generation and AI solving. I developed my own algoritm based on square weighting to create two bots, one called a hunter bot which will actively hunt the player down, and a flee bot which will flee from the player.</span>
 

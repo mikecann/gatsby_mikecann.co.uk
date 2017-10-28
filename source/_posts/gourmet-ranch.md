@@ -7,15 +7,18 @@ tags:
   - Gourmet Ranch
   - Playdemic
   - Professional
+url: 1173.html
 id: 1173
 categories:
   - Games
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2010/08/gr.png'
+coverMeta: out
 date: 2010-08-04 11:57:48
 ---
 
 [About 6 months ago I joined a new startup](https://mikecann.co.uk/photos-personal/playdemic-my-fist-day/) called Playdemic as the Lead Flash Developer. I couldn't say much at the time as we were in stealth mode. As our first product has been out for about a month however, I think its about time I wrote a blog post on the subject.
 
-<!--more-->
+<!-- more -->
 
 [Gourmet Ranch](https://apps.facebook.com/gourmetranch/) is Flash game for face book that follows closely on the heels of the other Facebook game successes such as Farmville and Cafeworld. The premise is simple, you grow crops and animals in your fields and then when the time comes you harvest them and use them to bake recipes. Those recipes are then served to your waiting customers by your waiters.
 

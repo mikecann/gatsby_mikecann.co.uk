@@ -1,5 +1,6 @@
 ---
 title: Zero Punctuation - Halo3
+url: 202.html
 id: 202
 categories:
   - Fun &amp; Videos
@@ -8,7 +9,7 @@ tags:
 ---
 
 Abit old now i know but when this made the rounds at the office last week it had me practically wetting myself:
-
+<!-- more -->
 &nbsp;
 
 &nbsp;

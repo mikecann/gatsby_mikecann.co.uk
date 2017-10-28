@@ -8,15 +8,18 @@ tags:
   - Game
   - ios
   - unity
+url: 5596.html
 id: 5596
 categories:
   - Mr Nibbles Forever
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/06/2015-06-17_20-38-23.png'
+coverMeta: out
 date: 2015-06-21 00:21:44
 ---
 
 Well its been exactly [95 days since my last Alpha release](https://www.mikecann.co.uk/myprojects/mr-nibbles-forever/mr-nibbles-forever-alpha-7/) of my mobile game Mr Nibbles Forever which is far too long. I apologise to people who have been asking me for a new version. I took on a few paid freelance projects a few months ago and they took up a whole bunch of time then I decided to take a full time position up in Perth a month ago which [drastically cut down my Mr Nibbles development time](https://www.mikecann.co.uk/uncategorized/started-work-at-thebroth-in-perth/) sadly.
-
+<!-- more -->
 If you follow my [public Trello development board](https://trello.com/b/Ic11WQzF/mr-nibbles-forever) however you can see that I have been working in the intervening time, just not as fast as the earlier development:
 
 [![2015-06-18_15-22-50](https://www.mikecann.co.uk/wp-content/uploads/2015/06/2015-06-18_15-22-50-1024x525.png)](https://www.mikecann.co.uk/wp-content/uploads/2015/06/2015-06-18_15-22-50.png)

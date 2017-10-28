@@ -1,5 +1,6 @@
 ---
 title: XNALiquids 01
+url: 227.html
 id: 227
 categories:
   - 'C#'
@@ -12,7 +13,7 @@ tags:
 Well after seeing what [Polluted Planet](https://www.mikecann.co.uk/?p=226) did with large numbers of interactive particles in java, it got me interested.
 
 So i have decided to have a go at implementing it myself in XNA.
-
+<!-- more -->
 So here it is, my first attempt at it. Currently the algorithm is very rough as you can see from the video there are still some problems that cause the particle to behave a little... umm.. erratic ;)
 
 Hopefully with abit more time and effort ill get it sorted. At the moment there are 5000 interacting particle on one CPU, hopefully i will beable to push that figue up soon and take advantage of my quad-core system :)

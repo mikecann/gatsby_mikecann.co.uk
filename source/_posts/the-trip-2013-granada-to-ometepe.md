@@ -6,6 +6,7 @@ tags:
   - ometepe
   - travel
   - Trip
+url: 3117.html
 id: 3117
 categories:
   - 2013 Trip
@@ -16,7 +17,7 @@ date: 2013-08-02 19:55:28
 **Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [The Trip 2013 - Granada to Ometepe](https://www.facebook.com/mikeysee/media_set?set=a.10151789732396031.1073741841.593661030&type=3). Each picture can be clicked to see a larger version and comment / like.**
 
 After leaving the beautiful island of Rotan we made our way to the Nicaraguan border. Along the way we had to make a slight detor:
-
+<!-- more -->
 [![photo](https://mikecann.co.uk/wp-content/uploads/2013/08/photo.jpg)](https://www.facebook.com/photo.php?fbid=10151789733061031&amp;set=a.10151789732396031.1073741841.593661030&amp;type=3&amp;theater)
 
 I hope no one was on there when it went down! Eventually we made it to the border.

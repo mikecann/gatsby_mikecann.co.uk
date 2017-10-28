@@ -1,5 +1,6 @@
 ---
 title: Master Cleanse
+url: 186.html
 id: 186
 categories:
   - Photos &amp; Personal
@@ -10,7 +11,7 @@ tags:
 ![](https://www.mikecann.co.uk/Images/Others/lemon.JPG)
 
 This is all I will be eating for the next 14 days! Well the ingredients of anyways. Its called the Master Cleanse and our tour leader in America Becca told me about it and it really intrigued me. It is basically a massive detox that should flush loads of stuff out of my system and set me on track for a healthier life. 
-
+<!-- more -->
 Those that know me know that im not really a mega health fanatic, in fact usually quite the opposite. This is one of the reasons I want to try this. Another reason is that it will be a massive challenge for me not to drink any alcohol during this period. This i think will be the hardest part especially as I have my sisters &quot;late&quot; 21st party coming up on friday where I wont be able to touch a drop!
 
 Basically it works by taking senna tea (green box in the photo) before I go to bed. Senna tea is a mega laxative and should flush the system. In the morning i have to drink warm salt water which also has a laxative effect. During the day i drink a drink that is a mixture of lemons, maple syrup and Cayenne pepper (hot!).

@@ -9,6 +9,7 @@ tags:
   - Project
   - rank
   - score
+url: 1304.html
 id: 1304
 categories:
   - 48 Hours Later
@@ -19,7 +20,7 @@ date: 2010-09-07 07:19:50
 Well the judging is now finally over for the Ludum Dare competition I entered 17 days ago.
 
 So overall I placed #21 which is just outside the top 20\. Not bad for a first time entry but I thought I would of done better considering some of the game ranked higher than me but oh well.
-
+<!-- more -->
 I actually game second in one category.. Community? Not entirely sure how I managed that but oh well :P
 
 I think I may have received the most number of votes out of any of the games, it certaintly seems like a lot take a look:

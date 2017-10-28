@@ -5,17 +5,20 @@ tags:
   - asp
   - 'C#'
   - typescript
+url: 5418.html
 id: 5418
 categories:
   - MK Bridges
   - Portfolio
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/10/mkb-header.png'
+coverMeta: out
 date: 2014-10-06 23:53:48
 ---
 
 MK Bridges is an ongoing freelance project I worked on for Martin-Kaye Solicitors.
 
-<!--more--> 
+<!-- more -->
 
 The firm works with a number of suppliers that provide them clients. Those suppliers need information about the progress of a case such as when certain milestones have been met. Unfortunately MK's current system doesn't easily allow for this reporting to third parties and thus they were logging into each supplier's website and manually entering the data whenever the case updated. As this can happen many times a day for each case the extra workload was high.
 

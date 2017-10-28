@@ -1,5 +1,6 @@
 ---
 title: Artificial-Studios 1
+url: 123.html
 id: 123
 categories:
   - Projects

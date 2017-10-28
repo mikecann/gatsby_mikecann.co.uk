@@ -1,5 +1,6 @@
 ---
 title: chains
+url: 39.html
 id: 39
 categories:
   - Art

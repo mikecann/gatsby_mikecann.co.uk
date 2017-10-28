@@ -8,6 +8,7 @@ tags:
   - dictionary
   - PureMVC
   - RobotLegs
+url: 1213.html
 id: 1213
 categories:
   - Actionscript
@@ -20,7 +21,7 @@ date: 2010-08-16 19:44:06
 This is going to be a technical post so those of you not of the code persuasion look away now..
 
 Okay great, now those guys have gone I can get down to it.
-
+<!-- more -->
 Some of my recent work on the [SWFt project](https://swft.co.uk/) has revolved around the use of [Robert Penners AS3Signals](https://robertpenner.com/flashblog/). If you dont know what Signals are I strongly reccomend that you check out Roberts blog for more info. In brief, they are an alternative to the Events system found in Flash, based on the Signal / Slot pattern of Qt and C# they are much faster and more elegant (my opinion) than native events.
 
 I have been trying to incorporate signals in SWft for both the elegance and performance gains that they bring, however there is an issue that was brought to my attention by Shaun Smith on the mailing list. The issue is that my current use of them will cause memory leaks.

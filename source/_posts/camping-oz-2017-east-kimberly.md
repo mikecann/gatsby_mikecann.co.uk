@@ -5,8 +5,9 @@ tags:
   - Drone
   - photo
   - travel
+url: 6177.html
 id: 6177
-comment: false
+comments: false
 categories:
   - Above Under
 date: 2017-06-05 00:24:00
@@ -15,7 +16,7 @@ date: 2017-06-05 00:24:00
  
 
 After the relaxing couple of weeks in Broome we were back on the road again. The original plan was to head along the Gibbs River road a 660 km long dirt road that has a number of beautiful stops at gorges along the way. We had done it once before in 2014 and enjoyed it so much that we wanted to do it again. This year however was one of the wettest wet season on record, the result is that the road has been closed much longer than usual and many of the gorges have been closed.
-
+<!-- more -->
 The result is that instead we decided to take the southern sealed road instead and see some other sights along the way. One of those sights was the impressive Wolfe Creek Crater.
 
 ![Wolfe Creek Crater](//cdn.shopify.com/s/files/1/1830/7597/files/Wolfe_Creek_Crater_1024x1024.jpg?v=1496621336)

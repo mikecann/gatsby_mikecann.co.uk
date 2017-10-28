@@ -1,7 +1,8 @@
 ---
 title: 'MailChimp for WordPress: Form Preview'
+url: 5839.html
 id: 5839
-comment: false
+comments: false
 date: 2015-12-17 07:32:53
 ---
 

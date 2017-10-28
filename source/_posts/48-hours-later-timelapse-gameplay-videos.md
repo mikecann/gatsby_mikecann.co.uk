@@ -7,6 +7,7 @@ tags:
   - ludum
   - Timelapse
   - Video
+url: 1291.html
 id: 1291
 categories:
   - 48 Hours Later
@@ -19,7 +20,7 @@ Just made these two videos. One is the timelapse video I took to show my develop
 The timelapse was produced using 2300 ish screenshots, one taken every 60 seconds by Chronolapse.
 
 Enjoy:
-
+<!-- more -->
 <object width="700" height="418"><param name="movie" value="https://www.youtube.com/v/Qg5VMg7gnIc?fs=1&amp;hl=en_GB"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/v/Qg5VMg7gnIc?fs=1&amp;hl=en_GB" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="700" height="418"></embed></object>
 
 <object width="700" height="418"><param name="movie" value="https://www.youtube.com/v/KViIaLKfj0I?fs=1&amp;hl=en_GB"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/v/KViIaLKfj0I?fs=1&amp;hl=en_GB" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="700" height="418"></embed></object>

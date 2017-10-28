@@ -1,5 +1,6 @@
 ---
 title: Lets Make a Mobile Game in 3-Weeks with Haxe & NME
+url: 1944.html
 id: 1944
 categories:
   - Games
@@ -12,7 +13,7 @@ tags:
 ---
 
 I have decided that I would like to learn more about mobile game development. Its an exciting area of the games industry at the moment with so many frameworks and languages to choose from to develop with. The plethora of choice however can be a hindrance, what are the best frameworks and language for this particular task? Haxe with NME?  C# MonoTouch with Monogame? or even Javascript with Titanium? One can only go so far just reading about them, eventually you have to jump in and try them out for yourself.
-
+<!-- more -->
 So on that note I have decided to team up with an artist colleague ([Moh 'Mohzart' Mukhtar](https://mohzart.carbonmade.com/)) from work to create a mobile game in three weeks of evenings and weekends. Three weeks is an ambitious target for a game on any platform let alone mobile with its added complications. The primary purpose of this project however is to gather experience on the process of making mobile games using a given langauge, framework and platform. Having a longer time-scale I feel would deter from this, the primary motivation. Having said that however, I hope that in three weeks we will have something that to be reasonably proud of.
 
 For this particular game I have decided to explore Haxe with NME. [Haxe is a programming language](https://haxe.org/) I have been [using for my personal projects](https://mikecann.co.uk/tag/haxe-2/) for about a year now and is ideally suited to mobile development due to its ability to target multiple platforms with the same codebase. [NME is a framework](https://www.haxenme.org/) written in Haxe that emulates the Flash API and thus provides an interface I am extremely familiar with having used it for many years on [personal](https://artificialgames.co.uk/) and [professional](https://mikecann.co.uk/professional-projects/gourmet-ranch/) games. I dabbled with NME [about a year ago](https://mikecann.co.uk/personal-project/game-of-life-haxe-nme-on-ios/) while at the TryHarder conference however things have moved on with the project a lot since then and im looking forward to getting stuck in and playing around with it some more.

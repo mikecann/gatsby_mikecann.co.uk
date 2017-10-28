@@ -1,5 +1,6 @@
 ---
 title: Some picassa updates
+url: 363.html
 id: 363
 categories:
   - Photos &amp; Personal

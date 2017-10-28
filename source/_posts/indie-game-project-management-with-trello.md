@@ -4,15 +4,19 @@ tags:
   - management
   - Project
   - trello
+url: 5396.html
 id: 5396
 categories:
   - Misc
   - Projects
+coverImage: >-
+  https://www.mikecann.co.uk/wp-content/uploads/2014/09/screenshot_020-Sep.-21-13.33.png
+coverMeta: out
 date: 2014-09-21 06:28:46
 ---
 
 Project management is one of those things that can easily be shrugged away and forgotten about when developing indie games. The temptation is to just leap in and start making without any thought to what the priorities are or how long things are going to take. 
-
+<!-- more -->
 This is all well and good when its only one of you working on the project but when you start involving multiple people things get a bit more tricky. It becomes difficult for everyone to know what everyone else is doing or what they should be doing next. 
 
 There are lots of tools out there to help with project management such [Zoho](https://www.zoho.com/projects/) or [Teamwork](https://www.teamwork.com/). I invested quite a few of them but in the end I settled upon [Trello](https://trello.com/). 

@@ -1,5 +1,6 @@
 ---
 title: 'FlashDevelop, Preloaders and GameJacket'
+url: 247.html
 id: 247
 categories:
   - Actionscript
@@ -9,7 +10,7 @@ tags:
 ---
 
 This is a clone of the post i made on the GameJacket developer forums here: [https://gamejacket.com/forum/topic.asp?TOPIC_ID=59](https://gamejacket.com/forum/topic.asp?TOPIC_ID=59) but i think it deserves a re-post here so it can be googled :)
-
+<!-- more -->
 &nbsp;<span class="spnMessageText" id="msg">As i had quite abit of trouble getting GameJacket to fit into my work flow properly and have no finally managed it I have decided to share my experiences and write a tutorial.
 
 So this is a tutorial for using FlashDevelop with the Flex Complier to build a game with a pre-loader that passes the GameJacket security checks.</span>

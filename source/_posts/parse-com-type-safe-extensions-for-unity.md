@@ -7,18 +7,21 @@ tags:
   - Programming
   - test
   - unity
+url: 4979.html
 id: 4979
 categories:
   - 'C#'
   - Programming
   - Projects
   - Unity
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/05/header.png'
+coverMeta: out
 date: 2014-05-10 09:24:05
 ---
 
 As mentioned in my [previous post](https://www.mikecann.co.uk/games/taming-unity/) I have been working on a multiplayer game built in Unity for a little while now. I ummed and ahhed over the technology choice for the backend for a little while before deciding to go with [Parse.com](https://Parse.com)'s library. The reason being that it looked simple to implement (they have a Unity SDK), they take care of all the backend headaches for me and the pricing model looked fair.
 
-<!--more-->
+<!-- more -->
 
 The Parse Unity library is okay, not as fully fleshed as some of the other languages they support but good enough for what I needed apart from one critical point, the lack of type-safety in the queries such as:
 

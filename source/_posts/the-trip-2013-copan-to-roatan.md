@@ -5,6 +5,7 @@ tags:
   - copan
   - hondorus
   - travel
+url: 3044.html
 id: 3044
 categories:
   - 2013 Trip
@@ -15,7 +16,7 @@ date: 2013-07-26 17:55:38
 **Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [The Trip 2013 - Copán to Roatán](https://www.facebook.com/mikeysee/media_set?set=a.10151781346696031.1073741840.593661030&type=3). Each picture can be clicked to see a larger version and comment / like.**
 
 So after the 4 day rest in [Antigua and at lake Atitlan](https://mikecann.co.uk/travel/the-trip-2013-el-ramate-to-antigua/) I was ready to hit the road again. This time I would we travelling with 16 other people on a GAdventues trip that would take us from Guatamala through Hondorus and Nicaragua finally ending in San Jose, Costa Rica in 17 days.
-
+<!-- more -->
 To kick things off we took a bus to the Guatamala / Hondorus border to the small town of Copan. From there we visited the famous Mayan ruins.
 
 [![photo-16](https://mikecann.co.uk/wp-content/uploads/2013/07/photo-163.jpg)](https://www.facebook.com/photo.php?fbid=10151781356306031&amp;set=a.10151781346696031.1073741840.593661030&amp;type=3&amp;theater)

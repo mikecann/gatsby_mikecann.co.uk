@@ -6,6 +6,7 @@ tags:
   - HTML5
   - nme
   - testing
+url: 1662.html
 id: 1662
 categories:
   - HaXe
@@ -16,7 +17,7 @@ date: 2011-10-09 17:13:29
 [![](https://mikecann.co.uk/wp-content/uploads/2011/10/2011-10-09_1257.png "2011-10-09_1257")](https://mikecann.co.uk/wp-content/uploads/2011/10/2011-10-09_1257.png)
 
 The second day of [try{harder}](https://mikecann.co.uk/programming/try-harder-my-haxe-slides-and-code/) was dedicated to a single topic; test driven development (TDD).
-
+<!-- more -->
 The group was split into pairs and given the task of using TDD to write a solver for the game of life in AS3\. After an hour we then threw away everything we had done, swapped partners and repeated the process.
 
 This was extremely valuable for me as I had never written a unit test before. Seeing how different people tackled the same problem was fascinating and informative.

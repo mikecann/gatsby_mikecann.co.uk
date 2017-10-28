@@ -6,16 +6,19 @@ tags:
   - Game
   - mr nibbles
   - unity
+url: 5536.html
 id: 5536
 categories:
   - Mr Nibbles Forever
   - Projects
   - Uncategorized
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/02/2015-02-02_10-03-16.png'
+coverMeta: out
 date: 2015-02-02 02:23:23
 ---
 
 I have had far less time than I would have liked to work on the game this week mainly because it was my birthday over the weekend and quite a bit of time was spent preparing for that. 
-
+<!-- more -->
 The little time I did have however was spent on two main things. Firstly the video:
 
 <iframe width="854" height="510" src="https://www.youtube.com/embed/q-mv6LWmtBQ" frameborder="0" allowfullscreen></iframe>

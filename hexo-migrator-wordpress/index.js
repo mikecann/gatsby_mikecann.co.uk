@@ -4,18 +4,20 @@ var xml2js = require('xml2js'),
   request = require('request'),
   file = require('fs');
 
-var captialize = function(str){
+var captialize = function (str) {
   return str[0].toUpperCase() + str.substring(1);
 };
-function replaceTwoBrace(str){
-    str = str.replace(/{{/g, '{ {');
-    return str;
+
+function replaceTwoBrace(str) {
+  str = str.replace(/{{/g, '{ {');
+  return str;
 };
-hexo.extend.migrator.register('wordpress', function(args, callback){
+
+hexo.extend.migrator.register('wordpress', function (args, callback) {
 
   var source = args._.shift();
 
-  if (!source){
+  if (!source) {
     var help = [
       'Usage: hexo migrate wordpress <source>',
       '',
@@ -32,10 +34,10 @@ hexo.extend.migrator.register('wordpress', function(args, callback){
   log.i('Analyzing %s...', source);
 
   async.waterfall([
-    function(next){
+    function (next) {
       // URL regular expression from: http://blog.mattheworiordan.com/post/13174566389/url-regular-expression-for-links-with-or-without-the
-      if (source.match(/((([A-Za-z]{3,9}:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[.\!\/\\w]*))?)/)){
-        request(source, function(err, res, body){
+      if (source.match(/((([A-Za-z]{3,9}:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[.\!\/\\w]*))?)/)) {
+        request(source, function (err, res, body) {
           if (err) throw err;
           if (res.statusCode == 200) next(null, body);
         });
@@ -43,14 +45,14 @@ hexo.extend.migrator.register('wordpress', function(args, callback){
         file.readFile(source, next);
       }
     },
-    function(content, next){
+    function (content, next) {
       xml2js.parseString(content, next);
     },
-    function(xml, next){
+    function (xml, next) {
       var count = 0;
 
-      async.each(xml.rss.channel[0].item, function(item, next){
-        if (!item['wp:post_type']){
+      async.each(xml.rss.channel[0].item, function (item, next) {
+        if (!item['wp:post_type']) {
           return next();
         }
 
@@ -65,6 +67,8 @@ hexo.extend.migrator.register('wordpress', function(args, callback){
           categories = [],
           tags = [];
 
+        const featuredImg = findFeaturedImg(xml, id);
+
         if (!title && !slug) return next();
         if (type !== 'post' && type !== 'page') return next();
         if (typeof content !== 'string') content = '';
@@ -72,11 +76,11 @@ hexo.extend.migrator.register('wordpress', function(args, callback){
         content = tomd(content).replace(/\r\n/g, '\n');
         count++;
 
-        if (item.category){
-          item.category.forEach(function(category, next){
+        if (item.category) {
+          item.category.forEach(function (category, next) {
             var name = category._;
 
-            switch (category.$.domain){
+            switch (category.$.domain) {
               case 'category':
                 categories.push(name);
                 break;
@@ -90,12 +94,14 @@ hexo.extend.migrator.register('wordpress', function(args, callback){
 
         var data = {
           title: title || slug,
-          url: +id+".html",
+          url: +id + ".html",
           id: +id,
           date: date,
           content: content,
           layout: status === 'draft' ? 'draft' : 'post',
         };
+
+        //data.content = insertExcerpt(data.content);
 
         if (type === 'page') data.layout = 'page';
         if (slug) data.slug = slug;
@@ -103,9 +109,25 @@ hexo.extend.migrator.register('wordpress', function(args, callback){
         if (categories.length && type === 'post') data.categories = categories;
         if (tags.length && type === 'post') data.tags = tags;
 
+        if (featuredImg)
+        {
+          data.coverImage = featuredImg;
+          data.coverMeta = "out";
+        }
+
         log.i('%s found: %s', captialize(type), title);
-        post.create(data, next);
-      }, function(err){
+
+        try
+        {
+          post.create(data, next);
+        }
+        catch(e)
+        {
+          log.e('%s error when creating: %s, %s', captialize(type), title, e + "");
+        }
+
+        
+      }, function (err) {
         if (err) return next(err);
 
         log.i('%d posts migrated.', count);
@@ -113,3 +135,50 @@ hexo.extend.migrator.register('wordpress', function(args, callback){
     }
   ], callback);
 });
+
+function findFeaturedImg(xml, postId)
+{
+  var headerImg = "";
+  async.each(xml.rss.channel[0].item, (item, next) => {
+    if (!item['wp:post_parent'] || item['wp:post_parent'][0]!=postId)
+      return next();
+
+    if (headerImg)
+      return next();
+
+      headerImg = item['wp:attachment_url'][0];
+  })
+
+  // if (!headerImg)
+  //   console.log("Could not find header image for "+postId)
+  // else
+  //   console.log("found a headerImg", {headerImg, postId})
+
+  return headerImg;
+}
+
+function insertExcerpt(str)
+{
+  var more = "<!-- more -->";
+  if (str.length<=200)
+    return str + more;
+
+  var newline = str.indexOf("\n\n", 200);
+  if (newline!=-1)
+    return str.slice(0, newline) + more + str.slice(newline);
+
+  newline = str.indexOf("\n", 200);
+  if (newline!=-1)
+    return str.slice(0, newline) + more + str.slice(newline);
+
+  newline = str.indexOf("\r", 200);
+    if (newline!=-1)
+      return str.slice(0, newline) + more + str.slice(newline);
+
+      newline = str.indexOf(">", 200);
+      if (newline!=-1)
+        return str.slice(0, newline) + more + str.slice(newline);
+
+    return str.slice(0, 200) + more + str.slice(200);
+  
+}

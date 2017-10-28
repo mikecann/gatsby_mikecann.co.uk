@@ -9,6 +9,7 @@ tags:
   - error
   - flash builder
   - Flex
+url: 1495.html
 id: 1495
 categories:
   - Actionscript
@@ -20,7 +21,7 @@ date: 2011-02-08 21:42:56
 
 [![](https://mikecann.co.uk/wp-content/uploads/2011/02/001.jpg "001")](https://mikecann.co.uk/wp-content/uploads/2011/02/001.jpg)
 
-Came across this little oddity the other day. Took me ages to work out what was going on, so thought I would share in case anyone else ran into the same issue.
+Came across this little oddity the other day. Took me ages to work out what was going on, so thought I would share in case anyone else ran into the same issue.<!-- more -->
 
 One day, for a reason I couldn't fathom, my project stopped compiling. I kept getting these odd "1046: Type was not found or was not a compile-time constant" errors all over the place. Not only that, when I tried to include the class in question either via auto-complete (control &amp; space) or via manual import the error persisted.
 

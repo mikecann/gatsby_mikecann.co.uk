@@ -1,5 +1,6 @@
 ---
 title: New 'Games' Page
+url: 252.html
 id: 252
 categories:
   - Misc

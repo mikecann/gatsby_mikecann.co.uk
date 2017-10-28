@@ -1,5 +1,6 @@
 ---
 title: LieroXNA - Improvements and Additions
+url: 198.html
 id: 198
 categories:
   - 'C#'
@@ -13,7 +14,7 @@ tags:
 
 <p>Been a while since I have posted about LieroXNA but I havent been doing nothing. Changes and things:
 
-<!--more-->
+<!-- more -->
 
 + Added a destroyed layer to the game which is just the initial map but darker.
 

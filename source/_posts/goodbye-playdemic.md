@@ -5,6 +5,7 @@ tags:
   - leaving
   - Playdemic
   - Trip
+url: 2391.html
 id: 2391
 categories:
   - Photos &amp; Personal
@@ -14,10 +15,12 @@ date: 2013-03-02 20:27:49
 [![head](https://mikecann.co.uk/wp-content/uploads/2013/03/head.png)](https://mikecann.co.uk/photos-personal/goodbye-playdemic/attachment/head-8/)
 
 Wow doesn't time fly.
-
+<!-- more -->
 Over 8 years ago I was a short nerdy student trying desperately to find a way into the games industry for my industrial placement year at university. I was about ready to give up hope when a certain "Starboy" (probably) fed up of my winging offered me a position at his company Rockpool Games.
 > Cannyshammy - feel free to drop me an email, my company is based in Manchester and there is a strong possibility of us taking on an intern.
+> 
 > alex.rigby@rockpoolgames.com
+> 
 > EDIT: Just seen you're looking to go abroad, guess Manchester is a little too close then eh?
 (source: [https://www.gamedev.net/topic/297068-breaking-into-the-games-industry-is-impossible/page-2#entry2882806](https://www.gamedev.net/topic/297068-breaking-into-the-games-industry-is-impossible/page-2#entry2882806))
 

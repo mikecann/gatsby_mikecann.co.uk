@@ -1,15 +1,18 @@
 ---
 title: 'New Hosting, New Theme!'
+url: 4934.html
 id: 4934
 categories:
   - Uncategorized
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/03/hero.png'
+coverMeta: out
 date: 2014-02-17 19:06:22
 tags:
 ---
 
 [![hero](https://www.mikecann.co.uk/wp-content/uploads/2014/03/hero.png)](https://www.mikecann.co.uk/wp-content/uploads/2014/03/hero.png)
 
-In what appears to be an almost annual event I have decided to move hosting of my blog yet again! Im moving away from the £35 per month hosting of 1&amp;1 because although I like the freedom of having my own box that I can remote into i’m just finding it too expensive for me to justify having it. There are so many Platform as a Service (PaaS) options out there that provide high quality hosting cheaply I thought I would switch over.
+In what appears to be an almost annual event I have decided to move hosting of my blog yet again! Im moving away from the £35 per month hosting of 1&amp;1 because although I like the freedom of having my own box that I can remote into i’m just finding it too expensive for me to justify having it. There are so many Platform as a Service (PaaS) options out there that provide high quality hosting cheaply I thought I would switch over.<!-- more -->
 
 Last year Google announced that you can now host WordPress blogs on Google App Engine so I decided to take the plunge and set it up. It turns out that its not actually that hard. The hard part came with the fact that this blog is 10 years old now and contains 426 posts. That means a huge database that is not easy to import into a new provider. Fortunately [this](https://gae-php-tips.appspot.com/2014/01/22/using-the-wordpress-importer-from-the-app-engine-plugin/#whattodoifyouhavealargeimportorseeanimporterror) post came to my rescue, in the end it only cost me $0.88 in instance backend time to import the whole thing.
 

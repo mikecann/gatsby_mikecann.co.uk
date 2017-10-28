@@ -1,5 +1,6 @@
 ---
 title: AS3 Loader.loadBytes() Class Name Collisions
+url: 379.html
 id: 379
 categories:
   - Misc
@@ -10,7 +11,7 @@ tags:
 Well I spent hours at work today scratching my head and getting generally very annoyed over this one so I thought I would share it with the world so others can benefit from my frustrations.
 
 Basically I wanted a method of loading a SWF as a byte array then turning the byte array back into a SWF at run-time. This is quite handily catered for in AS3 with the use of URLStream and Loader.loadBytes().
-
+<!-- more -->
 So my flow looked like:
 
 **SWFA -&gt; StreamURL.load("SWFB.swf")

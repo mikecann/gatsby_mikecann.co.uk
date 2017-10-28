@@ -8,6 +8,7 @@ tags:
   - Game
   - ios
   - nibbles
+url: 2088.html
 id: 2088
 categories:
   - Mr Nibbles
@@ -16,7 +17,7 @@ date: 2012-08-22 19:49:18
 ---
 
 Finally! Apple approved the iOS version of the game this morning, and this evening I finished off the site, so the holy trinity of game availability; iOS, Android and the browser is now complete!
-
+<!-- more -->
 Check it out:
 
 [![app store](https://www.mr-nibbles.com/AppStoreBadgeFree.png)](https://itunes.apple.com/gb/app/mr-nibbles/id552109003?mt=8)

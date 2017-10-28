@@ -1,5 +1,6 @@
 ---
 title: boxthing
+url: 36.html
 id: 36
 categories:
   - Art

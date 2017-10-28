@@ -5,6 +5,7 @@ tags:
   - Flash
   - Game
   - Projects
+url: 513.html
 id: 513
 categories:
   - 'Blastwave: Lost At Sea'
@@ -16,7 +17,7 @@ Well we have already started development on what will be the next game. [Oliver]
 
 We started by looking at various parts of the game and what we think let the game down...
 
-<!--more-->**Menus &amp; Interface**
+<!-- more -->**Menus &amp; Interface**
 
 ![dc6wvdg5_5167fcpcdt_b](https://mikecann.co.uk/wp-content/uploads/2009/05/dc6wvdg5_5167fcpcdt_b.png "dc6wvdg5_5167fcpcdt_b")
 

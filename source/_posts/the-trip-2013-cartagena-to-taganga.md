@@ -1,5 +1,6 @@
 ---
 title: The Trip 2013 - Cartagena to Taganga
+url: 3637.html
 id: 3637
 categories:
   - Uncategorized
@@ -12,7 +13,7 @@ tags:
 ![screenshot_02](https://mikecann.co.uk/wp-content/uploads/2013/09/screenshot_02.png)
 
 After 10 days up in the chilly hills I was looking forward to getting down to the coast and enjoying some of the sun and beach again. First up was the ancient colonial town of Cartagena. This place is a dichotomy of poverty and wealth thanks to the large number of western tourists that visit the city.
-
+<!-- more -->
 [![photo-8](https://mikecann.co.uk/wp-content/uploads/2013/09/photo-810.jpg)](https://www.facebook.com/photo.php?fbid=10151882460491031&amp;set=a.10151882459876031.1073741846.593661030&amp;type=3&amp;theater)
 
 [![photo-12](https://mikecann.co.uk/wp-content/uploads/2013/09/photo-125.jpg)](https://www.facebook.com/photo.php?fbid=10151882464976031&amp;set=a.10151882459876031.1073741846.593661030&amp;type=3&amp;theater)

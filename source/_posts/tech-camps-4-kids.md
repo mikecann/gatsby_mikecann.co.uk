@@ -4,14 +4,18 @@ tags:
   - competition
   - education
   - juge
+url: 6059.html
 id: 6059
 categories:
   - Photos &amp; Personal
+coverImage: >-
+  https://www.mikecann.co.uk/wp-content/uploads/2016/10/tech-campp-for-kids-judging.jpg
+coverMeta: out
 date: 2016-10-02 01:57:08
 ---
 
 I started coding when I was 7 years old at a school-holidays computer camp in the UK. We used QBASIC to write a "guess my number game". I remember writing that same program out on the school library computers to the amazement of my mates who insisted that I show them how to do it too. 
-
+<!-- more -->
 I think that experience combined with early modding sessions of Quake and GTA is what led me down the path to become a professional computer games programmer.
 
 So when 24 years later and half a world a way I as offered the chance to give back and help the next generation of computer games developer make their start I didnt hesitate to volunteer to help out. 

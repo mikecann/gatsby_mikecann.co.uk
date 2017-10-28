@@ -6,17 +6,20 @@ tags:
   - govhack
   - hackathon
   - machine learning
+url: 5957.html
 id: 5957
 categories:
   - Colourful Past
   - Hackathons
   - Portfolio
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2016/08/header.jpg'
+coverMeta: out
 date: 2016-08-01 07:22:09
 ---
 
 Wow, I cant believe its been one whole year since [the last Govhack](https://www.mikecann.co.uk/portfolio/projects/govhack-2015-should-i-drive/), the hackathon where groups of people use government data to hack together a project over the course of a weekend.
-<!--more-->
+<!-- more -->
 
 I had a great time last year on the "[Should I Drive?](https://www.mikecann.co.uk/portfolio/projects/govhack-2015-should-i-drive)" team. We used WA Main Roads and other data sources to try to answer the question "should I drive to my destination or take some other form of transport?".
 

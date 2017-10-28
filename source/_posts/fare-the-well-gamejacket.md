@@ -4,6 +4,7 @@ tags:
   - Business
   - Jobs
   - Personal
+url: 563.html
 id: 563
 categories:
   - Photos &amp; Personal
@@ -13,7 +14,7 @@ date: 2009-06-18 16:18:04
 ![sorrygj](https://mikecann.co.uk/wp-content/uploads/2009/06/sorrygj.gif "sorrygj")
 
 As it has now [been posted](https://support.gamejacket.com/forums/19376/entries/40976) on the GameJacket Support site I guess its okay for me to announce too that GameJacket finished trading on the 8th while I was [away in Canada](https://www.mikecann.co.uk/?p=554).
-
+<!-- more -->
 I have had an excellent time at the little start-up and have learnt alot about both technical aspects of the web but also about how a small business works and functions. Its sad to see GJ go as it had so much promise in the early days. Without the funding for expansion however we were never going to be able to compete with the multi-million pound Mochi Ads.
 
 On the last day before I took off on my trip we all had a little farewell party in the office. A little wine tasting and some cheese and crackers. The pictures and a video are [on my Picassa](https://picasaweb.google.com/mike.cann/FarewellGJ09#), but here are a couple:

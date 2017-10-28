@@ -1,14 +1,17 @@
 ---
 title: Why I probably won't be making another mobile game ever again
+url: 5878.html
 id: 5878
 categories:
   - Misc
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2016/04/Nibbles_1.png'
+coverMeta: out
 date: 2016-04-15 05:04:41
 tags:
 ---
 
 Exactly one month ago [I wrote about](https://www.mikecann.co.uk/myprojects/credit-redeemer/introducing-my-new-android-app-credit-redeemer/) a new app I had developed for Android called Credit Redeemer. Thanks to Google and my naivete this simple one week project has dealt a crushing blow to my indie game development career.
-
+<!-- more -->
 The idea for Credit Redeemer was simple; allow users to convert unused Google Play credit into paypal payments.
 
 [![1](https://www.mikecann.co.uk/wp-content/uploads/2016/03/1-169x300.png)](https://www.mikecann.co.uk/wp-content/uploads/2016/03/1.png)[![2](https://www.mikecann.co.uk/wp-content/uploads/2016/03/2-169x300.png)](https://www.mikecann.co.uk/wp-content/uploads/2016/03/2.png)[![3](https://www.mikecann.co.uk/wp-content/uploads/2016/03/3-169x300.png)](https://www.mikecann.co.uk/wp-content/uploads/2016/03/3.png)

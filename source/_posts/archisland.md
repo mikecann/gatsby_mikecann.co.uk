@@ -1,5 +1,6 @@
 ---
 title: archisland
+url: 64.html
 id: 64
 categories:
   - Art

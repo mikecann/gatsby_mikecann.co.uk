@@ -1,5 +1,6 @@
 ---
 title: cybrain
+url: 40.html
 id: 40
 categories:
   - Art

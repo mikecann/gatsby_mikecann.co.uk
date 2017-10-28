@@ -5,6 +5,7 @@ tags:
   - north carolina
   - Trip
   - trvel
+url: 2574.html
 id: 2574
 categories:
   - 2013 Trip
@@ -15,7 +16,7 @@ date: 2013-05-29 00:39:25
 ![screenshot_02](https://mikecann.co.uk/wp-content/uploads/2013/05/screenshot_021.png)
 
 Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album The [Trip 2013 – North Carolina](https://www.facebook.com/media/set/?set=a.10151666149991031.1073741833.593661030&type=3). Each picture can be clicked to see a larger version and comment / like
-
+<!-- more -->
 After leaving Chicago behind I was desperately in need of some time to R&R before the Central American leg of my trip began, fortunately I was heading to North Carolina where I would be getting just that. 
 
 I arrived into Charlotte early afternoon on the 18th of May, due to the flight being domestic I wasnt hassled at immigration for the first time. David Wilson brother of Martin (my travelling buddy and old friend whom I stayed with in DC) met me at the airport and we headed back to his place. Lindsay his wife was up in the mountains filming so we went out and grabbed a bite to eat and sampled some of the local beers.

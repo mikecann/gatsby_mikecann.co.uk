@@ -1,5 +1,6 @@
 ---
 title: Artificial-Studios 2
+url: 124.html
 id: 124
 categories:
   - mySQL

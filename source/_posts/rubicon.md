@@ -1,5 +1,6 @@
 ---
 title: Rubicon
+url: 67.html
 id: 67
 categories:
   - Art

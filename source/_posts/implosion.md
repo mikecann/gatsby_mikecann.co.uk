@@ -1,5 +1,6 @@
 ---
 title: implosion
+url: 45.html
 id: 45
 categories:
   - Art

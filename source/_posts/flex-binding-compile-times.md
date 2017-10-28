@@ -7,6 +7,7 @@ tags:
   - mxmlc
   - Spark
   - speed
+url: 1505.html
 id: 1505
 categories:
   - Actionscript
@@ -18,7 +19,7 @@ date: 2011-02-17 19:30:02
 [![](https://mikecann.co.uk/wp-content/uploads/2011/02/commandlin01.jpg "commandlin01")](https://mikecann.co.uk/wp-content/uploads/2011/02/commandlin01.jpg)
 
 Binding in flex has been playing on my mind for a little while now, so I have decided to finally sit down and try to resolve the issue.
-
+<!-- more -->
 The worry has been that on large projects that make heave use of the flex automatic binding, compile times could be dramatically increased. This is because behind the scenes the flex compiler must convert those syntax sugar ([Bindable] and {}) into actual AS3 code. The exact way this is done I wont go into, but I recommend you google it, its a fascinating topic.
 
 I really like the ease of use of automatic binding but at the same time I was worried about how much slower compile times are because of them. So I decided I would try to run some tests and see.

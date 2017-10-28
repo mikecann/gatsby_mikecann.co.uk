@@ -1,5 +1,6 @@
 ---
 title: 'Terrainicles [WebGL & HaXe]'
+url: 1713.html
 id: 1713
 categories:
   - GLSL
@@ -7,13 +8,15 @@ categories:
   - Programming
   - Projects
   - WebGL
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2011/10/terranicles.png'
+coverMeta: out
 date: 2011-10-29 14:14:07
 tags:
 ---
 
 I have been playing with this thing, tweaking it, making changes for weeks. Theres so many different things I want to add. Different options, scenarios, optimisations etc. I decided however just to follow the 'release early and often' mantra and get this thing out now.
 
-<!--more-->
+<!-- more -->
 
 Before I go any further check out what im talking about here:
 

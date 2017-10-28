@@ -1,5 +1,6 @@
 ---
 title: Project Update
+url: 208.html
 id: 208
 categories:
   - 'C#'
@@ -11,7 +12,7 @@ tags:
 ---
 
 Well its been a while since i have posted an update regarding the LieroXNA project. I havent been slacking.&nbsp;
-
+<!-- more -->
 I have been spending the majority of my time getting it to run on the 360\. I ran into many problems, the majority of which were due to the different ways render targets work on the 360 and the fact that you cant use 128bit floating point textures (Vector4 textures).
 
 Ill be going into more depth on the problems i faced on the 360 in a different post. But what i can say is that it works almost perfectly on the 360 now and im very happy with it.

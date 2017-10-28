@@ -1,14 +1,17 @@
 ---
 title: Post To Tumblr v.4
+url: 4937.html
 id: 4937
 categories:
   - Post To Tumbr
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/03/screenshot_045.png'
+coverMeta: out
 date: 2014-02-21 19:10:33
 tags:
 ---
 
 While I was travelling I have had a great many people contact me about my popular chrome extension [Post To Tumblr](https://chrome.google.com/webstore/detail/post-to-tumblr/dbpicbbcpanckagpdjflgojlknomoiah?hl=en). Some wanted me to fix things some wanted me to add things others wanted to buy the extension outright.
-
+<!-- more -->
 Well I didn't have time to do any of those things while I was away so put it off until I returned home. Well I have been back now for a few weeks and have decided to spend quite a bit of time upgrading the extension.
 
 Unfortunately my time isnt free now that I am working freelance and so I need to justify the time spent working on the extension. So I need a way to monetize the app. There are quite a few ways to do it and I couldn't decide which to go for so I surveyed my users.

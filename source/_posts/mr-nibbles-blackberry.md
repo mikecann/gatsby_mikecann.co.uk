@@ -1,5 +1,6 @@
 ---
 title: Mr Nibbles & Blackberry
+url: 2110.html
 id: 2110
 categories:
   - Mr Nibbles
@@ -11,7 +12,7 @@ tags:
 [![](https://mikecann.co.uk/wp-content/uploads/2012/09/header1.jpg "header")](https://mikecann.co.uk/wp-content/uploads/2012/09/header1.jpg)
 
 Im proud to announce that Mr Nibbles is now available [on Blackberry App World](https://appworld.blackberry.com/webstore/content/133542/?lang=en) :)
-
+<!-- more -->
 Thanks to the cross-platform nature of Haxe and NME it was actually really easy to do. Just a matter of changing a single word on the command-line: "nme build blackberry" and that was it, everything just worked out of the box!
 
 I want to give a massive thanks to [Joshua Granick](https://www.joshuagranick.com/blog/) for helping with some of the strange certification issues I was getting. Joshua also very kindly helped test the blackberry build out on his Playbook before very kindly asking RIM to ship one out to test on myself.

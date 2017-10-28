@@ -7,6 +7,7 @@ tags:
   - rio
   - sugarloaf
   - travel
+url: 4758.html
 id: 4758
 categories:
   - 2013 Trip
@@ -19,7 +20,7 @@ date: 2014-01-18 18:16:36
 [![screenshot_01](https://mikecann.co.uk/wp-content/uploads/2014/01/screenshot_011.png)](https://mikecann.co.uk/wp-content/uploads/2014/01/screenshot_011.png)
 
 Sadly we had to leave Jericoacoara in the north of Brazil where we had spent the last 6 days but all was not lost at the next destination for us is arguably one of the best cities in South America, Rio de Janeiro. 
-
+<!-- more -->
 [![photo-66](https://mikecann.co.uk/wp-content/uploads/2014/01/photo-661.jpg)](https://www.facebook.com/photo.php?fbid=10152177828626031&amp;set=a.10152177819916031.1073741862.593661030&amp;type=3&amp;theater)
 
 Coming from the north of Brazil on a domestic flight you sweep in frighteningly low over central rio then bank sharply in front of Sugarloaf Mountain before turning into Santos Dumont airport

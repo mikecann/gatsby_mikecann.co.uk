@@ -1,5 +1,6 @@
 ---
 title: squaresquare
+url: 59.html
 id: 59
 categories:
   - Art

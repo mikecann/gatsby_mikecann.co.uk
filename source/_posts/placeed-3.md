@@ -1,5 +1,6 @@
 ---
 title: PlaceEd 3
+url: 232.html
 id: 232
 categories:
   - 'C#'
@@ -7,6 +8,8 @@ categories:
   - Projects
   - Projects
   - XNA
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2008/02/placeed.png'
+coverMeta: out
 date: 2008-02-03 13:50:24
 tags:
 ---
@@ -15,7 +18,7 @@ Recently I have been working on some small tools for the lads at work to aid the
 
 One project I have been working on for a while (in my spare time at work and in the evenings at home) is a new version of PlaceEd. PlaceEd is a small app used by people at work who need to design levels with objects and paths in them.
 
-<!--more-->
+<!-- more -->
 
 The reason for making this new version was because the original was starting to show its age and after several modifications to customise it to certain projects it has become unreliable. A second version (PlaceEd2) was half coded by one of the other employees at rockpool though they ran out of time and didn&rsquo;t complete it.
 

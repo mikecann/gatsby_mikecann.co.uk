@@ -10,6 +10,7 @@ tags:
   - jmdns
   - networking
   - zero conf
+url: 1382.html
 id: 1382
 categories:
   - Inputtie
@@ -20,7 +21,7 @@ date: 2010-10-23 19:44:51
 <!-- p.p1 {margin: 0.0px 0.0px 13.0px 0.0px; line-height: 19.0px; font: 13.0px Georgia} p.p2 {margin: 0.0px 0.0px 16.0px 0.0px; line-height: 19.0px; font: 20.0px Georgia} p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 19.0px; font: 13.0px Georgia; color: #0101ee; min-height: 15.0px} p.p4 {margin: 0.0px 0.0px 13.0px 0.0px; line-height: 19.0px; font: 13.0px Georgia; min-height: 15.0px} span.s1 {text-decoration: underline ; color: #0101ee} span.s2 {color: #0101ee} -->This is part two in my series of posts on the development history of [Inputtie](https://www.inputtie.com/).
 
 In this post I talk about the challenge of device discovery and networking in the Inputtie app.
-
+<!-- more -->
 **[![](https://mikecann.co.uk/wp-content/uploads/2010/10/ScreenHunter_03-Oct.-09-13.59.jpg "ScreenHunter_03 Oct. 09 13.59")](https://mikecann.co.uk/wp-content/uploads/2010/10/ScreenHunter_03-Oct.-09-13.59.jpg)Zero Configure Networking**
 
 I knew I wanted Inputtie to be as simple to get running as simply starting it up. For this to happen Inputtie would need to discover all other devices on the network also running Inputtie. So how to do this?

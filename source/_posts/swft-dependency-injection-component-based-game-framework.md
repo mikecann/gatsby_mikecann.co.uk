@@ -15,11 +15,14 @@ tags:
   - Personal Projects
   - Projects
   - SWFt
+url: 1081.html
 id: 1081
 categories:
   - Programming
   - Projects
   - SWFt
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2010/06/swift.png'
+coverMeta: out
 date: 2010-06-13 16:22:34
 ---
 
@@ -27,7 +30,7 @@ This is my first post of what I suspect will be many on the subject of SWFt.
 
 What is SWFt I hear you cry? Well in a nut shell SWFt is an Entity-Component based game framework powered by Dependency Injection. Still confused? Well basically its a really nice neat method for making flash games. Still interested? Read on!
 
-<!--more-->
+<!-- more -->
 
 First the history, if you arent interested in this then just skip on down to "What exactly is it?"
 

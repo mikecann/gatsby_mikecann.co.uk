@@ -5,18 +5,21 @@ tags:
   - Games
   - Programming
   - unity
+url: 5782.html
 id: 5782
 categories:
   - Entitiasteroids
   - Portfolio
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/11/2015-11-09_08-26-05.png'
+coverMeta: out
 date: 2015-11-09 01:50:07
 ---
 
 **EDIT: Check the comments for an excellent reply from Simon, creator of Entitias.**
 
 Last week I wrote a couple of blog posts about my work on Unity Ash:
-
+<!-- more -->
 [https://www.mikecann.co.uk/programming/unity-ash-a-different-way-of-thinking-about-making-games-in-unity/](https://www.mikecann.co.uk/programming/unity-ash-a-different-way-of-thinking-about-making-games-in-unity/)
 [https://www.mikecann.co.uk/myprojects/unityasteroids/unit-testing-with-unity-ash-and-unity-test-tools/](https://www.mikecann.co.uk/myprojects/unityasteroids/unit-testing-with-unity-ash-and-unity-test-tools/)
 

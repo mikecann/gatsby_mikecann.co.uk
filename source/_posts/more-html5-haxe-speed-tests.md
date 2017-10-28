@@ -8,6 +8,7 @@ tags:
   - Programming
   - Project
   - speed
+url: 1583.html
 id: 1583
 categories:
   - HaXe
@@ -20,7 +21,7 @@ date: 2011-07-10 19:13:25
 [![](https://mikecann.co.uk/wp-content/uploads/2011/07/header.png "header")](https://mikecann.co.uk/wp-content/uploads/2011/07/header.png)
 
 Ive spent a little more time this weekend looking at some more  HTML5 with HaXe. Following on from [my previous experiments with WebGL](https://mikecann.co.uk/personal-project/chrome-crawler-haxe-three-js-webgl-and-2d-sprites/) I decided to give HTML5's Canvas a a look as it was supposed to be designed specifically for the purpose of doing 2D.
-
+<!-- more -->
 I had heard from the HaXe mailing list that the [Jeash project](https://haxe.org/com/libs/jeash) was a common way of interacting with the canvas in HaXe. Jeash is a remapping of the Flash API into JS so in effect I should beable to take any of my usual flash code, Sprite's,  BitmapData's, etc and it should run on the canvas no problems. Nice!
 
 So I coded up a quick blitting example to see what sort of performance I would get:

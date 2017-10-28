@@ -7,6 +7,7 @@ tags:
   - Mix
   - MP3
   - soundcloud
+url: 1513.html
 id: 1513
 categories:
   - Audio
@@ -17,7 +18,7 @@ date: 2011-03-20 18:23:06
 [![](https://mikecann.co.uk/wp-content/uploads/2011/03/700.png "700")](https://mikecann.co.uk/wp-content/uploads/2011/03/700.png)
 
 I've been getting into the whole Dubstep quite abit recently. Its probably just a phase I know, but while im enjoying it all so much at the moment I thought I would chuck down some of my favourites into a mix.
-
+<!-- more -->
 So here is my first Dubstep mix, its called "Blue Noise":
 
 <iframe width="100%" height="180" src="//www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fmikeysee%2Fartificial-blue-noise%2F&amp;embed_type=widget_standard&amp;embed_uuid=bdf04f16-b8f2-43cf-9bd1-29c446f04a79&amp;hide_tracklist=1&amp;hide_cover=1" frameborder="0"></iframe><div style="clear: both; height: 3px; width: auto;"></div>

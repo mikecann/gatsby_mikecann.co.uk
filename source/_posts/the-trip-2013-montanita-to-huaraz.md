@@ -9,6 +9,7 @@ tags:
   - mountain bike
   - travel
   - trijillo
+url: 4096.html
 id: 4096
 categories:
   - 2013 Trip
@@ -21,7 +22,7 @@ date: 2013-11-01 14:22:47
 ![screenshot_01](https://mikecann.co.uk/wp-content/uploads/2013/10/screenshot_011.png)
 
 Continuing on my South American travels next up was some nature watching at the "Poor Mans Galapogos" of Isla de la Plata. To get there we took a boat from Puerto Lopez for an hour. On the way we were fortunate enough to see some whales splashing about
-
+<!-- more -->
 [![photo](https://mikecann.co.uk/wp-content/uploads/2013/10/photo1.jpg)](https://www.facebook.com/photo.php?fbid=10151984228081031&amp;set=a.10151984227476031.1073741851.593661030&amp;type=3&amp;theater)
 
 [![photo-4](https://mikecann.co.uk/wp-content/uploads/2013/10/photo-410.jpg)](https://www.facebook.com/photo.php?fbid=10151984228401031&amp;set=a.10151984227476031.1073741851.593661030&amp;type=3&amp;theater)

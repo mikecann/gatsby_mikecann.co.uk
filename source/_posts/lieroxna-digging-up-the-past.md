@@ -5,6 +5,7 @@ tags:
   - Liero
   - Projects
   - XNA
+url: 631.html
 id: 631
 categories:
   - LieroXNA
@@ -12,7 +13,7 @@ date: 2009-08-01 12:44:58
 ---
 
 I received a very pleasant email yesterday from a fine chap Michael Lindholm. He was enquiring about my old project [LieroXNA ](https://www.mikecann.co.uk/category/lieroxna/)and whether I was still working on it. As it sound like some people are still interested in the project Ill copy / pase the email for the record here:
-
+<!-- more -->
 <address>Hi mike :)
 
 I have read your blog several times now over the last few months(about LieroXNA) and thought i should just let you know i find your LieroXNA project very interesting :)

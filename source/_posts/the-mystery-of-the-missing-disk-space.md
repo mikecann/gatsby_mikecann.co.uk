@@ -4,6 +4,7 @@ tags:
   - disk space
   - solution
   - Windows
+url: 4918.html
 id: 4918
 categories:
   - Misc
@@ -13,7 +14,7 @@ date: 2014-02-15 11:31:48
 [![screenshot_06](https://mikecann.co.uk/wp-content/uploads/2014/02/screenshot_06.png)](https://mikecann.co.uk/wp-content/uploads/2014/02/screenshot_06.png)
 
 For ages now I have been plagued with missing disk space. No matter how much space I freed up it always seemed to disappear but finally I have managed to solve it!
-
+<!-- more -->
 I have 120gig SSD drive which should be enough for me to run Windows and a few key apps no problem however it seemed to fill up all the time without me installing anything. 
 
 [![screenshot_02](https://mikecann.co.uk/wp-content/uploads/2014/02/screenshot_02.png)](https://mikecann.co.uk/wp-content/uploads/2014/02/screenshot_02.png)

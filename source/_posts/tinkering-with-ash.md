@@ -8,6 +8,7 @@ tags:
   - entity
   - Flash
   - Framework
+url: 2379.html
 id: 2379
 categories:
   - Actionscript
@@ -17,7 +18,7 @@ date: 2013-02-14 18:30:55
 ---
 
 [Last October](https://mikecann.co.uk/misc/try-harder-2012-slides/) I was fortunate enough to attend the excellent [Try Harder](https://www.tryharder.org.uk/) conference for the second time.[ I have spoken before](https://mikecann.co.uk/photos-personal/try-harder-2012/) about how inspirational the event is where every attendant must give a talk on something they are passionate about. One of the talks was by David Wagner's and was on 'The Value of Tinkering' and it inspired me to[ tinker with TypeScript](https://mikecann.co.uk/personal-project/tinkering-with-typescript/) which led to my [Recursive Chrome Extension](https://mikecann.co.uk/category/personal-project/recursive/).
-
+<!-- more -->
 Before I go any further I should mention that there is a [Try Harder 'Level Up'](https://www.tryharder.org.uk/level-up-2013/) session taking place in April that is open to new attendees, I thoroughly recommend you check it out!
 
 Following on in the same 'Tinkering' vein I have decided to investigate an AS3 library by another Try Harder attendee [Richard Lord](https://www.richardlord.net/blog):
@@ -28,6 +29,7 @@ Following on in the same 'Tinkering' vein I have decided to investigate an AS3 l
 
 What is Ash? Well direct from the [Ash Website:](https://www.ashframework.org/)
 > Ash is a high-performance entity system framework for game development.
+> 
 > 
 > An entity system is a way to organise the code for a game that is efficient for both code execution and code management. It uses composition rather than inheritance for sharing features between game objects and uses a data-oriented approach to separate the game state from the game logic. This makes it much easier to manage the code and to manage the game state.
 Im not going to go into the details too much of why composition over inheritance is a good idea as Richard has already done a much better job than I ever could in these two posts:

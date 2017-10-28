@@ -1,5 +1,6 @@
 ---
 title: TDProject BlueprintStore and BlueprintEditor
+url: 172.html
 id: 172
 categories:
   - 'C#'
@@ -13,7 +14,7 @@ tags:
 ![](https://www.mikecann.co.uk/Work/TDProject/engine03.png)
 
 Today I added the BlueprintStore  and the BlueprintEditor.
-
+<!-- more -->
 Firstly the BlueprintStore has two halfs to it. On the left hand side you have a list of &quot;library blueprints&quot; these are loaded from an XML document. Library blueprints can then be dragged over to the second half which is where all the blueprints that are used in the map are stored. 
 
 If you select a blueprint you can then click a button to open the BlueprintEditor. The editor is a separate window with a rotating view of the current model for the blueprint and on the right is a property grid that lets the user edit any number of properties a blueprint has. 

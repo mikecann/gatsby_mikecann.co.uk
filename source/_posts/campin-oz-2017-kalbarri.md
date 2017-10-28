@@ -5,8 +5,9 @@ tags:
   - Drone
   - photo
   - travel
+url: 6162.html
 id: 6162
-comment: false
+comments: false
 categories:
   - Above Under
 date: 2017-04-01 00:18:00
@@ -15,7 +16,7 @@ date: 2017-04-01 00:18:00
 **This post was copied from my site [AboveUnder.com](https://aboveunder.com) a site dedicated to my travel drone photography.**
 
 After the short one day stop in [Lancelin](https://aboveunder.com/blogs/news/campin-oz-2017-lancelin "lancelin blog post") we made our way north for 5 hours to the small sea side town of Kalbarri.
-
+<!-- more -->
 We were there for about 3 days which gave us just about enough time to see some of the highlights of the place including some of the incredible rock formations near the shore.
 
 ![](//cdn.shopify.com/s/files/1/1830/7597/products/DJI_0304_grande.jpg?v=1491005545)

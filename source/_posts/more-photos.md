@@ -1,5 +1,6 @@
 ---
 title: More Photos..
+url: 178.html
 id: 178
 categories:
   - Photos &amp; Personal
@@ -8,7 +9,7 @@ tags:
 ---
 
 Just some [more photos](https://picasaweb.google.com/mike.cann) of my latest comings and goings :P
-
+<!-- more -->
 Highlights:
 
 ![](https://lh3.google.com/image/mike.cann/RmKIciKi2wI/AAAAAAAAAtY/AieXKHZ1xg4/DSC00562.JPG?imgmax=912)![](https://lh5.google.com/image/mike.cann/RmKIzCKi27I/AAAAAAAAAuo/zkpQjNQqVs4/DSC00614.JPG?imgmax=912)

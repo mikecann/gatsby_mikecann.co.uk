@@ -3,6 +3,7 @@ title: New Laptop = iPhone Fun!
 tags:
   - iPhone
   - Personal
+url: 598.html
 id: 598
 categories:
   - Photos &amp; Personal

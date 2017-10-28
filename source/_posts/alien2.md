@@ -1,5 +1,6 @@
 ---
 title: alien2
+url: 38.html
 id: 38
 categories:
   - Art

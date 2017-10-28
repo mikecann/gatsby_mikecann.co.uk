@@ -1,5 +1,6 @@
 ---
 title: XNALiquids02
+url: 228.html
 id: 228
 categories:
   - 'C#'
@@ -12,7 +13,7 @@ tags:
 
 Okay well i have been playing around with my particles **AGAIN **:P
 
-<!--more-->
+<!-- more -->
 
 I started this time from some work done by the [CUDA](https://www.nvidia.com/object/cuda_get_samples.html) team over at NVidia. As im running windows Vista i couldnt get CUDA to work so i read through the source and adapted it to my needs.
 

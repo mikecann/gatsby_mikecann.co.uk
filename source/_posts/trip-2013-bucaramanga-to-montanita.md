@@ -6,6 +6,7 @@ tags:
   - kite surfing
   - rock climbing
   - travel
+url: 3976.html
 id: 3976
 categories:
   - 2013 Trip
@@ -18,7 +19,7 @@ date: 2013-10-14 21:07:12
 **Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [The Trip 2013 - Bucaramanga to Montanita](https://www.facebook.com/media/set/?set=a.10151953673181031&type=1&l=3d7354c7cc). Each picture can be clicked to see a larger version and comment / like.**
 
 Its been a while since my last update, since then I have crossed into Ecuador from Colombia and traveled hundreds of miles. After my two weeks spent learning to Paraglide in Bucaramanga I was keen to get back on the road again, I had less than a week to make my way over to the coast of Ecuador where I had booked some Kite Surfing lessons.
-
+<!-- more -->
 It would have taken some 50-60 hours if I was to attempt to make the journey in one go so I broke it up with a few stops. First up was a return to the capital city of Colombia, Bogota.
 
 [![photo-7](https://mikecann.co.uk/wp-content/uploads/2013/10/photo-7.jpg)](https://www.facebook.com/photo.php?fbid=10151953647016031&amp;set=a.10151953673181031&amp;type=3&amp;theater)

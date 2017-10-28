@@ -3,6 +3,7 @@ title: Artificial Games Redecorated
 tags:
   - Web
   - Website
+url: 505.html
 id: 505
 categories:
   - Websites

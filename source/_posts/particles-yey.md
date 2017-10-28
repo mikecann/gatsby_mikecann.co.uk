@@ -4,6 +4,7 @@ tags:
   - java
   - Particles
   - pretty
+url: 1463.html
 id: 1463
 categories:
   - Fun &amp; Videos
@@ -13,7 +14,7 @@ date: 2010-12-16 19:10:12
 [![](https://mikecann.co.uk/wp-content/uploads/2010/12/Shot_0031.png "Shot_003")](https://mikecann.co.uk/wp-content/uploads/2010/12/Shot_0031.png)
 
 Just thought I would share this little thing I was introduced to by a friend.
-
+<!-- more -->
 [https://grantkot.com/MPM/Liquid.html](https://grantkot.com/MPM/Liquid.html)
 
 Its a liquid physics simulator written in Java.

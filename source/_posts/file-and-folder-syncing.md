@@ -4,6 +4,7 @@ tags:
   - Dropbox
   - Idea
   - Sync
+url: 677.html
 id: 677
 categories:
   - Misc
@@ -11,7 +12,7 @@ date: 2009-09-03 19:34:07
 ---
 
 For a long while I have been worried about my lack of backups for my machine. I detest the fact that i  [actually lost some of my older work](https://www.mikecann.co.uk/lieroxna/lieroxna-digging-up-the-past/). Getting[ the Mac](https://www.mikecann.co.uk/photos-personal/new-laptop-iphone-fun/) has been the final straw and my instigator for change.
-
+<!-- more -->
 So at first I started looking at backup tools, these seem to fall into two categories, ones that backup locally to other hard drives and networks and ones that backup to 'the cloud'.
 
 Now the situation is that on the Mac I have to run parallels for WindowsXP as FlashDevelop only runs in windows and the project files must be stored on the 'local windows disk' for the project to work properly in FlashDevelop. So the situation is I have three sepparate 'locations' where I need my files backed up from:

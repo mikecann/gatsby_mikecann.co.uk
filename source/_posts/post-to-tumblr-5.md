@@ -5,15 +5,18 @@ tags:
   - extension
   - parse.com
   - typescript
+url: 5320.html
 id: 5320
 categories:
   - Post To Tumbr
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/08/screenshot_009.png'
+coverMeta: out
 date: 2014-08-18 10:10:10
 ---
 
 Almost exactly [6 months ago I released Post To Tumblr 4](https://www.mikecann.co.uk/myprojects/post-to-tumbr/post-to-tumblr-v-4/) and today im proud to have pushed the 5th version of my popular Chrome Extension to the [Chrome app store](https://chrome.google.com/webstore/detail/post-to-tumblr/dbpicbbcpanckagpdjflgojlknomoiah?hl=en). 
-
+<!-- more -->
 About a week ago Tumblr decided to change its security model which meant that my 34,000 ish users were now stuck. Unfortunately to get PTT to work required an entire rewrite of the way I handled users and posting to tumblr. Under the pressure of from tons of emails from angry users every day I set to work restructuring it all. 
 
 Now with version 5 users must authenticate with my backend:

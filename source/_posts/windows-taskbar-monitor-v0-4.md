@@ -5,15 +5,18 @@ tags:
   - taskbars
   - Tool
   - Windows
+url: 3876.html
 id: 3876
 categories:
   - Projects
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2013/09/taskbar.png'
+coverMeta: out
 date: 2013-09-25 01:32:29
 ---
 
 Over the years I have had a great many projects, most of which have been chronicled on this blog. The majority of them I leave alone once I have finished with them and never return to. 
-
+<!-- more -->
 Windows Taskbar Monitor however is one of the rare tools that I actually still use one a daily basis. So when it stopped working the other day due to a patch in Windows 8 I decided to spare an hour to patch it up. 
 
 <!--more-->

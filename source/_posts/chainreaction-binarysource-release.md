@@ -1,5 +1,6 @@
 ---
 title: ChainReaction (Binary+Source Release)
+url: 179.html
 id: 179
 categories:
   - Actionscript
@@ -7,13 +8,15 @@ categories:
   - Flash
   - Java
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2007/06/chainreacton.png'
+coverMeta: out
 date: 2007-06-03 11:27:22
 tags:
 ---
 
 Okay so i have finally decided to upload this. I had intended to do some more work on it and get it into a more presentable state. However as time goes on and I still havent found time to do any more on it I have just decided to upload it now.
 
-<!--more-->
+<!-- more -->
 
 ChainReaction was my large (60 credits) project for my final year of university. It is basically a tool for creating 2D particle effects in an easy and fun way. There are two parts to it. Firstly the main tool:
 

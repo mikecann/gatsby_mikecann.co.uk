@@ -7,6 +7,7 @@ tags:
   - samara
   - travel
   - world
+url: 3344.html
 id: 3344
 categories:
   - 2013 Trip
@@ -15,7 +16,7 @@ date: 2013-08-13 14:08:48
 ---
 
 **Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [The Trip 2013 - San Jose to Puerto Viejo](https://www.facebook.com/media/set/?set=a.10151813853231031.1073741843.593661030&type=1&l=0b304b75a9). Each picture can be clicked to see a larger version and comment / like.**
-
+<!-- more -->
 After finishing my 17 day adventure from Antigua, Guatamala to San Jose, Costa rica and sadly said farewell to most of my fellow travelers I had a few days rest as recuperation with Kelsie before she had to return to Australia. We spent most of the 4 days chilling out and exploring the city.
 
 [![photo-8](https://mikecann.co.uk/wp-content/uploads/2013/08/photo-812.jpg)](https://www.facebook.com/photo.php?fbid=10151813854751031&amp;set=a.10151813853231031.1073741843.593661030&amp;type=3&amp;theater)

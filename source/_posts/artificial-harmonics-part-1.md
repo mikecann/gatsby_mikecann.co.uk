@@ -1,5 +1,6 @@
 ---
 title: Artificial Harmonics ( part 1 )
+url: 87.html
 id: 87
 categories:
   - Personal Mixes

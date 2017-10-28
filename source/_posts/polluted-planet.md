@@ -1,5 +1,6 @@
 ---
 title: Polluted Planet
+url: 226.html
 id: 226
 categories:
   - Fun &amp; Videos
@@ -8,8 +9,7 @@ tags:
 ---
 
 I stumbled accross this yesterday and thought it was too good not to comment on it.
-
-&nbsp;
+<!-- more -->
 
 <embed src="https://www.youtube.com/v/f75qk4XbiuA&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed>
 

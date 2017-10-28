@@ -6,19 +6,22 @@ tags:
   - RobotLegs
   - strangeIoC
   - Unit Testing
+url: 4973.html
 id: 4973
 categories:
   - 'C#'
   - Games
   - Programming
   - Unity
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/04/logo.png'
+coverMeta: out
 date: 2014-04-26 00:42:52
 ---
 
 [![logo](https://www.mikecann.co.uk/wp-content/uploads/2014/04/logo.png)](https://www.mikecann.co.uk/wp-content/uploads/2014/04/logo.png)
 
 For the last couple of months I have been working on a few different things including many new releases of [Post To Tumblr](https://chrome.google.com/webstore/detail/post-to-tumblr/dbpicbbcpanckagpdjflgojlknomoiah?hl=en). Most of my time however has been spent working on an unnamed (as of yet) game in Unity.
-
+<!-- more -->
 Its my first time using Unity, having come from a predominantly Flash games background I was excited to have the power of C# with a WYSIWYG editor for rapid iterations, and indeed I did make rapid progress. I soon had a working gameplay prototype up and running and everything and everything was hunky dory. It worked but the code was far from pretty with dependencies between my components all over the place not to mention the headaches when I tried to introduce Unit Testing into the mix.
 
 The game I am developing is a turn based strategy with some complex gameplay rules, perfectly suited to unit testing I thought. Unfortunately however the power of Unity's rapid development is also its downfall. It allows you to do some pretty nasty things. It also uses a vast number of statics and singletons making testing rather tricky. I managed to muddle my way through things using Unity's recently released [Unit Testing Tools](https://blogs.unity3d.com/2013/12/18/unity-test-tools-released/) however things were far from ideal.

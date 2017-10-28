@@ -9,6 +9,7 @@ tags:
   - sun
   - travel
   - Trip
+url: 4676.html
 id: 4676
 categories:
   - 2013 Trip
@@ -21,7 +22,7 @@ date: 2014-01-05 11:33:29
 [![screenshot_01](https://mikecann.co.uk/wp-content/uploads/2014/01/screenshot_01.png)](https://mikecann.co.uk/wp-content/uploads/2014/01/screenshot_01.png)
 
 Continuing my explorations of northern Brazil with Kelsie we travel from Itacare on bus then boat to the busy tourist destination of Morro do Sao Paulo.
-
+<!-- more -->
 [![photo](https://mikecann.co.uk/wp-content/uploads/2014/01/photo.jpg)](https://www.facebook.com/photo.php?fbid=10152149615391031&amp;set=a.10152149614891031.1073741861.593661030&amp;type=3&amp;theater)
 
 We spent just two days exploring the town. Nice though not the snorkelling paradise we were hoping for, apparently its not really the time of the year for crystal clear waters.

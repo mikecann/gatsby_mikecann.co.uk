@@ -6,6 +6,7 @@ tags:
   - Flash
   - Game
   - ludum
+url: 1242.html
 id: 1242
 categories:
   - 48 Hours Later
@@ -14,7 +15,7 @@ date: 2010-08-21 08:42:53
 ---
 
 Progress update. I had a small sleep between 5 and 7 as I was getting pretty sleepy and my body still thought it was night time.
-
+<!-- more -->
 Desprite this im making progress:
 
 [![](https://mikecann.co.uk/wp-content/uploads/2010/08/ScreenHunter_02-Aug.-21-09.38.jpg "ScreenHunter_02 Aug. 21 09.38")](https://mikecann.co.uk/wp-content/uploads/2010/08/ScreenHunter_02-Aug.-21-09.38.jpg)

@@ -8,6 +8,7 @@ tags:
   - leiro
   - ludum
   - Project
+url: 1266.html
 id: 1266
 categories:
   - 48 Hours Later
@@ -19,7 +20,7 @@ date: 2010-08-22 17:46:14
 [![](https://mikecann.co.uk/wp-content/uploads/2010/08/title.png "title")](https://mikecann.co.uk/wp-content/uploads/2010/08/title.png)
 
 Okay well its not quite complete, the waves of enemies could do with some more work but I have my mum coming up from London to visit me in 30 mins so im gonna call it quits here.
-
+<!-- more -->
 So, finally it has a name, I have called it "48 Hours Later" :) Its not technically true as I have only had 40 hours to do it, but oh well!
 
 Overall im pretty happy with my first Ludum Dare entry, im very tired right now and have a banging headache, but thats all part of the fun right?

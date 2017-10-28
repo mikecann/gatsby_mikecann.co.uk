@@ -6,6 +6,7 @@ tags:
   - Flash
   - Game
   - ludum
+url: 1255.html
 id: 1255
 categories:
   - 48 Hours Later
@@ -16,7 +17,7 @@ date: 2010-08-21 23:04:15
 [![](https://mikecann.co.uk/wp-content/uploads/2010/08/ScreenHunter_02-Aug.-21-23.59.jpg "ScreenHunter_02 Aug. 21 23.59")](https://mikecann.co.uk/wp-content/uploads/2010/08/ScreenHunter_02-Aug.-21-23.59.jpg)
 
 Okay, im starting to get pretty tired. Its not very late (midnight) but I think the lack of sleep last night is catching up with me. Im gonna get a few hours kip now then back up early to start again I think.
-
+<!-- more -->
 As for progress. I have a basic enemy type in, it doesnt do much except bleed, and it doesnt look too good (I really cant draw!) but oh well.
 
 As before I have done a build that you can "play":

@@ -6,6 +6,7 @@ tags:
   - mexico
   - travel
   - Trip
+url: 2637.html
 id: 2637
 categories:
   - TD Project
@@ -16,7 +17,7 @@ date: 2013-06-23 11:12:50
 ![screenshot_02](https://mikecann.co.uk/wp-content/uploads/2013/06/screenshot_021.png)
 
 Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [The Trip 2013 - Guadalajara to Mexico City](https://www.facebook.com/media/set/?set=a.10151708375871031.1073741836.593661030&type=3). Each picture can be clicked to see a larger version and comment / like
-
+<!-- more -->
 Following on from the LA to Mazatlan, we began to head into mainland Mexico. The next stop on our journey was second largest city in Mexico Guadalajara. The first night there we hopped on the 'party bus' bound for the ever popular Mexican wrestling.
 
 [![photo-150](https://mikecann.co.uk/wp-content/uploads/2013/06/photo-150.jpg)](https://www.facebook.com/photo.php?fbid=10151708376546031&amp;set=a.10151708375871031.1073741836.593661030&amp;type=3&amp;theater)

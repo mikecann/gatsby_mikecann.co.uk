@@ -8,6 +8,7 @@ tags:
   - Mobile
   - mr nibbles
   - post mortem
+url: 2095.html
 id: 2095
 categories:
   - HaXe
@@ -19,7 +20,7 @@ date: 2012-09-08 14:22:05
 [![](https://mikecann.co.uk/wp-content/uploads/2012/09/header.jpg "header")](https://mikecann.co.uk/wp-content/uploads/2012/09/header.jpg)
 
 Well its been a couple of weeks since we launched on iOS and a few weeks since Android, so I have decided to write one more post on the Mr Nibbles project. A post mortem into what went right, what went not so right which should hopefully serve to solidify my learning from the process and perhaps help others who should embark on something similar.
-
+<!-- more -->
 Before I dive into that, first some statistics thus far..
 
 ## Statistics

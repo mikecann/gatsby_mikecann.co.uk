@@ -7,6 +7,7 @@ tags:
   - inca trail
   - macchu picchu
   - travel
+url: 4229.html
 id: 4229
 categories:
   - 2013 Trip
@@ -19,7 +20,7 @@ date: 2013-11-22 16:45:58
 ![screenshot_02](https://mikecann.co.uk/wp-content/uploads/2013/11/screenshot_022.png)
 
 Im now 6.5 months through my 8.5 month journey and finally reached one of the highlights of my trip, the Inca trail and Macchu Picchu. I have been looking forward to this one for a while, it started off by driving down into the Sacred Valley 1 hour outside of Cusco.
-
+<!-- more -->
 [![photo-3](https://mikecann.co.uk/wp-content/uploads/2013/11/photo-312.jpg)](https://www.facebook.com/photo.php?fbid=10152050719636031&amp;set=a.10152050714101031.1073741854.593661030&amp;type=3&amp;theater)
 
 We had the afternoon and evening to prepare ourselfs to begin the trail. We spent it exploring the beautiful Ollantaytambo and its ancient Inca ruins.

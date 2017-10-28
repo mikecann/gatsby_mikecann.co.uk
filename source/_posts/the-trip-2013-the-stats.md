@@ -3,6 +3,7 @@ title: The Trip 2013 - The Stats
 tags:
   - summary
   - Trip
+url: 4871.html
 id: 4871
 categories:
   - 2013 Trip
@@ -15,7 +16,7 @@ date: 2014-01-21 15:13:33
 **[ Click](https://mapsengine.google.com/map/embed?mid=zqHG_2WyX1Rw.kX4lL2DfOU1E) the image above to browse the map interactively.**
 
 Well thats it. Im back now from a trip of a lifetime. I had such an incredible time, saw so many phenomenal things and met so many awesome people. This will be my last post on my trip and as such I would like to wrap it up with some highlights and accompanying stats.
-
+<!-- more -->
 # 1\. Transport
 
 **Days Spent: 251**

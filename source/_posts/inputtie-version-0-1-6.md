@@ -5,6 +5,7 @@ tags:
   - screen edge
   - upgrade
   - version
+url: 1876.html
 id: 1876
 categories:
   - Inputtie
@@ -12,7 +13,7 @@ date: 2010-10-25 22:19:09
 ---
 
 Made a few small stability changes with Inputtie tonight, thought I would share.
-
+<!-- more -->
 Release notes are as follows:
 
 **Inputtie Version 0.1.6 (25/10/10)**

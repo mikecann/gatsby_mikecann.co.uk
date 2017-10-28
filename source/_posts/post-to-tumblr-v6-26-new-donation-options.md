@@ -6,15 +6,18 @@ tags:
   - payment
   - paypal
   - Update
+url: 6010.html
 id: 6010
 categories:
   - Post To Tumbr
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2016/09/2016-09-26_11-35-43.gif'
+coverMeta: out
 date: 2016-09-26 04:02:05
 ---
 
 Its been a while since I have blogged about [Post To Tumblr](https://chrome.google.com/webstore/detail/post-to-tumblr/dbpicbbcpanckagpdjflgojlknomoiah), my popular Chrome Extension for Tumblr. I have been quiet but certainly not inactive. 
-
+<!-- more -->
 One thing that has always bothered me about the extension ever since version 1, when I started accepting donations, was that the only way to donate was via Paypal. Thus people in countries where [Paypal isnt available](https://smallbusiness.chron.com/country-doesnt-work-paypal-66099.html) have been unable to donate and thus unlock the advanced features. Up till now I simply gave those users that emailed me free access to the features, but obviously this isnt ideal.
 
 I like to listen to podcasts, mostly technical related but some science, some business and some general interest. Most of the shows I listen to have ads and one ad that continually pops up is for Braintree. Braintree is a payments solution for online services so I decided to investigate if they would be a good solution for my Chrome extensions. 

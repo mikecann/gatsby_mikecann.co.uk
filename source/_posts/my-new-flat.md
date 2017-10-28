@@ -1,5 +1,6 @@
 ---
 title: My new flat
+url: 253.html
 id: 253
 categories:
   - Misc
@@ -8,7 +9,7 @@ tags:
 ---
 
 Well i have been living in my new pad in Leeds for going on 4 weeks. Loving the wide open space and the convenience of it to everything else.
-
+<!-- more -->
 Anyways here is a video i took to show potential flatmates on Gumtree:
 
 &nbsp;

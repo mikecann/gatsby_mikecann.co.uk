@@ -6,14 +6,17 @@ tags:
   - mr nibbles forever
   - platformer
   - unity
+url: 5549.html
 id: 5549
 categories:
   - Mr Nibbles Forever
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/02/2015-02-23_10-30-33.png'
+coverMeta: out
 date: 2015-02-23 03:10:36
 ---
 
 I haven't posted an update on my new game Mr Nibbles Forever for a couple of weeks not because I haven't been doing anything (quite the opposite) rather the game has been in a little flux and thus was a little too broken to blog about.
-
+<!-- more -->
 Well if you haven't seen it in a couple of weeks there has been quite a lot of changes to the meta-game:
 
 <iframe width="1280" height="750" src="https://www.youtube.com/embed/3hzO1Io995o" frameborder="0" allowfullscreen></iframe>

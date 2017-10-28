@@ -5,15 +5,18 @@ tags:
   - Tool
   - trello
   - typescript
+url: 5840.html
 id: 5840
 categories:
   - Projects
   - Trello Chat
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/12/Screenshot01-640x480.png'
+coverMeta: out
 date: 2015-12-18 06:50:06
 ---
 
 Following on my theme of "Not Games" projects, I have just released my latest Chrome Extension; [Trello Chat](https://chrome.google.com/webstore/detail/trello-chat/ohgelebenfafafahlppompddhdkimcan).
-
+<!-- more -->
 [![Screenshot01-640x480](https://www.mikecann.co.uk/wp-content/uploads/2015/12/Screenshot01-640x480.png)](https://www.mikecann.co.uk/wp-content/uploads/2015/12/Screenshot01-640x480.png)
 
 Like my last project, [Trello Tasks](https://www.mikecann.co.uk/myprojects/trello-tasks/trello-tasks-a-new-chrome-extension/), this is an extension for Trello. I love Trello and use it to organise just about everything. Our team used it at the [Startup Weekend last month](https://www.mikecann.co.uk/myprojects/tuckr/startup-weekend-perth-2015-tuckr/) to organise our project over the weeked, I also noticed quite a few other teams using Trello too.

@@ -1,5 +1,6 @@
 ---
 title: Coder Tidbit 01
+url: 207.html
 id: 207
 categories:
   - Misc
@@ -9,7 +10,7 @@ tags:
 ---
 
 Keep coming across things like this at work that make me stop and think for a while so i thought they would be interesting to post up here for others to think about too.
-
+<!-- more -->
 Heres one i came accross today that was causing a strange error in the game:
 
 [code lang="java"]

@@ -5,6 +5,7 @@ tags:
   - diary
   - guatamala
   - travel
+url: 2966.html
 id: 2966
 categories:
   - 2013 Trip
@@ -17,7 +18,7 @@ date: 2013-07-23 21:44:43
 **Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [The Trip 2013 - El Ramate to Antigua](https://www.facebook.com/mikeysee/media_set?set=a.10151773308266031.1073741839.593661030&type=3). Each picture can be clicked to see a larger version and comment / like.**
 
 After our awesome [trip to Tikal](https://mikecann.co.uk/travel/the-trip-2013-playa-del-carmen-to-tikal/) in Guatamala we returned to our hotel on the lake shore in El Ramate. It had been a long hot day so we relaxed by paddling in the warm waters of the lake.
-
+<!-- more -->
 [![photo](https://mikecann.co.uk/wp-content/uploads/2013/07/photo2.jpg)](https://www.facebook.com/mikeysee/media_set?set=a.10151773308266031.1073741839.593661030&amp;type=3)
 
 The following day we hopped in another bus and headed to our next destination, Rio Dulce. We stayed at the backpackers which sits on the river

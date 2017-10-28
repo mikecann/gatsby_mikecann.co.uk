@@ -9,6 +9,7 @@ tags:
   - shadow
   - university
   - XNA
+url: 1206.html
 id: 1206
 categories:
   - 'C#'
@@ -21,7 +22,7 @@ date: 2010-08-15 11:10:18
 [![](https://mikecann.co.uk/wp-content/uploads/2010/08/11_scene.png "11_scene")](https://mikecann.co.uk/wp-content/uploads/2010/08/11_scene.png)
 
 Those who know me know I used to do [quite abit of development](https://mikecann.co.uk/?s=xna) in c# using Microsoft's XNA platform.
-
+<!-- more -->
 Well I like to check back in every now and then with some of the big players in the community to see what's going on.
 
 One of those players is [Catalin Zima](https://www.catalinzima.com/), who is famous for producing many great shader and effect samples.

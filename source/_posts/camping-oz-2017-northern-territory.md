@@ -5,8 +5,9 @@ tags:
   - Drone
   - photo
   - travel
+url: 6178.html
 id: 6178
-comment: false
+comments: false
 categories:
   - Above Under
 date: 2017-06-13 06:19:00
@@ -15,7 +16,7 @@ date: 2017-06-13 06:19:00
  
 
 Following on from our travels through the East Kimberly region we passed over the border from Western Australia into the Northern Territory. Our first port of call was the second largest city in the NT; Kathrine.
-
+<!-- more -->
 While in there we visited the local national park. Sadly many of the parks in the NT have a no drone policy so I was unable to take any aerial shots of these beautiful regions (unless I wanted to pay hundreds of dollars for a helicopter flight that is).
 
 ![some bats hanging from trees](//cdn.shopify.com/s/files/1/1830/7597/files/IMG_9936_1024x1024.jpg?v=1497332641)

@@ -8,13 +8,16 @@ tags:
   - nibbles
   - rant
   - Update
+url: 6134.html
 id: 6134
 categories:
   - Mr Nibbles Forever
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2017/02/header.jpg'
+coverMeta: out
 date: 2017-02-27 23:30:49
 ---
 
-A few weeks ago I got a friendly reminder from Apple that my Developer license was about to expire. What I hadn't realized however was that should it expire my games would no longer be available to download on the store.
+A few weeks ago I got a friendly reminder from Apple that my Developer license was about to expire. What I hadn't realized however was that should it expire my games would no longer be available to download on the store.<!-- more -->
 
 [![](https://www.mikecann.co.uk/wp-content/uploads/2017/02/chrome_2017-02-28_07-11-33-1024x451.png)](https://www.mikecann.co.uk/wp-content/uploads/2017/02/chrome_2017-02-28_07-11-33.png)
 

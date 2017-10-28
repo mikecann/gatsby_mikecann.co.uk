@@ -8,14 +8,17 @@ tags:
   - nibbles
   - prototype
   - unity
+url: 5506.html
 id: 5506
 categories:
   - Mr Nibbles Forever
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/01/2015-01-16_14-15-22.png'
+coverMeta: out
 date: 2015-01-19 00:50:46
 ---
 
 About a week ago I had an idea: what would [Mr Nibbles](https://www.mikecann.co.uk/portfolio/mr-nibbles-2/) look like if it was turned into an endless runner? Well in-between other things I knocked out a gameplay prototype using my weapon of choice these days, Unity.
-
+<!-- more -->
 After just a couple of days I had the basics of the Mr Nibbles game mechanics working, its amazing how fast you can make things in Unity when you have all the assets already:
 
 [embed]https://www.youtube.com/watch?v=j0nkTm4_028[/embed]

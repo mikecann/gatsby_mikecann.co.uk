@@ -8,6 +8,7 @@ tags:
   - webfusion
   - Websites
   - wordpress
+url: 1038.html
 id: 1038
 categories:
   - Websites
@@ -17,7 +18,7 @@ date: 2010-04-13 21:44:56
 [![](https://mikecann.co.uk/wp-content/uploads/2010/04/ScreenHunter_01-Apr.-13-21.27.jpg "ScreenHunter_01 Apr. 13 21.27")](https://mikecann.co.uk/wp-content/uploads/2010/04/ScreenHunter_01-Apr.-13-21.27.jpg)[![](https://mikecann.co.uk/wp-content/uploads/2010/04/ScreenHunter_02-Apr.-13-21.29.jpg "ScreenHunter_02 Apr. 13 21.29")](https://mikecann.co.uk/wp-content/uploads/2010/04/ScreenHunter_02-Apr.-13-21.29.jpg)
 
 Well as my previous post was about how I had moved my personal presence I thought I would mention the move of my virtual presence too.
-
+<!-- more -->
 For a while I have been hosting my sites on Slicehost, and things having been going okay. Slicehost however is a basic VPS that simply gives you root access and then you are expected to know what to do next. I spent a long time setting it up in the beginning following various tutorials. I learnt alot of Linux along the way but unfortunately I dont think im ever going to have the time to learn enough to maintain this box, especially now that I have 7 domains of my own and am hosting two by other people.
 
 So I recently started looking for a better solution. Thats when my partner in crime [olip.co.u](https://olip.co.uk)k recommendation that I checkout Web Fusion, so I did and was mightily impressed. For a very similar price to Slicehost I get a much bigger box with much more features, and ofcourse the awesome Plesk 9.0 admin tool.

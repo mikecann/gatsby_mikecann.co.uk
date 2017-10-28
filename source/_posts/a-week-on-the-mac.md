@@ -3,13 +3,14 @@ title: A Week on the Mac
 tags:
   - Apple
   - Opinion
+url: 651.html
 id: 651
 categories:
   - Misc
 date: 2009-08-18 17:55:14
 ---
 
-Well its now a couple of weeks into using my shiney new MacBook Pro 15" and I have decided to do an early report on a few things I like / dont like about it. Its not an exhaustive list but just a small rant of my main pleasures / gripes.
+Well its now a couple of weeks into using my shiney new MacBook Pro 15" and I have decided to do an early report on a few things I like / dont like about it. Its not an exhaustive list but just a small rant of my main pleasures / gripes.<!-- more -->
 
 **Like:**
 

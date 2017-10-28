@@ -1,5 +1,6 @@
 ---
 title: Github Project Uploads
+url: 2062.html
 id: 2062
 categories:
   - Uncategorized
@@ -10,7 +11,7 @@ tags:
 [![](https://mikecann.co.uk/wp-content/uploads/2012/08/6a00d8341c767353ef016762f7c808970b-800wi.png "6a00d8341c767353ef016762f7c808970b-800wi")](https://mikecann.co.uk/wp-content/uploads/2012/08/6a00d8341c767353ef016762f7c808970b-800wi.png)
 
 Its a lazy sunday so I have decided to do a few chores I have been meaning to do for a while. One of them has been to move some of my old projects over from Google Code over to Github and to begin uploading some of my older projects that are scattered through this blog directly to Github.
-
+<!-- more -->
 So I have first moved over Chrome Crawler ([https://github.com/mikecann/Chrome-Crawler](https://github.com/mikecann/Chrome-Crawler)) my Chome Extension for spidering sites.
 
 Also I moved Windows7 Taskbar Monitor ([https://github.com/mikecann/Windows7-Taskbar-Monitor](https://github.com/mikecann/Windows7-Taskbar-Monitor)) a small C# application that provides stats-at-a-glance.

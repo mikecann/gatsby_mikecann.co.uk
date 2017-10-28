@@ -7,10 +7,13 @@ tags:
   - ide
   - Programming
   - theme
+url: 1592.html
 id: 1592
 categories:
   - HaXe
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2011/07/dark-fd.png'
+coverMeta: out
 date: 2011-07-21 19:19:44
 ---
 
@@ -18,7 +21,7 @@ Just a quick update this evening.
 
 In an effort to to reduce some of the symptoms of eye strain I have been suffering from recently I decided to change the theme of FlashDevelop4 to something a little darker and easier on the eyes.
 
-<!--more-->
+<!-- more -->
 
 I took inspiration from the excellent [Obsidian theme on the Eclipse Color Themes](https://www.eclipsecolorthemes.org/?view=theme&amp;id=21) website.
 

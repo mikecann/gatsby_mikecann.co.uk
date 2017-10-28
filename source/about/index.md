@@ -1,6 +1,9 @@
 ---
 title: About
+url: 195.html
 id: 195
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2007/09/Me-Professional.png'
+coverMeta: out
 date: 2007-09-14 16:25:48
 ---
 

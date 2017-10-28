@@ -14,6 +14,7 @@ tags:
   - visualise
   - Web
   - Website
+url: 2221.html
 id: 2221
 categories:
   - HTML
@@ -22,11 +23,13 @@ categories:
   - Projects
   - Recursive
   - TypeScript
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2012/12/recursive.png'
+coverMeta: out
 date: 2012-12-04 08:37:41
 ---
 
 Wow, well that took longer than expected! [44 days ago I blogged](https://mikecann.co.uk/personal-project/tinkering-with-typescript/) that I had started work on a second version of my Chrome Crawler extension and have only just managed to get it to a state I was happy with enough to release it. To be fair I had been on [a trip to New York](https://mikecann.co.uk/photos-personal/new-york-new-york/) during that period so perhaps I can be excused. Having said that however I think the time has been well spent and am fairly proud of the result.
-
+<!-- more -->
 ### TL;DR
 
 Recursive is an experimental tool for visualising the world wide web. Given a URL it downloads the page search for links and then recursively downloads those. The information is then displayed in a node-based graph.

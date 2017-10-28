@@ -9,6 +9,7 @@ tags:
   - Programming
   - Projects
   - Utility
+url: 856.html
 id: 856
 categories:
   - Actionscript
@@ -21,7 +22,7 @@ date: 2010-01-12 00:07:04
 [![](https://mikecann.co.uk/wp-content/uploads/2010/01/ScreenHunter_04-Jan.-11-22.36.jpg "ScreenHunter_04-Jan.-11-22.36")](https://mikecann.co.uk/wp-content/uploads/2010/01/ScreenHunter_04-Jan.-11-22.36.jpg)
 
 Well I was just doing some audio book organising and realised that it would be great if I could drag and drop a folder straight from my AIR into iTunes ready for upload to my iPhone.
-
+<!-- more -->
 Anyways after a little searching through the docs I came up with this little ditty:
 <pre>var cp : Clipboard = new Clipboard();
 cp.setData(ClipboardFormats.FILE_LIST_FORMAT, [new File(book.url)], false);

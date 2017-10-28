@@ -3,6 +3,7 @@ title: The New Bike
 tags:
   - Personal
   - Photos
+url: 801.html
 id: 801
 categories:
   - Photos &amp; Personal
@@ -10,7 +11,7 @@ date: 2009-12-15 00:16:36
 ---
 
 Well after the thieving of my bike [a few weeks ago](https://www.mikecann.co.uk/misc/bike-be-gone/) I was offered a new bike as replacement by the insurance company, a Kona Shred, another dirt bike.
-
+<!-- more -->
 And here it is:
 
 [![photo](https://mikecann.co.uk/wp-content/uploads/2009/12/photo.jpg "photo")](https://mikecann.co.uk/wp-content/uploads/2009/12/photo.jpg)

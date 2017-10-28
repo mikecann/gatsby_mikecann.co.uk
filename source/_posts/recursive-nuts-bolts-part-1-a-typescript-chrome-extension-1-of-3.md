@@ -9,6 +9,7 @@ tags:
   - spider
   - typescript
   - Web
+url: 2287.html
 id: 2287
 categories:
   - Programming
@@ -20,7 +21,7 @@ date: 2012-12-23 17:33:58
 [![screenshot_04](https://mikecann.co.uk/wp-content/uploads/2012/12/screenshot_041.png)](https://mikecann.co.uk/personal-project/recursive-nuts-bolts-part-1-a-typescript-chrome-extension-1-of-3/attachment/screenshot_04-5/)
 
 As [promised](https://mikecann.co.uk/personal-project/recursive-explore-the-endless-web/) I have decided to write a few blog posts on some of the technology behind my recently release Chrome extension Recursive.
-
+<!-- more -->
 Because there is quite a lot to cover, the discussion is going to be split over three posts. The first part is about the structure of the extension, Typescript and other tools and tech employed. The second will cover the actual recursing / crawling part of the extension. In the final part i'll talk about how I went about representing, laying out and rendering all the data that the crawling part generates.
 
 With that out the way lets get on with the show..

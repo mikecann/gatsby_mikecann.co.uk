@@ -3,17 +3,20 @@ title: My Third Coding Epiphany
 tags:
   - architecture
   - Code
+url: 5942.html
 id: 5942
 categories:
   - Misc
   - Programming
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2016/07/maxresdefault.jpg'
+coverMeta: out
 date: 2016-07-28 05:12:29
 ---
 
 I have been meaning to write this post for a while now and since I have spent most of this month back in the UK visiting friends and family I don't have all that much to share technically so I thought it was about time I got this post done.
 
 Over the course of my 23 years of coding I have had a number of what I call "Code Epiphanies". These are moments in my coding career where fundamental changes in how I code have taken place.
-<!--more-->
+<!-- more -->
 Like most, I started my coding career writing simple scripts, for me it was the odd bit of HTML, JS, PHP and AS. It was simple imperative code, usually all contained in one file. "When this is clicked do this, then do this" etc. 
 
 This way of coding served me well. It took me all the way to University at which point I encountered Java and I started to write larger and larger programs. I now started to struggle as I noticed that I had many more classes and objects but no way to easily tie them together.

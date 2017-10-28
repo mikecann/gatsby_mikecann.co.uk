@@ -6,6 +6,7 @@ tags:
   - entity
   - Framework
   - Game
+url: 5756.html
 id: 5756
 categories:
   - Programming
@@ -13,11 +14,13 @@ categories:
   - Unity
   - Unity-Ash
   - UnityAsteroids
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/10/header1.jpg'
+coverMeta: out
 date: 2015-10-30 05:45:00
 ---
 
 [Over a year ago](https://www.mikecann.co.uk/portfolio/projects/unity-ashteroids-ash-framework-in-unity/) I decided to scratch an itch and see if I could get Richard Lord's Ash framework to work in Unity. It actually turned out to be far easier than I had imagined. A few people contacted me as they wanted to use it for production games so I decided to do [a little more work on it a few months later](https://www.mikecann.co.uk/programming/unity-ash-upgrades/) to fix some of the easily solved issues with my quick port.
-
+<!-- more -->
 Unfortunately I lacked any spare time to work on it until now. This week I spent 3 days rewriting the framework from scratch. I improved many things, making it much more Unity-friendly, and generally easier to use. Because of the differences from the AS3 version of Ash I now describe it as "heavily inspired" rather than a port.
 
 <!--more-->

@@ -1,5 +1,6 @@
 ---
 title: How To Get Ahead in Science
+url: 147.html
 id: 147
 categories:
   - Fun &amp; Videos

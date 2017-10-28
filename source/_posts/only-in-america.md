@@ -5,6 +5,7 @@ tags:
   - Fun
   - Madness
   - Photos
+url: 1110.html
 id: 1110
 categories:
   - Photos &amp; Personal
@@ -12,7 +13,7 @@ date: 2010-07-15 21:52:24
 ---
 
 While over in [California](https://mikecann.co.uk/photos-personal/back-from-outer-space/) this month we saw some rather interesting things. Thought I would share them.
-
+<!-- more -->
 ## **Only in America..**
 
 [![](https://lh5.ggpht.com/_vZ6zE_QJfu0/TD97hoUz0yI/AAAAAAAAsYY/EXPQ85Jq2uY/s400/IMG_0857.JPG)](https://picasaweb.google.com/lh/photo/xG5PRUPpw2uwgA7CfMAdoA?feat=embedwebsite)

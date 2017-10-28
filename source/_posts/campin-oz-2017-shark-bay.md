@@ -5,8 +5,9 @@ tags:
   - Drone
   - photo
   - travel
+url: 6163.html
 id: 6163
-comment: false
+comments: false
 categories:
   - Above Under
 date: 2017-04-06 23:45:00
@@ -15,7 +16,7 @@ date: 2017-04-06 23:45:00
 **This post was copied from my site [AboveUnder.com](https://aboveunder.com) a site dedicated to my travel drone photography.**
 
 Shark Bay for us was a bit of a roller coast ride of highs and lows.
-
+<!-- more -->
 We arrived into Denham which is the hub for adventure in the region and spent a couple of days at a caravan park there exploring some of the lagoons of the area.
 
 ![Shark Bay pools](//cdn.shopify.com/s/files/1/1830/7597/files/DJI_0384_1024x1024.jpg?v=1491520993)

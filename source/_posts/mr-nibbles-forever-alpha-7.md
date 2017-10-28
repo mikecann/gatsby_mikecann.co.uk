@@ -9,14 +9,17 @@ tags:
   - unity
   - Update
   - Video
+url: 5565.html
 id: 5565
 categories:
   - Mr Nibbles Forever
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/03/2015-03-14_09-51-10.png'
+coverMeta: out
 date: 2015-03-14 03:31:31
 ---
 
 Well i'm now 8 weeks into development of Mr Nibbles Forever and I can safely say that the game is now feature complete (this probably should be Beta 1 release then not Apha 7 but oh well :P). I didn't do a release last week as I had quite a bit of other work on and so there wasn't all that much progress so I thought I would skip a week.
-
+<!-- more -->
 In this release:
 
 [![this-week](https://www.mikecann.co.uk/wp-content/uploads/2015/03/this-week.png)](https://www.mikecann.co.uk/wp-content/uploads/2015/03/this-week.png)

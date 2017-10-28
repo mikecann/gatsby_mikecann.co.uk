@@ -1,5 +1,6 @@
 ---
 title: Short Bio
+url: 122.html
 id: 122
 categories:
   - Misc

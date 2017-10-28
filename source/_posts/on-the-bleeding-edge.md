@@ -10,6 +10,7 @@ tags:
   - Projects
   - Robot Legs
   - Signals
+url: 895.html
 id: 895
 categories:
   - Actionscript
@@ -24,7 +25,7 @@ date: 2010-02-10 23:26:38
 ---
 
 Well it thought it was about time I did some posting about my personal project im working on at the moment as I havent spoken about my coding for a while.
-
+<!-- more -->
 For a while now (alot longer than I had hoped for) I have been working on a project that falls outside the realms of my usual kind of games-related projects. Im not ready do describe exactly what it is yet but im excited about it.
 
 For months I have been struggling with the techinal challenges the project has entailed and I have dabbled with many new and highly diverse technologies including [JavaFX](https://www.mikecann.co.uk/programming/flirting-with-javafx/) (Java), Qt (C++) and Mono (C#).  I have been looking for a cross-platform technology that will get the job done that I need and doing it in an elegant manner.

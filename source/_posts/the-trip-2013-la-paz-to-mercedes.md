@@ -8,6 +8,7 @@ tags:
   - travel
   - Trip
   - uraguay
+url: 4412.html
 id: 4412
 categories:
   - 2013 Trip
@@ -20,7 +21,7 @@ date: 2013-12-08 20:53:22
 [![screenshot_01](https://mikecann.co.uk/wp-content/uploads/2013/12/screenshot_01.png)](https://mikecann.co.uk/wp-content/uploads/2013/12/screenshot_01.png)
 
 We left our tour group in La Paz and continued on our own for the next week, time was tight as we had to be in Buenos Aires in just a few days to meet final tour group. I knew that no trip to South America is complete without a visit to the salt flats of Uyuni, Bolivia so we crowbared in a 3 day excursion into our schedule.
-
+<!-- more -->
 [![photo-23](https://mikecann.co.uk/wp-content/uploads/2013/12/photo-23.jpg)](https://www.facebook.com/photo.php?fbid=10152090537106031&amp;set=a.10152090529366031.1073741859.593661030&amp;type=3&amp;theater)
 
 The first day we visited the famous salt flats along with a train graveyard just outside of the dusty desert town.

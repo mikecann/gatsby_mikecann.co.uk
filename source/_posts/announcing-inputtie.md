@@ -11,10 +11,13 @@ tags:
   - Project
   - Sync
   - Tool
+url: 1308.html
 id: 1308
 categories:
   - Inputtie
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2010/09/inp.png'
+coverMeta: out
 date: 2010-09-09 17:58:03
 ---
 
@@ -22,7 +25,7 @@ For the last year or so my major personal-project has been under wraps but after
 
 First before I explain exactly what Inputtie is I will talk about why I started this project and the problem I was trying to solve.
 
-<!--more-->
+<!-- more -->
 
 (If you aren't interested in all the background fluff and just want to find out what Inputtie is, head over to [inputtie.com]( https://www.inputtie.com))
 

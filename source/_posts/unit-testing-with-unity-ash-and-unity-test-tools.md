@@ -5,15 +5,18 @@ tags:
   - engine
   - Framework
   - testing
+url: 5777.html
 id: 5777
 categories:
   - Unity-Ash
   - UnityAsteroids
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/11/tested-header.png'
+coverMeta: out
 date: 2015-11-02 09:45:01
 ---
 
 So I promised in my [last post](https://www.mikecann.co.uk/programming/unity-ash-a-different-way-of-thinking-about-making-games-in-unity/) to show how how [Unity-Ash](https://github.com/mikecann/Unity-Ash) can make things easyier when it comes to Unit Testing. 
-
+<!-- more -->
 I have added some tests to the [Unity Asteroids](https://github.com/mikecann/UnityAshteroids) example game. Lets take a look at one of the simpler systems as an example, the DeathThroesSystem:
 
 [code lang="csharp"]

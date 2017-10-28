@@ -6,6 +6,7 @@ tags:
   - Projects
   - WBFG
   - Websites
+url: 785.html
 id: 785
 categories:
   - HTML
@@ -15,7 +16,7 @@ date: 2009-12-10 20:44:37
 ---
 
 I took a little break from my 'top secret' project (more on this coming soon) this evening to do some much needed repair work on one of my flash games portals [www.worldsbestflashgames.com](www.worldsbestflashgames.com).
-
+<!-- more -->
 Top of my list was the fact that the index page doesn't render correctly in IE7\. What makes it odd is the fact that the category pages which are essentially identical to the index page rendered fine.This is what it looked like:
 
 [![ScreenHunter_01 Dec. 10 19.28](https://mikecann.co.uk/wp-content/uploads/2009/12/ScreenHunter_01-Dec.-10-19.28.jpg "ScreenHunter_01 Dec. 10 19.28")](https://mikecann.co.uk/wp-content/uploads/2009/12/ScreenHunter_01-Dec.-10-19.28.jpg)

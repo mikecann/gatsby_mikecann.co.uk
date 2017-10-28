@@ -5,6 +5,7 @@ tags:
   - problems
   - Stolen
   - tavel
+url: 3881.html
 id: 3881
 categories:
   - Travel
@@ -14,7 +15,7 @@ date: 2013-09-27 00:22:33
 ![screenshot_01](https://mikecann.co.uk/wp-content/uploads/2013/09/screenshot_012.png)
 
 Want to know how to loose 10% of your travel spends very fast? Get an STA Travel Cashcard.
-
+<!-- more -->
 I was sold the card by the agent in the STA highstreet store, to be honest I was a little stupid and didnt do a whole lot of research into it assuming it will be good value for money, oh how wrong can you be.
 
 I am half way through my 8 month journey now and have just decided to check my finances to see how im doing and how much its costing me every time I withdraw money here.
@@ -27,25 +28,36 @@ Obviously I was pretty angry when I saw this so I emailed STA which forwarded me
 
 > Dear Mr. Cann,
 > 
+> 
 > Thank you for your enquiry regarding a deeper explanation into our exchange rates.
+> 
 > 
 > Having provided you with the way in which our exchange rate is calculated we have been doing some research regarding what we have referred to as ‘market mid-rate’.
 > 
+> 
 > These are the findings from looking at our competitors exchange rates online based on 700,000 COP
+> 
 > 
 > (These are taken from the 26th of September 2013):
 > 
+> 
 > Post office               cost in GBP: £257.32          exchange rate: 2720.36
+> 
 > 
 > Thomas cook          cost in GBP: £266.06          exchange rate: 2631
 > 
+> 
 > STA cashcard          cost in GBP: £252.79          exchange rate: 2769.07
+> 
 > 
 > Having investigated our competitors’ rates it is clear that we are working closely to the other companies on the market and are cheaper than the Post Office and Thomas Cook.
 > 
+> 
 > **We appreciate that the VISA debit card you hold is charging you at a lower rate. With the debit card belonging to a bank rather than a travel company this may affect the way in which they calculate and maintain their exchange rates.**
 > 
+> 
 > If you would like to return the funds from your STA cash card to your debit card please advise of the bank details you wish the funds to be deposited in and this can be arranged for you.
+> 
 > 
 > We hope this resolves your query regarding the way in which our exchange rate is calculated and set.
 

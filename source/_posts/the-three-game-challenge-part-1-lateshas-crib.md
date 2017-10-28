@@ -7,6 +7,7 @@ tags:
   - Game
   - latesha
   - Mobile
+url: 2456.html
 id: 2456
 categories:
   - Actionscript
@@ -15,12 +16,14 @@ categories:
   - Latesha
   - Portfolio
   - Programming
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2013/04/lateesh.png'
+coverMeta: out
 date: 2013-04-03 12:27:08
 ---
 
 Well I have just finished off the first of [my three prototype games challenge](https://mikecann.co.uk/personal-project/the-three-game-challenge/) ([part two](https://mikecann.co.uk/personal-project/the-three-game-challenge-part-2-a-cunning-plan/), [part three](https://mikecann.co.uk/personal-project/the-three-game-challenge-part-3-the-family-jewels/)) that I set myself last week.
 
-<!--more-->
+<!-- more -->
 
 For this one I started off with an idea that I wanted to make a time-based puzzle game. Well it didn't turn out that way, also somewhere along the way I discovered an [Ebonics Translator](https://joel.net/EBONICS/Translator) so I decided I would incorporate that for a giggle.
 

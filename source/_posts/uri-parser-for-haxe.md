@@ -8,6 +8,7 @@ tags:
   - parse
   - tips
   - uri
+url: 1538.html
 id: 1538
 categories:
   - Chrome Crawler
@@ -18,7 +19,7 @@ date: 2011-04-11 21:01:51
 ---
 
 Continuing on my [theme of the moment haXe](https://mikecann.co.uk/programming/haxe/haxe-jqueryextern-gotcha/), I have another post  regarding the development of my haXe rewrite of  [ChromeCrawler](https://mikecann.co.uk/personal-project/chrome-crawler-v0-4-background-crawling-more/).
-
+<!-- more -->
 I was in need of a way to split a URL into its various parts. To do this in previous versions of ChromeCrawler I used a[ ready built one I found on the web](https://blog.stevenlevithan.com/archives/parseuri).
 
 I thought it should be a fairly simple matter to port this to haXe, unfortunately however this wasn't the case. The problem was that haXe, unlike JS, doesnt have the exec() method on its regular expression function. What this meant is that the URL couldnt be split in the same way.

@@ -6,6 +6,7 @@ tags:
   - java
   - planning
   - Project
+url: 1328.html
 id: 1328
 categories:
   - Inputtie
@@ -13,7 +14,7 @@ date: 2010-10-09 14:09:19
 ---
 
 I [promised in a previous post to post](https://mikecann.co.uk/inputtie/announcing-inputtie/) to talk about the Inputtie development process a little, the various challenges encountered and how I attempted to solve them.
-
+<!-- more -->
 In this post im going to talk about the very beginning of the project and what I knew I wanted to have in the final version. Subsequent posts will elaborate on the various technical hurdles and my attempts to solve them.
 
 ## The Problem

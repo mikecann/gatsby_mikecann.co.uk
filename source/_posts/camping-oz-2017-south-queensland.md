@@ -5,8 +5,9 @@ tags:
   - Drone
   - photo
   - travel
+url: 6180.html
 id: 6180
-comment: false
+comments: false
 categories:
   - Above Under
 date: 2017-08-09 00:53:00
@@ -15,7 +16,7 @@ date: 2017-08-09 00:53:00
  
 
 After Townsville we continued to work our way down the east coast of Australia. The next stop for us was Airlie Beach where we took the opportunity to visit the work famous Whitsunday islands.
-
+<!-- more -->
 ![](//cdn.shopify.com/s/files/1/1830/7597/products/Whitsunday_Islands_1024x1024.jpg?v=1500960346)
 
 ![](//cdn.shopify.com/s/files/1/1830/7597/products/Whitsunday_Tropical_Paradise_1024x1024.jpg?v=1500960367)

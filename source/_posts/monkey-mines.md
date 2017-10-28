@@ -5,11 +5,14 @@ tags:
   - Game
   - Personal
   - Projects
+url: 476.html
 id: 476
 categories:
   - Games
   - Monkey Mines
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2009/05/monkeymines.png'
+coverMeta: out
 date: 2009-05-10 13:30:12
 ---
 
@@ -17,7 +20,7 @@ Well here it is at last! Finally after almost a month of wheeling and dealing we
 
 What is it? Well its a remake of the classic Minesweeper game, but with a few changes. Rather than being top-down we have done it in an isometric fashion. Im not sure how successful this has been as some have reported that it makes the game harder to play being isometric.
 
-<!--more-->
+<!-- more -->
 
 <object width="600" height="500" data="https://www.mikecann.co.uk/projects/monkeymines/MonkeyMines.swf" type="application/x-shockwave-flash"><param name="src" value="https://www.mikecann.co.uk/projects/monkeymines/MonkeyMines.swf" /></object>
 

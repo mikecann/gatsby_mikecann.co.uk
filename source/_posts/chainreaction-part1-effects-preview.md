@@ -1,5 +1,6 @@
 ---
 title: ChainReaction (part1) - Effects Preview
+url: 166.html
 id: 166
 categories:
   - Actionscript
@@ -12,7 +13,7 @@ tags:
 
 Okay its project presenting time again. This time its a biggie, its my final year main module, 60 credits of year-long projectness (not a word i know). 
 
-<!--more-->
+<!-- more -->
 
 Well its almost getting to the end of the project and i thought i would release bits and bobs as they are finished. 
 

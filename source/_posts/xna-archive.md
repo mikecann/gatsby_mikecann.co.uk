@@ -1,5 +1,6 @@
 ---
 title: XNA Archive
+url: 365.html
 id: 365
 categories:
   - Actionscript
@@ -18,7 +19,7 @@ tags:
 ---
 
 I just realised some of my old XNAGPUParticles project videos have gone walkies. So I have reposted them on youtube. These are my old projects from my final year of uni, binary and source code can be found in the relevant post for each video.
-
+<!-- more -->
 [https://www.mikecann.co.uk/?p=163](https://www.mikecann.co.uk/?p=163)
 httpvh://www.youtube.com/watch?v=vxrg1YavBIg
 [

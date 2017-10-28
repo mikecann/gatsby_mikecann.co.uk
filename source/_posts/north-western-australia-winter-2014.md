@@ -4,14 +4,17 @@ tags:
   - australia
   - Photos
   - travel
+url: 5331.html
 id: 5331
 categories:
   - Photos &amp; Personal
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/08/photo-30.jpg'
+coverMeta: out
 date: 2014-08-30 06:15:18
 ---
 
 Well I have been back for over 3 weeks now but only just got round to uploading the pictures and videos from my 3 week trip up north. I had an absolute blast exploring some of the more remote Australian countryside. 
-
+<!-- more -->
 This was the rough journey we took:
 
 <iframe src="https://mapsengine.google.com/map/embed?mid=zqHG_2WyX1Rw.kCEeJQ21ypI8" width="640" height="480"></iframe>

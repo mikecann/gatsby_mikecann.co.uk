@@ -6,14 +6,17 @@ tags:
   - nibbles
   - shadows
   - skybox
+url: 5306.html
 id: 5306
 categories:
   - Mr Nibbles 3D
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/07/screenshot_010.png'
+coverMeta: out
 date: 2014-07-09 07:16:04
 ---
 
 After that [short interlude](https://www.mikecann.co.uk/myprojects/unityasteroids/unity-ashteroids-ash-framework-in-unity/) im back to games development. This time its more work on Mr Nibbles 3D.
-
+<!-- more -->
 I decided to experiment with Skyboxes. I have never worked with them in Unity so I didn't know how hard they would be to get working. I shouldn't have been worried, as with most thing in Unity, it was a piece of cake. Unity even ships with some default Skyboxes so I chucked one of those in.
 
 <iframe width="640" height="360" src="//www.youtube.com/embed/oHtBht-4xpQ" frameborder="0" allowfullscreen></iframe>

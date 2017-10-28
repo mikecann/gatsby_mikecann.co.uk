@@ -5,6 +5,7 @@ tags:
   - photo
   - Trip
   - washington
+url: 2509.html
 id: 2509
 categories:
   - 2013 Trip
@@ -15,7 +16,7 @@ date: 2013-05-21 15:58:55
 [![screenshot_02](https://mikecann.co.uk/wp-content/uploads/2013/05/screenshot_02.png)](https://mikecann.co.uk/wp-content/uploads/2013/05/screenshot_02.png)
 
 So my trip has finally started! I have not had anywhere near as much free time thus far as I thought I would have before I left. A great thing as there is no chance of me getting bored, it does however mean that I haven't had time to write the frequent blog posts I had promised.
-
+<!-- more -->
 I have decided to try and write these posts a a sort of slideshow with narrative  Im not sure its the correct format however as it takes quite a while to write each one, so perhaps ill tweak the way I do this as I go along. Each photo taken links back to a publicly available image on facebook so you can like and comment and see a larger version if you wish.
 
 This is just a condensed summary, there are more images in the album [The Trip 2013 - Washington DC](https://www.facebook.com/media/set/?set=a.10151640158721031.1073741830.593661030&amp;type=1&amp;l=5197ba3b4a)

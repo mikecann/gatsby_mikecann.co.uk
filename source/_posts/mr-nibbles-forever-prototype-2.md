@@ -1,15 +1,18 @@
 ---
 title: Mr Nibbles Forever - Prototype 2
+url: 5522.html
 id: 5522
 categories:
   - Mr Nibbles Forever
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/01/2015-01-24_17-26-15.png'
+coverMeta: out
 date: 2015-01-25 23:52:20
 tags:
 ---
 
 So its almost a week on since the first build of Mr Nibbles Forever and a fair bit of work has gone into the game this week. Its starting to take shape a little more now which i'm happy about.
-
+<!-- more -->
 I had a few people play the first Prototype last week and the overwhelming response was that it was too hard so the first thing I did this week was to make the game easier. So I slowed Mr Nibbles down and making the tilting of the device more responsive. Then I added a difficulty progression to the game. The longer you play it the harder the game gets. Check out the difficulty progression in the video below:
 
 <iframe width="854" height="510" src="//www.youtube.com/embed/-XXg4rYJfmA?list=UU9-RJld8R0v5ywwBT8csdZA" frameborder="0" allowfullscreen></iframe>

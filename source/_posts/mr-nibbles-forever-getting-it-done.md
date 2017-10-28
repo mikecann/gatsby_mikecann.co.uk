@@ -5,15 +5,18 @@ tags:
   - goals
   - Marketing
   - plan
+url: 5608.html
 id: 5608
 categories:
   - Mr Nibbles Forever
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/06/gettingitdoneheader.jpg'
+coverMeta: out
 date: 2015-06-21 07:30:58
 ---
 
 I talked about this in my [last blog post](https://www.mikecann.co.uk/myprojects/mr-nibbles-alpha-8/) but Mr Nibbles Forever is starting to take shape now. The features have been ready for some time now and the the last update saw 95% of the game's artwork go in. Basically the game itself its pretty much there apart from bug fixes and polish.
-
+<!-- more -->
 Anyone who has worked with indie games will tell you that making the game is the easy bit, its all the rest that is hard. Its that phase that I am now entering into. There is much that I need to do before I can release the game so I thought I would try to get some goals for the next few weeks so I can plan out the next series of steps and hopefully it will help others who are in a similar situation.
 
 ## 22nd-28th June

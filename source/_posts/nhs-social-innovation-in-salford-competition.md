@@ -4,6 +4,7 @@ tags:
   - competition
   - nhs
   - salford
+url: 2812.html
 id: 2812
 categories:
   - Misc
@@ -13,7 +14,7 @@ date: 2013-07-12 23:09:27
 ![screenshot_02](https://mikecann.co.uk/wp-content/uploads/2013/07/screenshot_02.png)
 
 Before leaving to go on my trip I entered a competition being run by the NHS called "[Social Innovation in Salford](https://www.nwsocialvaluefoundation.org/competition/)". The intention of the competition is to find people with ideas for how to solve some issues currently facing the NHS in the Manchester region.
-
+<!-- more -->
 The competition is split into several parts with the brief for the first part being:
 
 > How to give older people greater control and enable them to have more meaningful and fulfilling lives and in so doing reduce demand on the health and social care system

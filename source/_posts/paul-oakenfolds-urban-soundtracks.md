@@ -1,5 +1,6 @@
 ---
 title: Paul Oakenfold's Urban Soundtracks
+url: 436.html
 id: 436
 categories:
   - Audio
@@ -9,7 +10,7 @@ tags:
 ---
 
 As I enjoy both trance music and audio books, so what could be better than mixing both together?
-
+<!-- more -->
 This is an interesting project by one of the master of electronica Paul Okenfold. Some of them work better than others, give them a listen and let me know what you think :)
 
 **Paul Oakenfold's Urban Soundtracks - **Selected passages from narrated stories such as; Alice in Wonderland, Frankenstein, The Fall of the House of Usher. Narration is mixed with music, mostly trance/electronica, to enhance the story. Heard on Galaxy FM

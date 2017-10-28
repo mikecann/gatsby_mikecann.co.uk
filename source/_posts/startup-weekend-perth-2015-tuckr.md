@@ -6,15 +6,18 @@ tags:
   - hackathon
   - perth
   - startup
+url: 5797.html
 id: 5797
 categories:
   - Hackathons
   - Tuckr
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/11/tuckr.png'
+coverMeta: out
 date: 2015-11-16 02:49:19
 ---
 
 So this weekend I took part in an event I signed up for some time ago: Startup Weekend, Perth. Startup Weekend is an event where teams all over the world come together to build a startup over the course of a weekend.
-
+<!-- more -->
 [![2015-11-16_08-28-59](https://www.mikecann.co.uk/wp-content/uploads/2015/11/2015-11-16_08-28-59-1024x615.png)](https://www.mikecann.co.uk/wp-content/uploads/2015/11/2015-11-16_08-28-59.png)
 
 Being very interested in startups as I am and having enjoyed [GovHack earlier this year](https://www.mikecann.co.uk/portfolio/projects/govhack-2015-should-i-drive/) I thought it would be a perfect event for me. 

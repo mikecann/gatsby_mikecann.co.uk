@@ -5,6 +5,7 @@ tags:
   - haxe
   - talk
   - tryharder
+url: 1656.html
 id: 1656
 categories:
   - Conferences
@@ -16,7 +17,7 @@ date: 2011-10-08 15:59:02
 [![](https://mikecann.co.uk/wp-content/uploads/2011/10/OgAAAHhn4BJar2TiwRVG6a9Iyn24Zeg3ov_xhlUpxh8Qc82gF7JUO0ZpZ1GKsyt9wvRVycQokM5VyyD1y19zptmBtDEA15jOjFehd4noW7IGV2At9D0xiW5l-E_D.jpeg "OgAAAHhn4BJar2TiwRVG6a9Iyn24Zeg3ov_xhlUpxh8Qc82gF7JUO0ZpZ1GKsyt9wvRVycQokM5VyyD1y19zptmBtDEA15jOjFehd4noW7IGV2At9D0xiW5l-E_D")](https://mikecann.co.uk/wp-content/uploads/2011/10/OgAAAHhn4BJar2TiwRVG6a9Iyn24Zeg3ov_xhlUpxh8Qc82gF7JUO0ZpZ1GKsyt9wvRVycQokM5VyyD1y19zptmBtDEA15jOjFehd4noW7IGV2At9D0xiW5l-E_D.jpeg)
 
 This week was a week of firsts. It was the first meeting for the [try {harder}](https://www.tryharder.org.uk/) conference. It was the first flash conference I have ever attended and it was my first time speaking infront of a group of my peers on a topic I feel passionate about.
-
+<!-- more -->
 The idea behind the conference was to introduce a smaller (16 people), more intimate conference environment where the key was to learn and inspire. And in that goal it certainty succeeded.
 
 The fact that everyone had to give a talk encouraged attentiveness and participation as you knew it was only a matter of time before you were in the same situation. It also reduced the stress that comes from speaking to so many very intelligent people.

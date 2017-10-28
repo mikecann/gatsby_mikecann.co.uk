@@ -5,8 +5,9 @@ tags:
   - Drone
   - photo
   - travel
+url: 6160.html
 id: 6160
-comment: false
+comments: false
 categories:
   - Above Under
 date: 2017-03-28 10:47:00
@@ -15,7 +16,7 @@ date: 2017-03-28 10:47:00
 **This post was copied from my site [AboveUnder.com](https://aboveunder.com) a site dedicated to my travel drone photography.**
 
 First stop on our epic 5-month adventure was at the sea side town of Lancelin just a few hundred K's north of Perth.
-
+<!-- more -->
 A seaside town that was super windy which the numerous Kite Surfers were taking advantage of.
 
 We only had one night here so not much time to explore around but I was keen to take some drone photography one of the main attractions here; the dunes.

@@ -10,6 +10,7 @@ tags:
   - ludum
   - Particles
   - worms
+url: 1261.html
 id: 1261
 categories:
   - 48 Hours Later
@@ -20,7 +21,7 @@ date: 2010-08-22 08:37:45
 [![](https://mikecann.co.uk/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-22-09.36.jpg "ScreenHunter_01 Aug. 22 09.36")](https://mikecann.co.uk/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-22-09.36.jpg)
 
 Well its been quite a while since my last progress report. I have mostly been sleeping (well 4 hours of it anyways).
-
+<!-- more -->
 So progress is coming along nicely STILL no gameplay tho :S
 
 So far you can shoot and destroy the enemies and then collect thier giblets before they become part of the terrain. The idea is that you can then shoot those giblets back at the enemies. Take alook if you are interested:

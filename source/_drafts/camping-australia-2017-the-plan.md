@@ -1,9 +1,12 @@
 ---
 title: Camping Australia 2017 - The Plan
+url: 6117.html
 id: 6117
 categories:
   - 2017 Camping Australia
   - Travel
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2017/01/header.jpg'
+coverMeta: out
 tags:
 ---
 

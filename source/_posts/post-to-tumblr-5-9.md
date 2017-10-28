@@ -5,16 +5,19 @@ tags:
   - post to tumblr
   - tumblr
   - upload
+url: 5414.html
 id: 5414
 categories:
   - Post To Tumbr
   - Programming
   - TypeScript
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/10/promotion920x680.png'
+coverMeta: out
 date: 2014-10-03 01:18:15
 ---
 
 One thing that has always bothered me with Post To Tumblr ever since version 1.0, and I have finally fixed it in 5.9!
-
+<!-- more -->
 First I should explain how photo posting works in Post To Tumblr. Its pretty simple. First I take the URL of the image the user clicks on from Chrome, then send that URL to my server with some other information (such as formatting options) then I bundle all that up into an API call to Tumblr. Tumblr then takes that URL and downloads it, caching it to its own server returning a URL with the newly created post, I hand that back to the browser for the user to view and we are done.
 
 Now the problem comes if Tumblr is unable to access that image. That could happen if the image is behind a password protected firewall such a GMail attachment or a private Facebook photo for example. 

@@ -1,5 +1,6 @@
 ---
 title: A lil AS3 Performance Testing
+url: 243.html
 id: 243
 categories:
   - Actionscript
@@ -15,7 +16,7 @@ Because of my earlier work on destructible landscapes on [LieroXNA ](https://www
 
 One of these is the reading of the pixel data to perform collision checks. This has to be quick as all the objects must check each frame to see if they collide with the terrain and potentially more than one &quot;lookup&quot; must happen to do this (pixel perfect collisions).
 
-<!--more-->
+<!-- more -->
 
 So before i dive into this potentially hazardous project i have decided to do a little performance checking to see which method would be the best.
 

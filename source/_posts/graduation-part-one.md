@@ -1,5 +1,6 @@
 ---
 title: Graduation Part One
+url: 206.html
 id: 206
 categories:
   - Misc

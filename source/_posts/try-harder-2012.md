@@ -10,6 +10,7 @@ tags:
   - RobotLegs
   - speaking
   - stray
+url: 2159.html
 id: 2159
 categories:
   - Photos &amp; Personal
@@ -20,7 +21,7 @@ date: 2012-10-17 20:02:06
 [![](https://mikecann.co.uk/wp-content/uploads/2012/10/thheader.jpg "thheader")](https://mikecann.co.uk/wp-content/uploads/2012/10/headfull.jpg)
 
 The above is what it looks like from a speakers position at the [try { harder }](https://www.tryharder.org.uk/) conference. ([click to embiggen](https://mikecann.co.uk/wp-content/uploads/2012/10/headfull.jpg)).
-
+<!-- more -->
 I had indented to write this post a couple of weeks ago, immediately after the conference but [STRATO denied that](https://mikecann.co.uk/photos-personal/strato-and-the-customer-support-circle-of-doom/). But oh well, here it is anyways.
 
 This year was the second annual try { harder } conference / coder retreat / brain explosion. I have spoken about try harder in the past but it really is a uniquely awesome event. Its a rather intimate affair  where 10-15 people getting together and sharing ideas and knowledge in the tranquil forests of Center Parks Nottingham.

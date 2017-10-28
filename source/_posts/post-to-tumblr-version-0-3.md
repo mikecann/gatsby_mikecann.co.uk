@@ -11,6 +11,7 @@ tags:
   - upgrade
   - version
   - Video
+url: 1422.html
 id: 1422
 categories:
   - Post To Tumbr
@@ -20,7 +21,7 @@ date: 2010-10-31 11:04:26
 [![](https://mikecann.co.uk/wp-content/uploads/2010/10/Shot_004.png "Shot_004")](https://mikecann.co.uk/wp-content/uploads/2010/10/Shot_004.png)
 
 Just made a quick little update to my chrome extension "Post To Tumblr".
-
+<!-- more -->
 In this update I finally worked out how to catch bad username or password returns from the Tumbr API. Basically it just involved me using the ajax rather than the post jQuery function and using "async:false" like so:
 
 [codesyntax lang="javascript"]

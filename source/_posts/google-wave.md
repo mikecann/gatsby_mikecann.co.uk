@@ -3,6 +3,7 @@ title: Google Wave
 tags:
   - Google
   - Wave
+url: 712.html
 id: 712
 categories:
   - Misc
@@ -12,7 +13,7 @@ date: 2009-10-15 14:06:56
 [![2009-10-15_1400](https://mikecann.co.uk/wp-content/uploads/2009/10/2009-10-15_1400.png "2009-10-15_1400")](https://mikecann.co.uk/wp-content/uploads/2009/10/2009-10-15_1400.png)
 
 Had my first proper real-time wave today and although I was a little skeptical at first I must admit it really worked very well and surprisingly was actually alot of fun!
-
+<!-- more -->
 Im honestly not sure whether it will take off and become the 'next big thing' or not, but I hope so! I would love to write all my blog-posts, emails, msn conversations in one convenient place and have realtime updates an backups.
 
 Anyway, if you are lucky enough to be in the preview add me mike.cann@googlewave.com and we can have a chat about it :)

@@ -1,5 +1,6 @@
 ---
 title: artificial2
+url: 35.html
 id: 35
 categories:
   - Art

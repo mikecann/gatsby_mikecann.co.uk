@@ -10,6 +10,7 @@ tags:
   - sprites
   - stateless
   - WebGL
+url: 1602.html
 id: 1602
 categories:
   - GLSL
@@ -23,7 +24,7 @@ date: 2011-08-11 20:38:13
 
 Following on from my previous experiments into the world of [haXe and HTML5](https://mikecann.co.uk/personal-project/more-html5-haxe-speed-tests/) I have been playing around again with trying to get as many 2D sprites on screen as I can.
 
-<!--more-->
+<!-- more -->
 
 I started by reading some posts by google on how to render things fast in HTML5, and it got me thinking. Where I was likely going wrong with my[ HaXe + Three.js experiments](https://mikecann.co.uk/personal-project/chrome-crawler-haxe-three-js-webgl-and-2d-sprites/) was that I was making a separate draw call to WebGL for each and every crawler. Draw calls are expensive and hence I was reaching the draw call bottleneck at just 2000 sprites being rendered at once.
 

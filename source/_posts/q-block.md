@@ -4,6 +4,7 @@ tags:
   - Art
   - Draw
   - Pixel
+url: 667.html
 id: 667
 categories:
   - Flash

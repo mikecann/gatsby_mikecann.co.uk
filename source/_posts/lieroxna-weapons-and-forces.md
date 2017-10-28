@@ -1,5 +1,6 @@
 ---
 title: LieroXNA - Weapons and Forces
+url: 196.html
 id: 196
 categories:
   - 'C#'
@@ -13,7 +14,7 @@ tags:
 I have been working hard on LieroXNA this weekend and have managed to get quite abit of what I wanted done. 
 
 Firstly I worked on setting up a framework for weapons that allows them to be described by an external xml. This should reduce the effort involved in creating new weapons in the future. Taking a quick look at the XML that describes the rocket weapon you can see its straight forward but also pretty powerful:
-
+<!-- more -->
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
 
 &lt;weapon name=&quot;Rocket&quot; type=&quot;projectile&quot;&gt;

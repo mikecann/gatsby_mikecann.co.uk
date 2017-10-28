@@ -1,5 +1,6 @@
 ---
 title: puzzlesphere
+url: 54.html
 id: 54
 categories:
   - Art

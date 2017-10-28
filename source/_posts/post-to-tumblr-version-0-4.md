@@ -6,6 +6,7 @@ tags:
   - preformat
   - tumblr
   - Update
+url: 1427.html
 id: 1427
 categories:
   - Post To Tumbr
@@ -15,7 +16,7 @@ date: 2010-10-31 18:50:22
 [![](https://mikecann.co.uk/wp-content/uploads/2010/10/Shot_0012.png "Shot_001")](https://mikecann.co.uk/wp-content/uploads/2010/10/Shot_0012.png)
 
 Today is a small update day it seems.
-
+<!-- more -->
 I have updated my Post To Tumblr extension again. I was getting a couple of requests for the ability to add a 'caption' to a post before the image is uploaded so I cranked out this little feature. You can enable it in the options.
 
 Once enabled rather than immediately posting the image it will popup a new tab allowing you to add a caption or whatever to your post:

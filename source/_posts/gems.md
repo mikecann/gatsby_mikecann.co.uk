@@ -1,5 +1,6 @@
 ---
 title: gems
+url: 43.html
 id: 43
 categories:
   - Art

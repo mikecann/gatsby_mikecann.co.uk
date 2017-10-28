@@ -1,5 +1,6 @@
 ---
 title: skyworld
+url: 65.html
 id: 65
 categories:
   - Art

@@ -11,6 +11,7 @@ tags:
   - Project
   - simple
   - spider
+url: 1451.html
 id: 1451
 categories:
   - Chrome Crawler
@@ -25,7 +26,7 @@ date: 2010-12-06 18:28:57
 **EDIT: I now have a newer, better version of this called "[Recursive](https://mikecann.co.uk/category/personal-project/recursive/)"**
 
 Depending on your level of geekness you may or may not enjoy this one.
-
+<!-- more -->
 I proudly present [Chrome Crawler](https://chrome.google.com/extensions/detail/amjiobljggbfblhmiadbhpjbjakbkldd), my latest Google Chrome extension:
 
 [![](https://mikecann.co.uk/wp-content/uploads/2010/12/Shot_002.png "Shot_002")](https://mikecann.co.uk/wp-content/uploads/2010/12/Shot_002.png)

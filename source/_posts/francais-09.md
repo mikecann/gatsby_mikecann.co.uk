@@ -3,6 +3,7 @@ title: Francais '09
 tags:
   - Personal
   - Photos
+url: 624.html
 id: 624
 categories:
   - Photos &amp; Personal
@@ -10,7 +11,7 @@ date: 2009-07-30 13:00:55
 ---
 
 Well im finally back in Manchester after my little trip to the south of France. Had a splendid time eating, drinking and working on my tan. We also went to a wedding of two friends on the last couple of days.
-
+<!-- more -->
 I thoroughly enjoyed myself, but now im back im looking forward to getting stuck in to my new job starting Monday (more coming on that) and finishing off some of my existing projects (BlastWave, WorldsBestFlashGames) so I can finally get stuck into some iPhone dev!
 
 As per usual I have uploaded the pictures and videos to my [picassa account](https://picasaweb.google.co.uk/mike.cann/SouthFrance09#), but here are some highlights:

@@ -8,6 +8,7 @@ tags:
   - travel
   - tri
   - tyrona
+url: 3746.html
 id: 3746
 categories:
   - 2013 Trip
@@ -16,7 +17,7 @@ date: 2013-09-21 12:00:14
 ---
 
 **Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [The Trip 2013 - Tyrona to Bucaramanga](https://www.facebook.com/media/set/?set=a.10151899189516031.1073741847.593661030&type=1&l=807a813e7f). Each picture can be clicked to see a larger version and comment / like.**
-
+<!-- more -->
 ![screenshot_01](https://mikecann.co.uk/wp-content/uploads/2013/09/screenshot_011.png)
 
 Continuing on my adventures on the northern coast of Colombia I left Taganga and made my way across to the incredibly picturesque Tyrona National Park.

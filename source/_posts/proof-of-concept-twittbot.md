@@ -8,18 +8,21 @@ tags:
   - Plugin
   - Projects
   - Twitter
+url: 446.html
 id: 446
 categories:
   - 'C#'
   - Concepts
   - Programming
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2009/04/twitbot.png'
+coverMeta: out
 date: 2009-04-30 19:49:32
 ---
 
 Well for the last few evenings I have been working on this little proof of concept. One of my work colleague Ade ([@6t8](https://twitter.com/6t8)) came up with the idea "someone should make a game that you can play over twitter". Well after abit of excitement and talk I decided to have a go at coding this idea. Once I had started I realised that it could be possible to do alot more with this, so I decided to make the project a little more generic and turn it into a pluggable bot for automating twitter.
 
-<!--more-->
+<!-- more -->
 
 After a few evenings work however I decided that this project was going to take up a bit too much of my time, especially when I had so much other work to do. So I have decided to release what I have done and let other take it and develop it if they wish.
 

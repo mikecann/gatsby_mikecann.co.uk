@@ -1,5 +1,6 @@
 ---
 title: More Harmony Creations
+url: 965.html
 id: 965
 categories:
   - Art
@@ -10,7 +11,7 @@ tags:
 Was doing some more playing around on [Harmony](https://mrdoob.com/projects/harmony) this evening, so relaxing. It kinda reminds me of some of the stuff I did on [Particle Playground](https://www.mikecann.co.uk/programming/particle-playground/).
 
 Here are some of the better ones..
-
+<!-- more -->
 Click them for full-size versions
 
 [![](https://www.mikecann.co.uk/wp-content/uploads/2010/03/wavebow-1024x562.png "wavebow")](https://mikecann.co.uk/wp-content/uploads/2010/03/wavebow.png)

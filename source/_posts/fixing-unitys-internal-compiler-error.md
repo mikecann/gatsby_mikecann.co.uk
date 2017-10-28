@@ -1,16 +1,19 @@
 ---
 title: Fixing Unity's Internal Compiler Error
+url: 4987.html
 id: 4987
 categories:
   - 'C#'
   - Programming
   - Unity
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/05/header1.png'
+coverMeta: out
 date: 2014-05-13 05:25:14
 tags:
 ---
 
 As mentioned in my [last post](https://www.mikecann.co.uk/personal-project/parse-com-type-safe-extensions-for-unity/), I am working on a Unity game that takes advantage of [Parse](https://parse.com) for Asyncronous multiplayer. Well one nice feature of parse is that it uses Tasks to handle its asynchronicity.
-
+<!-- more -->
 [Tasks](https://www.parse.com/docs/unity_guide#tasks) are very much like JS promises (except they are type-safe) and return when the operation has completed. For example:
 
 [code lang="csharp"]
@@ -77,6 +80,7 @@ Task.Factory.StartNew(StartBusyIndicator)
 The only problem is that when I tried to implement his C# library Unity started throwing the dreaded Internal Compiler Error:
 
 > **Internal compiler error. See the console log for more information. output was:**
+> 
 > ** Unhandled Exception: System.ArgumentNullException: Argument cannot be null.**
 
 It took me a while to work out what was going on. I managed to simplify the entire problem down to this simple example:

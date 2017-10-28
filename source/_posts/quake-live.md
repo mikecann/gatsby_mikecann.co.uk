@@ -1,5 +1,6 @@
 ---
 title: Quake Live
+url: 360.html
 id: 360
 categories:
   - Misc

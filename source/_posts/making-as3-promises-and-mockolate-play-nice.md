@@ -6,15 +6,18 @@ tags:
   - mockolate
   - promises
   - testing
+url: 5742.html
 id: 5742
 categories:
   - Actionscript
   - Programming
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/10/header.jpg'
+coverMeta: out
 date: 2015-10-13 00:23:55
 ---
 
 For the [past 5 months](https://www.mikecann.co.uk/uncategorized/started-work-at-thebroth-in-perth/) my day job has been an AS3 developer with the awesome folks over at The Broth in Perth. Having worked with AS3 for most of my professional career it was a good fit for my coding skills. 
-
+<!-- more -->
 I hadn't worked in AS3 for about 2 years before joining but there wasn't much to catch up on regarding the language or platform (sadly things arent moving very fast in the Flash world these days) but there was much to catch up with regards to my new interest in Unit Testing and TDD. I made it my mission to become the testing, clean code and best practices guy here and as such have been learning and writing many tests. 
 
 As anyone that has done unit testing will know, mocking is a big part of unit testing. In AS3 one of the main mocking libraries is called [Mockolate](https://mockolate.org/). Its an excellent library but unfortunately it hasnt been updated for over 3 years, so when I ran into an issue with it in conjunction with another AS3 library [promise-as3](https://github.com/CodeCatalyst/promise-as3) (not updated for 1+ years) it lead to weeks of frustration.

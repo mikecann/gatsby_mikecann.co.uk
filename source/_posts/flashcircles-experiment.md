@@ -1,5 +1,6 @@
 ---
 title: FlashCircles Experiment (+Source)
+url: 142.html
 id: 142
 categories:
   - Flash
@@ -10,7 +11,7 @@ tags:
 
 I was in the pub yesterday with Toni and some friends and we saw a painting on the wall that was compleately made up of circles of various sizes with varying borders and none of the circles overlapped. 
 
-<!--more-->
+<!-- more -->
 
 Well Toni and i got into a discussion of how it could be done in code. I suggested it could be done via a brute force method, she dissagreed and thought that a more mathimatical approch would be better. 
 

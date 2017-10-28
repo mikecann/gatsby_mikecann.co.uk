@@ -9,6 +9,7 @@ tags:
   - Physics
   - simulation
   - xbox
+url: 1595.html
 id: 1595
 categories:
   - Fun &amp; Videos
@@ -19,7 +20,7 @@ date: 2011-07-31 11:50:23
 [![](https://mikecann.co.uk/wp-content/uploads/2011/07/Gamescom-2010-From-Dust-First-Look-Preview.jpg "Gamescom-2010-From-Dust-First-Look-Preview")](https://mikecann.co.uk/wp-content/uploads/2011/07/Gamescom-2010-From-Dust-First-Look-Preview.jpg)
 
 Its not often these days that I post about games I have been playing, usually I leave that sort of stuff in the realms of [Twitter](https://twitter.com/mikeysee) or social networks.
-
+<!-- more -->
 For "From Dust" however ill make an exception. It's also not often these days that I see some tech in a game and wonder to myself "how the hell did they do that?" or just "wow I have never seen that done before". From Dust made me think both those things this week.
 
 From Dust is a god game that follows in the heels of other god games such as Populus and Black and White. The reason why it has attracted my attention so much is the incredible tech that the game employs.

@@ -8,6 +8,7 @@ tags:
   - ludum
   - Particles
   - Project
+url: 1251.html
 id: 1251
 categories:
   - 48 Hours Later
@@ -18,7 +19,7 @@ date: 2010-08-21 18:34:52
 [![](https://mikecann.co.uk/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-21-19.31.jpg "ScreenHunter_01 Aug. 21 19.31")](https://mikecann.co.uk/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-21-19.31.jpg)
 
 Okay its been about 6 hours since my last update, and I have been working pretty much solid apart from an hour lunchbreak when I went for a wander into town.
-
+<!-- more -->
 Ive made quite abit of progress with the core bits of the engine including the physics particle systems and the destructible terrain.
 
 Dont believe me? Take a look for yourself:

@@ -5,14 +5,17 @@ tags:
   - models
   - nibbles
   - shaders
+url: 5386.html
 id: 5386
 categories:
   - Mr Nibbles 3D
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/08/screenshot_002.png'
+coverMeta: out
 date: 2014-08-31 03:12:36
 ---
 
 Its been a little while since I have had any time to work on my new game Mr Nibbles 3D but i'm happy to be back developing again. I have conscripted a friend of mine to do the artwork for the game and he has been busy over the last few weeks coming up with some new models of the game. 
-
+<!-- more -->
 Check the image above to see his render of Mr Nibbles with his corn 'nibbles' or checkout the video below where I show off some new things:
 
 <iframe width="640" height="360" src="//www.youtube.com/embed/VsD9OG7nqgg" frameborder="0" allowfullscreen></iframe>

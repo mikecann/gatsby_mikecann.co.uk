@@ -7,6 +7,7 @@ tags:
   - library
   - RobotLegs
   - swiftsuspenders
+url: 1931.html
 id: 1931
 categories:
   - Actionscript
@@ -18,7 +19,7 @@ date: 2012-06-30 11:04:25
 [![](https://mikecann.co.uk/wp-content/uploads/2012/06/robotlegsplushaxe.jpg "robotlegsplushaxe")](https://mikecann.co.uk/wp-content/uploads/2012/06/robotlegsplushaxe.jpg)
 
 I originally hoped that this post would be about my successful completion of a RobotLegs2 port to Haxe however something else has come up (more on that in a later post) so instead im just going to talk about the process and progress of the port thus far.
-
+<!-- more -->
 So although there is already [an excellent RobotLegs 1 Haxe port](https://github.com/DavidPeek/robothaxe) out there by David Peek, I decided I would like to try to port the brand new [Robot Legs 2 Framework](https://github.com/robotlegs/robotlegs-framework)  which offers a great many improvements over the original.
 
 Rather than beginning the port from scratch I decided to use as3hx to take the legwork out of converting the AS3 code to Haxe code. To get the tool you must first checkout the library from its google code repo at: [https://caffeine-hx.googlecode.com/svn/trunk/projects/as3hx/](https://caffeine-hx.googlecode.com/svn/trunk/projects/as3hx/)

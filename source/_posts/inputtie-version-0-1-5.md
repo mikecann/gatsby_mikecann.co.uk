@@ -9,6 +9,7 @@ tags:
   - Project
   - Update
   - version
+url: 1406.html
 id: 1406
 categories:
   - Inputtie
@@ -18,7 +19,7 @@ date: 2010-10-17 19:31:34
 [![](https://mikecann.co.uk/wp-content/uploads/2010/10/Untitled-1.png "Untitled-1")](https://mikecann.co.uk/wp-content/uploads/2010/10/Untitled-1.png)
 
 Just a few small changes in this update:
-
+<!-- more -->
 From the release notes:
 
 Inputtie Version 0.1.5 (17/10/10)

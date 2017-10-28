@@ -7,27 +7,38 @@ tags:
   - indie
   - Mobile
   - Update
+url: 5718.html
 id: 5718
 categories:
   - Mr Nibbles Forever
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/08/2015-08-05_17-33-05.png'
+coverMeta: out
 date: 2015-08-05 10:52:26
 ---
 
 It's been 3 weeks since the last update but lots has happened in that time. 
-
+<!-- more -->
 I have tried hard to stick to the [plan I made for myself on the 21st of June](https://www.mikecann.co.uk/myprojects/mr-nibbles-forever-getting-it-done/). A quick recap:
 
 > **20th – 26th July**
+> 
 > 1) Create game trailer and publish to landing page.
+> 
 > 2) Contact media and other social networks, point to landing page.
 > 
+> 
 > **27th July – 2nd August**
+> 
 > 1) Final bug fix and polish pass.
+> 
 > 2) Contact more media and social networks.
 > 
+> 
 > **3rd – 9th August**
+> 
 > 1) Release Android version of the game.
+> 
 > 2) Contact media and social networks.
 
 So the first task was to make a trailer for the game which I managed to do:

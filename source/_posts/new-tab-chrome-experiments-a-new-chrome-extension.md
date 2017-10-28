@@ -8,6 +8,7 @@ tags:
   - Javascript
   - Programming
   - typescript
+url: 5924.html
 id: 5924
 categories:
   - New Tab Chrome Experiments
@@ -15,13 +16,15 @@ categories:
   - Programming
   - Projects
   - TypeScript
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2016/06/large-tile-920x680.png'
+coverMeta: out
 date: 2016-06-27 23:50:30
 ---
 
 I really enjoy making Chrome Extension, I love how fast it is to go from idea to implementation then availability on the store.
 
 My latest extension is called "New Tab Chrome Experiments" was only conceived of on Sunday evening. I then spent yesterday coding it up and now its up and available to[download on the store](https://chrome.google.com/webstore/detail/new-tab-chrome-experiment/ooopblodejpcihjoaepffbkkhfeeofhp).
-<!--more-->
+<!-- more -->
 As the name implies its an extension that replaces the "New Tab" page in chrome. I have always been a fan of the [ChromeExperiments.com](https://www.google.com.au/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjDnJ24scnNAhUEVZQKHazWAToQFggdMAA&url=https%3A%2F%2Fwww.chromeexperiments.com%2F&usg=AFQjCNEaGiHNhKCyriGCz9F5SW4LI9ufZw&sig2=BRh2RfR6Xe8Cj4cSKWZKTw) website and thought wouldnt it be cool if you could view one of those experiments each time a new tab is opened.
 
 [![screenshot02](https://www.mikecann.co.uk/wp-content/uploads/2016/06/screenshot02.png)](https://www.mikecann.co.uk/wp-content/uploads/2016/06/screenshot02.png)

@@ -7,6 +7,7 @@ tags:
   - import
   - jquery
   - tips
+url: 1531.html
 id: 1531
 categories:
   - HaXe
@@ -15,8 +16,9 @@ date: 2011-04-10 09:22:38
 
 [![](https://mikecann.co.uk/wp-content/uploads/2011/04/ahxelogo.jpg "ahxelogo")](https://mikecann.co.uk/wp-content/uploads/2011/04/ahxelogo.jpg)
 
-As some of you may know, I have been getting into haXe reccently. For those of you dont know what haXe is, this is taken from [haxe.org](https://haxe.org):
+As some of you may know, I have been getting into haXe reccently. For those of you dont know what haXe is, this is taken from [haxe.org](https://haxe.org):<!-- more -->
 > **haXe** (pronounced as _hex_) is an _open source_ programming language
+> 
 > 
 > While most other languages are bound to their own platform (Java to the JVM, C# to .Net, ActionScript to the Flash Player), **haXe** is a _multiplatform language_.
 I have been aware of haXe for a long time, infact I used to make extensive use of precursor to haXe, MTASC the alternative compiler for AS2\. Since the launch of AS3 however, Nicolas Cannasse of Motion-Twin has moved onto HaXe, and the project has flourished.
@@ -26,13 +28,18 @@ I have used HaXe in the past for various small projects, usually to take advanta
 Recently I have been exploring the various other targets offered by haXe, not just the flash one. Currently haXe supports the [following targets](https://haxe.org/doc/intro):
 > **[![](https://mikecann.co.uk/wp-content/uploads/2011/04/ul_spot2.gif "ul_spot2")](https://mikecann.co.uk/wp-content/uploads/2011/04/ul_spot2.gif) Javascript : **You can compile a haXe program to a single .js file. You can access the typed browser DOM APIs with autocompletion support, and all the dependencies will be resolved at compilation time.
 > 
+> 
 > **<strong>[![](https://mikecann.co.uk/wp-content/uploads/2011/04/ul_spot2.gif "ul_spot2")](https://mikecann.co.uk/wp-content/uploads/2011/04/ul_spot2.gif) **Flash :</strong> You can compile a haXe program to a .swf file. haXe is compatible with Flash Players 6 to 10, with either "old" Flash 8 API or newest AS3/Flash9+ API. haXe offers very good performance and language features to develop Flash content.
+> 
 > 
 > **<strong>[![](https://mikecann.co.uk/wp-content/uploads/2011/04/ul_spot2.gif "ul_spot2")](https://mikecann.co.uk/wp-content/uploads/2011/04/ul_spot2.gif) **NekoVM :</strong> You can compile a haXe program to NekoVM bytecode. This can be used for server-side programming such as dynamic webpages (using mod_neko for Apache) and also for command-line or desktop applications, since NekoVM can be embedded and extended with some other DLL.
 > 
+> 
 > **<strong>[![](https://mikecann.co.uk/wp-content/uploads/2011/04/ul_spot2.gif "ul_spot2")](https://mikecann.co.uk/wp-content/uploads/2011/04/ul_spot2.gif) **PHP :</strong> You can compile a haXe program to .php files. This will enable you to use a high level strictly-typed language such as haXe while keeping full compatibility with your existing server platform and libraries.
 > 
+> 
 > **<strong>[![](https://mikecann.co.uk/wp-content/uploads/2011/04/ul_spot2.gif "ul_spot2")](https://mikecann.co.uk/wp-content/uploads/2011/04/ul_spot2.gif) **C++ :</strong> You can now generate C++ code from your haXe source code, with the required Makefiles. This is very useful for creating native applications, for instance in iPhone development.
+> 
 > 
 > **<strong>[![](https://mikecann.co.uk/wp-content/uploads/2011/04/ul_spot2.gif "ul_spot2")](https://mikecann.co.uk/wp-content/uploads/2011/04/ul_spot2.gif) **C# and Java</strong> targets are coming soon! (from @cwaneck)
 The target that has taken my interest recently has been Javascript.

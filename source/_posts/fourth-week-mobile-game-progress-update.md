@@ -6,6 +6,7 @@ tags:
   - haxe
   - Mobile
   - nme
+url: 2003.html
 id: 2003
 categories:
   - Games
@@ -19,7 +20,7 @@ date: 2012-07-30 07:21:05
 <object id="test1" width="650" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="https://mikecann.co.uk/wp-content/uploads/2012/07/Main10.swf" /><param name="pluginspage" value="https://www.adobe.com/go/getflashplayer" /><embed id="test1" width="650" height="400" type="application/x-shockwave-flash" src="https://mikecann.co.uk/wp-content/uploads/2012/07/Main10.swf" pluginspage="https://www.adobe.com/go/getflashplayer" /></object>
 
 Another week, another progress update. As usual you can check out the progress above (use the arrow keys to move and jump).
-
+<!-- more -->
 This week has mostly been about all the remaining "bits'n'bobs" that go into a game. That includes level progression, scoring, level and stage unlocking, persistence, settings, audio, pause and resuming, player death, fonts and a whole host of other small things.
 
 Moh my artist partner on this project arrived back from his week holiday this week and since back he has made incredible progress getting all the menu screens and the majority of the graphics for the first stage of levels in. I really love the bright cartoony style he has gone for on the menus, the style really works on mobile too. Looks really professional for less than a weeks worth of work (only evenings dont forget).

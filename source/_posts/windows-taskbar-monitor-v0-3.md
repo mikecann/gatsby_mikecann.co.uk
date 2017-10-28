@@ -1,5 +1,6 @@
 ---
 title: Windows Taskbar Monitor v0.3
+url: 1646.html
 id: 1646
 categories:
   - 'C#'
@@ -14,7 +15,7 @@ tags:
 I have just pushed a few small changes to one of my projects, [Windows Taskbar Monitor](https://code.google.com/p/win7-taskbar-mon/).
 
 One of the users of the app noted that they find it rather annoying having the animated progress bars and asked whether it would be possible to add an option to disable it. I agreed that it could get a little distracting so I added the option to disable the bars.
-
+<!-- more -->
 While I was there I also added a couple of command line arguments to the app so that you could configure each instance from a shortcut.
 
 &nbsp;

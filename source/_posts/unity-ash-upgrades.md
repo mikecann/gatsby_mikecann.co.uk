@@ -5,6 +5,7 @@ tags:
   - asteroids
   - components
   - entity
+url: 5488.html
 id: 5488
 categories:
   - 'C#'
@@ -12,11 +13,13 @@ categories:
   - Unity
   - Unity-Ash
   - UnityAsteroids
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/12/header.png'
+coverMeta: out
 date: 2014-12-10 11:25:41
 ---
 
 [A while back](https://www.mikecann.co.uk/portfolio/projects/unity-ashteroids-ash-framework-in-unity/) I decided to scratch an itch and see if [Richard Lord's Ash Entity Framework](https://www.ashframework.org/) could be ported to Unity. Well I was pleasantly surprised that it did port quite easily (with some help from David Arno's .NET port) and worked well enough that I could also port [Richard's Asteroids game over to Unity](https://github.com/mikecann/UnityAshteroids) too.
-
+<!-- more -->
 Since then I have had a few people contact me interested in using the port for their own projects so I decided to give it a little more love and polish.
 
 ## Part 1 - Separation

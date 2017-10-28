@@ -1,9 +1,12 @@
 ---
 title: Artificial Studios 1
+url: 1722.html
 id: 1722
 categories:
   - Projects
   - Websites
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2004/01/artstu.png'
+coverMeta: out
 date: 2004-01-29 23:07:01
 tags:
 ---

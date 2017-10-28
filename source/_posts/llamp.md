@@ -1,5 +1,6 @@
 ---
 title: llamp
+url: 47.html
 id: 47
 categories:
   - Art

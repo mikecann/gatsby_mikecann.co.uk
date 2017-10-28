@@ -1,5 +1,6 @@
 ---
 title: enterwarpfactor
+url: 42.html
 id: 42
 categories:
   - Art

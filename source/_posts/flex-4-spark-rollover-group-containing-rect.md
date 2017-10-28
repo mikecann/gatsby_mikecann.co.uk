@@ -10,6 +10,7 @@ tags:
   - Rollover
   - Spark
   - Video
+url: 1159.html
 id: 1159
 categories:
   - Actionscript
@@ -20,7 +21,7 @@ date: 2010-08-02 08:25:14
 ---
 
 Was working on my top-secret Flex-based project over the weekend when I discovered something I hadn't come across before.
-
+<!-- more -->
 The issue is that when you have a Spark Rect GraphicsElement within a Spark Group it seems that the rollover event of the group is triggered even though the mouse doesn't roll over the Rect.
 
 Here is a video I made to explain my issue on Twitter:

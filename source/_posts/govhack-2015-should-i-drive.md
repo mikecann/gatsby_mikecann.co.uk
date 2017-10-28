@@ -10,16 +10,19 @@ tags:
   - shouldidrive
   - Social
   - team
+url: 5683.html
 id: 5683
 categories:
   - Hackathons
   - Projects
   - Should I Drive
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/07/header.jpg'
+coverMeta: out
 date: 2015-07-06 11:27:55
 ---
 
 Well I took a short break this weekend from Mr Nibbles Forever development to head down the street to [SpaceCubed](https://spacecubed.com/) and compete in the [2015 GovHack competition](https://www.govhack.org/perth2015/).
-<!--more-->
+<!-- more -->
 
 I had heard of GovHack from one of the [Morning Startup](https://www.meetup.com/Morning-Startup-Perth/) meetings I like to attend every Wednesday here in Perth. 
 

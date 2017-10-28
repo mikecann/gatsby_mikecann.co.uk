@@ -7,6 +7,7 @@ tags:
   - Taskbar
   - Tool
   - windows7
+url: 1499.html
 id: 1499
 categories:
   - 'C#'
@@ -18,7 +19,7 @@ date: 2011-02-16 20:57:04
 [![](https://mikecann.co.uk/wp-content/uploads/2011/02/Shot_01.png "Shot_01")](https://mikecann.co.uk/wp-content/uploads/2011/02/Shot_01.png)
 
 Been a long time since I have updated this little project of mine. Yep, just checked, its [been almost a year ](https://mikecann.co.uk/personal-projects/windows-7-taskbar-monitor/)since.
-
+<!-- more -->
 Oddly enough this is one of my projects I actually use on a daily basis at home and work. Im not sure why I haven't updated it since as there have been some rather gaping bugs in it which have been very annoying but apparently not annoying enough to encourage myself to fix them or to stop using it.
 
 Anyways, I have finally decided to fix some of the most anoying issues namely:

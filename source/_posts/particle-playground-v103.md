@@ -1,5 +1,6 @@
 ---
 title: Particle Playground v1.0.3
+url: 392.html
 id: 392
 categories:
   - Actionscript
@@ -11,7 +12,7 @@ tags:
 ---
 
 I made some small [heavily requested](https://www.newgrounds.com/portal/reviews/487541) updates to [Particle Playground](https://www.mikecann.co.uk/?p=384) last night, control C, control V log:
-
+<!-- more -->
 v1.0.3 (18/03/09)
 + Added this new popup at the start
 + Removed system reset on every setting change

@@ -8,6 +8,7 @@ tags:
   - match three
   - Mobile
   - starling
+url: 2493.html
 id: 2493
 categories:
   - Actionscript
@@ -17,12 +18,14 @@ categories:
   - Programming
   - Projects
   - The Family Jewels
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2013/04/family-jewels.png'
+coverMeta: out
 date: 2013-04-25 11:03:10
 ---
 
 Well this is it! I have completed the third game in my [three game prototype challenge](https://mikecann.co.uk/personal-project/the-three-game-challenge/). ([first game](https://mikecann.co.uk/personal-project/the-three-game-challenge-part-1-lateshas-crib/), [second game](https://mikecann.co.uk/personal-project/the-three-game-challenge-part-2-a-cunning-plan/))
 
-<!--more-->
+<!-- more -->
 
 With this one I wanted to try my hand at a very popular game genre at the moment, match-three. Because this is a rather simple style of game I thought it would be really easy and fast to make. Wrong. I spent hours without touching a keyboard trying to come up with some novel twist on the genre.
 

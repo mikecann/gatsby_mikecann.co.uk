@@ -5,6 +5,7 @@ tags:
   - Game
   - iPhone
   - Review
+url: 641.html
 id: 641
 categories:
   - Flash
@@ -13,7 +14,7 @@ date: 2009-08-05 18:34:23
 ---
 
 Every day I am seeing new game releases on the app store that have already seen a life in the flash game world. I dont know whether its the original developer that is making these iPhone ports or if the IP is being ripped off. Anyways I thought it may be a good idea to report on a few of these games ports, things I like / dislike with any changes made in the transition from flash to iPhone.
-
+<!-- more -->
 First up is one of my favorite flash games of all time [MotherLoad](https://www.miniclip.com/games/motherload/en/).
 
 [![Picture 3](https://mikecann.co.uk/wp-content/uploads/2009/08/Picture-3.png "Picture 3")](https://www.miniclip.com/games/motherload/en/)

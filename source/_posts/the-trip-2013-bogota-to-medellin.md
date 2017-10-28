@@ -7,6 +7,7 @@ tags:
   - medellin
   - travel
   - Trip
+url: 3617.html
 id: 3617
 categories:
   - 2013 Trip
@@ -17,7 +18,7 @@ date: 2013-09-05 13:39:39
 ![screenshot_01](https://mikecann.co.uk/wp-content/uploads/2013/09/screenshot_01.png)
 
 **Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [The Trip 2013 - Bogota to Medellin.](https://www.facebook.com/media/set/?set=a.10151848321426031.1073741845.593661030&type=1&l=a4cfae066c) Each picture can be clicked to see a larger version and comment / like.**
-
+<!-- more -->
 Well finally I arrived on the South American continent in early August. I flew in from Panama City to Bogota, the capital of Colombia. 
 
 [![photo-58](https://mikecann.co.uk/wp-content/uploads/2013/09/photo-58.jpg)](https://www.facebook.com/photo.php?fbid=10151848384141031&amp;set=a.10151848321426031.1073741845.593661030&amp;type=3&amp;theater)

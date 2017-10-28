@@ -7,20 +7,26 @@ tags:
   - library
   - parse.com
   - unity
+url: 5451.html
 id: 5451
 categories:
   - 'C#'
   - Programming
   - Unity
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/11/unityparse1.png'
+coverMeta: out
 date: 2014-11-11 01:24:32
 ---
 
 > This is part of a three-post series on working with Parse.com in Unity. For more info please see the other posts in the series:
 > 
+> 
 > [Part 1 - Intro and App Structure](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-3d-part-1-intro-and-app-structure/)
+> 
 > Part 2 - Services, Helpers and Looming
+> 
 > [Part 3 - Tests, Typescript and Common Code](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-part-3-tests-typescript-and-common-code/)
-
+<!-- more -->
 In the last post I covered the basic app structure, in this post I want to cover some of the specifics of the front end, the Unity part.
 
 **Note all the code talked about can be found in the [Parse Unity Sample Project on Github.](https://github.com/mikecann/ParseUnitySampleProject)**

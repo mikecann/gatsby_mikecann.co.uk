@@ -13,6 +13,7 @@ tags:
   - Particles
   - party
   - Video
+url: 1198.html
 id: 1198
 categories:
   - Fun &amp; Videos
@@ -20,7 +21,7 @@ date: 2010-08-09 17:08:47
 ---
 
 It was the massive annual Assembly gathering last week. Traditionally its a place for the [demo scene](https://scene.org) to gather and present their demos and to hack out new ones.
-
+<!-- more -->
 For those not in the know the demo scene or "scene" is where a team of people come together and compete to make a music video. Except that they arent videos in the traditional sense as its all generated using code and runs in realtime. This means that you have to be super efficient with your code. Some of the competitions are "64k" or even "4k" competitions which means that the whole demo must fit in 64kb or 4kb! The music is also produced by the groups and often excellent.
 
 I have been checking out some of the demos produced by the teams this year and they are simply stunning. Every year they get better and better.

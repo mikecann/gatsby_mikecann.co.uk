@@ -1,5 +1,6 @@
 ---
 title: Portal 2D - Alpha
+url: 162.html
 id: 162
 categories:
   - 'C#'
@@ -14,7 +15,7 @@ Okay this is a very very alpha release of a game that was created for a team pro
 
 The game is a 2D version of Valves up and coming game [Portal.](https://www.youtube.com/watch?v=if3Qv2tHyfA) You are a scientist in a lab experimentig with the new handhelf portal device that allows you to create portals anywhere that allow you to pass through to the other side. The goal of the game is to solve puzzles and get to the exit in the fastest time possible.
 
-<!--more-->
+<!-- more -->
 
 As i said the game is very very alpha and as such has many holes. The reason i am releasing this now as i dont think im going to have time to work on it in the near future so best get this out now.
 

@@ -1,5 +1,6 @@
 ---
 title: abduction
+url: 37.html
 id: 37
 categories:
   - Art

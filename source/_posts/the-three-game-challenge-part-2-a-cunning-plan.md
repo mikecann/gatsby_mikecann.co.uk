@@ -10,6 +10,7 @@ tags:
   - rts
   - starling
   - Web
+url: 2475.html
 id: 2475
 categories:
   - A Cunning Plan
@@ -17,13 +18,14 @@ categories:
   - Games
   - Portfolio
   - Programming
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2013/04/cunning-plan.png'
+coverMeta: out
 date: 2013-04-12 16:40:16
 ---
 
 Another week, another game completed as part of [my three prototype games challenge](https://mikecann.co.uk/personal-project/the-three-game-challenge/) ([part one](https://mikecann.co.uk/personal-project/the-three-game-challenge-part-1-lateshas-crib/), [part three](https://mikecann.co.uk/personal-project/the-three-game-challenge-part-3-the-family-jewels/)) I set myself at the start of this month.
 
-<!--more-->
-
+<!-- more -->
 For this one I decided on a type of game that I have been wanting to make for a while, a turn based strategy game. Many moons ago I used to play a J2ME (shudder) game called Ancient Empires. It was a great little game with lots of depth and replayabliltiy and I think it deserved a remake of sorts.
 
 So here is "A Cunning Plan":

@@ -1,5 +1,6 @@
 ---
 title: Artificial-Studios v3.0
+url: 95.html
 id: 95
 categories:
   - Websites
@@ -10,7 +11,7 @@ tags:
 Yup thats right a new version of Artificial-Studios... again!
 
 This new shiney reincarnation is a blog powerd by the very fancy [Wordpress](https://wordpress.org/)!
-
+<!-- more -->
 The reason for this new version? Well lets just take a quick look at the previous reincarnations...
 
 ![artstu1.jpg](https://mikecann.co.uk/wp-content/uploads/2006/06/artstu1.jpg)

@@ -12,6 +12,7 @@ tags:
   - rendering
   - spider
   - typescript
+url: 2301.html
 id: 2301
 categories:
   - Programming
@@ -23,7 +24,7 @@ date: 2012-12-29 12:45:47
 [![screenshot_01](https://mikecann.co.uk/wp-content/uploads/2012/12/screenshot_01.png)](https://mikecann.co.uk/personal-project/recursive-nuts-bolts-part-3-rendering-the-results-3-of-3/attachment/screenshot_01-7/)
 
 **This is part two of my three part series on the internals of Recursive, an extension for Chrome. In the [first post](https://mikecann.co.uk/?p=2287) I talked about the general structure of Recursive and some of the lessons I learnt from dealing with Typescript. In the [second post](https://mikecann.co.uk/?p=2296) I discussed how Recursive goes about crawling and parsing the web. In this, the final post, i'm going to talk about how Recursive represents, lays out and renders that crawled data on the screen.**
-
+<!-- more -->
 ### Code Structure
 
 As mentioned in the first post in the series I have tried to keep the rendering logic as separate as possible from the actual crawling logic. This separation between the renderer and the crawler makes things simpler to understand in the code. The crawler is a model and the renderer is the view. The renderer simply displays whatever state the model contains.

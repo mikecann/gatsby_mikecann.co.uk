@@ -1,5 +1,6 @@
 ---
 title: Photos - LAN07
+url: 183.html
 id: 183
 categories:
   - Photos &amp; Personal
@@ -8,7 +9,7 @@ tags:
 ---
 
 Just got back from this years LAN party with the lads in Stourbridge. Awsome party tho strangely not much gameing went on :P 
-
+<!-- more -->
 Anyways, I have uploaded the photos to my picassa account [here](https://picasaweb.google.com/mike.cann/LAN07).
 
 Some highlights include:

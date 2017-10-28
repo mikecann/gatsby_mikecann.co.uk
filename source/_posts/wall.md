@@ -1,5 +1,6 @@
 ---
 title: wall
+url: 61.html
 id: 61
 categories:
   - Art

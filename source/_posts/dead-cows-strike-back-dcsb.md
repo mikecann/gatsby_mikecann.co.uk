@@ -1,5 +1,6 @@
 ---
 title: Dead Cows Strike Back (DCSB)
+url: 128.html
 id: 128
 categories:
   - Flash

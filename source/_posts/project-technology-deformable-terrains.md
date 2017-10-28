@@ -1,5 +1,6 @@
 ---
 title: Project Technology (Deformable Terrains)
+url: 214.html
 id: 214
 categories:
   - 'C#'
@@ -14,7 +15,7 @@ Well i got asked a question [in a comment](https://www.mikecann.co.uk/?p=208#com
 
 The way the terrains work has changed a few times over the course of development of the project for various reasons mostly related to the incompatabilities of the 360 and my previous methods. I wont go into those previous methods here but if anyone reading this has any questions dont hesitate to ask in a comment or email me. I would also like to say this may not be the most efficient method as I was only getting the terrains up as a proof of concept first then was planning on refining later.
 
-<!--more-->
+<!-- more -->
 
 Before i can explain how the terrain is deformed i must first talk about how the terrain is composed. There are currently three layers to the level, an indestuctable layer, a destructable layer and a background layer.
 

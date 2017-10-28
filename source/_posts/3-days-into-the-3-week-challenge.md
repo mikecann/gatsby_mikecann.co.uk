@@ -6,6 +6,7 @@ tags:
   - haxe
   - Mobile
   - Update
+url: 1957.html
 id: 1957
 categories:
   - Games
@@ -19,6 +20,8 @@ date: 2012-07-04 22:23:23
 .. and we have progress! See above. Use the keyboard to control the 'player'.
 
 The first thing you will noticed is that there is a world populated with solid blocks and some orange circle things that may look a little like collectables :P To generate this level I decided to take a page out of Notch's book and build the levels at the pixel level in Paint.NET. That way the image editing software becomes the level editor. So as an example, the data that builds the level for above looks like:
+
+<!-- more -->
 
 [![](https://mikecann.co.uk/wp-content/uploads/2012/07/world.png "world")](https://mikecann.co.uk/wp-content/uploads/2012/07/world.png)
 

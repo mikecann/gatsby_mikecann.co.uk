@@ -8,6 +8,7 @@ tags:
   - san blas
   - sand
   - travel
+url: 3412.html
 id: 3412
 categories:
   - 2013 Trip
@@ -18,7 +19,7 @@ date: 2013-08-19 22:13:06
 ![screenshot_02](https://mikecann.co.uk/wp-content/uploads/2013/08/screenshot_02.png)
 
 Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album The Trip 2013 - Puerto Viejo to Panama City. Each picture can be clicked to see a larger version and comment / like.
-
+<!-- more -->
 Puerto Viejo was the last stop for me in Costa Rica, the next day I made my way to the border where I crossed into Panama. When we arrived at the crossing in the rain we had to queue up at the desk to get our passport stamped. For some reason they chose that moment to fumigate the entire building shutting everything down for an hour and a half. *sigh* Pura Vida!
 
 [![photo](https://mikecann.co.uk/wp-content/uploads/2013/08/photo3.jpg)](https://www.facebook.com/photo.php?fbid=10151829728996031&amp;set=a.10151829727316031.1073741844.593661030&amp;type=3&amp;theater)

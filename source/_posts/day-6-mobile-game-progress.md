@@ -10,6 +10,7 @@ tags:
   - nme
   - space
   - tile
+url: 1969.html
 id: 1969
 categories:
   - Mr Nibbles
@@ -20,7 +21,7 @@ date: 2012-07-08 12:12:42
 <object id="test1" width="650" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="https://mikecann.co.uk/wp-content/uploads/2012/07/Main1.swf" /><param name="pluginspage" value="https://www.adobe.com/go/getflashplayer" /><embed id="test1" width="650" height="400" type="application/x-shockwave-flash" src="https://mikecann.co.uk/wp-content/uploads/2012/07/Main1.swf" pluginspage="https://www.adobe.com/go/getflashplayer" /></object>
 
 Its been a few more days now and quite a bit of progress has been made so I thought I would update. First, have a go at the game in its current form above (use the keyboard to control).
-
+<!-- more -->
 Since last time I have concentrated on the parts I was less technically confident about such as the correct rendering method of animated sprites and how I was going to handle the rotation of the world.
 
 First I tackled rendering. In my previous update the tiles in the world rendered simply by drawing vector squares to Sprite.graphics, then shifting their container to move them. When I tried to run this on an actual mobile device however the performance was extremely poor, less than 1FPS. The reason for this was because drawing vectors on mobile devices doesn't really fit well into their GPU-orientated graphics pipeline. To get decent frame rates on mobile I needed to find a way to take advantage of the mobile GPU.

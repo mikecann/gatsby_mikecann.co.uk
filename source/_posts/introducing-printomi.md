@@ -9,11 +9,14 @@ tags:
   - 'C#'
   - Flash
   - Website
+url: 1880.html
 id: 1880
 categories:
   - Business
   - Printomi
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2012/04/prinotmi.png'
+coverMeta: out
 date: 2012-04-04 21:00:14
 ---
 
@@ -21,7 +24,7 @@ I'm extremely proud to announce the launch of a project I have been working on f
 
 [Printomi](https://www.printomi.com/) is a service for social games that allows players to take snapshots of their worlds and upload them to their own personal gallery. Players can like, comment share and order poster prints of their virtual creations.
 
-<!--more-->
+<!-- more -->
 
 The way it works is we provide the game owner with a tiny API that is used to interface with Printomi. The bulk of the Printomi client is downloaded at runtime from the Printomi servers. This is good for two reasons. Firstly by keeping down the size of the code that must be embedded into the game we can keep down the initial load time the player must sit through before they can play the game. Secondly we can upload changes and fixes to Printomi without requiring the game owner to recompile their code.
 

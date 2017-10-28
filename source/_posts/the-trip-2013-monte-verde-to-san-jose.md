@@ -7,6 +7,7 @@ tags:
   - travel
   - Trip
   - water
+url: 3213.html
 id: 3213
 categories:
   - 2013 Trip
@@ -17,7 +18,7 @@ date: 2013-08-05 13:36:29
 **Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [The Trip 2013 - Monte Verde to San Jose](https://www.facebook.com/media/set/?set=a.10151802457071031.1073741842.593661030&type=1&l=36f0974334). Each picture can be clicked to see a larger version and comment / like.**
 
 After Ometepe we crossed the border into our final country on this trip, Costa Rica. The first destination for us was the beautiful town of Monte Verde high in the hills of northern Costa Rica.
-
+<!-- more -->
 [![photo](https://mikecann.co.uk/wp-content/uploads/2013/08/photo1.jpg)](https://www.facebook.com/photo.php?fbid=10151802457566031&amp;set=a.10151802457071031.1073741842.593661030&amp;type=3&amp;theater)
 
 Of of the main attractions of Monte Verde is all the extreme sports on offer. I decided I was going to do the jungle zip lining first.

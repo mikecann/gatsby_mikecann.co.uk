@@ -5,6 +5,7 @@ tags:
   - development
   - Games
   - ludum
+url: 1233.html
 id: 1233
 categories:
   - 48 Hours Later
@@ -13,7 +14,7 @@ date: 2010-08-21 02:42:21
 ---
 
 Okay its 3:31am the competition started 31mins ago. I had originally intended to wake up at 5-6am then start coding but I couldnt sleep so I thought I would get cracking early then catch a nap later on when im tired.
-
+<!-- more -->
 The theme for the competition is "Enemies as Weapons" which is actually a better theme than what I was expecting "Technology in the wrong time period". I havent got an idea yet but im sure something will come to me :)
 
 Anyways, here is where all the magic will be happeneing over the next 48 hours:

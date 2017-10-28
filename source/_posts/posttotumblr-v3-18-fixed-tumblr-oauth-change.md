@@ -7,6 +7,7 @@ tags:
   - Javascript
   - posttotumblr
   - tumblr
+url: 2397.html
 id: 2397
 categories:
   - HaXe
@@ -18,8 +19,7 @@ date: 2013-03-05 20:42:49
 
 [![head](https://mikecann.co.uk/wp-content/uploads/2013/03/head1.png)](https://mikecann.co.uk/personal-project/posttotumblr-v3-18-fixed-tumblr-oauth-change/attachment/head-9/)
 
-&nbsp;
-
+<!-- more -->
 Just a quick update to say I have now fixed the authentication issue my [PostToTumblr](https://chrome.google.com/webstore/detail/post-to-tumblr/dbpicbbcpanckagpdjflgojlknomoiah?hl=en) that quite a few people contacted me about.
 
 What was going on was that Tumblr appear to have changed the format of the data they return from a token request which was causing a library that PostToTumblr relies on to fail.

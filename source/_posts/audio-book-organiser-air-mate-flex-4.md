@@ -10,6 +10,7 @@ tags:
   - Programming
   - Projects
   - Utility
+url: 807.html
 id: 807
 categories:
   - Actionscript
@@ -19,6 +20,8 @@ categories:
   - Programming
   - Projects
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2009/12/audiobook.png'
+coverMeta: out
 date: 2009-12-30 13:38:29
 ---
 
@@ -26,7 +29,7 @@ Well its been a fun Christmas, I have eaten and drunk to the point that im going
 
 Although there has been merryment abound, the keyboard couldn't keep me away. Its probably okay to say this now as im not under any secrecy act; I have decided to leave Massively Multimedia in Manchester to join a new startup called Ideas Pad in Wilmslow (just south of Manchester).
 
-<!--more-->
+<!-- more -->
 
 I cant say too much about exactly what I will be working on just yet but I can say that it will involve my experience in the Flash world. Specifically, I will be working in Adobe Flex again on some fairly sizeable projects. For this reason I wanted to brush up on my Flex as there has been a new release of the IDE (now named Flash Builder) and the SDK.
 

@@ -6,16 +6,20 @@ tags:
   - chrome extension
   - commercial project
   - Website
+url: 5993.html
 id: 5993
 categories:
   - Markd
   - Portfolio
   - Projects
+coverImage: >-
+  https://www.mikecann.co.uk/wp-content/uploads/2016/09/chrome_2016-09-15_08-29-25.png
+coverMeta: out
 date: 2016-09-15 02:25:17
 ---
 
 [Markd](https://markd.co/) is a project I have been working on for Brandon over a [pepwuper.com](https://www.pepwuper.com/) for a while now.
-<!--more-->
+<!-- more -->
 
 Quite simply its a Chrome Extension and website that allows a user to quickly and easily bookmark people you come across on the internet. In [Brandons own words](https://www.pepwuper.com/markd-pinterest-for-people/):
 > I wanted a better way to go about the process. A simple tool that would allow me to save someone into my “book of interesting people”, no matter which site I find them on. I wanted it to be easy with image/description automatically filled out. I wanted it to allow me to save reference images. And I wanted it to have a simple way for me to organise and search those I’ve bookmarked later on.

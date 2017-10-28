@@ -4,6 +4,7 @@ tags:
   - Audio
   - Mixes
   - Personal
+url: 751.html
 id: 751
 categories:
   - Misc
@@ -12,7 +13,7 @@ date: 2009-11-10 19:19:59
 ---
 
 Been messing about with [Sound Cloud](https://soundcloud.com/mike-cann) recently, just seeing what all the audio related fuss is about and I must say its quite good. I have uploaded some of my mixes up there (not all of them as there is a size restriction on the number of uploads). I have also gone back and edited some of my old posts as the links to my old mixes no longer worked (thanks for [Richard Davey](https://www.photonstorm.com/) for spotting that one.
-
+<!-- more -->
 Anyways, here are all my mixes done in release order (Tracklistings can be found in the post):
 
 [Post](https://www.mikecann.co.uk/audio/personal-mixes/new-mix-coalescence/)

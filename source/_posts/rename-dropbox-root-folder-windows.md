@@ -3,6 +3,7 @@ title: Rename Dropbox Root Folder Windows
 tags:
   - Dropbox
   - Utility
+url: 873.html
 id: 873
 categories:
   - Photos &amp; Personal

@@ -1,5 +1,6 @@
 ---
 title: mass
+url: 48.html
 id: 48
 categories:
   - Art

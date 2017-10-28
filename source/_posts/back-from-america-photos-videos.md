@@ -1,5 +1,6 @@
 ---
 title: Back From America - Photos + Videos
+url: 185.html
 id: 185
 categories:
   - Photos &amp; Personal
@@ -10,7 +11,7 @@ tags:
 Hello All!
 
 Yes im now back from the good old U.S. of A. Had an awsome time, many exciting things seen many exciting things done and many interesting people met. 
-
+<!-- more -->
 Best sight of the trip: Hard to say, everything was pretty damn amazing but if I absolutely had to single out one memorable event it must be camping out under the stars in the navajo homelands. 
 
 Craziest sight of the trip: Seeing a bloke with no legs front-flip out of his wheelchair..

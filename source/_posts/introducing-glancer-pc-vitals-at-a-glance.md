@@ -7,14 +7,17 @@ tags:
   - Util
   - Windows
   - WPF
+url: 6079.html
 id: 6079
 categories:
   - Glancer
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2016/11/glancer-header.jpg'
+coverMeta: out
 date: 2016-11-10 06:53:58
 ---
 
 This post has been over 6 years in the making but im glad I can finally write it.
-
+<!-- more -->
 Way back in [March of 2010](https://www.mikecann.co.uk/myprojects/windows-7-taskbar-monitor/) I wrote about a new tool I had developed with the snappy name "Windows 7 Taskbar Monitor". It was a little tool that used Windows' Performance Counter to show you what the current CPU, Memory and Network usage is:
 
 [![taskbar-monitor-sceenshot01](https://www.mikecann.co.uk/wp-content/uploads/2016/11/taskbar-monitor-sceenshot01.gif)](https://www.mikecann.co.uk/wp-content/uploads/2016/11/taskbar-monitor-sceenshot01.gif)

@@ -6,16 +6,19 @@ tags:
   - Resources
   - unity
   - Util
+url: 5001.html
 id: 5001
 categories:
   - 'C#'
   - Programming
   - Unity
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/06/screenshot_005.png'
+coverMeta: out
 date: 2014-06-04 01:48:28
 ---
 
 Following on from [yesterdays post](https://www.mikecann.co.uk/programming/unity-helpers-utilities-and-extensions-for-unity/) on my [Unity-Helpers](https://github.com/mikecann/Unity-Helpers) I have added another utility to the library.
-
+<!-- more -->
 **Enumerate Resources**
 
 Enumerate Resources is a handy util for creating type-safe resource references. Traditionally you have to manually create constant strings to load resources at runtime:

@@ -1,5 +1,6 @@
 ---
 title: Rubicon-Purple
+url: 68.html
 id: 68
 categories:
   - Art

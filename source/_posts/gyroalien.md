@@ -1,5 +1,6 @@
 ---
 title: Gyroalien
+url: 44.html
 id: 44
 categories:
   - Art

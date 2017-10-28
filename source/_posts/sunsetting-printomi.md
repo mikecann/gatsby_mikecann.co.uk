@@ -1,5 +1,6 @@
 ---
 title: Sunsetting Printomi
+url: 1906.html
 id: 1906
 categories:
   - Printomi
@@ -29,7 +30,7 @@ tags:
 ### **308** comments
 
 ### **0** posters sold
-
+<!-- more -->
 </div>
 
 After just 41 days live we have taken the difficult decision to turn off the Printomi servers. Despite the great stats regarding the number of uploads and views and user engagement, without the poster sales we are unable to keep funding the AWS servers and store the 90GB+ of images that users have uploaded.

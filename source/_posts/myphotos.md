@@ -1,5 +1,6 @@
 ---
 title: MyPhotos
+url: 139.html
 id: 139
 categories:
   - Photos &amp; Personal

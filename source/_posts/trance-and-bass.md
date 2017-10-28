@@ -1,5 +1,6 @@
 ---
 title: Trance and Bass
+url: 94.html
 id: 94
 categories:
   - Albums

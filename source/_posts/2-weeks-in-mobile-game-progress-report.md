@@ -7,6 +7,7 @@ tags:
   - Mobile
   - nme
   - Project
+url: 1981.html
 id: 1981
 categories:
   - Games
@@ -20,6 +21,8 @@ date: 2012-07-16 18:59:31
 <object id="test1" width="650" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="https://mikecann.co.uk/wp-content/uploads/2012/07/Main3.swf" /><param name="pluginspage" value="https://www.adobe.com/go/getflashplayer" /><embed id="test1" width="650" height="400" type="application/x-shockwave-flash" src="https://mikecann.co.uk/wp-content/uploads/2012/07/Main3.swf" pluginspage="https://www.adobe.com/go/getflashplayer" /></object>
 
 I'm now two weeks into my original 3-week-deadline mobile game project. You can checkout the progress thus far by playing the game above ('up' to jump, 'left' and 'right' to control the player).
+
+<!-- more -->
 
 As you can see there has been some progress since my last update a week ago. I was hoping to have gotten a little further by this point but my personal life has been somewhat hectic the past week reducing the amount of game-development time to a few measly hours. In the few hours we have had, we have managed to get a general story / theme for the game and the rudiments of for the first 'stage'.
 

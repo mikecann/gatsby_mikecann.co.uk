@@ -4,6 +4,7 @@ tags:
   - Personal
   - Photos
   - Trip
+url: 554.html
 id: 554
 categories:
   - Misc
@@ -17,7 +18,7 @@ Yarr' me old sea dogs. I have just returned from a grand voyage to the eastern C
 
 And here be the tale of me epic journeyYARR!
 
-<!--more-->
+<!-- more -->
 
 ## Day 1
 

@@ -2,6 +2,7 @@
 title: The Irrational Behavior of People
 tags:
   - Marketing
+url: 696.html
 id: 696
 categories:
   - Misc

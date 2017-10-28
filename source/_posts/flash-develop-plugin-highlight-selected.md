@@ -1,5 +1,6 @@
 ---
 title: 'Flash Develop Plugin: Highlight Selected'
+url: 403.html
 id: 403
 categories:
   - Fun &amp; Videos
@@ -11,7 +12,7 @@ tags:
 **Highlight Selected**
 
 Notepad++ comes with a feature where if you double click a variable it will highlight all other instances of that variable in the open document. I wanted this feature in FD so i decided to write this plugin.
-
+<!-- more -->
 This plugin is very simple and borrows much of the code from the quick-find plugin.
 
 ![](https://mikecann.co.uk/Images/Others/highlightselectionscreen01.png)

@@ -7,6 +7,7 @@ tags:
   - Particles
   - terraria
   - tilemaps
+url: 1790.html
 id: 1790
 categories:
   - GLSL
@@ -20,7 +21,7 @@ date: 2011-11-26 14:19:40
 
 So I have been working on my "[Terraria like Terrain](https://mikecann.co.uk/personal-project/hxaria-terraria-like-terrain-in-haxe-and-webgl/)" project "Hxaria" again.
 
-<!--more-->
+<!-- more -->
 
 Following on from the last post, I have now made it so that each particle can have its texture changed. This completes the functionality required to render each tile as a point sprite, as talked about in my[ previous post](https://mikecann.co.uk/personal-project/hxaria-terraria-like-terrain-in-haxe-and-webgl/).
 

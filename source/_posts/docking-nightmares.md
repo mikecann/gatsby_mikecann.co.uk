@@ -1,5 +1,6 @@
 ---
 title: Docking Nightmares
+url: 173.html
 id: 173
 categories:
   - 'C#'
@@ -11,7 +12,7 @@ tags:
 ---
 
 ![](https://www.mikecann.co.uk/Work/TDProject/engine04.png)
-
+<!-- more -->
 The tool has to be functional, elegant and fun. For that I wanted a special UI for it. I loved what the team had done over at [Blade3D ](https://www.blade3d.com/MediaGallery/tabid/74/Default.aspx)and i wanted something similar. Unfortunately they paid at least $300 for thiers, and hence this wasnt realy an option for me just yet :P
 
 So for now im stuck with an old 2005 style UI. To spice it up abit I decided to add docking panels. I had worked with docking panels before for my [ChainReaction ](https://www.mikecann.co.uk/?p=168)project in Java but hadnt done one in C# before. A quick search on sourceforge came up with [DockPanel Suite](https://sourceforge.net/projects/dockpanelsuite/). 

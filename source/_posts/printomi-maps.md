@@ -1,5 +1,6 @@
 ---
 title: Printomi Maps
+url: 1914.html
 id: 1914
 categories:
   - HTML
@@ -7,6 +8,8 @@ categories:
   - Programming
   - Projects
   - Projects
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2012/05/printomimaps.png'
+coverMeta: out
 date: 2012-05-16 19:36:28
 tags:
 ---
@@ -15,7 +18,7 @@ Well since we have made the [decision to discontinue Printomi](https://mikecann.
 
 Well it wouldn't be like me if I didn't start thinking about what cool things I do with all those pixels. I remember seeing those [cool Mincraft maps](https://www.deadworkerspartynetwork.com/theshaft/map1/mapalt1/map.html?worldX=980&amp;worldY=0&amp;worldZ=160&amp;zoom=6) that use the Google Maps API to explore the Minecraft servers and it got me thinking if it could be possible to do something like that but for the Printomi images.
 
-<!--more-->
+<!-- more -->
 
 Well it turns out yes, you can: [https://storage.googleapis.com/printomimaps/index.html](https://storage.googleapis.com/printomimaps/index.html)
 

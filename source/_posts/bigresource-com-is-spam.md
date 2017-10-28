@@ -3,6 +3,7 @@ title: Bigresource.com IS SPAM
 tags:
   - Campaign
   - Spam
+url: 731.html
 id: 731
 categories:
   - Misc
@@ -12,7 +13,7 @@ date: 2009-11-01 20:31:47
 Thats it im angry enough with this site to actually write a blogpost about it.
 
 Im sure if you are technical individual you have come accross this god awful site countless times. Over and over again you type in a query your problem into google, something like "php upload The connection was reset" a perfectly legitimate question and one that probably has been answered on a forum before. You then go through the google results and more often than not you come accross something like this:
-
+<!-- more -->
 [![ScreenHunter_02 Nov. 01 19.16](https://mikecann.co.uk/wp-content/uploads/2009/11/ScreenHunter_02-Nov.-01-19.16.gif "ScreenHunter_02 Nov. 01 19.16")](https://mikecann.co.uk/wp-content/uploads/2009/11/ScreenHunter_02-Nov.-01-19.16.gif)
 
 You read the title thinking, oh this sounds promising, may be the same problem im having. You click it and then are presented with this:

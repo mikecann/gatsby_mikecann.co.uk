@@ -1,5 +1,6 @@
 ---
 title: Artificial Harmonics ( part 2 )
+url: 113.html
 id: 113
 categories:
   - Personal Mixes
@@ -13,7 +14,7 @@ tags:
 
 **Artist:** [Artificial](https://www.mikecann.co.uk/www.artificial-studios.co.uk) ** Genre:** downtempo / chillout / pop
 
-Well its a long time in the coming but here it is, the second part of my Harmonics series. I started this thing about four months ago and only now have i found the time to complete it. Its a little shorter than the previous version mainly because i ran out of tracks that fit the flow of the set. Im extremely happy with the first half but the second half, im not entirely sure, give it a listen and leave me a comment of what u think :)
+Well its a long time in the coming but here it is, the second part of my Harmonics series. I started this thing about four months ago and only now have i found the time to complete it. Its a little shorter than the previous version mainly because i ran out of tracks that fit the flow of the set. Im extremely happy with the first half but the second half, im not entirely sure, give it a listen and leave me a comment of what u think :)<!-- more -->
 
 This one has alot more production work on it with clips from two movies and editing of tracks and effects added here and there. Also there are alot of tracks on there from free music producers, to hear more music from groups such as LEGO and Try^D check out [Jamendo](https://www.jamendo.com/uk/).
 

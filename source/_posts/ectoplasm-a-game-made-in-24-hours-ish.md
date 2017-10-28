@@ -8,6 +8,7 @@ tags:
   - microphone
   - Mobile
   - shipit
+url: 2417.html
 id: 2417
 categories:
   - Actionscript
@@ -16,12 +17,14 @@ categories:
   - Games
   - Portfolio
   - Programming
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2013/03/1024x500.png'
+coverMeta: out
 date: 2013-03-12 11:35:01
 ---
 
 Just before [leaving Playdemic](https://mikecann.co.uk/photos-personal/goodbye-playdemic/) we had a company-wide ship-it-day. If you haven't done one of these before they are great and work very similar to game jams like [Ludum Dare](https://www.ludumdare.com/). Basically you have 24 hours to create something related to the company then you have to present it.
 
-<!--more-->
+<!-- more -->
 
 I decided to team up with [Laura Whyte](https://www.voodoobeans.org/) a rather excellent artist colleague I have have worked with for years. I knew I wanted to make a quick mobile game using Adobe AIR and [Richard Lord's Ash framework](https://mikecann.co.uk/flash/tinkering-with-ash/) but I didn't really have any idea of what game specifically I wanted to make. She had the brilliant idea of making a clone of the classic "[helicopter](https://www.helicoptergame.net/)" game that you control with your voice.
 

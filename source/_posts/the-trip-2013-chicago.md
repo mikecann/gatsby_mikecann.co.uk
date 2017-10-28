@@ -6,6 +6,7 @@ tags:
   - Personal
   - Photos
   - Trip
+url: 2558.html
 id: 2558
 categories:
   - 2013 Trip
@@ -16,7 +17,7 @@ date: 2013-05-23 16:53:56
 ![screenshot_08](https://mikecann.co.uk/wp-content/uploads/2013/05/screenshot_08.png)
 
 _Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [The Trip 2013 – Chicago](https://www.facebook.com/media/set/?set=a.10151656151696031.1073741832.593661030&amp;type=3). Each picture can be clicked to see a larger version and comment / like_
-
+<!-- more -->
 May the 15th just 8 days after I had started I took a flight from Toronto to Chicago. I was flying into the windy city to see the sights and meet my good uni mate Mark. Mark was due to arrive the following day with a few other friends of his from back in England they were all over here visiting their friend Damien.
 
 I arrived late afternoon and made my way to the hostel I was staying at downtown. This place was quite a change from the hostel in Toronto, it was HUGE. 6 floors of dorms with each dorm being about twice the size of the ones in Toronto. Apparently it is one of the biggest hostels in the world. It felt more like a hotel than a hotel.

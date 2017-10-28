@@ -2,6 +2,7 @@
 title: Domains so Many Domains!
 tags:
   - Web
+url: 609.html
 id: 609
 categories:
   - Websites
@@ -9,7 +10,7 @@ date: 2009-07-07 14:37:25
 ---
 
 Well I have just had my next (not so) bright idea. I have decided to enter the flash games portal business. I see it as a good way to compliment my flash games interest and passion.
-
+<!-- more -->
 I have just gone out and bought the following domains:
 
 [https://www.worldsbestflashgames.com](https://www.worldsbestflashgames.com)

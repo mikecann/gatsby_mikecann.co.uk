@@ -6,20 +6,26 @@ tags:
   - testing
   - typescript
   - unity
+url: 5458.html
 id: 5458
 categories:
   - 'C#'
   - Programming
   - Unity
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-11_08-39-16.png'
+coverMeta: out
 date: 2014-11-11 01:24:38
 ---
 
 > This is part of a three-post series on working with Parse.com in Unity. For more info please see the other posts in the series:
 > 
+> 
 > [Part 1 - Intro and App Structure](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-3d-part-1-intro-and-app-structure/)
+> 
 > [Part 2 - Services, Helpers and Looming](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-part-2-services-helpers-and-looming/)
+> 
 > Part 3 - Tests, Typescript and Common Code
-
+<!-- more -->
 In the last post I covered how to use Parse.com in Unity itself, in this post I want to talk about to to go about writing backend code.
 
 **Note all the code talked about can be found in the [Parse Unity Sample Project on Github.](https://github.com/mikecann/ParseUnitySampleProject)**

@@ -8,6 +8,7 @@ tags:
   - Javascript
   - spider
   - Update
+url: 1475.html
 id: 1475
 categories:
   - Chrome Crawler
@@ -17,7 +18,7 @@ date: 2010-12-19 22:54:33
 [![](https://mikecann.co.uk/wp-content/uploads/2010/12/Shot_0041.png "Shot_004")](https://mikecann.co.uk/wp-content/uploads/2010/12/Shot_0041.png)
 
 I have been asked by several peeps now to add the ability to persist crawls when the pop-up window closes so I rolled out this update.
-
+<!-- more -->
 Now when you close the Chrome Crawler popup your crawl is saved so that when you open it up again you can resume.
 
 Not only that but thanks to the awesomeness of the background page API in chrome I have now added the ability to crawl even when the popup isnt open.

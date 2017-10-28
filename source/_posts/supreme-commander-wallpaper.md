@@ -1,5 +1,6 @@
 ---
 title: Supreme Commander Wallpaper
+url: 159.html
 id: 159
 categories:
   - Art

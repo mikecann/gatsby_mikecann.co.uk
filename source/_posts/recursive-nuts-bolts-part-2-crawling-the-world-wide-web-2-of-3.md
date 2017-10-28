@@ -10,6 +10,7 @@ tags:
   - Javascript
   - spider
   - typescript
+url: 2296.html
 id: 2296
 categories:
   - Programming
@@ -23,7 +24,7 @@ date: 2012-12-27 11:28:11
 **This is part two of my three part series on the internals of Recursive, an extension for Google Chrome. In the [first post](https://mikecann.co.uk/?p=2287) I laid the groundwork for the contents of this and the next post. In this post i'm going to talk a little about what Recursive does internally once given  a URL.**
 
 ### Chrome Crawler
-
+<!-- more -->
 Recursive is actually based on an extension called Chrome Crawler I wrote [about a year ago](https://mikecann.co.uk/personal-project/chrome-crawler-a-web-crawler-written-in-javascript/), but I had to change the name of due to Google's branding policy for Chrome Extensions. So although Recursive was rewritten from the ground up, a lot of the ideas discussed below stem from that project.
 
 ### Cross-Origin XMLHttpRequest

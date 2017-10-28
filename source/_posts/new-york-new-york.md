@@ -5,6 +5,7 @@ tags:
   - Holiday
   - new york
   - Photos
+url: 2214.html
 id: 2214
 categories:
   - Photos &amp; Personal
@@ -14,7 +15,7 @@ date: 2012-11-04 12:42:30
 [![](https://mikecann.co.uk/wp-content/uploads/2012/11/header.jpg "header")](https://mikecann.co.uk/wp-content/uploads/2012/11/header.jpg)
 
 Last week I took a trip to New York with my friend Becky. We had an awesome time exploring what the city has to offer.
-
+<!-- more -->
 [![](https://lh4.googleusercontent.com/-VBi4XO5i8b0/UJG1C1r72AI/AAAAAAAAyH4/wLpH6xmsASg/s288/P1010627.jpg)](https://picasaweb.google.com/lh/photo/qLRt8niQVfrG2eI0oydLydMTjNZETYmyPJy0liipFm0?feat=embedwebsite) [![](https://lh4.googleusercontent.com/-962Y-PGFuq0/UJG2hfp58vI/AAAAAAAAyMI/0Jz0UELPW1Q/s288/P1010843.jpg)](https://picasaweb.google.com/lh/photo/r1TCaMfzW1Y8cOMnajqNLNMTjNZETYmyPJy0liipFm0?feat=embedwebsite) [![](https://lh3.googleusercontent.com/-Id-Aj0XOmwg/UJG27PfR4WI/AAAAAAAAyNI/3fnPPhQL_CY/s288/P1010875.jpg)](https://picasaweb.google.com/lh/photo/Hofygl9oTdo4Y9WKLIAsx9MTjNZETYmyPJy0liipFm0?feat=embedwebsite) [![](https://lh4.googleusercontent.com/-Q44TI3vay-I/UJG0oi2A1aI/AAAAAAAAyHA/F-OfbFiKuIc/s288/P1010617.jpg)](https://picasaweb.google.com/lh/photo/3BIskmuei29sSMTkr69BQtMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
 We departed last Saturday and so fortunately missed the storm by a couple of days. I find it hard to believe when looking at the devastation that Hurricane Sandy has caused that we were there admiring the beauty of the place just a couple of days later.

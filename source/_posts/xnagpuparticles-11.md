@@ -1,5 +1,6 @@
 ---
 title: XNAGPUParticles 1.1
+url: 169.html
 id: 169
 categories:
   - 'C#'
@@ -12,7 +13,7 @@ tags:
 
 I got bored of revision for my final exam so i decided to play around with my XNAGPUParticles abit more and came up with this thing.
 
-<!--more-->
+<!-- more -->
 
 Basically it takes a texture and picks out pixel colours from the texture and maps it onto a large vertex buffer which then is used as the input to my Vetex Texture particle system.
 

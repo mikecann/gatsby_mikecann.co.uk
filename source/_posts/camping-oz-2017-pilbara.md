@@ -5,8 +5,9 @@ tags:
   - Drone
   - photo
   - travel
+url: 6170.html
 id: 6170
-comment: false
+comments: false
 categories:
   - Above Under
 date: 2017-04-22 02:02:00
@@ -15,7 +16,7 @@ date: 2017-04-22 02:02:00
 **This post was copied from my site [AboveUnder.com](https://aboveunder.com) a site dedicated to my travel drone photography.**
 
 Karijini is a destination we have been looking forward to for a while. We are keen to get stuck into another one of our passions (other than drone photography); hiking.
-
+<!-- more -->
 Karijini National park offers some spectacular deep gorges you walk around, over and down into.
 
 ![kelsie sitting on the edge of gorge](//cdn.shopify.com/s/files/1/1830/7597/files/IMG_9654_1024x1024.jpg?v=1492823223)

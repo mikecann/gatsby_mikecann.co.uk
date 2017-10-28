@@ -1,5 +1,6 @@
 ---
 title: Back from Berlin
+url: 290.html
 id: 290
 categories:
   - Photos &amp; Personal
@@ -10,7 +11,7 @@ tags:
 Well its now 2009 and im back at work, but as sad as it sounds im enjoying being back desprite the backlog of support tickets here at [GameJacket ](https://support.gamejacket.com):P
 
 New years for me was spent with my [little lady Toni](https://www.littlemisstoni.co.uk/) in Berlin with her friends. We spent NYE in a club called Matrix with some of her friends. As you can see from some of the[ pictures i have taken](https://picasaweb.google.com/mike.cann/BerlinNewYear0809#) they do things a little differently in Germany for NYE ([donuts at midnight ?!](https://picasaweb.google.com/mike.cann/BerlinNewYear0809#5287529649670039842)).
-
+<!-- more -->
 Anyways, I totally enjoyed myself and would love to go back again but now its back to GameJacket and my other Games. On that subject I have been resting over Christmas after the stress of releasing Flashteroids, and have had time to think about what my next game will be. My question is has anyone seen a good remake of Minesweeper in Flash?
 
 Some highlights from Berlin:

@@ -12,6 +12,7 @@ tags:
   - Project
   - release
   - version
+url: 1354.html
 id: 1354
 categories:
   - Inputtie
@@ -21,7 +22,7 @@ date: 2010-09-22 19:57:09
 [![](https://mikecann.co.uk/wp-content/uploads/2010/09/ScreenHunter_01-Sep.-22-19.58.png "ScreenHunter_01 Sep. 22 19.58")](https://mikecann.co.uk/wp-content/uploads/2010/09/ScreenHunter_01-Sep.-22-19.58.png)
 
 Woooo Hooo! Finally after almost a years worth of toiling we have finally released the beta version of [Inputtie](https://www.inputtie.com).
-
+<!-- more -->
 Now I have only performed a limited amount of testing so im sure there are going to be bugs-a-plenty. If you find something I would love to hear about it. We dont currently have a dedicated email address you can use for this so just use the contact box on the side of the inputtie page to get in touch.
 
 Anyways, here are the release notes for this version:

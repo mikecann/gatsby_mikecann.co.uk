@@ -1,5 +1,6 @@
 ---
 title: Particle Playground
+url: 384.html
 id: 384
 categories:
   - Actionscript
@@ -13,7 +14,7 @@ tags:
 <object style="width: 700px; height: 550px;" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="700" height="550" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="https://games.mochiads.com/c/g/particle-playground/ParticlePlayground.swf" /><embed style="width: 700px; height: 550px;" type="application/x-shockwave-flash" width="700" height="550" src="https://games.mochiads.com/c/g/particle-playground/ParticlePlayground.swf"></embed></object>
 
 Well this is the release of my latest little saunter into the world of particles and shaders in flash 10\. It started off as and idea to use the new pixel bender shaders of flash 10 as a more efficient method of updating particle simulations.
-
+<!-- more -->
 Well after a few struggling evenings I managed to get a little prototype going. I was so amazed at some of the beautiful patterns and effects that the particles were making I thought it may be nice rather than just releasing a tech demo, to add abit more to it and release it for others to enjoy.
 
 I will be releasing the source code in the coming weeks along with a blog post which should explain in detail how the technical aspects of updating and rendering tens of thousands of particles per frame works.

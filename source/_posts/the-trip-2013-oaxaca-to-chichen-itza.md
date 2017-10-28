@@ -10,6 +10,7 @@ tags:
   - ruins
   - travel
   - water
+url: 2682.html
 id: 2682
 categories:
   - 2013 Trip
@@ -22,7 +23,7 @@ date: 2013-07-06 23:48:10
 **Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [The Trip 2013 - Oaxaca to Chichen Itza](https://www.facebook.com/mikeysee/media_set?set=a.10151733427046031.1073741837.593661030&type=3). Each picture can be clicked to see a larger version and comment / like**
 
 The next stop after leaving Mexico city was the town of Oaxaca. This town has a much different feel to the rest of the destinations we have visited so far. Gone is the dusty desert, instead it has been replaced by lush tree covered hills.
-
+<!-- more -->
 The first day there we spent some time exploring the city checking out the local grub
 
 [![photo-7](https://mikecann.co.uk/wp-content/uploads/2013/07/photo-7.jpg)](https://www.facebook.com/photo.php?fbid=10151733428216031&amp;set=a.10151733427046031.1073741837.593661030&amp;type=3&amp;theater)

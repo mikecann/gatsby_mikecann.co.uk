@@ -6,6 +6,7 @@ tags:
   - Mix
   - Music
   - Personal
+url: 613.html
 id: 613
 categories:
   - Personal Mixes
@@ -16,7 +17,7 @@ date: 2009-07-14 10:50:03
 [![artificialcoalcover](https://mikecann.co.uk/wp-content/uploads/2009/07/artificialcoalcover.png "artificialcoalcover")](https://mikecann.co.uk/wp-content/uploads/2009/07/artificialcoalcover.png)
 
 Wow! Well this one was a hell of alot easier to make than [the last one](https://www.mikecann.co.uk/?p=582).
-
+<!-- more -->
 Instead of trying to tell a story with film samples and a large overarching theme I have instead just let this one naturally progress and take its course. The consequence of this, I think anyway, the transitions are alot softer and more natural giving a good easy listen.
 
 I have called this one "Coalescence" as it contains a rather different mixture of tracks that I have coalesced together. It still has that chilled-downtempo IDM-esq sound that I love so much at the moment with tracks by Jon Hopkins, Trifonic but I have also included some other tracks I have acquired on my eclectic audio adventures.

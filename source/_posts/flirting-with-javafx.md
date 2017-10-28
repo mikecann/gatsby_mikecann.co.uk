@@ -5,6 +5,7 @@ tags:
   - Java FX
   - Programming
   - Projects
+url: 790.html
 id: 790
 categories:
   - JavaFX
@@ -13,7 +14,7 @@ date: 2009-12-13 21:38:03
 ---
 
 For the past several months I have been working on a little project completely different to anything I have done before. Its a desktop application that uses a number of novel technologies to do something I think is pretty cool. Ill talk more about what it actually is and does in the coming weeks, but for this post I just want to talk about the struggles and discoveries I have been through and made with the technology.
-
+<!-- more -->
 One of the basic tenants of the app is that it needs to work  cross-platform, so on mac, windows, linux, etc. As my previous experience with any sort of cross-platform coding involves using Java that was my natural first choice.
 
 It has been a while since I have coding anything substantial in Java, infact my university project [Chain Reaction](https://www.mikecann.co.uk/programming/java/chainreaction-binarysource-release/) was my last serious foray into the language:
@@ -36,6 +37,7 @@ As I was at the end of my line with Java I thought, hell why not give it a littl
 
 For those who havent heard f JavaFX; taken from Wikipeda:
 > <address>[![javafx_logo_color_1](https://www.mikecann.co.uk/wp-content/uploads/2009/12/javafx_logo_color_1-300x150.jpg "javafx_logo_color_1")](https://mikecann.co.uk/wp-content/uploads/2009/12/javafx_logo_color_1.jpg)JavaFX is a software platform for creating and delivering rich Internet applications that can run across a wide variety of connected devices. The current release (JavaFX 1.2, June 2009) enables building applications for desktop, browser and mobile phones. </address> <address> </address> <address>
+> 
 > </address><address>TV set-top boxes, gaming consoles, Blu-ray players and other platforms are planned.JavaFX is fully integrated with the Java Runtime Environment (JRE) – JavaFX applications will run on any desktop and browser that runs the JRE and on top of mobile phones running Java ME.</address>
 What this means is that you can (with a little jiggery pokery) use JavaFX with normal Java. This is great as I had already written a whole load of code in Java which I didn't want to get rid of.
 

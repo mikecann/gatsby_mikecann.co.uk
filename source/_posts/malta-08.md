@@ -1,5 +1,6 @@
 ---
 title: Malta '08
+url: 259.html
 id: 259
 categories:
   - Photos &amp; Personal
@@ -8,7 +9,7 @@ tags:
 ---
 
 Well im back from my excellent holiday in Mata with my little lady. I havent uploaded pics to my picassa account for a while so i thought i would take this oppertunity to do so and upload some holiday snaps at the same time ;)
-
+<!-- more -->
 Highlights include:
 
 &nbsp;

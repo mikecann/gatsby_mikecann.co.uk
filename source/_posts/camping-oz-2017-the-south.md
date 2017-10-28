@@ -1,14 +1,18 @@
 ---
 title: Camping Oz 2017 - The South
+url: 26494.html
 id: 26494
 categories:
   - 2017 Camping Australia
+coverImage: >-
+  https://www.mikecann.co.uk/wp-content/uploads/2017/09/chrome_2017-10-21_13-05-56.png
+coverMeta: out
 date: 2017-09-15 04:52:35
 tags:
 ---
 
 After our adventures in Central Australia we started heading south, first stopping off at the curiously peculiar Coober Pedy.
-
+<!-- more -->
 [![](https://aboveunder.com/wp-content/uploads/2017/10/IMG_1106-1024x683.jpg)](https://aboveunder.com/wp-content/uploads/2017/10/IMG_1106.jpg)
 
 This town is made famous by the fact that its surroundings are littered with opal mines. Infact opal mining is just about the only reason you would want to live in this dry hot place.

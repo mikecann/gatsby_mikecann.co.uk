@@ -1,5 +1,6 @@
 ---
 title: Particle Playground v1.0.4
+url: 395.html
 id: 395
 categories:
   - Misc
@@ -8,7 +9,7 @@ tags:
 ---
 
 I have made a few small changes to [Particle Playground](https://www.mikecann.co.uk/?p=384) today:
-
+<!-- more -->
 v1.0.4 (20/03/09)
 + Ive had over 500 uploads to the first gallery (https://picasaweb.google.
 co.uk/mike.cann/ParticleP layground) and the loading times were getting abit silly, so I have now made a second gallery (https://picasaweb.google.

@@ -7,6 +7,7 @@ tags:
   - msn
   - rant
   - skype
+url: 2333.html
 id: 2333
 categories:
   - Misc
@@ -16,7 +17,7 @@ date: 2013-01-09 19:46:01
 [![head](https://mikecann.co.uk/wp-content/uploads/2013/01/head.png)](https://mikecann.co.uk/misc/skype-im-is-a-bag-of-crap-rant/attachment/head-4/)
 
 **NOTE: I have nothing against the video calling aspect of Skype, this is purely a rant at the IM aspect.**
-
+<!-- more -->
 For ages I have been using Digsby for my FBChat, GChat, MSN. Skype doesnt have an open IM protocol like the others so I was forced to run Skype at the same time as Digsby. I really like Digsby but it always grated me having both Digsby and Skype open and once, if only one of them could handle all my communications..
 
 Hearing that [MSN is going to shutdown and merge with Skype on March 15th](https://www.winbeta.org/news/microsoft-confirms-windows-live-messenger-service-retirement-march-15th) and that Skype now has Facebook integration I thought it may be about time to try a switch over to using just Skype. Big mistake.

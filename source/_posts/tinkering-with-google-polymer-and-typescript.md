@@ -7,16 +7,19 @@ tags:
   - polymer
   - typescript
   - web components
+url: 5426.html
 id: 5426
 categories:
   - Polymer
   - Programming
   - TypeScript
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/11/head.png'
+coverMeta: out
 date: 2014-11-02 05:18:13
 ---
 
 I recently had the opportunity to experiment with something I have been meaning to play with for a little while, Google's Polymer.
-
+<!-- more -->
 I first heard about Polymer at Google IO 2014:
 
 [embed]https://www.youtube.com/watch?v=8OJ7ih8EE7s[/embed]
@@ -69,13 +72,13 @@ I'm using a login element as an example:
         &lt;div class=&quot;card&quot;&gt;
             &lt;h1&gt;Login&lt;/h1&gt;
 
-            &lt;paper-input floatinglabel label=&quot;Your email&quot; type=&quot;email&quot; value=&quot;{{email}}&quot; error=&quot;Input is not an email!&quot;&gt;&lt;/paper-input&gt;
-            &lt;paper-input floatinglabel label=&quot;Your password&quot; type=&quot;password&quot; value=&quot;{{password}}&quot; error=&quot;Input is not an email!&quot;&gt;&lt;/paper-input&gt;
+            &lt;paper-input floatinglabel label=&quot;Your email&quot; type=&quot;email&quot; value=&quot;{ {email}}&quot; error=&quot;Input is not an email!&quot;&gt;&lt;/paper-input&gt;
+            &lt;paper-input floatinglabel label=&quot;Your password&quot; type=&quot;password&quot; value=&quot;{ {password}}&quot; error=&quot;Input is not an email!&quot;&gt;&lt;/paper-input&gt;
 
             &lt;div horizontal center layout&gt;
-                &lt;a href=&quot;/#signup&quot;&gt;&lt;paper-button disabled?=&quot;{{isLoggingIn}}&quot;&gt;Signup&lt;/paper-button&gt;&lt;/a&gt;
+                &lt;a href=&quot;/#signup&quot;&gt;&lt;paper-button disabled?=&quot;{ {isLoggingIn}}&quot;&gt;Signup&lt;/paper-button&gt;&lt;/a&gt;
                 &lt;div flex&gt;&lt;/div&gt;
-                &lt;paper-button id=&quot;check&quot; on-click=&quot;{{login}}&quot; disabled?=&quot;{{isLoggingIn}}&quot;&gt;Login&lt;/paper-button&gt;
+                &lt;paper-button id=&quot;check&quot; on-click=&quot;{ {login}}&quot; disabled?=&quot;{ {isLoggingIn}}&quot;&gt;Login&lt;/paper-button&gt;
             &lt;/div&gt;          
 
             &lt;paper-toast id=&quot;errorToast&quot;&gt;&lt;/paper-toast&gt;
@@ -176,7 +179,7 @@ Now we can use it pretty easily:
 &lt;/head&gt;
 &lt;body fullbleed layout vertical unresolved&gt;
 	&lt;userService id=&quot;userService&quot;&gt;&lt;/userService&gt;
-    &lt;login userService=&quot;{{$.userService}}&quot;&gt;&lt;/login&gt;
+    &lt;login userService=&quot;{ {$.userService}}&quot;&gt;&lt;/login&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 [/code]

@@ -7,6 +7,7 @@ tags:
   - Holiday
   - Photos
   - Trip
+url: 1094.html
 id: 1094
 categories:
   - Photos &amp; Personal
@@ -16,7 +17,7 @@ date: 2010-07-15 18:37:48
 .. well California actually but im just listening to abit of Prodigy so I thought it appropriate.
 
 Was over for just over two weeks, hired a car with [Toni ](https://www.littlemisstoni.co.uk/)and went-a-road-trippin. First few days were down the coast from San Francisco down the Big Sur to LA. Then from LA accross to Vegas, then all the way back again.
-
+<!-- more -->
 Apart from a parking ticket (who knew you have to park in the same direction traffic is flowing?!) everything went pretty smooth. Toni is still over there, will be for the next 6 weeks, hitting the research with the very clever physics bods over at [Berkly Universit](https://berkeley.edu/)y.
 
 As usual the holiday snaps can be found on my [Picassa Web Albums page](https://picasaweb.google.com/mike.cann/California10#), but here are some highlights:

@@ -7,6 +7,7 @@ tags:
   - Mobile
   - nme
   - Programming
+url: 1989.html
 id: 1989
 categories:
   - Games
@@ -20,7 +21,7 @@ date: 2012-07-23 20:57:14
 
 As usual you can have a play with the game in its current form above. (Up to jump, left and right to control the player).
 
-The first new thing to notice are there are now menus, yey! Incredibly poor, made by a toddler, looking menus, but menus nonetheless. My artist and collaborator on this project, Moh, has been away for the last week so the game has had to suffer at the hands of my terrible programmer art. Now that he is back however, he will be whipping the visuals into shape.
+The first new thing to notice are there are now menus, yey! Incredibly poor, made by a toddler, looking menus, but menus nonetheless. My artist and collaborator on this project, Moh, has been away for the last week so the game has had to suffer at the hands of my terrible programmer art. Now that he is back however, he will be whipping the visuals into shape.<!-- more -->
 
 Again this week I have had far less time to work on the project that I was hoping for (damn real life). With the little time I have afforded myself, I mostly concentrated on menus, resolutions, DPIs and aspect rations. These topics are the rather unglamorous side of mobile programming but are a necessary part of writing a game for multiple devices.
 

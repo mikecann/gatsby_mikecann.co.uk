@@ -8,6 +8,7 @@ tags:
   - Plugin
   - three.js
   - WebGL
+url: 1555.html
 id: 1555
 categories:
   - Chrome Crawler
@@ -20,7 +21,7 @@ date: 2011-06-12 18:13:14
 [![](https://mikecann.co.uk/wp-content/uploads/2011/06/banbanbnanbab.jpg "banbanbnanbab")](https://mikecann.co.uk/wp-content/uploads/2011/06/banbanbnanbab.jpg)
 
 Had a little free time this weekend so thought I would scratch an itch that has been bugging me for a while.
-
+<!-- more -->
 I started the second version of my [Chrome Crawler](https://mikecann.co.uk/personal-project/chrome-crawler-a-web-crawler-written-in-javascript/) extension a little while back. I have been using the language [HaXe ](https://haxe.org/)to develop it in. It's a great language and I wanted to explore its JS target a little more so I thought, why not make a chrome extension using it. I have had several emails from various people requesting features for Chrome Crawler so I thought I would extend the extension and rewrite it in HaXe at the same time.
 
 I managed to get the basics of the crawler working a few months back but through lack of time got no further. The second thing I wanted to work on after the basic crawling code was how to represent the crawled data. The current method is simply as a list:

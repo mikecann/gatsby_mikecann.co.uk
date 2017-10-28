@@ -5,8 +5,9 @@ tags:
   - Drone
   - photo
   - travel
+url: 6159.html
 id: 6159
-comment: false
+comments: false
 categories:
   - Above Under
 date: 2017-03-21 12:00:00
@@ -15,7 +16,7 @@ date: 2017-03-21 12:00:00
  
 
 Im very proud to announce this new venture [AboveUnder.com](https://AboveUnder.com). I have been talking about doing this for a while and happy to finally do it. 
-
+<!-- more -->
 This site will hopefully serve as the location that I will use to present all the drone photography that we plan on taking while camping around Australis for 5-months (more on that coming in a later post).
 
 For now the [print store](https://aboveunder.com/collections/all "The Print Store") is pretty bare and only contains a few images taken earlier in the year on some tester trips to Meelup Beach and to Augusta (both in South West Austalia).

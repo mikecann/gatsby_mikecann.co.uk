@@ -8,6 +8,7 @@ tags:
   - Spam
   - trick
   - virus
+url: 1042.html
 id: 1042
 categories:
   - Misc
@@ -15,7 +16,7 @@ date: 2010-04-17 18:41:57
 ---
 
 Its not often that spam gets through my gmail spam filters but this one did, and its quite ingenious:
-
+<!-- more -->
 [![](https://mikecann.co.uk/wp-content/uploads/2010/04/710shot.gif "710shot")](https://mikecann.co.uk/wp-content/uploads/2010/04/710shot.gif)
 
 Whats clever about it:

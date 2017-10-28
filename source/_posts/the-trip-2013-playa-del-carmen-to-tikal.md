@@ -7,6 +7,7 @@ tags:
   - mexico
   - Photos
   - travel
+url: 2820.html
 id: 2820
 categories:
   - 2013 Trip
@@ -19,7 +20,7 @@ date: 2013-07-18 22:52:57
 **Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [The Trip 2013 - Playa del Carmen to Tikal](https://www.facebook.com/mikeysee/media_set?set=a.10151749137826031.1073741838.593661030&type=3). Each picture can be clicked to see a larger version and comment / like.**
 
 After the wet and long trip from Chichen Itza we were all thoroughly ready to party it up in style in the party town of Playa del Carmen, Mexico. 
-
+<!-- more -->
 [![photo](https://mikecann.co.uk/wp-content/uploads/2013/07/photo1.jpg)](https://www.facebook.com/photo.php?fbid=10151749139906031&amp;set=a.10151749137826031.1073741838.593661030&amp;type=3&amp;theater)
 
 We rocked up to our hostel which was a really cool place where all the rooms surround a central space filled with tables, benches and hammocks. We had a great time that first night drinking great quantities of Tequila, Mescal and Corona. 

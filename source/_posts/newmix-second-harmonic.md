@@ -9,6 +9,7 @@ tags:
   - Mix
   - production
   - track
+url: 2365.html
 id: 2365
 categories:
   - Audio
@@ -19,7 +20,7 @@ date: 2013-01-17 22:54:55
 [![head02](https://mikecann.co.uk/wp-content/uploads/2013/01/head02.png)](https://mikecann.co.uk/audio/newmix-second-harmonic/attachment/head02-2/)
 
 Its been quite a while since I last made a mix. The last one [Second Life](https://soundcloud.com/mikecann/artificial-second-life) was a collection of my favorite dubstep and bass tunes at the time. Since then the genre has grown and diversified and other sub-genres have opened up. Im really into some of these new sounds that involve more melody and progression but keep that rough bassey sound that popularizes dubstep.
-
+<!-- more -->
 So I thought it was time to gather some of these tracks together and lay them together in a mix. It took a little longer than expected as I used Ableton Live for the first time to make the mix. I usually use a very basic program called Mixmeister but have often found it lacking, so for this mix I decided to take the plunge and learn Live.
 
 The mix is called Second Harmonic because it has that moody melodic sound that I love and build my three Harmonics mixes around but it is also more aggressive rather than chilled sound like last dubstep mix Second Life. I sprinkled it with a few clips from one of my favorite movies, points for guessing what is it ;)

@@ -1,5 +1,6 @@
 ---
 title: sphere
+url: 56.html
 id: 56
 categories:
   - Art

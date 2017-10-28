@@ -5,8 +5,9 @@ tags:
   - Drone
   - photo
   - travel
+url: 6175.html
 id: 6175
-comment: false
+comments: false
 categories:
   - Above Under
 date: 2017-05-11 01:12:00
@@ -15,7 +16,7 @@ date: 2017-05-11 01:12:00
  
 
 Wow, its been a while since I have written an update but so much has been going on I have struggled to find the time!
-
+<!-- more -->
 After a long hot and dusty trip from Millstream we finally arrived at 80 mile beach caravan park which was absolutely packed out due to it being Easter.
 
 ![eighty mile low tide](//cdn.shopify.com/s/files/1/1830/7597/files/Eighty_Mile_Low_Tide_1024x1024.jpg?v=1494402749)

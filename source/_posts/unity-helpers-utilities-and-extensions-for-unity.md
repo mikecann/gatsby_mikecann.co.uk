@@ -6,18 +6,21 @@ tags:
   - open-source
   - unity
   - utils
+url: 4996.html
 id: 4996
 categories:
   - 'C#'
   - Programming
   - Projects
   - Unity
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/06/head.png'
+coverMeta: out
 date: 2014-06-03 03:23:45
 ---
 
 During the development of my up and coming game I have encountered some snags when developing in Unity so I wrote a number of utilities and extension methods to help out. 
 
-<!--more-->
+<!-- more -->
 
 One such annoyance is the inability to use interfaces in GetComponent() and GetComponents(), so I wrote some extension methods to help with that:
 

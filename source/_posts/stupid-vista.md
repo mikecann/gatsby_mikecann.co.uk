@@ -1,5 +1,6 @@
 ---
 title: Stupid vista
+url: 153.html
 id: 153
 categories:
   - Fun &amp; Videos

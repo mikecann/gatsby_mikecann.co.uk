@@ -5,16 +5,19 @@ tags:
   - Drone
   - photo
   - travel
+url: 6155.html
 id: 6155
-comment: false
+comments: false
 categories:
   - Above Under
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2017/03/header-1.jpg'
+coverMeta: out
 date: 2017-03-24 01:30:00
 ---
 
 **This post was copied from my site [AboveUnder.com](https://aboveunder.com) a site dedicated to my travel drone photography.**
 
-Finally after months of planning we have finally taken off on our epic 5-month camping trip around Australia. We have been discussing this for ages and im so happy that its finally here.
+Finally after months of planning we have finally taken off on our epic 5-month camping trip around Australia. We have been discussing this for ages and im so happy that its finally here.<!-- more -->
 
 There so many things I want to see and do heres a few:
 

@@ -1,5 +1,6 @@
 ---
 title: oddball
+url: 52.html
 id: 52
 categories:
   - Art

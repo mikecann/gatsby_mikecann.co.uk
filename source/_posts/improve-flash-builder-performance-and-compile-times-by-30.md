@@ -1,5 +1,6 @@
 ---
 title: Improve Flash Builder Performance and Compile Times by 30%
+url: 2066.html
 id: 2066
 categories:
   - Actionscript
@@ -9,7 +10,7 @@ tags:
 ---
 
 I spend most of my working day and sometimes my evenings and weekends coding in Flash Builder. Flash Builder is the main professional coding environment for Actionscript and MXML and is sold by Adobe.
-
+<!-- more -->
 Its fairly okay as an IDE, not the best but not the worst also. I wont go into all of Flash Builders' problems (I would be here forever) but instead want to talk about one key way you can improve your efficiency when working in Flash Builder.
 
 Firstly the test environment :
@@ -63,9 +64,12 @@ Great so now we have some baseline figures to compare against lets apply the maj
 From Wikipedia:
 
 > JRockit, a proprietary Java Virtual Machine (JVM) originally developed by Appeal Virtual Machines and acquired by BEA Systems in 2002,[1] became part of Oracle Fusion Middleware in 2008.
+> 
 > The JRockit code base and the HotSpot virtual machine from Sun Microsystems (now Oracle) are currently being integrated, with the target of releasing a JVM with a combined code base around the release date of JDK 8.
 > 
+> 
 > JRockit was made free and publicly available in May 2011.
+> 
 > Many JRE class files distributed with JRockit exactly replicate those distributed with HotSpot. JRockit overrides class files which relate closely to the JVM, therefore retaining API compatibility while enhancing the performance of the JVM.
 
 Faster JVM is the critical part here as both eclipse and the Flex compiler rely on it. You can grab it over on oracle's website: [https://www.oracle.com/technetwork/middleware/jrockit/downloads/index.html](https://www.oracle.com/technetwork/middleware/jrockit/downloads/index.html)

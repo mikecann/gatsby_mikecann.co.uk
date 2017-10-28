@@ -5,6 +5,7 @@ tags:
   - Personal
   - Photos
   - travel
+url: 1921.html
 id: 1921
 categories:
   - Photos &amp; Personal
@@ -14,7 +15,7 @@ date: 2012-06-25 18:59:09
 [![](https://mikecann.co.uk/wp-content/uploads/2012/06/screenshot_01.jpg "screenshot_01")](https://mikecann.co.uk/wp-content/uploads/2012/06/screenshot_01.jpg)
 
 For the past two weeks I have been travelling about Malaysia seeing a very small chunk of what there is to see there.
-
+<!-- more -->
 We started in Kuching on the Borneo island part of Malaysia, we went Kayaking down the bang-bang river:
 
 [![](https://lh6.googleusercontent.com/-xNKwovGuSJs/T-JMeEibVPI/AAAAAAAAxkg/ZNwJEFyFUPE/s288/021.jpg)](https://picasaweb.google.com/lh/photo/ZSkECk38U167HrVhBpkMz9MTjNZETYmyPJy0liipFm0?feat=embedwebsite) [![](https://lh5.googleusercontent.com/-9wquxXNjdh4/T-JL5Goi5NI/AAAAAAAAxj4/8flJiqfDnoo/s288/016.jpg)](https://picasaweb.google.com/lh/photo/Ci3wX9M4yA4mrwBVGA5EstMTjNZETYmyPJy0liipFm0?feat=embedwebsite)

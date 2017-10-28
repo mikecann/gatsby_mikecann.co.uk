@@ -1,5 +1,6 @@
 ---
 title: 'Hxaria, Terraria like terrain in HaXe and WebGL'
+url: 1726.html
 id: 1726
 categories:
   - HaXe
@@ -12,7 +13,7 @@ tags:
 [![](https://mikecann.co.uk/wp-content/uploads/2011/11/head2.jpg "head2")](https://mikecann.co.uk/wp-content/uploads/2011/11/head2.jpg)
 
 I woke up the other day thinking about Terraria. No idea why as I haven't played it in ages, but its the type of game I really enjoy so it must have snuck into my dreams during the night.
-
+<!-- more -->
 Anyways, it got my thinking if it would be possible to make something similar to it in the browser using WebGL. For those not aware of Terraria, it looks something like this:
 
 [![](https://mikecann.co.uk/wp-content/uploads/2011/11/screen01.jpg "screen01")](https://mikecann.co.uk/wp-content/uploads/2011/11/screen01.jpg)

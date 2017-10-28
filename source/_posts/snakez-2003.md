@@ -1,5 +1,6 @@
 ---
 title: SnakeZ - 2003
+url: 72.html
 id: 72
 categories:
   - DarkBASIC

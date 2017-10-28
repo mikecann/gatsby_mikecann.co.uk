@@ -1,5 +1,6 @@
 ---
 title: New project started! TowerDefence
+url: 170.html
 id: 170
 categories:
   - 'C#'
@@ -11,7 +12,7 @@ tags:
 ---
 
 I always need something to be working on in my free time. All this year it has been my [University](https://www.mikecann.co.uk/?p=163) [projects](https://www.mikecann.co.uk/?p=168) [that](https://www.mikecann.co.uk/?p=162) have been keeping me busy. But now all i have left is one exam I have been seeking a new project that I can undertake.
-
+<!-- more -->
 I was looking for a specific kind of project. It had to be something that I am passionate about (i work so much better when i enjoy the project). It preferably had to have something to do with tools and it had to have enough new things in it that I had never done before so that I could learn new stuff.
 
 With that said it took alot of head scratching and many weeks passed. I watched many videos of up and coming games and watched several videos related to new PS3 games and in particular &quot;little big planet&quot;. This is exactly the type of project I wanted to work on, its a tool but its a game at the same time. If you havent seen it then you can check it [here](https://www.youtube.com/watch?v=nuoOosTdFiY). Basically all the content in the world is created in an interactive fun tool by the community which then gets uploaded and others can play.

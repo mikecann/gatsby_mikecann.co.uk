@@ -5,14 +5,17 @@ tags:
   - Game
   - pc
   - publishing
+url: 5894.html
 id: 5894
 categories:
   - Mr Nibbles Forever
+coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2016/05/hea.jpg'
+coverMeta: out
 date: 2016-05-01 04:03:47
 ---
 
 Yesterday marked the culmination of many months of hard work, we [released Mr Nibbles Forever to the Steam store](https://store.steampowered.com/app/448050/)!
-
+<!-- more -->
 Following the launch on mobile last year and the rather disappointing lack of players of the game I had a deep and meaningful discussion with myself and came to the conclusion that the problem wasn't the game it was my ability to market it correctly. 
 
 [![1](https://www.mikecann.co.uk/wp-content/uploads/2016/05/1-300x169.png)](https://www.mikecann.co.uk/wp-content/uploads/2016/05/1.png)

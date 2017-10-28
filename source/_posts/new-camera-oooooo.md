@@ -1,5 +1,6 @@
 ---
 title: 'New Camera, oooooo!'
+url: 167.html
 id: 167
 categories:
   - Photos &amp; Personal
@@ -8,7 +9,7 @@ tags:
 ---
 
 So i have bought a new camera in preparation for my trip to America and have been busy taking pictures of everything that moves.. also stuff that doesnt move. 
-
+<!-- more -->
 Its all been uploaded to [picassa for viewing](https://picasaweb.google.com/mike.cann).
 
 Some highlights:
