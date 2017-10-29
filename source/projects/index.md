@@ -1,6 +1,7 @@
 ---
 title: Projects
 url: 5010.html
+layout: "projects"
 id: 5010
 date: 2014-06-04 02:24:25
 ---

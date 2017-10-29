@@ -59,6 +59,31 @@
             font-weight: 400;
             color:       map-get($colors, base);
         }
+
+        ul.author-links
+        {
+            text-decoration: none;
+            padding-left: 0px;
+    
+            li {
+                display:     inline-block;
+                height:      45px;
+                line-height: 45px;
+                margin: 6px;
+    
+                a {
+                    color:   map-get($colors, base);
+                    display: block;
+                    height:  100%;
+    
+                    &:hover,
+                    &:active {
+                        text-decoration: none;
+                        color:           lighten(map-get($colors, base), 35);
+                    }
+                }
+            }            
+        }
     }
 }
 

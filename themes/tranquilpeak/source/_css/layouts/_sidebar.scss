@@ -33,6 +33,35 @@
             color:     map-get($sidebar, color);
         }
     }
+
+    ul.author-links
+    {
+        text-decoration: none;
+        margin-top: -30px;
+
+        li {
+            display:     inline-block;
+            height:      45px;
+            line-height: 45px;
+            margin: 6px;
+
+            a {
+                color:   map-get($sidebar, color);
+                display: block;
+                height:  100%;
+
+                &:hover,
+                &:active {
+                    text-decoration: none;
+                    color:           lighten(map-get($sidebar, color), 35);
+                }
+            }
+        }
+        &:first-child {
+            margin-top: 5px;
+        }
+    }
+
     // Sidebar's buttons
     ul.sidebar-buttons {
         padding: 0;
@@ -79,7 +108,7 @@
         &[data-behavior="6"] {
             left: -#{map-get($sidebar, md-screen-width)};
             @include sidebar-md;
-        }
+        }        
     }
 }
 
@@ -121,7 +150,7 @@
         &[data-behavior="6"] {
             left: -#{map-get($sidebar, md-screen-width)};
             @include sidebar-md;
-        }
+        }        
     }
 }
 

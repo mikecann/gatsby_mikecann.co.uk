@@ -53,45 +53,53 @@ sidebar:
             icon: search
             # `open-algolia-search` classes are used to open algolia search modal
             class: open-algolia-search
-        about:
-            title: global.about
-            url: /#about
-            icon: question
-    author_links:
-        github:
-            title: global.github
-            url: https://github.com/mikecann
-            icon: github
-        stack_overflow:
-            title: global.stack_overflow
-            url: https://stackoverflow.com/users/521097/mikeysee
-            icon: stack-overflow
-        twitter:
-            title: global.twitter
-            url: https://twitter.com/mikeysee
-            icon: twitter
-        facebook:
-            title: global.facebook
-            url: https://facebook.com/mikeysee
-            icon: facebook
-        google_plus:
-            title: global.google_plus
-            url: https://plus.google.com/+MichaelCannUk
-            icon: google-plus
-        linked_in:
-            title: global.linkedin
-            url: https://www.linkedin.com/in/mikecann/
-            icon: linkedin
-        mail:
-            title: global.mail
-            url: mailto:mike.cann@gmail.com
-            icon: envelope-o
-    rss:
         rss:
             title: global.rss
             url: /atom.xml
             icon: rss
-
+    pages:
+        games:
+            title: Games
+            url: /games
+            icon: gamepad
+        myprojects:
+            title: Projects
+            url: /projects
+            icon: briefcase
+        about:
+            title: global.about
+            url: /about
+            icon: question   
+        
+author_links:
+    github:
+        title: global.github
+        url: https://github.com/mikecann
+        icon: github
+    stack_overflow:
+        title: global.stack_overflow
+        url: https://stackoverflow.com/users/521097/mikeysee
+        icon: stack-overflow
+    twitter:
+        title: global.twitter
+        url: https://twitter.com/mikeysee
+        icon: twitter
+    facebook:
+        title: global.facebook
+        url: https://facebook.com/mikeysee
+        icon: facebook
+    google_plus:
+        title: global.google_plus
+        url: https://plus.google.com/+MichaelCannUk
+        icon: google-plus
+    linked_in:
+        title: global.linkedin
+        url: https://www.linkedin.com/in/mikecann/
+        icon: linkedin
+    mail:
+        title: global.mail
+        url: mailto:mike.cann@gmail.com
+        icon: envelope-o
 
 # Header configuration
 # The link at the right of the header is customizable
@@ -106,8 +114,7 @@ header:
     right_link:
         url: /#about
         icon:
-        class:
-
+        class:    
 
 # Author
 # Your biography and your job is editable in each languages files in `languages` folder

@@ -22,6 +22,15 @@
                 <% } %>
             </div>
         <% } %>
+        <ul class="author-links">
+        <% for (var i in theme.author_links) { %>
+            <li>
+                <a alt="<%= __(theme.author_links[i].title) %>" href="<%= theme.author_links[i].url %>">
+                    <i class="fa fa-lg fa-<%= theme.author_links[i].icon %>"></i>
+                </a>
+            </li>
+        <% } %>
+        </ul>
         <% for (var i in theme.sidebar) { %>
             <ul class="sidebar-buttons">
             <% for (var n in theme.sidebar[i]) { %>
@@ -40,7 +49,7 @@
                     </a>
             </li>
             <% } %>
-        </ul>
+            </ul>
         <% } %>
     </div>
 </nav>

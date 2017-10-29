@@ -18,9 +18,19 @@
             <img id="about-card-picture" src="<%= authorPicture %>" alt="<%= __('global.author_picture') %>"/>
         <% } %>
             <h4 id="about-card-name"><%= config.author %></h4>
+            <ul class="author-links">
+            <% for (var i in theme.author_links) { %>
+                <li>
+                    <a alt="<%= __(theme.author_links[i].title) %>" href="<%= theme.author_links[i].url %>">
+                        <i class="fa fa-lg fa-<%= theme.author_links[i].icon %>"></i>
+                    </a>
+                </li>
+            <% } %>
+            </ul>
         <% if (__('author.bio')) { %>
             <div id="about-card-bio"><%- markdown(__('author.bio')) %></div>
         <% } %>
+            
         <% if (__('author.job')) { %>
             <div id="about-card-job">
                 <i class="fa fa-briefcase"></i>
@@ -34,6 +44,6 @@
                 <br/>
                 <%= theme.author.location %>
             </div>
-        <% } %>
+        <% } %>        
     </div>
 </div>
