@@ -10,10 +10,9 @@
     "generate": "hexo generate",
     "dev": "hexo server -p 4500",
     "migrate": "hexo migrate wordpress migration/mikecanncouk.wordpress.2017-10-27-ORIGINAL.xml",
-    "algolia": "env-cmd .env hexo algolia"
+    "algolia": "hexo algolia"
   },
   "dependencies": {
-    "env-cmd": "^7.0.0",
     "hexo": "^3.2.0",
     "hexo-algoliasearch": "^0.2.1",
     "hexo-deployer-now": "^1.0.7",
