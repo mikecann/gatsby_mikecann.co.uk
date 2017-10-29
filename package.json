@@ -6,6 +6,7 @@
     "version": "3.3.9"
   },
   "scripts": {
+    "postinstall": "cd themes/tranquilpeak && yarn insall",
     "deploy": "yarn generate && yarn algolia && aws s3 sync public s3://mikecann-web",
     "generate": "hexo generate",
     "dev": "hexo server -p 4500",
