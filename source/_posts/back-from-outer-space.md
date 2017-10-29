@@ -10,7 +10,7 @@ tags:
 url: 1094.html
 id: 1094
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2010-07-15 18:37:48
 ---
 

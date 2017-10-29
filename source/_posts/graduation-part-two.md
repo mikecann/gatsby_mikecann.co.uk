@@ -3,7 +3,7 @@ title: Graduation Part Two
 url: 211.html
 id: 211
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2007-11-27 13:25:25
 tags:
 ---

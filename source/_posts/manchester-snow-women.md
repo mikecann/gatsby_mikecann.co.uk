@@ -6,7 +6,7 @@ tags:
 url: 821.html
 id: 821
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2010-01-05 15:07:37
 ---
 

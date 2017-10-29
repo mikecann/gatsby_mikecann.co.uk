@@ -3,7 +3,7 @@ title: My Workspace
 url: 254.html
 id: 254
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2008-08-11 16:00:58
 tags:
 ---

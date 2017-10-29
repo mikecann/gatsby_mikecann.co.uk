@@ -3,7 +3,7 @@ title: Some picassa updates
 url: 363.html
 id: 363
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2009-03-10 21:25:53
 tags:
 ---

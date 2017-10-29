@@ -3,7 +3,7 @@ title: GameJacket Joke Wall
 url: 417.html
 id: 417
 categories:
-  - Photos &amp; Personal
+  - photos personal
   - Programming
 date: 2009-04-16 09:15:01
 tags:

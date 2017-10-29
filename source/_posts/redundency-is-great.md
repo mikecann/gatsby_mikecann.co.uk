@@ -3,7 +3,7 @@ title: Redundency is Great
 url: 236.html
 id: 236
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2008-03-31 17:16:54
 tags:
 ---

@@ -13,7 +13,7 @@ tags:
 url: 2159.html
 id: 2159
 categories:
-  - Photos &amp; Personal
+  - photos personal
   - Speaking
 date: 2012-10-17 20:02:06
 ---

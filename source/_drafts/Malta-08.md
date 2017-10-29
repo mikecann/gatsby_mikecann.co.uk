@@ -3,7 +3,7 @@ title: Malta '08
 url: 258.html
 id: 258
 categories:
-  - Photos &amp; Personal
+  - photos personal
 tags:
 ---
 

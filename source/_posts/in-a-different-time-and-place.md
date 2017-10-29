@@ -5,7 +5,7 @@ tags:
 url: 708.html
 id: 708
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2009-10-08 18:59:02
 ---
 

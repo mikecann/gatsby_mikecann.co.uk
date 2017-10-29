@@ -3,7 +3,7 @@ title: My Skydive!
 url: 143.html
 id: 143
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2006-10-05 17:49:44
 tags:
 ---

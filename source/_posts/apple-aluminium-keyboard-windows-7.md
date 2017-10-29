@@ -9,7 +9,7 @@ tags:
 url: 868.html
 id: 868
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2010-01-18 13:01:24
 ---
 

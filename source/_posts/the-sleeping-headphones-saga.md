@@ -9,7 +9,7 @@ tags:
 url: 6200.html
 id: 6200
 categories:
-  - Photos &amp; Personal
+  - photos personal
 coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2017/10/header.jpg'
 coverMeta: out
 date: 2017-10-23 09:27:00

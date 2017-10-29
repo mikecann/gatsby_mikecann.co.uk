@@ -3,7 +3,7 @@ title: Spring Cleaning & Updated Bio
 url: 1842.html
 id: 1842
 categories:
-  - Photos &amp; Personal
+  - photos personal
   - Websites
 date: 2011-12-31 16:24:10
 tags:

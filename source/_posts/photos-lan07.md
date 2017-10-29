@@ -3,7 +3,7 @@ title: Photos - LAN07
 url: 183.html
 id: 183
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2007-07-17 09:20:48
 tags:
 ---

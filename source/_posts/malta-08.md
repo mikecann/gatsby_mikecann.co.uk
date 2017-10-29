@@ -3,7 +3,7 @@ title: Malta '08
 url: 259.html
 id: 259
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2008-09-20 14:47:08
 tags:
 ---

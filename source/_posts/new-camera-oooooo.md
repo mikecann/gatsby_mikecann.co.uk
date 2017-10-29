@@ -3,7 +3,7 @@ title: 'New Camera, oooooo!'
 url: 167.html
 id: 167
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2007-04-21 17:06:04
 tags:
 ---

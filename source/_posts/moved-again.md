@@ -9,7 +9,7 @@ tags:
 url: 1034.html
 id: 1034
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2010-04-11 14:57:49
 ---
 

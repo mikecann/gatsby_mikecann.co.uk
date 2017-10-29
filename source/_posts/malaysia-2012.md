@@ -8,7 +8,7 @@ tags:
 url: 1921.html
 id: 1921
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2012-06-25 18:59:09
 ---
 

@@ -7,7 +7,7 @@ tags:
 url: 6059.html
 id: 6059
 categories:
-  - Photos &amp; Personal
+  - photos personal
 coverImage: >-
   https://www.mikecann.co.uk/wp-content/uploads/2016/10/tech-campp-for-kids-judging.jpg
 coverMeta: out

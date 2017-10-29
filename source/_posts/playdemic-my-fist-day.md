@@ -7,7 +7,7 @@ tags:
 url: 853.html
 id: 853
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2010-01-11 20:12:13
 ---
 

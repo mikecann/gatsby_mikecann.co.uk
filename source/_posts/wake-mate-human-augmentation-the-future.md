@@ -8,7 +8,7 @@ tags:
 url: 878.html
 id: 878
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2010-01-24 15:32:21
 ---
 

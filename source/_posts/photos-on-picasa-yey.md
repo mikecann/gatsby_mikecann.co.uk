@@ -3,7 +3,7 @@ title: 'Photos on Picasa, yey!'
 url: 160.html
 id: 160
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2007-03-26 12:11:11
 tags:
 ---

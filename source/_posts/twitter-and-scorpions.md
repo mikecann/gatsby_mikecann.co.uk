@@ -3,7 +3,7 @@ title: Twitter and Scorpions
 url: 345.html
 id: 345
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2009-02-17 11:01:16
 tags:
 ---

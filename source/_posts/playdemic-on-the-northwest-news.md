@@ -9,7 +9,7 @@ url: 1854.html
 id: 1854
 categories:
   - Business
-  - Photos &amp; Personal
+  - photos personal
 date: 2012-02-15 13:20:36
 ---
 

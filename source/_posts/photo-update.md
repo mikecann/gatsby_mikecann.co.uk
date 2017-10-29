@@ -3,7 +3,7 @@ title: Photo Update
 url: 174.html
 id: 174
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2007-05-21 22:12:25
 tags:
 ---

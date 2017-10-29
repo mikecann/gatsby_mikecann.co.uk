@@ -8,7 +8,7 @@ tags:
 url: 1110.html
 id: 1110
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2010-07-15 21:52:24
 ---
 

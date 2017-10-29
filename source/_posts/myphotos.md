@@ -3,7 +3,7 @@ title: MyPhotos
 url: 139.html
 id: 139
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2006-08-31 18:13:56
 tags:
 ---

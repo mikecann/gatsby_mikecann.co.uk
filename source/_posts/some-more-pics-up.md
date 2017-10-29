@@ -3,7 +3,7 @@ title: Some more pics up
 url: 191.html
 id: 191
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2007-09-08 14:07:40
 tags:
 ---

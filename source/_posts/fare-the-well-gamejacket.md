@@ -7,7 +7,7 @@ tags:
 url: 563.html
 id: 563
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2009-06-18 16:18:04
 ---
 

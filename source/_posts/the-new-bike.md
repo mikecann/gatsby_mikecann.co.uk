@@ -6,7 +6,7 @@ tags:
 url: 801.html
 id: 801
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2009-12-15 00:16:36
 ---
 

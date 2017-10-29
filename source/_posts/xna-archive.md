@@ -9,7 +9,7 @@ categories:
   - HLSL
   - J2ME
   - Misc
-  - Photos &amp; Personal
+  - photos personal
   - Programming
   - Projects
   - Websites

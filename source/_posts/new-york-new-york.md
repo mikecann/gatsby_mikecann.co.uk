@@ -8,7 +8,7 @@ tags:
 url: 2214.html
 id: 2214
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2012-11-04 12:42:30
 ---
 

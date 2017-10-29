@@ -6,7 +6,7 @@ tags:
 url: 873.html
 id: 873
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2010-01-18 13:36:07
 ---
 

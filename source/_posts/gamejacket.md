@@ -3,7 +3,7 @@ title: GameJacket
 url: 274.html
 id: 274
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2008-11-11 14:32:56
 tags:
 ---

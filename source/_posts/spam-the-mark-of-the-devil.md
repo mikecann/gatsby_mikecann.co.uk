@@ -3,7 +3,7 @@ title: 'Spam, the mark of the devil..'
 url: 400.html
 id: 400
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2009-03-27 10:38:41
 tags:
 ---

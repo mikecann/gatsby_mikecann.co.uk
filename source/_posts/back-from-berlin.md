@@ -3,7 +3,7 @@ title: Back from Berlin
 url: 290.html
 id: 290
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2009-01-05 08:50:21
 tags:
 ---

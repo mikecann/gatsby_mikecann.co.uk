@@ -10,7 +10,7 @@ url: 1547.html
 id: 1547
 categories:
   - Misc
-  - Photos &amp; Personal
+  - photos personal
 date: 2011-05-09 21:57:03
 ---
 

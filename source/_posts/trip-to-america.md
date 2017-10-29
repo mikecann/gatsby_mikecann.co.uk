@@ -3,7 +3,7 @@ title: Trip to America
 url: 184.html
 id: 184
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2007-07-20 09:51:41
 tags:
 ---

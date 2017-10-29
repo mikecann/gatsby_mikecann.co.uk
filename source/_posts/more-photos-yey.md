@@ -3,7 +3,7 @@ title: 'More photos, yey!'
 url: 152.html
 id: 152
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2007-02-07 12:38:52
 tags:
 ---

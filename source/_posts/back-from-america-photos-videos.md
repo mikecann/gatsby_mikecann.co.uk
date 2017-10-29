@@ -3,7 +3,7 @@ title: Back From America - Photos + Videos
 url: 185.html
 id: 185
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2007-08-21 20:43:53
 tags:
 ---

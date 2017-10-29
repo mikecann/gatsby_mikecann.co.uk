@@ -6,7 +6,7 @@ tags:
 url: 624.html
 id: 624
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2009-07-30 13:00:55
 ---
 

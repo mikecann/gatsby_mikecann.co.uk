@@ -3,7 +3,7 @@ title: More Photos..
 url: 178.html
 id: 178
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2007-06-03 10:31:18
 tags:
 ---

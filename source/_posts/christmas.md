@@ -6,7 +6,7 @@ tags:
 url: 780.html
 id: 780
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2009-11-26 23:10:09
 ---
 

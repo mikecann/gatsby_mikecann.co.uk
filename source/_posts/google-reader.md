@@ -7,7 +7,7 @@ tags:
 url: 862.html
 id: 862
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2010-01-16 12:13:17
 ---
 

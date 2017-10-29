@@ -10,7 +10,7 @@ tags:
 url: 1575.html
 id: 1575
 categories:
-  - Photos &amp; Personal
+  - photos personal
 date: 2011-06-30 18:13:08
 ---
 
