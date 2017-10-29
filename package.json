@@ -11,7 +11,8 @@
     "generate": "hexo generate",
     "dev": "hexo server -p 4500",
     "migrate": "hexo migrate wordpress migration/mikecanncouk.wordpress.2017-10-27-ORIGINAL.xml",
-    "algolia": "hexo algolia"
+    "algolia": "hexo algolia",
+    "clean": "rimraf public"
   },
   "dependencies": {
     "hexo": "^3.2.0",
@@ -28,7 +29,8 @@
     "hexo-renderer-ejs": "^0.3.0",
     "hexo-renderer-marked": "^0.3.0",
     "hexo-renderer-stylus": "^0.3.1",
-    "hexo-server": "^0.2.2"
+    "hexo-server": "^0.2.2",
+    "rimraf": "^2.6.2"
   },
   "devDependencies": {
     "shelljs": "^0.7.8"
