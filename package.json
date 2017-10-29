@@ -6,13 +6,16 @@
     "version": "3.3.9"
   },
   "scripts": {
-    "deploy": "hexo generate && aws s3 sync public s3://mikecann-web",
+    "deploy": "yarn generate && yarn algolia && aws s3 sync public s3://mikecann-web",
     "generate": "hexo generate",
     "dev": "hexo server -p 4500",
-    "migrate": "hexo migrate wordpress migration/mikecanncouk.wordpress.2017-10-27-ORIGINAL.xml"
+    "migrate": "hexo migrate wordpress migration/mikecanncouk.wordpress.2017-10-27-ORIGINAL.xml",
+    "algolia": "env-cmd .env hexo algolia"
   },
   "dependencies": {
+    "env-cmd": "^7.0.0",
     "hexo": "^3.2.0",
+    "hexo-algoliasearch": "^0.2.1",
     "hexo-deployer-now": "^1.0.7",
     "hexo-deployer-s3-cloudfront": "^0.1.4",
     "hexo-generator-archive": "^0.1.4",
