@@ -112,6 +112,7 @@
      */
     showResults: function(posts) {
       var html = '';
+      console.log("Got search results", posts);
       posts.forEach(function(post) {
         var lang = window.navigator.userLanguage || window.navigator.language || post.lang;
 
