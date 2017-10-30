@@ -7,7 +7,7 @@
   },
   "scripts": {
     "postinstall": "cd themes/tranquilpeak && yarn install && bower install",
-    "deploy": "yarn generate && yarn algolia && aws s3 sync public s3://mikecann-web --delete",
+    "deploy": "yarn clean && yarn generate && yarn algolia && aws s3 sync public s3://mikecann-web --delete",
     "generate": "hexo generate",
     "dev": "hexo server -p 4500",
     "migrate": "hexo migrate wordpress migration/mikecanncouk.wordpress.2017-10-27-ORIGINAL.xml",
