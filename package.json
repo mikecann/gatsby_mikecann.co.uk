@@ -7,17 +7,18 @@
   },
   "scripts": {
     "postinstall": "cd themes/tranquilpeak && yarn install && bower install",
-    "deploy": "yarn clean && yarn generate && yarn algolia && aws s3 sync public s3://mikecann-web --delete",
+    "deploy": "yarn generate && yarn upload && yarn invalidate && yarn update-algolia",
     "generate": "hexo generate",
+    "upload": " aws s3 sync public s3://mikecann-web --delete",
+    "invalidate": "aws cloudfront create-invalidation --distribution-id E3Q14GS9N3OYRM --paths /index.html",
     "dev": "hexo server -p 4500",
     "migrate": "hexo migrate wordpress migration/mikecanncouk.wordpress.2017-10-27-ORIGINAL.xml",
-    "algolia": "hexo algolia",
+    "update-algolia": "rimraf db.json && hexo algolia",
     "clean": "rimraf public"
   },
   "dependencies": {
     "hexo": "^3.2.0",
     "hexo-algoliasearch": "^0.2.1",
-    "hexo-deployer-now": "^1.0.7",
     "hexo-deployer-s3-cloudfront": "^0.1.4",
     "hexo-generator-archive": "^0.1.4",
     "hexo-generator-category": "^0.1.3",

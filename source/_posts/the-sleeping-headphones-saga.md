@@ -16,7 +16,7 @@ date: 2017-10-23 09:27:00
 ---
 
 Ever since I was little I have always found it easier to sleep if I have some sort of background noise. For me it quietens the mind, allowing me to concentrate on the familiar sounds instead of those thoughts that seem to always come out right when you want to relax. I like listening to audio books that I have listened to 1000 times before. My brain knows whats coming up in the story but still concentrating on it allows my sub-conscious to quieten and calm down. Its very much like a breathing meditation for me.
-<!-- more -->
+  <!-- more -->
 Its not for everyone however so as much as I would like to be able to just play my stories using a speaker in the room its not really an option with someone else is using their own silence-based techniques of getting to sleep.
 
 For this reason I almost always have headphones in my ears. I have tried many different types over the years and im still not 100% happy but id like to share my journey.
