@@ -10,7 +10,7 @@
     "deploy": "yarn generate && yarn upload && yarn invalidate && yarn update-algolia",
     "generate": "hexo generate",
     "upload": " aws s3 sync public s3://mikecann-web --delete",
-    "invalidate": "aws cloudfront create-invalidation --distribution-id E3Q14GS9N3OYRM --paths /index.html",
+    "invalidate": "aws cloudfront create-invalidation --distribution-id E3Q14GS9N3OYRM --paths /index.html /atom.xml",
     "dev": "hexo server -p 4500",
     "migrate": "hexo migrate wordpress migration/mikecanncouk.wordpress.2017-10-27-ORIGINAL.xml",
     "update-algolia": "rimraf db.json && hexo algolia",
