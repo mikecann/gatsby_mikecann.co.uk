@@ -1,5 +1,9 @@
 ---
 title: The Static Blog
+date: 2017-10-31T21:00:00.000Z
+coverImage: ./header.jpg
+categories:
+  - blog
 tags:
   - website
   - blog
@@ -7,11 +11,7 @@ tags:
   - generator
   - hexo
   - personal
-categories:
-  - blog
-coverImage: './header.jpg'
-coverMeta: out
-date: 2017-10-31 21:00:00
+  - test
 ---
 
 For too long I have suffered from a slow blog. Im currently inbetween project so I decided it was finally time to change that.
