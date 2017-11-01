@@ -7,4 +7,3 @@ before_install:
   - 'unzip awscli-bundle.zip'
   - './awscli-bundle/install -b ~/bin/aws'
   - 'export PATH=~/bin:$PATH'
-  - 'aws configure'
