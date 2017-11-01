@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - "iojs"
-script: yarn deploy
+script: "yarn deploy"
 before_install:
   - 'curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"'
   - 'unzip awscli-bundle.zip'
