@@ -1,7 +1,7 @@
 ---
 title: The Static Blog
 date: 2017-10-31T21:00:00.000Z
-coverImage: ./header.jpg
+coverImage: /assets/images/header.jpg
 categories:
   - blog
 tags:
@@ -22,7 +22,7 @@ The performance of the blog however never was particularly great. I tried experi
 
 The performace really started to become an issue however when I moved to Australia. The issue is that the servers hosting the wordpress blog are all in the UK so the further away you are from there, the slower things got. So if you are Perth Australia, it would take 20 seconds for the homepage of mikecann.co.uk to load.. 
 
-[![](./chrome_2017-10-31_10-26-13.png)](./chrome_2017-10-31_10-26-13.png)
+[![](/assets/images/chrome_2017-10-31_10-26-13.png)](/assets/images/chrome_2017-10-31_10-26-13.png)
 
 I put up with this for a while but I decided, its 2017 and I am kind of jealous of the speed of all these "minimal" blogs on Medium and Ghost, so I really should do something about it. 
 
