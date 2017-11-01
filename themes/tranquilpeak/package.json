@@ -4,7 +4,7 @@
   "description": "A gorgeous responsive theme for Hexo blog framework",
   "main": "Gruntfile.js",
   "scripts": {
-    "postinstall": "bower install",
+    "postinstall": "bower install && yarn prod",
     "start": "grunt default",
     "prod": "grunt buildProd",
     "lint": "./node_modules/eslint/bin/eslint.js .",
@@ -51,6 +51,7 @@
   },
   "dependencies": {
     "async": "^1.5.2",
+    "grunt-cli": "^1.2.0",
     "hexo-front-matter": "^0.2.2",
     "hexo-util": "^0.5.1",
     "jquery": "^2.2.4",
