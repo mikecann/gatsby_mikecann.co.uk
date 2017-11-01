@@ -10,9 +10,7 @@ tags:
 url: 5451.html
 id: 5451
 categories:
-  - 'C#'
-  - Programming
-  - Unity
+  - programming
 coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/11/unityparse1.png'
 coverMeta: out
 date: 2014-11-11 01:24:32

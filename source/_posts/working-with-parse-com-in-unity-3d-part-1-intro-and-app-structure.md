@@ -6,10 +6,7 @@ tags:
 url: 5435.html
 id: 5435
 categories:
-  - 'C#'
-  - Programming
-  - TypeScript
-  - Unity
+  - programming
 coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/11/unityparse.png'
 coverMeta: out
 date: 2014-11-11 01:24:26
@@ -153,4 +150,4 @@ I like to use Typescript for my Parse.com backend and so the project is a Typesc
 
 ## To be continued..
 
-In the [next part](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-part-2-services-helpers-and-looming/) of this post ill talk more about the specifics of how to interact with the Parse.com API in Unity and some special helpers that I have developed to aid with that.
+In the [next part](/programming/working-with-parse-com-in-unity-part-2-services-helpers-and-looming/) of this post ill talk more about the specifics of how to interact with the Parse.com API in Unity and some special helpers that I have developed to aid with that.

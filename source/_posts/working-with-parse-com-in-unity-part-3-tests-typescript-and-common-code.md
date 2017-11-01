@@ -9,9 +9,7 @@ tags:
 url: 5458.html
 id: 5458
 categories:
-  - 'C#'
-  - Programming
-  - Unity
+  - programming
 coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-11_08-39-16.png'
 coverMeta: out
 date: 2014-11-11 01:24:38

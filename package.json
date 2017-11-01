@@ -7,7 +7,7 @@
   },
   "scripts": {
     "postinstall": "cd themes/tranquilpeak && yarn install && bower install",
-    "deploy": "yarn generate && yarn upload && yarn invalidate && yarn update-algolia",
+    "deploy": "yarn clean && yarn generate && yarn upload && yarn invalidate && yarn update-algolia",
     "generate": "hexo generate",
     "upload": " aws s3 sync public s3://mikecann-web --delete",
     "invalidate": "aws cloudfront create-invalidation --distribution-id E3Q14GS9N3OYRM --paths /index.html /atom.xml",
