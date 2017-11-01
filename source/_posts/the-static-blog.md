@@ -11,7 +11,7 @@ tags:
   - generator
   - hexo
   - personal
-  - test
+  - testies
 ---
 
 For too long I have suffered from a slow blog. Im currently inbetween project so I decided it was finally time to change that.
