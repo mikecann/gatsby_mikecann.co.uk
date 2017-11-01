@@ -4,6 +4,7 @@ backend:
   branch: master              # Branch to update
   base_url: https://mikecann-github-oauth.herokuapp.com
 
+publish_mode: editorial_workflow
 media_folder: "source/assets/images" # Folder where user uploaded files should go
 public_folder: "/assets/images"
 
