@@ -10,6 +10,7 @@
     "deploy": "yarn clean && yarn generate && yarn upload && yarn invalidate && yarn update-algolia",
     "generate": "hexo generate && yarn copy-admin-config",
     "copy-admin-config": "copyfiles ./source/admin/config.yml ./public/admin -u 2",
+    "invalide-all": "aws cloudfront create-invalidation --distribution-id E3Q14GS9N3OYRM --paths /*",
     "upload": " aws s3 sync public s3://mikecann-web --delete",
     "invalidate": "aws cloudfront create-invalidation --distribution-id E3Q14GS9N3OYRM --paths /index.html /atom.xml",
     "dev": "hexo server -p 4500",
