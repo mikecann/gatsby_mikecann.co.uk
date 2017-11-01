@@ -6,7 +6,7 @@
     "version": "3.3.9"
   },
   "scripts": {
-    "postinstall": "cd themes/tranquilpeak && yarn install && bower install",
+    "postinstall": "cd themes/tranquilpeak && yarn install",
     "deploy": "yarn clean && yarn generate && yarn upload && yarn invalidate && yarn update-algolia",
     "generate": "hexo generate",
     "upload": " aws s3 sync public s3://mikecann-web --delete",
