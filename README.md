@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mikecann/mikecann.co.uk.svg?branch=master)](https://travis-ci.org/mikecann/mikecann.co.uk)
+
 # This is the repo for the source for the mikecann.co.uk blog
 
 ## Building
