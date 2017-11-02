@@ -72,7 +72,7 @@ time_format: HH:mm:ss
 # Search
 # https://github.com/LouisBarranqueiro/hexo-algoliasearch#configuration
 algolia:
-  appId: "JYZJ63OX7U"
+  applicationID: "JYZJ63OX7U"
   apiKey: "01ddc3505766aa8d46cbbd65006671ec"
   chunkSize: 5000
   indexName: "mikecann"

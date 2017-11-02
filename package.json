@@ -20,8 +20,9 @@
   },
   "dependencies": {
     "copyfiles": "^1.2.0",
+    "cross-env": "^5.1.1",
     "hexo": "^3.2.0",
-    "hexo-algoliasearch": "^0.2.1",
+    "hexo-algolia": "^1.2.3",
     "hexo-deployer-s3-cloudfront": "^0.1.4",
     "hexo-generator-archive": "^0.1.4",
     "hexo-generator-category": "^0.1.3",
