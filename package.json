@@ -7,7 +7,7 @@
   },
   "scripts": {
     "postinstall": "cd themes/tranquilpeak && yarn install",
-    "deploy": "yarn clean && yarn generate && yarn upload && yarn invalidate && yarn update-algolia",
+    "deploy": "yarn clean && yarn generate && yarn upload && yarn invalidate-all && yarn update-algolia",
     "generate": "echo 'generating..' && hexo generate && yarn copy-admin-config",
     "copy-admin-config": "copyfiles ./source/admin/config.yml ./public/admin -u 2",
     "invalidate-all": "aws cloudfront create-invalidation --distribution-id E3Q14GS9N3OYRM --paths /*",
