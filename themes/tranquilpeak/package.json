@@ -60,6 +60,7 @@
     "mkdirp": "^0.5.1",
     "moment": "^2.13.0",
     "prompt": "^1.0.0",
-    "strip-indent": "^1.0.1"
+    "strip-indent": "^1.0.1",
+    "image-size": "^0.6.1"
   }
 }

@@ -12,6 +12,7 @@ Michael Cann was born during the spring of 1985 in the town of Shrewsbury (Shrop
 At the age of 7 he wrote his first game in BASIC. A simple 'Guess my number' command line game was less than 100 lines of code but seeing his friends play the game for hours at a time was enough to give him the taste he needed to continue his interest.
 
 [![](https://mikecann.co.uk/wp-content/uploads/2007/09/Guess.jpg "Guess")](https://mikecann.co.uk/wp-content/uploads/2007/09/Guess.jpg)
+*not actual screenshot of my game*
 
 At 13 he began experimenting with the rapidly developing World Wide Web by learning HTML. At this stage the pages were very simple, developed for his growing interest in online gaming. Soon his explorations took him into contact with Javascript which gave him the ability to bring his simple static pages alive. What had him excited about web development over his earlier experiments with BASIC was the potential to reach people all over the world, not just the people in his school.
 
