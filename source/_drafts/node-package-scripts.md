@@ -2,7 +2,7 @@
 title: Node Package Scripts
 categories:
   - Tooling
-coverImage: ./nps-header.jpg
+coverImage: nps-header.jpg
 coverMeta: out
 tags:
   - Open Source

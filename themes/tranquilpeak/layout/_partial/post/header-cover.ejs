@@ -9,10 +9,13 @@
         else {
             coverImageUrl = url_for(post.path.replace('.html', '/') + post.coverImage);
         }
+
+        var coverSize = theme.cover_size ? theme.cover_size : post.coverSize;
+
 %>
         <div class="post-header-cover
                     <%= (post.metaAlignment ? 'text-' + post.metaAlignment : 'text-left') %>
-                    <%= (post.coverSize ? 'post-header-cover--' + post.coverSize : '') %>"
+                    <%= (coverSize ? 'post-header-cover--' + coverSize : '') %>"
              style="background-image:url('<%= coverImageUrl %>');"
              data-behavior="<%= sidebarBehavior %>">
             <% if (typeof post.coverMeta === "undefined" || post.coverMeta === 'in') { %>

@@ -2,7 +2,7 @@
 title: A Game Developer Learns Machine Learning - Intent
 categories:
   - Machine Learning
-coverImage: ./header.jpg
+coverImage: header.jpg
 coverMeta: out
 tags:
   - Machine Learning
