@@ -1,13 +1,15 @@
 ---
 title: Node Package Scripts
 categories:
-  - Games
-  - Portfolio
+  - Tooling
 coverImage: nps-header.jpg
 coverMeta: out
 tags:
-  - Coding
-  - Awesomeness
+  - Open Source 
+  - Javascript 
+  - Programming 
+  - Tests 
+  - Lint 
 date: 2017-11-05 08:37:13
 ---
 
