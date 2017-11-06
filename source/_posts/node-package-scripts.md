@@ -1,17 +1,16 @@
 ---
 title: Node Package Scripts
 categories:
-  - Tooling
-coverImage: nps-header.jpg
+  - Games
+  - Portfolio
+coverImage: ./48-2.png
 coverMeta: out
 tags:
-  - Open Source
-  - Javascript
-  - Programming
-  - Tests
-  - Lint
+  - Coding
+  - Awesomeness
 date: 2017-11-05 08:37:13
 ---
+
 
 For some time now I have done all my build-scripting on Javascript / Typescript projects in package.json. In a complex projects such as [Markd2](/markd/portfolio/markd-2-total-re-write-using-react-mobx-state-tree-and-parse-server/): this can quickly become quite unweildy.
 
