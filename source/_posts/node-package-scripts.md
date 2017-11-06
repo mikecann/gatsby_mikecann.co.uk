@@ -3,7 +3,7 @@ title: Node Package Scripts
 categories:
   - Games
   - Portfolio
-coverImage: ./48-2.png
+coverImage: nps-header.jpg
 coverMeta: out
 tags:
   - Coding
