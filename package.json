@@ -7,10 +7,10 @@
   },
   "scripts": {
     "postinstall": "cd themes/tranquilpeak && yarn install",
-    "deploy": "yarn clean && yarn generate && yarn upload && yarn invalidate && yarn update-algolia",
+    "deploy": "yarn clean && yarn generate && yarn upload && yarn invalidate-all && yarn update-algolia",
     "generate": "echo 'generating..' && hexo generate && yarn copy-admin-config",
     "copy-admin-config": "copyfiles ./source/admin/config.yml ./public/admin -u 2",
-    "invalidate-x": "aws cloudfront create-invalidation --distribution-id E3Q14GS9N3OYRM --paths /*",
+    "invalidate-all": "aws cloudfront create-invalidation --distribution-id E3Q14GS9N3OYRM --paths \"/*\"",
     "upload": "echo 'uploading..' && aws s3 sync public s3://mikecann-web --delete",
     "invalidate": "aws cloudfront create-invalidation --distribution-id E3Q14GS9N3OYRM --paths /index.html /atom.xml /all-archives/* /all-tags/* /all-categories/*",
     "dev": "hexo server -p 4500",
