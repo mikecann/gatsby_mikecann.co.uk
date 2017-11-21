@@ -37,7 +37,7 @@ So when you are in an industry that moves so fast with so many new technologies 
 
 Machine Learning (ML) is one of the biggest technologies to emerge over the past couple of years. I honestly think that ML has the power to transform every single industry from finance, to agriculture to sports science.
 
-I also think that the games is no different from the others and wont be spared from its tarnsformative effects. Some think that the games industry is safe because its a "creative" industry and thus not susceptible to being replaced by a logic driven machine. 
+I also think that the games is no different from the others and wont be spared from its transformative effects. Some think that the games industry is safe because its a "creative" industry and thus not susceptible to being replaced by a logic driven machine. 
 
 Instead I see a future where an AI is capable of generating an entire game based on your preferences such as "I would like a game that plays like Mario but has the same size and scope as World of Warcraft", the AI then generates variants on that for you to play.
 
