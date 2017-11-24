@@ -13,7 +13,7 @@
     "invalidate-all": "aws cloudfront create-invalidation --distribution-id E3Q14GS9N3OYRM --paths \"/*\"",
     "upload": "echo 'uploading..' && aws s3 sync public s3://mikecann-web --delete",
     "invalidate": "aws cloudfront create-invalidation --distribution-id E3Q14GS9N3OYRM --paths /index.html /atom.xml /all-archives/* /all-tags/* /all-categories/*",
-    "dev": "hexo server -p 4500",
+    "dev": "hexo server -p 4500 --draft",
     "migrate": "hexo migrate wordpress migration/mikecanncouk.wordpress.2017-10-27-ORIGINAL.xml",
     "update-algolia": "rimraf db.json && hexo algolia",
     "clean": "rimraf public"
