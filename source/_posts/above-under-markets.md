@@ -9,7 +9,7 @@ tags:
   - Business
   - Drone
   - Market
-date: 2017-12-10 14:51:40
+date: 2017-12-11 14:51:40
 ---
 
 For the past couple of weeks I have run a Sunday market stall for my side-project-business Above Under. Its my first time ever running a stall and its been a really interesting experience thus far.
@@ -22,7 +22,7 @@ My daily commute to work is one of the reasons I love living where I do. I walk 
 
 Each time I walk down that beautiful tree-lined street I though to myself; this would be a great place to have a market, and lo and behold I was walking down here the other week and saw that indeed they had just started to run markets here!
 
-[INSERT PICTURE OF MENDS STREET]
+[![](./mends-street.jpg)](./mends-street.jpg)
 
 Its a beautiful area, theres lots of foot traffic from the shops, cafes and the zoo so I thought to myself, why dont I have a go at running a market stall?
 
@@ -32,11 +32,13 @@ Although Above Under has a website, Facebook, Instagram and all the other usual 
 
 A market stall also lets me demonstrate the various material types that I can print on from various photo paper posts, to acrylic to solid metal Alumalux.
 
+Although I had seen photography stalls at markets before (although I am the only photography stall at this market) I had never seen a stall specialize in drone photography.
+
 # The Stall
 
 So I spent a busy week rushing around buying a table, gazebo and a few picture stands and easals, not to mention ordering $500+ worth of prints in various sizes and types as examples. There was some doubt if I would manage to get it all together in time but I just about managed it.
 
-[INSERT PICTURE OF THE STALL]
+[![](./the-stall.jpg)](./the-stall.jpg)
 
 # Lessons
 
@@ -48,26 +50,18 @@ What actually seems to have been the case is that people walk over, have a look 
 
 So my pitch has changed from focusing on the products available to promoting which images would look good with which color combinations.
 
+One other thing I learnt was that some people didnt understand how I had made the images. Infact several people asked if they were paintings. So I decided to put my drone out on the table infront so people can see how I actually took the images.
+
+[![](./stall-with-drone.jpg)](./stall-with-drone.jpg)
+
+However this has now led to people asking if my drone was for sale. Sigh!
+
 # Experiment
 
 Its all just an experiment at this stage. Im enjoying learning retail and sales lessons the hard way, by actually doing it. Its good experience which should follow through into selling things online too.
 
 So if you are in the market for some high quality Australian drone photography come down to the Mends Street Markets in South Perth, ill be here each Sunday for the next few weeks at least!
 
-<!-- Help -->
+[![](./dancin.jpg)](./dancin.jpg)
 
-## Link
-[inside link](https://blogs.unity3d.com/2017/09/19/introducing-unity-machine-learning-agents/)
-
-## Image
-[![](./header.jpg)](./header.jpg)
-
-## Video
-{% youtube ZnBfvARKXeo %}
-
-## Code
-```csharp
-void Main()
-{    
-}
-```
+[![](./cookie-shots.jpg)](./cookie-shots.jpg)
