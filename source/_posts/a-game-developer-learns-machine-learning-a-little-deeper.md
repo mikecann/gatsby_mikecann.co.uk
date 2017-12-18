@@ -37,7 +37,7 @@ We start a new project from scratch and train an agent to learn the solution to 
 
 # Where to Begin?
 
-For this post I knew I wanted to dig a little deeper into how things actually work so I can get a better understanding of how I can can tailor the Unity Machine Leaning SDK to ultimately play Mr Nibbles Forever.
+For this post I knew I wanted to dig a little deeper into Unity's ml-agents so I can get a better understanding of how I can can eventually use the SDK to  play Mr Nibbles Forever.
 
 I started off by reading some more of the [documents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Readme.md) on Unity's GitHub page. They were interesting but they didn't really suggest to me what my next steps should be after completing the Getting Started. 
 
@@ -45,7 +45,7 @@ It was then that I stumbled across this video from Unity 3D College:
 
 {% youtube 61_FtB1PhaM %}
 
-Sweet! Exactly what I was looking for. Im going to see if I can take this example and extend it a little.
+Sweet! Exactly what I was looking for. A clear and concise next step with some great tips. Im going to see if I can take the video and recreate it in my own style.
 
 # Clean Slate
 
@@ -161,9 +161,9 @@ namespace MrNibbles1D
 
 ## State
 
-We know from my [last post](/machine-learning/a-game-developer-learns-machine-learning-getting-started/) that at its very heart Reinforcement Learning (the type of machine learning we are doing) is training an agent which action to perform given a specific state.
+We know from my [last post](/machine-learning/a-game-developer-learns-machine-learning-getting-started/) that at its heart Reinforcement Learning (the type of machine learning we are doing) is training an agent which action to perform given a specific state.
 
-So with that in mind we need to be able to tell the ML code what the current state of the world is:
+So with that in mind we need to begin by telling the ML code what the current state of the world is:
 
 ```csharp
 using System.Collections.Generic;
@@ -182,7 +182,7 @@ namespace MrNibbles1D
 }
 ```
 
-The state is pretty simple, just two floats. One is the position of Mr Nibbles (the agent) and the other is the position of the nibble. We could tell it about where the spiders are but we dont need to as they dont really contribute to the model as they only represent the boundary for the agent to stay within and thus if the agent goes outside the boundary then the agent restarts as we shall see in a minute.
+The state is pretty simple, just two floats. One is the position of Mr Nibbles (the agent) and the other is the position of the nibble. We could potentially include some state information about the position of the spiders but we dont need to as they only represent the boundary of the world and thus are accounted for in the reward function (see below).
 
 ## Actions
 
@@ -218,7 +218,7 @@ namespace MrNibbles1D
 }
 ```
 
-There are only two possible actions that the agent can take. Either move left or move right. Each step the agent will try one of these actions depending on what is has previously leant will get it the highest reward (more on rewards in a second).
+There are only two possible actions that the agent can take. Either move left or move right. Each step the agent will try one of these actions depending on what it previously leant will get it the highest reward (more on rewards in a second).
 
 You will note that the `action.Is()` is just a helper extension method I wrote to make things a little easyier to read:
 
@@ -235,11 +235,11 @@ namespace MrNibbles1D
 }
 ```
 
-Im a big fan of writing code that doesnt need comments because the variables and functions have been named so that they are redundant.
+*Note: Im a big fan of writing code that doesnt need comments because the variables and functions have been named so that they are redundant.*
 
 ## Out of Bounds
 
-So now that our agent can take either move Mr Nibbles left or right, we need to define what happens if we go too far to the left or right, i.e. the boundaries.
+So now that our agent can either move Mr Nibbles Left or Right. We also need to define what happens if Mr Nibbles moves too far to the left or right, i.e. he goes out of bounds.
 
 ```csharp
 using System.Collections.Generic;
@@ -286,11 +286,13 @@ Here we pass in the spider's positions which represent the maximum and minimum b
 
 [![](./the-boundries.png)](./the-boundries.png)
 
-Then should the agent trigger `OutOfBounds()` then we set the reward to `reward = -1` and `done = true`. The reward is the feedback mechanism that the agent uses during training to determine if the action it took resulted in a positive outcome or not and thus it updates itself to make that action more or less likely given that state next time.
+So each tick `OutOfBounds()` is checked and if true we set the reward to `reward = -1` and `done = true`. 
+
+The reward is the feedback mechanism that the agent uses during training to determine if the action it took resulted in a positive outcome or not and thus it updates itself to make that action more or less likely given that state next time.
 
 ## Target Acquired
 
-Now we have the boundary condition covered, we just have one more scenario to cover during a tick; when mr nibbles collect a nibble.
+Now we have the boundary condition covered, we just have just one more scenario to cover during a tick; when mr nibbles collect a nibble.
 
 ```csharp
 using System.Collections.Generic;
@@ -332,7 +334,7 @@ namespace MrNibbles1D
 }
 ```
 
-Here we look to see if we we are within one step of the nibble, if so then we have `HaveReachedTarget()` and `AgentSucceed()`. We indicate to the agent that it did well by giving it a positive reward.
+Here we use a range check to see if we are within one step of the nibble, if so then we `HaveReachedTarget()` and `AgentSucceed()` will be called. In doing so we positively reward the agent thus encouraging that behavior in the future.
 
 ## Agent Reset
 
@@ -372,7 +374,7 @@ We simply record what the starting position is and set that again and tell the `
 
 # Hud
 
-Now we have defined all the important parts of our scene we are almost ready to test things before training but first lets just setup a quick HUD so we can see the "score".
+Now we have defined all the important parts of our scene we are almost ready to test things, but first lets just setup a quick HUD so we can see the "score".
 
 ```csharp
 using UnityEngine;
@@ -441,19 +443,19 @@ Now when we move left or right Mr Nibbles will face the correct direction.
 
 {% youtube JNgzEKvtAHY %}
 
-BTW we have to use `FixedUpdate()` instead of `Update()` because the Agent takes its actions on the FixedUpdate loop.
+*NOTE: we have to use `FixedUpdate()` instead of `Update()` because the Agent takes its actions on the FixedUpdate loop.*
 
 # Training
 
-Okay so far so good, we have a working scene, now comes the interesting part. Lets train a model to do what we were just doing with the keyboard.
+Okay so far so good, we have a working scene that is controllable by a human, now comes the interesting part. Lets train an computer to play instead of us.
 
 ## Exporting the Environment
 
-First we set the brain to "External" mode, this means that the agent will no longer be controlled by the player and will instead be controlled by python.
+First we set the brain to "External" mode, this means that the agent will no longer be controlled by the player and will instead be controlled by an external source (python).
 
 [![](./external-brain.png)](./external-brain.png)
 
-Now we just need to build our scene and save it to the `/python/` directory.
+Now we just need to build our scene exe (also known as environment) and save it to the `/python/` directory.
 
 [![](./building-environment.png.png)](./building-environment.png)
 
@@ -498,17 +500,19 @@ batch_size = 32 # How many experiences per gradient descent update step.
 normalize = False
 ```
 
-Apparently its a bit of a dark-art knowing which of these to change. I use a combination the Unity 3D College video and [this doc](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/best-practices-ppo.md);
+Its a bit of a dark-art knowing which of these to change for your given scenario. 
+
+I used a combination the Unity 3D College video and [this doc](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/best-practices-ppo.md);
 
 Note that I have set `run_path` to be `"mrnibbles1d/run1"` because we are probably going to try a few different thing out so its good to keep track of this by splitting things into separate runs.
 
 ## Running
 
-Okay cool, lets give this a shot then. Pressing shift enter on each of the cells we start the training process, the environment opens up and straight away we can see that the agent is training:
+Okay cool, lets give this a shot then. Pressing shift enter on each of the cells in the notebook we start the training process, the environment window opens up and straight away we can see that the agent is training:
 
 [![](./env-window.png)](./env-window.png)
 
-To get a better picture of whats going on, lets fireup the tensorboard:
+To get a better picture of whats going on inside the agent, lets fire-up tensorboard:
 
 ```
 tensorboard --logdir=summaries
@@ -516,21 +520,23 @@ tensorboard --logdir=summaries
 
 [![](./tensorboard1.png)](./tensorboard1.png)
 
-So I think I understand a little bit more about these numbers now. 
+Since last post in this series I have come to understand a little more about these graphs:
 
-`cumulative_reward` tells us how much reward was given to the agent in a single run. So we can see that is started off low then rapidly ramped up until it levels off around 60k steps. So from this we can see that in about 60k steps the agent has pretty much found its optimum strategy. 
+`cumulative_reward` tells us how much reward was given to the agent in a single run. So we can see that is started off low as the agent randomy tries different actions and consequently doesnt get much reward. Quite rapidly however it figures out how to get more reward up until it levels off at around 60k steps. So from this we can see that in about 60k steps the agent has pretty much found its optimum strategy as it is no longer increasing its reward per run. 
 
-`episode_length` this tells us how long it takes the agent to complete the run, either pass or fail. We can see that it starts off pretty high as the agent just randomly moves around trying to find the solution but rapidly works out a good solution because the time it takes to reach the end decreases.
+`episode_length` this tells us how long it takes the agent to complete the run, either pass or fail. So we can see, as with the cumulative_reward, that the time the agent takes to finish starts off pretty high as it randomly moves around but rapidly works out an optimum strategy thus decreasing the episode length.
 
 ## Exporting
 
-Okay, so now we can stop the training the, export the model and exit the environment.
+After a few hundred k steps I stop the training, however it probably could have been stopped around 60k steps once it has found its optimum solution.
 
 [![](./exporting-model.png)](./exporting-model.png)
 
+I export the trained model to a `.bytes` file ready to be imported into the game.
+
 # Running the trained model
 
-Okay lets copy the model from `/python/models/mrnibbles1d/mrnibbles1d.bytes` to `/unity/MrNibbles1D/` then set the brain to `Internal` and the model on "Graph Model".
+I copy the model from `/python/models/mrnibbles1d/mrnibbles1d.bytes` to `/unity/MrNibbles1D/` then set the brain to `Internal` and the model on "Graph Model".
 
 [![](./setting-imported-model.png)](./setting-imported-model.png)
 
@@ -542,9 +548,9 @@ Sweet! It works! Its able to move towards the nibble 100% of the time.
 
 # Stopping the Jitters
 
-It doesn't come across on the video but Mr Nibbles seems to occasionally "jitter", when it sometimes hesitates and turns left then right repeatedly. Lets have a quick try and see if we can get rid of that. 
+It doesn't come across on the video but Mr Nibbles seems to occasionally "jitter", that is turn left then right repeatedly, as it hesitates towards a solution. I want to see if I can get rid of that.
 
-One way I can think of doing that is by penalising the agent every time it changes its mind:
+One way I can think of doing that is by penalizing the agent every time it changes its mind:
 
 ```csharp
 using System.Collections.Generic;
@@ -582,7 +588,9 @@ namespace MrNibbles1D
 }
 ```
 
-OKay, lets change the brain back to external then re-export the environment. Open the notebook again and change the run_path:
+So each time the current action isnt the same as the last it takes a penalty.
+
+I change the brain back to `External` and re-export the environment. Open the notebook again and change the run_path:
 
 ```python
 run_path = "mrnibbles1d/run2"

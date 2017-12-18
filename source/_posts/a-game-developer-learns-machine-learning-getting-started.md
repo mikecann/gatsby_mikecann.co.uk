@@ -18,6 +18,14 @@ I mentioned [in my last post](/machine-learning/a-game-developer-learns-machine-
 
 <!-- more -->
 
+# The Series
+
+If you are new to the series I recommend you checkout the previous posts first, here's the whole series:
+
+0. [A Game Developer Learns Machine Learning - Intent](/machine-learning/a-game-developer-learns-machine-learning-intent/)
+1. A Game Developer Learns Machine Learning - Getting Started
+2. [A Game Developer Learns Machine Learning - A Little Deeper](/machine-learning/a-game-developer-learns-machine-learning-a-little-deeper)
+
 # TLDR; 
 
 We will use Reinforcement Learning to train an agent to balance a ball.

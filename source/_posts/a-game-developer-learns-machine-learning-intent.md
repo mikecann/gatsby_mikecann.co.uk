@@ -18,6 +18,14 @@ Lately I have spent a considerable amount of time thinking about where I want to
 
 <!-- more -->
 
+# The Series
+
+This is a series of multiple parts, if you liked this post then checkout the others:
+
+0. A Game Developer Learns Machine Learning - Intent
+1. [A Game Developer Learns Machine Learning - Getting Started](/machine-learning/a-game-developer-learns-machine-learning-getting-started/)
+2. [A Game Developer Learns Machine Learning - A Little Deeper](/machine-learning/a-game-developer-learns-machine-learning-a-little-deeper)
+
 # The History
 
 [![](https://mikecann.co.uk/wp-content/uploads/2007/09/Guess.jpg)](https://mikecann.co.uk/wp-content/uploads/2007/09/Guess.jpg)
