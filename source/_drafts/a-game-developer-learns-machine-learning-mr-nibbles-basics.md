@@ -14,7 +14,7 @@ tags:
   - C#
   - Python
   - AGDLML
-date: 2017-01-10 14:51:40
+date: 2018-01-10 14:51:40
 ---
 
 In my last post on Machine Learning we went a little deeper into machine learning by starting from scratch and trained a model to on a vastly simplified version of mr nibbles. In this post we will explore what happens when we step it up a notch and introduce more complexity.
@@ -30,15 +30,9 @@ If you are new to the series I recommend you checkout the previous posts first, 
 2. [A Game Developer Learns Machine Learning - A Little Deeper](/machine-learning/a-game-developer-learns-machine-learning-a-little-deeper/)
 3. A Game Developer Learns Machine Learning - Mr Nibbles Basics
 
-# TLDR;
-
-We start from scratch and construct a basic world for an ml-agent to learn. It doesnt work perfectly but we get something working and have a good idea how to progress next time.
-
-{% youtube MiY6DiZovRg %}
-
 # Mr Nibbles Forever vs Mr Nibbles
 
-Okay so the idea way back in my [Intent](/machine-learning/a-game-developer-learns-machine-learning-intent/) post was to teach an ML agent to learn Mr Nibbles Forever. After some more thought however I think what might be easier is to actually train a model on my original game that "Mr Nibbles Forever" was based on "[Mr Nibbles](http://mr-nibbles.com/)".
+Okay so the idea way back in my [Intent](/machine-learning/a-game-developer-learns-machine-learning-intent/) post was to teach an ML agent to learn Mr Nibbles Forever. After some more thought however I think what might be easier is to actually train a model on my original game that "[Mr Nibbles Forever](http://epicshrimp.com/app/mrnibblesforever/)" was based on "[Mr Nibbles](http://mr-nibbles.com/)".
 
 {% youtube lyAf7VVLdKg %}
 
@@ -82,8 +76,8 @@ public override List<float> CollectState()
     state.Add(_exitPoint.transform.position.x);
     state.Add(_exitPoint.transform.position.y);
 
-    state.Add(_player.transform.position.x);
-    state.Add(_player.transform.position.y);
+    state.Add(_platformController.transform.position.x);
+    state.Add(_platformController.transform.position.y);
 
     return state;
 }
@@ -112,8 +106,167 @@ Thus I should only need to pass in the centre point of each tile in the level al
 
 [INSERT IMAGE TO DEMONSTRATE THIS HERE]
 
-The next issue is, how do I deal with different level sizes? [This GitHub issue](https://github.com/Unity-Technologies/ml-agents/issues/139) states that the state size needs to be fixed. I believe this is to do with the way TensorFlow works under the hood. 
+The next issue is, how do I deal with different level sizes? [This GitHub issue](https://github.com/Unity-Technologies/ml-agents/issues/139) mentions that the state size needs to be fixed. I believe this is to do with the way TensorFlow works under the hood. 
 
-Because our levels are different sizes with a different number of tiles its going to make things tricky.
+This restriction is going to make things a little tricky because our levels are different sizes with a different number of tiles, so keeping the state size the same for each level may be a problem (more on potential solutions to that later).
 
 For now my solution is just to make sure the levels are quite small then grab all the tiles in a certain bounds. If the tile is empty I set its type to "0" if its a solid tile its "1" and if its a spider its "2". 
+
+[INSERT IMAGE TO DEMONSTRATE THIS]
+
+When each level changes I grab the tiles from the tilemaps:
+
+```csharp
+public BoundsInt tileBoundsToIncludeInState = new BoundsInt(-25, -1, 0, 40, 1, 1);
+
+public override void AgentReset()
+{
+    ...
+    _tiles = _game.CurrentLevel.GetComponentInChildren<TilesController>().GetTiles(tileBoundsToIncludeInState);
+    ...
+}
+```
+
+Then feed them into the state list:
+
+```csharp
+public override List<float> CollectState()
+{
+    ...
+
+    foreach (var tile in _tiles)
+    {
+        state.Add(tile.position.x);
+        state.Add(tile.position.y);
+        state.Add(tile.type);
+    }
+    
+    ...
+}
+```
+
+Now there should be enough information there for the network to learn the relationships between the states.
+
+## Actions
+
+Now we have our state setup we need to allow the agent to take and action and receive a reward or punishment for that action.
+
+```csharp
+public override void AgentStep(float[] actions)
+{
+    PerformActions(actions);
+    UpdateRewards();
+}
+```
+
+Digging into `PerformActions` first:
+
+```csharp
+public const int None = 0;
+public const int MoveLeft = 1;
+public const int MoveRight = 2;
+public const int Jump = 3;
+
+...
+
+private void PerformActions(float[] actions)
+{
+    var nothing = (int) actions[None] == 1;
+    var moveLeft = (int) actions[MoveLeft] == 1;
+    var moveRight = (int) actions[MoveRight] == 1;
+    var jump = (int) actions[Jump] == 1;
+
+    var isJumping = false;
+    var hozMove = 0f;
+
+    if (moveLeft)
+        hozMove = -1f;
+    if (moveRight)
+        hozMove = 1f;
+    if (jump)
+        isJumping = true;
+
+    _platformController.Tick(hozMove, isJumping);
+}
+```
+
+I handle the condition where the player can perform none, one or all of the actions simultaneously. I then pass those actions to the platform controller component which updates the physics of mr nibbles.
+
+Now we need to handle how to reward the agent for its actions:
+
+```csharp
+private void UpdateRewards()
+{
+    if (_exitPoint.IsTriggered)
+    {
+        Wins++;
+        reward = 10;
+        done = true;
+    }
+    else if (_spiders.IsTriggered)
+    {
+        Deaths++;
+        reward = -10;
+        done = true;
+    }
+    else
+    {
+        reward = -0.01f;
+    }
+}
+```
+
+The agent is rewarded to reaching the exit, punished for touching the spiders and given a small punishment for each moment that goes by that it doesnt reach the exit. 
+
+Im not sure if these are the correct values, I played around with a few different values, but as we will see later I may not be correct here.
+
+# Defining Brain and Academy
+
+Next up I need to set the properties on my brain and academy
+
+[INSET PICTURE OF THAT HERE]
+
+[TALK ABOUT THAT A LITTLE BIT HERE]
+
+# Testing
+
+Final step before training is to make sure we have everything set up correctly I set the mode on the brain to be "Player" then hit play, and sure enough I can play the game.
+
+[INSERT VIDEO SHOWING THIS0]
+
+# Training
+
+With the environment constructed lets move onto training. First I need to get the hyperparameters right for the PPO algorithm. I re-read [the unity best practices doc](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/best-practices-ppo.md) on this and took a guess at the following hyperparams:
+
+```python
+[INSERT HYPERPARAMS HERE!!]
+```
+
+I then kicked off training and fired up TensorBoard. After a few different attempts I felt like I had something that was training so I let it run for an hour or so:
+
+[INSERT PIC OF TENSORBOARD HERE]
+
+It looks okay, we can see that the cumulative reward increases sharply and levels off and the episode length decreases as the agent learns to play the level.
+
+Unfortunately when we try our model out in the game we see this:
+
+[INSERT VIDEO OF MR NIBBLES GETTING STUCK]
+
+On the positive side, it looks like he is attempting to move towards the exit point when the exit is to the right of the spawn point. On the negative side he doesnt ever seem to want to try going left and also seems to get stuck for a long time at a small hurdle.
+
+I think whats going on is that because the levels where the exit point is to the left of the spawn point have spiders they are significantly more difficult for the agent to solve than the levels where the exit point is to the right of the spawn point. As a result the agent has learnt that probably it should always just go right and is unable to learn that it can jump over the spiders.
+
+# Future Work
+
+I tried a few smaller tweaks but none seemed to have a significant effect. I think what I need to to rethink my strategy. 
+
+## Curriculum Training
+
+While browsing through the Unity docs I came across the concept of [curriculum training](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/curriculum.md). From what I understand, it lets you incrementally train your agent with progressively more difficult scenarios. 
+
+I think I can use this to much more slowly introduce game features to mr nibbles to learn. This should hopefully result in a much stronger agent.
+
+## Tile Radius State
+
+## Reward Tweaking
+
