@@ -30,6 +30,10 @@ If you are new to the series I recommend you checkout the previous posts first, 
 2. [A Game Developer Learns Machine Learning - A Little Deeper](/machine-learning/a-game-developer-learns-machine-learning-a-little-deeper/)
 3. A Game Developer Learns Machine Learning - Mr Nibbles Basics
 
+# Code
+
+If you want to see the code for this post then checkout this tag: https://github.com/mikecann/MrNibblesML/tree/MrNibblesBasicsBlogPost
+
 # Mr Nibbles Forever vs Mr Nibbles
 
 My original [Intent](/machine-learning/a-game-developer-learns-machine-learning-intent/) was to teach an ML agent to learn my game [Mr Nibbles Forever](http://epicshrimp.com/app/mrnibblesforever/). Based on my experience up to this point I think what might be easier is to begin with trying to train an agent to learn a game similar to "[Mr Nibbles](http://mr-nibbles.com/)" instead of  "[Mr Nibbles Forever](http://epicshrimp.com/app/mrnibblesforever/)".
@@ -309,3 +313,5 @@ Another potential issue is was unable to learn to jump correctly was because it 
 Well I cant really call this post a success, but I certainty learnt a lot and that's the ultimate goal. I have lots of ideas for how to proceed from here so subscribe to stay tuned. 
 
 Until next time!
+
+P.S. If you want to see the code for this post then checkout this tag: https://github.com/mikecann/MrNibblesML/tree/MrNibblesBasicsBlogPost
