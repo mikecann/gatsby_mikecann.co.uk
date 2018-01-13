@@ -28,6 +28,7 @@ If you are new to the series I recommend you checkout the previous posts first, 
 0. [A Game Developer Learns Machine Learning - Intent](/machine-learning/a-game-developer-learns-machine-learning-intent/)
 1. [A Game Developer Learns Machine Learning - Getting Started](/machine-learning/a-game-developer-learns-machine-learning-getting-started/)
 2. A Game Developer Learns Machine Learning - A Little Deeper
+3. [A Game Developer Learns Machine Learning - Mr Nibbles Basics](/machine-learning/a-game-developer-learns-machine-learning-mr-nibbles-basics)
 
 # TLDR;
 
