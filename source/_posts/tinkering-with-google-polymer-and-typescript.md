@@ -22,7 +22,7 @@ I recently had the opportunity to experiment with something I have been meaning 
 <!-- more -->
 I first heard about Polymer at Google IO 2014:
 
-[embed]https://www.youtube.com/watch?v=8OJ7ih8EE7s[/embed]
+{% youtube 8OJ7ih8EE7s %}
 
 I highly recommend watching that video if you want to know more about Polymer but the high level idea is that its a library built on top of the new HTML Web Components and it allows us to write our own custom HTML elements in a way that makes sense.
 
@@ -30,7 +30,7 @@ I really liked the look of it as it reminded me greatly of Adobe's Flex (MXML) i
 
 So it took me a few days to get my head around things to begin with. One thing I would recommend if you are interested in tinkering with Polymer then first checkout this video:
 
-[embed]https://www.youtube.com/watch?v=INH_OW4lFSs[/embed]
+{% youtube INH_OW4lFSs %}
 
 I wish I had used that to begin with as it would have saved me a whole heap of "is this the correct way to do it?" headaches.
 
@@ -43,7 +43,7 @@ I ran into an issue with how to use Polymer with Typescript however and there wa
 I'm using a login element as an example:
 
 **login.html**
-[code lang="HTML"]
+```html
 &lt;link rel=&quot;import&quot; href=&quot;/bower_components/polymer/polymer.html&quot;&gt;
 &lt;link rel=&quot;import&quot; href=&quot;/bower_components/paper-toast/paper-toast.html&quot;&gt;
 &lt;link rel=&quot;import&quot; href=&quot;/bower_components/paper-button/paper-button.html&quot;&gt;
@@ -87,14 +87,14 @@ I'm using a login element as an example:
     &lt;/template&gt;
     &lt;script src=&quot;login.js&quot;&gt;&lt;/script&gt;
 &lt;/polymer-element&gt;
-[/code]
+```
 
 Its a pretty simple login element with some binding using some of Google's paper elements but hopefully you get the idea.
 
 ## 2) Create your custom element's script
 
 **login.ts**
-[code lang="AS3"]
+```typescript
 class Login extends PolymerElement {
 
     userService: UserService;
@@ -130,28 +130,28 @@ class Login extends PolymerElement {
 }
 
 Polymer(Login.prototype);
-[/code]
+```
 
 Here we define the variables that we are going to bind to in the element. We also include the "userService" which is an attribute that is a dependency passed into the element.
 
 Note that im able to use this.$ to access the "errorToast" element by ID. Im able to do this because Login extends a class I wrote called PolymerElement:
 
-[code lang="AS3"]
+```typescript
 class PolymerElement {
     $: any;
     style:any;
     fire(eventname: string, payload?: any) { }
     addEventListener(eventName: string, handler: (e : CustomEvent) =&gt; void) { }
 } 
-[/code]
+```
 
 For now it a bit of a hack to get around the fact that Typescript requires that you implement all elements in an interface so I cant just do "class Login implements HTMLElement".
 
 Note also the call to Polymer:
 
-[code lang="AS3"]
+```typescript
 Polymer(Login.prototype);
-[/code]
+```
 
 We must pass the prototype into the call then do our variable initting in the ready() function.
 
@@ -159,7 +159,7 @@ We must pass the prototype into the call then do our variable initting in the re
 
 Now we can use it pretty easily:
 
-[code lang="HTML"]
+```html
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -182,6 +182,6 @@ Now we can use it pretty easily:
     &lt;login userService=&quot;{ {$.userService}}&quot;&gt;&lt;/login&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-[/code]
+```
 
 I hope that helps other that are looking to do their own tinkering with Typescript and Polymer!
