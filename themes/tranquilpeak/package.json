@@ -41,7 +41,7 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-exec": "^0.4.6",
     "grunt-sails-linker": "^0.10.1",
-    "grunt-sass": "1.1.0",
+    "grunt-sass": "2.1.0",
     "grunt-sync": "^0.2.3",
     "grunt-text-replace": "^0.4.0",
     "hexo-renderer-marked": "^0.2.10",
