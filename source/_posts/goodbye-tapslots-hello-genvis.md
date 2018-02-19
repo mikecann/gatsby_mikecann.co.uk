@@ -10,7 +10,7 @@ tags:
   - GenVis
   - Machine Learning
   - AI
-date: 2018-02-22 14:51:40
+date: 2018-02-13 08:00:40
 ---
 
 For the past 3 years (almost) I have been working as a software developer at TapSlots in Perth Australia. Its been a wild ride of learning and development but over the Christmas break I decided that its about time that I tried something new. 
@@ -29,4 +29,4 @@ So when I was trying to decide were I should focus my most valuable asset, time,
 
 Fortuitously around the same time I was approached to join a new startup in Perth that was using Deep Learning to solve some very interesting computer vision problems for the retail industry. After thinking about it some more I decided that this was an exciting opportunity and aligned well with aspirations and beliefs.
 
-So as of this week I am now the Director of Engineering at GenVis in Perth Australia. Im really excited for the potential of this company and I hope that I can do what I do best, explore and advance new technologies, to bring success in my new role.
+So as of this week I am now the Head of Engineering at GenVis in Perth Australia. Im really excited for the potential of this company and I hope that I can do what I do best, explore and advance new technologies, to bring success in my new role.
