@@ -37,7 +37,6 @@ The third year of University was an industrial placement year for Michael. He ha
 Having completed his 12 month placement at Rockpool he continued to do freelance contracting work over the summer of 2006\. The work included development in Flash, Javascript, HTML and PHP. He also launched the second version of his personal site Artificial Studios 2.
 
 ![](https://www.mikecann.co.uk/Work/CRImages/CR01.png "ChainReaction")
-<div>
 
 In September 2006 he returned to Huddersfield for his fourth and final year of university. That year he learnt many new languages and techniques including GPU programming with HLSL and XNA with C#. His theme for projects throughout the year was particle systems. One such project he taught himself [techniques](https://mikecann.co.uk/hlsl/shadowshader-in-rendermonkey/) for updating and rendering [many millions of state preserving particles](https://mikecann.co.uk/c/hlsl/xna/xnagpuparticles-1000000-dynamic-particles/) purely on the GPU.
 
@@ -63,11 +62,14 @@ After 3 years of happy employment at Playdemic Michael took the brave decision t
 
 After returning from his travels he decided to move to Australia to be with a lovely girl he met while travelling. During that time he worked as an independent games developer on a number of indie and freelance projects including the popular mobiles game [Mr Nibbles Forever](https://mikecann.co.uk/games/mr-nibbles-forever/portfolio/projects/mr-nibbles-forever-out-now-on-google-play/).
 
-In May of 2015 he moved to Perth to take a job with the virtual slot-machine company "The Broth". There he has been responsible for developing their leading product Slot Galaxy. His work also including promoting best development practices including Test Driven development and clean maintainable code. His latest work has been working on a new title on the Unity platform.
+In May of 2015 he moved to Perth to take a job with the virtual slot-machine company "Tap Slots". There he has been responsible for developing their leading product Slot Galaxy. His work also including promoting best development practices including Test Driven development and clean maintainable code. His latest work has been working on a new title on the Unity platform.
 
-To be continued..
+Early 2018 mike joined GenVis a company using the latest machine learning techniques to solve computer vision problems. As Head of Engineering his responsibilities were varied but his primary focus was developing the core architecture as microservices powered by kubernetes. 
 
-**Contact him by email at:** mike.cann@gmail.com
-**Or Skype:** cannyshammy
+---
 
-</div>
+## Contact Mike:
+
+<a alt="GitHub" href="https://github.com/mikecann" style="padding-right: 40px"><i class="fa fa-3x fa-github"></i></a><a alt="Stack Overflow" href="https://stackoverflow.com/users/521097/mikeysee" style="padding-right: 40px"><i class="fa fa-3x fa-stack-overflow"></i></a><a alt="Twitter" href="https://twitter.com/mikeysee" style="padding-right: 40px"><i class="fa fa-3x fa-twitter"></i></a><a alt="Facebook" href="https://facebook.com/mikeysee" style="padding-right: 40px"><i class="fa fa-3x fa-facebook"></i></a><a alt="Google +" href="https://plus.google.com/+MichaelCannUk" style="padding-right: 40px"><i class="fa fa-3x fa-google-plus"></i></a><a alt="LinkedIn" href="https://www.linkedin.com/in/mikecann/" style="padding-right: 40px"><i class="fa fa-3x fa-linkedin"></i></a><a alt="Mail" href="mailto:mike.cann@gmail.com" style="padding-right: 40px"><i class="fa fa-3x fa-envelope-o"></i></a><a alt="Skype" href="skype:cannyshammy?userinfo" style="padding-right: 40px"><i class="fa fa-3x fa-skype"></i></a>
+
+---
