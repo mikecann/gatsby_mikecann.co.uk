@@ -48,7 +48,7 @@ The solution I came up with is to add a component to each GameObject which acts 
 
 Because this listing of components was so crucial to performance I decided to write some tests to see what is the fastest way of doing that:
 
-[code lang="csharp"]
+```
 public class GetComponentTests : MonoBehaviour
 {
 	public int iterations = 10000000;
@@ -56,18 +56,18 @@ public class GetComponentTests : MonoBehaviour
 
 	public GameObject noComponents;
 	public GameObject manyComponents;
-	public List&lt;Component&gt; components;
+	public List<Component> components;
 
 	public void TestAll()
 	{
-		components = new List&lt;Component&gt;();
-		TestHelpers.Execute(iterations, repeats, &quot;Empty Function&quot;, TestEmpty);
-		TestHelpers.Execute(iterations, repeats, &quot;Get Components With No Components&quot;, NoComponentsGetComponents);
-		TestHelpers.Execute(iterations, repeats, &quot;Get Components With Many Components&quot;, ManyComponentsGetComponents);
-		TestHelpers.Execute(iterations, repeats, &quot;Get Components With No Components List&quot;, NoComponentsGetComponentsList);
-		TestHelpers.Execute(iterations, repeats, &quot;Get Components With Many Components List&quot;, ManyComponentsGetComponentsList);
+		components = new List<Component>();
+		TestHelpers.Execute(iterations, repeats, "Empty Function", TestEmpty);
+		TestHelpers.Execute(iterations, repeats, "Get Components With No Components", NoComponentsGetComponents);
+		TestHelpers.Execute(iterations, repeats, "Get Components With Many Components", ManyComponentsGetComponents);
+		TestHelpers.Execute(iterations, repeats, "Get Components With No Components List", NoComponentsGetComponentsList);
+		TestHelpers.Execute(iterations, repeats, "Get Components With Many Components List", ManyComponentsGetComponentsList);
 
-		Debug.Log(&quot;components &quot; + components.Count);
+		Debug.Log("components " + components.Count);
 	}        
 
 	public void TestEmpty()
@@ -76,25 +76,25 @@ public class GetComponentTests : MonoBehaviour
 
 	public void NoComponentsGetComponents()
 	{
-		noComponents.GetComponents&lt;Component&gt;();
+		noComponents.GetComponents<Component>();
 	}
 
 	public void ManyComponentsGetComponents()
 	{
-		manyComponents.GetComponents&lt;Component&gt;();
+		manyComponents.GetComponents<Component>();
 	}
 
 	public void NoComponentsGetComponentsList()
 	{
-		noComponents.GetComponents&lt;Component&gt;(components);
+		noComponents.GetComponents<Component>(components);
 	}
 
 	public void ManyComponentsGetComponentsList()
 	{
-		manyComponents.GetComponents&lt;Component&gt;(components);
+		manyComponents.GetComponents<Component>(components);
 	}
 }
-[/code]
+```
 
 I run each of these 10 million times then repeat 3 times and average:
 
@@ -118,7 +118,7 @@ I time how long they create then I count how many frames I get in 10 seconds of 
 
 [![2014-12-10_10-15-54](https://www.mikecann.co.uk/wp-content/uploads/2014/12/2014-12-10_10-15-54.png)](https://www.mikecann.co.uk/wp-content/uploads/2014/12/2014-12-10_10-15-54.png)
 
-[code lang="csharp"]
+```
 public class AsteroidController : MonoBehaviour
 {
 	private Bounds bounds;
@@ -131,25 +131,25 @@ public class AsteroidController : MonoBehaviour
 
 	void Update()
 	{
-		if (transform.position.x &lt; bounds.min.x)
+		if (transform.position.x < bounds.min.x)
 		{
 			transform.position = new Vector3(transform.position.x + bounds.size.x, transform.position.y, transform.position.z);
 		}
-		if (transform.position.x &gt; bounds.max.x)
+		if (transform.position.x > bounds.max.x)
 		{
 			transform.position = new Vector3(transform.position.x - bounds.size.x, transform.position.y, transform.position.z);
 		}
-		if (transform.position.y &lt; bounds.min.y)
+		if (transform.position.y < bounds.min.y)
 		{
 			transform.position = new Vector3(transform.position.x, transform.position.y + bounds.size.y, transform.position.z);
 		}
-		if (transform.position.y &gt; bounds.max.y)
+		if (transform.position.y > bounds.max.y)
 		{
 			transform.position = new Vector3(transform.position.x, transform.position.y - bounds.size.y, transform.position.z);
 		}
 	}
 }
-[/code]
+```
 
 This was the base test and it took about 440ms to create 5000 asteroids and processed 83 frames over 10 seconds (8.3FPS).
 
@@ -159,7 +159,7 @@ Now I had my base I decided to setup the same scenario but using Unity-Ash to dr
 
 Notice that there is no controller for the Asteroid, now all the update logic happens in a system:
 
-[code lang="csharp"]
+```
 public class MovementSystem : SystemBase
 {
 	private Bounds bounds;
@@ -173,7 +173,7 @@ public class MovementSystem : SystemBase
 
 	override public void AddToGame(IGame game)
 	{
-		nodes = game.GetNodeList&lt;MovementNode&gt;();
+		nodes = game.GetNodeList<MovementNode>();
 	}
 
 	override public void Update(float time)
@@ -184,19 +184,19 @@ public class MovementSystem : SystemBase
 			var transform = node.Transform;
 			var rigidbody = node.Rigidbody;
 
-			if (transform.position.x &lt; bounds.min.x)
+			if (transform.position.x < bounds.min.x)
 			{
 				transform.position = new Vector3(transform.position.x + bounds.size.x, transform.position.y, transform.position.z);
 			}
-			if (transform.position.x &gt; bounds.max.x)
+			if (transform.position.x > bounds.max.x)
 			{
 				transform.position = new Vector3(transform.position.x - bounds.size.x, transform.position.y, transform.position.z);
 			}
-			if (transform.position.y &lt; bounds.min.y)
+			if (transform.position.y < bounds.min.y)
 			{
 				transform.position = new Vector3(transform.position.x, transform.position.y + bounds.size.y, transform.position.z);
 			}
-			if (transform.position.y &gt; bounds.max.y)
+			if (transform.position.y > bounds.max.y)
 			{
 				transform.position = new Vector3(transform.position.x, transform.position.y - bounds.size.y, transform.position.z);
 			}
@@ -208,7 +208,7 @@ public class MovementSystem : SystemBase
 		nodes = null;
 	}
 }
-[/code]
+```
 
 The update logic is functionally exactly the same as the AsteroidController except its now contained within a system.
 
