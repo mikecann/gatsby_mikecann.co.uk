@@ -31,11 +31,13 @@ This is a 3 part series, find the other parts here:
 
 Building the frame and working out which hardware to put in it was definitely the trickiest and most time consuming part of the whole project. Unsurprising really as im a software developer not a woodworker or electrical engineer.
 
-## The Computer
+# The Computer
 
-## The Display
+# The Display
 
-## Building the Frame
+# The Glass
+
+# Building the Frame
 
 # More Reading
 
