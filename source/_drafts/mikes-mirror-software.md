@@ -1,5 +1,5 @@
 ---
-title: Mikes Mirror - My Smart Mirror Project (Software)
+title: Mikes Mirror - Software
 categories:
   - Projects
 coverImage: header.jpg
