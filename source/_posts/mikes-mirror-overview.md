@@ -100,18 +100,18 @@ So probably off and on again I have been working on for the last 3 months or so.
 
 [![](./mirror-with-desklight.jpg)](./mirror-with-desklight.jpg)
 
-* I put the screen in upsidown so that onscreen display settings for the monitor are upsidown, whoops!
+* I put the screen in upside down so that on-screen display settings for the monitor are upside down, whoops!
 
 [![](./upsidown-ocd.jpg)](./upsidown-ocd.jpg)
 
-* Im really not a woodworker and so didnt do as good as job as I would have liked there (more on this in the harware post).
-* Racked up an expensive Google Bill because I was recording voice for 500 minutes when I wasnt aware it was running, whoops!
+* Im really not a woodworker and so didnt do as good as job as I would have liked there (more on this in the hardware post).
+* Racked up an expensive Google Bill because I was recording voice for 500 minutes when I wasn't aware it was running, whoops!
 
 # Conclusions
 
-It was a fun and challenging project. I would definitely recommend it if you are looking for a hardware / software project to work on. Theres lots of room to customize it to your needs, just take a look at the [Magic Mirror forum](https://forum.magicmirror.builders/category/12/show-your-mirror) for other peoples projects to see how varied mirror designs can be.
+It was a fun and challenging project. I would definitely recommend it if you are looking for a hardware / software project to work on. There's lots of room to customize it to your needs, just take a look at the [Magic Mirror forum](https://forum.magicmirror.builders/category/12/show-your-mirror) for other peoples projects to see how varied mirror designs can be.
 
-If I was to do it again I think I might so for something that didnt require a bunch of woodwork like this frameless design from Max Braun:
+If I was to do it again I think I might so for something that didn't require a bunch of woodwork like this frameless design from Max Braun:
 
 [![](./frameless-mirror.png)](./frameless-mirror.png)
 
@@ -122,5 +122,5 @@ There's plenty more things I want to add and improve to the mirror. I suspect th
 This is a 3 part series, find the other parts here:
 
 1) Mikes Mirror - Overview
-2) Mikes Mirror - Hardware (Coming very soon)
+2) [Mikes Mirror - Hardware](/projects/mikes-mirror-hardware/)
 3) Mikes Mirror - Software (Coming soon)
