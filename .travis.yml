@@ -11,6 +11,10 @@ before_install:
   - './awscli-bundle/install -b ~/bin/aws'
   - 'export PATH=~/bin:$PATH'
 
+notifications:
+  email:
+    - mike.cann@gmail.com
+
 # only build master
 branches:
   only:
