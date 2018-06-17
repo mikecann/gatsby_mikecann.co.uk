@@ -25,7 +25,7 @@ This is a 3 part series, find the other parts here:
 
 1) [Mikes Mirror - Overview](/projects/mikes-mirror-overview/)
 2) Mikes Mirror - Hardware
-3) Mikes Mirror - Software (Coming soon!)
+3) [Mikes Mirror - Software](/projects/mikes-mirror-software/)
 
 # Research
 
@@ -319,4 +319,4 @@ This is a 3 part series, find the other parts here:
 
 1) [Mikes Mirror - Overview](/projects/mikes-mirror-overview/)
 2) Mikes Mirror - Hardware
-3) Mikes Mirror - Software (Coming soon!)
+3) [Mikes Mirror - Software](/projects/mikes-mirror-software/)
