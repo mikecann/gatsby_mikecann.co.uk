@@ -123,4 +123,4 @@ This is a 3 part series, find the other parts here:
 
 1) Mikes Mirror - Overview
 2) [Mikes Mirror - Hardware](/projects/mikes-mirror-hardware/)
-3) Mikes Mirror - Software (Coming soon)
+3) [Mikes Mirror - Software](/projects/mikes-mirror-software/)
