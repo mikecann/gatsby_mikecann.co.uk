@@ -7,7 +7,7 @@ coverMeta: out
 tags:
   - Talks
   - Public Speaking
-date: 2018-12-18 14:51:40
+date: 2018-12-02 14:51:40
 ---
 
 I totally forgot to post about the various talks I gave this year so I thought I would take a few minutes and post about them.
