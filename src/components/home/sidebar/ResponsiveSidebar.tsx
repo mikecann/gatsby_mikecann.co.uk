@@ -1,6 +1,4 @@
 import React from "react"
-import "semantic-ui-css/semantic.min.css"
-import "prismjs/plugins/line-numbers/prism-line-numbers.css"
 import { style } from "typestyle"
 import { Responsive } from "semantic-ui-react"
 import { LargeScreenSidebar } from "./LargeScreenSidebar"

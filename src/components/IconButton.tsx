@@ -1,6 +1,4 @@
 import React, { ComponentProps } from "react"
-import "semantic-ui-css/semantic.min.css"
-import "prismjs/plugins/line-numbers/prism-line-numbers.css"
 import { setupPage, normalize } from "csstips"
 import { style } from "typestyle"
 import { Image, Button, Icon } from "semantic-ui-react"

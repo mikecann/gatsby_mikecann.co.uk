@@ -1,6 +1,4 @@
 import React from "react"
-import "semantic-ui-css/semantic.min.css"
-import "prismjs/plugins/line-numbers/prism-line-numbers.css"
 import { style } from "typestyle"
 import { Placeholder, Header, Responsive } from "semantic-ui-react"
 import { useWindowSize } from "../../utils/useWindowSize"
