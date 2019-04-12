@@ -92,19 +92,24 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `)
   const { ALGOLIA_ADMIN_KEY, ALGOLIA_APP_ID } = process.env
-  const algoliasearch = require("algoliasearch")
-  const client = algoliasearch(ALGOLIA_APP_ID, ALGOLIA_ADMIN_KEY)
-  const index = client.initIndex("gatsbyblog")
 
-  console.log("")
-  console.log("indexing posts in algolia..")
-  await index.addObjects(
-    result.data.allMarkdownRemark.edges.map(e => ({
-      ...omit(e.node, "id"),
-      createdAt: new Date(e.node.frontmatter.date).getTime(),
-      objectID: e.node.id,
-    }))
-  )
+  if (!ALGOLIA_ADMIN_KEY) {
+    console.log("no algolia admin key, cannot index, skipping!")
+  } else {
+    const algoliasearch = require("algoliasearch")
+    const client = algoliasearch(ALGOLIA_APP_ID, ALGOLIA_ADMIN_KEY)
+    const index = client.initIndex("gatsbyblog")
+
+    console.log("")
+    console.log("indexing posts in algolia..")
+    await index.addObjects(
+      result.data.allMarkdownRemark.edges.map(e => ({
+        ...omit(e.node, "id"),
+        createdAt: new Date(e.node.frontmatter.date).getTime(),
+        objectID: e.node.id,
+      }))
+    )
+  }
 
   // Create blog posts pages..
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
