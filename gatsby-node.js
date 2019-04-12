@@ -104,7 +104,8 @@ exports.createPages = async ({ graphql, actions }) => {
     console.log("indexing posts in algolia..")
     await index.addObjects(
       result.data.allMarkdownRemark.edges.map(e => ({
-        ...omit(e.node, "id"),
+        ...omit(e.node, "id", "html"),
+        html: e.node.html.substr(0, 3000),
         createdAt: new Date(e.node.frontmatter.date).getTime(),
         objectID: e.node.id,
       }))
