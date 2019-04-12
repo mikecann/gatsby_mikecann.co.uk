@@ -21,6 +21,7 @@ const styles = style({
   color: "#ebebeb",
   fontSize: 20,
   textAlign: "center",
+  backgroundSize: "cover"
 })
 
 interface Props {
