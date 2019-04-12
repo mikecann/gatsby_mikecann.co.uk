@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "mikecann.co.uk",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "mike canns blog",
+  "version": "3.0.0",
+  "author": "Mike Cann",
   "dependencies": {
     "@graphql-codegen/cli": "^1.0.4",
     "@graphql-codegen/typescript": "^1.0.4",
@@ -19,7 +19,7 @@
     "gatsby": "^2.3.16",
     "gatsby-image": "^2.0.37",
     "gatsby-plugin-feed": "^2.1.0",
-    "gatsby-plugin-manifest": "^2.0.28",
+    "gatsby-plugin-manifest": "^2.0.29",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sharp": "^2.0.33",
@@ -47,9 +47,6 @@
   "devDependencies": {
     "prettier": "^1.16.4"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
   "scripts": {
     "compile": "tsc --noEmit",
@@ -62,13 +59,6 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "generate": "gql-gen --config codegen.yml",
     "pretty": "prettier --write ./src/**/*.{ts,tsx}"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "husky": {
     "hooks": {

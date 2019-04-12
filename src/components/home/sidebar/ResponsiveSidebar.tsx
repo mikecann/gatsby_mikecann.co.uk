@@ -19,8 +19,6 @@ export function ResponsiveSidebar({  }: Props) {
   const [searchVisible, setSearchVisible] = useState(false)
   const { width } = useWindowSize()
 
-  console.log("WIDTH", width)
-
   return (
     <div id="sidebar">
       {width > 1280 && (
