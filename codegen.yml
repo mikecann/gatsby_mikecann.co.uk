@@ -1,0 +1,10 @@
+overwrite: true
+schema: http://localhost:8000/___graphql
+documents: ["src/pages/**/*.{ts,tsx}", "src/templates/**/*.{ts,tsx}"]
+generates:
+  src/generated.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+    config:
+      skipTypename: true
