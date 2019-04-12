@@ -15,6 +15,7 @@ import { useEffect, useState } from "react"
 import { PostTeaser } from "../home/PostTeaser"
 import { notNull, coverImage } from "../../utils/utils"
 import { Post } from "../../pages/index"
+import { useWindowSize } from "../../utils/useWindowSize"
 
 const styles = style({})
 
@@ -52,6 +53,7 @@ const index = client.initIndex("gatsbyblog")
 export function SearchDialog({ onClose, open }: Props) {
   const [term, setTerm] = useState("")
   const [results, setResults] = useState<Hit[]>([])
+  const windowSize = useWindowSize()
 
   useEffect(() => {
     index.search(term).then(resp => {
@@ -78,7 +80,9 @@ export function SearchDialog({ onClose, open }: Props) {
         </div>
 
         <Divider />
-        <Modal.Description style={{ overflow: "auto", height: 500 }}>
+        <Modal.Description
+          style={{ overflow: "auto", height: windowSize.height - 200 }}
+        >
           {results.map(hit => (
             <div key={hit.objectID} style={{ marginTop: 40, marginBottom: 40 }}>
               <Teaser hit={hit} />
