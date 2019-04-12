@@ -3,7 +3,7 @@
   command = "yarn build"
 
 # COMMENT: This a rule for Single Page Applications.
-# [[redirects]]
-#   from = "/*"
-#   to = "/index.html"
-#   status = 200
+[[redirects]]
+  from = "/wp-content/*"
+  to = "http://d18l99bmg6trdn.cloudfront.net/wp-content/:splat"
+  status = 200
