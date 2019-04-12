@@ -4,6 +4,7 @@ import { SEO } from "../components/SEO"
 import { Page } from "../components/Page"
 import { Header } from "semantic-ui-react"
 import { ResponsiveSidebar } from "../components/home/sidebar/ResponsiveSidebar"
+import gif from "../images/404.gif"
 
 const styles = style({
   display: "flex",
@@ -45,7 +46,7 @@ export default function Page404({  }: Props) {
           <Header as="h1" style={{ marginBottom: 20 }}>
             404
           </Header>
-          <img src="/images/404.gif" />
+          <img src={gif} />
           <div>
             Whoops! Looks like this page cant be found. Perhaps it was moved,
             try searching for it.

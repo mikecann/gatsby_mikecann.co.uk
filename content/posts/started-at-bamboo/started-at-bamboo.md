@@ -30,6 +30,6 @@ So since then until 3 weeks ago I have been working freelance on a couple of pro
 
 So 3 weeks ago I decided to re-enter full time employment by accepting a position at [Bamboo](https://getbamboo.io). Its a company that is building a Cryptocurrency Micro-Investing platform. No clue what im talking about? Check out this video:
 
-{% youtube qJaBlDx2D70 %}
+`youtube: https://www.youtube.com/embed/qJaBlDx2D70`
 
 Im going to be working there as a full-stack developer on all parts of the system. So far it has been a really interesting eclectic collection of technologies from React Native, Typescript to Labmbdas and Go. Im excited to be learning all these new things and hopefully building an excellent product in an exciting space.

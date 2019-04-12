@@ -42,6 +42,13 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: "gatsby-remark-embed-video",
+            options: {
+              width: 750,
+              height: 400,
+            },
+          },
+          {
             resolve: `gatsby-remark-prismjs`,
             options: {
               numberLines: true,

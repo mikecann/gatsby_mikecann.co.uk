@@ -5,7 +5,7 @@ import { setupPage, normalize } from "csstips"
 import { cssRule } from "typestyle"
 
 setupPage("#___gatsby")
-normalize()
+//normalize()
 
 cssRule("#___gatsby > div", {
   height: "100%",

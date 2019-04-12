@@ -32,7 +32,7 @@ At its core, its a chrome-extension that lets you "bookmark people". So for exam
 
 Check out the video below for a quick demonstration:
 
-{% youtube 0TH_JNTOPdg %}
+`youtube: https://www.youtube.com/embed/0TH_JNTOPdg`
 
 # The Problem
 

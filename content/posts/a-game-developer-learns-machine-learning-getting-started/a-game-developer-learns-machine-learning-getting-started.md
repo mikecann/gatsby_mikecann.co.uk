@@ -31,7 +31,7 @@ If you are new to the series I recommend you checkout the previous posts first, 
 
 We will use Reinforcement Learning to train an agent to balance a ball.
 
-{% youtube ZnBfvARKXeo %}
+`youtube: https://www.youtube.com/embed/ZnBfvARKXeo`
 
 # Unity ML Agents
 
@@ -49,7 +49,7 @@ The first thing I need to do is get my system setup with the neccessary tools fo
 
 This process takes quite a while, make sure you follow the instructions EXACTLY. At the bottom of that page is a video which is helpful.
 
-{% youtube qxicgknzUG8 %}
+`youtube: https://www.youtube.com/embed/qxicgknzUG8`
 
 # Jupyter Notebook
 
@@ -173,7 +173,7 @@ public class BallNudger : MonoBehaviour
 
 Now when we click the ball, it changes color and gets a little nudge. Lets run it again and yes, indeed the AI is able to balance the ball dynamically as the input changes.
 
-{% youtube ZnBfvARKXeo %}
+`youtube: https://www.youtube.com/embed/ZnBfvARKXeo`
 
 # Conclusion
 

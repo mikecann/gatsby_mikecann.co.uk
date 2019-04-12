@@ -4,6 +4,8 @@ import "prismjs/plugins/line-numbers/prism-line-numbers.css"
 import { style } from "typestyle"
 import { Placeholder, Header, Responsive } from "semantic-ui-react"
 import { useWindowSize } from "../../utils/useWindowSize"
+import { getWidth } from "../../utils/utils"
+import Img from "gatsby-image";
 
 const styles = style({
   display: "flex",
@@ -28,7 +30,7 @@ export function PostTeaser({ title, date, coverImg, url, excerpt }: Props) {
   const windowSize = useWindowSize()
   return (
     <div className={styles}>
-      <Responsive minWidth={Responsive.onlyMobile.maxWidth}>
+      <Responsive fireOnMount getWidth={getWidth} minWidth={Responsive.onlyMobile.maxWidth}>
         <a href={url}>
           {coverImg ? (
             <img className={imgStyles} srcSet={coverImg} />

@@ -22,7 +22,7 @@ I spent a few hours tinkering with the new (alpha release) version of React whic
 
 The below video is a quick demo of what the chrome extension does.
 
-{% youtube iydk07TCOOs %}
+`youtube: https://www.youtube.com/embed/iydk07TCOOs`
 
 The video demonstrates how the state is able to be shared between the background page, child pages and content scripts simultaneously.
 

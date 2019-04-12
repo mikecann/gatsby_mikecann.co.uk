@@ -1,4 +1,5 @@
 import { Post } from "../pages"
+import { Responsive } from "semantic-ui-react"
 
 export type Maybe<T> = T | null | undefined
 
@@ -35,12 +36,21 @@ export function coverImage(post: any): string {
   if (
     frontmatter.featuredImage &&
     frontmatter.featuredImage.childImageSharp &&
-    frontmatter.featuredImage.childImageSharp.sizes &&
-    frontmatter.featuredImage.childImageSharp.sizes.srcSet
+    frontmatter.featuredImage.childImageSharp.fluid
   )
-    return frontmatter.featuredImage.childImageSharp.sizes.srcSet
+    return (
+      frontmatter.featuredImage.childImageSharp.fluid.srcSet ||
+      frontmatter.featuredImage.childImageSharp.fluid.src
+    )
 
   if (frontmatter && frontmatter.coverImage) return frontmatter.coverImage
 
   return ""
+}
+
+export const getWidth = (): number => {
+  const isSSR = typeof window === "undefined"
+  return (isSSR
+    ? Responsive.onlyLargeScreen.minWidth
+    : window.innerWidth) as any
 }

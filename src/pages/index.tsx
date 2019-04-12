@@ -129,8 +129,8 @@ export const query = graphql`
             coverImage
             featuredImage {
               childImageSharp {
-                sizes(maxWidth: 200) {
-                  srcSet
+                fluid(maxHeight: 150) {
+                  src
                 }
               }
             }

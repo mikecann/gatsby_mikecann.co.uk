@@ -1,11 +1,8 @@
 import { useEffect, useState } from "react"
 
-const isClient = true
+const isClient = typeof window != "undefined"
 
-export const useWindowSize = (
-  initialWidth = Infinity,
-  initialHeight = Infinity
-) => {
+export const useWindowSize = (initialWidth = 1024, initialHeight = 1024) => {
   const [state, setState] = useState<{ width: number; height: number }>({
     width: isClient ? window.innerWidth : initialWidth,
     height: isClient ? window.innerHeight : initialHeight,

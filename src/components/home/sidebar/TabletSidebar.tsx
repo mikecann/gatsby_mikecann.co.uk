@@ -8,9 +8,11 @@ import { SocialIcon } from "./SocialIcon"
 import { PageButton } from "./PageButton"
 import { Link } from "gatsby"
 import { Pages } from "./Pages"
+import cover from "../../../images/cover.jpg"
+import me from "../../../images/me-shaved-head.jpg"
 
 const styles = style({
-  backgroundImage: "url(/images/cover.jpg)",
+  backgroundImage: `url(${cover})`,
   width: 200,
   padding: 20,
   height: "100%",
@@ -31,7 +33,7 @@ export function TabletSidebar({ onOpenSearch }: Props) {
   return (
     <div className={styles}>
       <div style={{ display: "flex", justifyContent: "center", margin: 20 }}>
-        <Image src="/images/me-shaved-head.jpg" circular />
+        <Image src={me} circular />
       </div>
       <p>Mike Cann</p>
       <div>

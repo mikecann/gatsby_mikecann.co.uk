@@ -34,7 +34,7 @@ If you are new to the series I recommend you checkout the previous posts first, 
 
 We start a new project from scratch and train an agent to learn the solution to a simple problem.
 
-{% youtube MiY6DiZovRg %}
+`youtube: https://www.youtube.com/embed/MiY6DiZovRg`
 
 # Where to Begin?
 
@@ -44,7 +44,7 @@ I started off by reading some more of the [documents](https://github.com/Unity-T
 
 It was then that I stumbled across this video from Unity 3D College:
 
-{% youtube 61_FtB1PhaM %}
+`youtube: https://www.youtube.com/embed/61_FtB1PhaM`
 
 Sweet! Exactly what I was looking for. A clear and concise next step with some great tips. Im going to see if I can take the video and recreate it in my own style.
 
@@ -407,7 +407,7 @@ We are finally ready to enter playmode and test out our scene prior to training.
 
 Now lets press play and we can use the arrow keys on our keyboard to control Mr Nibbles
 
-{% youtube T2hAcNlQoI0 %}
+`youtube: https://www.youtube.com/embed/T2hAcNlQoI0`
 
 Sweet! We can see that it works, when Mr Nibbles touches a spider then he "dies" and when he touches a nibble he "wins".
 
@@ -442,7 +442,7 @@ namespace MrNibbles1D
 
 Now when we move left or right Mr Nibbles will face the correct direction.
 
-{% youtube JNgzEKvtAHY %}
+`youtube: https://www.youtube.com/embed/JNgzEKvtAHY`
 
 _NOTE: we have to use `FixedUpdate()` instead of `Update()` because the Agent takes its actions on the FixedUpdate loop._
 
@@ -543,7 +543,7 @@ I copy the model from `/python/models/mrnibbles1d/mrnibbles1d.bytes` to `/unity/
 
 Now we should be able to just press play and see how well our trained model does:
 
-{% youtube LD_YynM7oZI %}
+`youtube: https://www.youtube.com/embed/LD_YynM7oZI`
 
 Sweet! It works! Its able to move towards the nibble 100% of the time.
 
@@ -609,7 +609,7 @@ The episode_length takes roughly the same amount of time however so that's good.
 
 Lets see how it does when we use the model in the game:
 
-{% youtube MiY6DiZovRg %}
+`youtube: https://www.youtube.com/embed/MiY6DiZovRg`
 
 Awesome! Most of the jitter has gone, just a tiny amount when the nibble spawns close but I think that's good enough for now :)
 

@@ -2601,7 +2601,7 @@ export type IndexPageQQuery = {
           > & {
             featuredImage: Maybe<{
               childImageSharp: Maybe<{
-                sizes: Maybe<Pick<ImageSharpSizes, "srcSet">>
+                fluid: Maybe<Pick<ImageSharpFluid, "src">>
               }>
             }>
           }
@@ -2641,7 +2641,7 @@ export type PostByIdQuery = {
         > & {
           featuredImage: Maybe<{
             childImageSharp: Maybe<{
-              sizes: Maybe<Pick<ImageSharpSizes, "srcSet">>
+              fluid: Maybe<Pick<ImageSharpFluid, "src">>
             }>
           }>
         }

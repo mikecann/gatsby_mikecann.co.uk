@@ -88,7 +88,7 @@ export const pageQuery = graphql`
         coverImage
         featuredImage {
           childImageSharp {
-            sizes {
+            fluid {
               srcSet
             }
           }

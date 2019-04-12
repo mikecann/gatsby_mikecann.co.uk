@@ -6,7 +6,6 @@
  */
 
 import React from "react"
-import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -62,6 +61,10 @@ export function SEO({ description, lang, meta, keywords, title }: Props) {
         {
           name: `twitter:card`,
           content: `summary`,
+        },
+        {
+          name: `viewport`,
+          content: `width=device-width, initial-scale=1, shrink-to-fit=no`,
         },
         {
           name: `twitter:creator`,

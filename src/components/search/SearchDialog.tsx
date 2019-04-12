@@ -38,8 +38,8 @@ type Hit = {
     coverImage?: string | null
     featuredImage?: {
       childImageSharp?: {
-        sizes?: {
-          srcSet?: string
+        fluid?: {
+          src?: string
         }
       }
     }

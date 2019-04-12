@@ -80,8 +80,8 @@ exports.createPages = async ({ graphql, actions }) => {
               coverImage
               featuredImage {
                 childImageSharp {
-                  sizes(maxWidth: 200) {
-                    srcSet
+                  fluid(maxHeight: 150) {
+                    src
                   }
                 }
               }

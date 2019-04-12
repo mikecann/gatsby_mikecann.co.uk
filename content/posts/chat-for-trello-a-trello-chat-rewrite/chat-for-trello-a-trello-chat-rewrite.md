@@ -18,7 +18,7 @@ In the [spirit of repeating myself](http://mikecann.co.uk/tasks-for-trello/tasks
 
 Checkout the video:
 
-{% youtube qEK3Zl2xA2E %}
+`youtube: https://www.youtube.com/embed/qEK3Zl2xA2E`
 
 It basically adds chat functionality to a Trello Board.
 
