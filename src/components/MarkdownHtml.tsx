@@ -11,6 +11,7 @@ const contentStyles = style({
   $nest: {
     img: {
       maxWidth: "100%",
+      boxShadow: "0px 0px 10px #bbb !important",
     },
   },
 })

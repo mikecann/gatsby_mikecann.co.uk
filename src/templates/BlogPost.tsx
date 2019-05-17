@@ -55,6 +55,7 @@ export default function BlogPost({ data }: Props) {
             </Header.Subheader>
           </Header>
           <MarkdownHtml html={markdownRemark.html} />
+          <div style={{ height: 40 }} />
           <DiscussionEmbed
             shortname="devwbfg"
             config={{
