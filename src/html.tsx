@@ -13,7 +13,7 @@ export default function HTML(props: any) {
         />
         <link
           rel="stylesheet"
-          href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
         />
         {props.headComponents}
       </head>
