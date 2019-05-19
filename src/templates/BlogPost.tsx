@@ -9,6 +9,7 @@ import { Navbar } from "../components/Navbar"
 import { DiscussionEmbed, CommentCount } from "disqus-react"
 import { SearchDialog } from "../components/search/SearchDialog"
 import { MarkdownHtml } from "../components/MarkdownHtml"
+import Helmet from "react-helmet"
 
 const coverImgStyles = style({
   width: "100%",
@@ -36,6 +37,9 @@ export default function BlogPost({ data }: Props) {
 
   return (
     <Page>
+      <Helmet>
+        <title>{frontmatter.title} | MikeCann.co.uk</title>
+      </Helmet>
       {coverImg ? (
         <img className={coverImgStyles} srcSet={coverImg} />
       ) : (
