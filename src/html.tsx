@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import { WindowSizeContainer } from "./utils/useWindowSize"
 
 export default function HTML(props: any) {
   return (

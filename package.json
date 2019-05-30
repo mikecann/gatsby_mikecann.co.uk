@@ -13,6 +13,7 @@
     "@types/react-dom": "^16.8.3",
     "@types/react-helmet": "^5.0.8",
     "algoliasearch": "^3.32.1",
+    "constate": "^1.1.1",
     "csstips": "^0.3.0",
     "disqus-react": "^1.0.5",
     "dotenv": "^7.0.0",
