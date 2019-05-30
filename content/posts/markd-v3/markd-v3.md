@@ -1,13 +1,15 @@
 ---
 title: Markd V3
 categories:
-  - Blog
+  - Markd
 featuredImage: ./header.jpg
 coverMeta: out
 tags:
-  - Personal
-  - Website
-  - Blog
+  - Design
+  - Websites
+  - RelationshipManagement
+  - GraphQL
+  - Node
   - Typescript
 date: 2019-05-17 14:51:40
 ---

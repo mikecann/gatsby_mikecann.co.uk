@@ -1,4 +1,4 @@
-import React, { useState, UIEventHandler } from "react"
+import React, { useState, UIEventHandler, useEffect } from "react"
 import { graphql } from "gatsby"
 import { style } from "typestyle"
 import { SEO } from "../components/SEO"
@@ -9,26 +9,21 @@ import { Divider } from "semantic-ui-react"
 import { ResponsiveSidebar } from "../components/home/sidebar/ResponsiveSidebar"
 import { PostTeaser } from "../components/home/PostTeaser"
 import { useWindowSize } from "../utils/useWindowSize"
+import { useScroll } from "../utils/useScroll"
 
 const styles = style({
-  display: "flex",
-  alignItems: "row",
   width: "100%",
   height: "100%",
 })
 
 const contentStyles = style({
-  flex: 1,
-  display: "flex",
-  padding: 40,
+  padding: "40px 40px 40px 450px",
   width: "100%",
   height: "100%",
-  overflowY: "auto",
-  justifyContent: "center",
 })
 
 const postListStyles = style({
-  width: 750,
+  maxWidth: 750,
 })
 
 interface Props {
@@ -46,21 +41,25 @@ export default function IndexPage({ data }: Props) {
     e => e.node
   )
   const [visiblePosts, setVisiblePosts] = useState(posts.slice(0, pageSize))
-
+  const [timeOfLastLoad, setTimeOfLastLoad] = useState(Date.now())
+  const scroll = useScroll()
   const windowSize = useWindowSize()
 
-  const onScroll: UIEventHandler<HTMLDivElement> = e => {
-    const distanceFromBottom =
-      e.currentTarget.scrollHeight -
-      window.innerHeight -
-      e.currentTarget.scrollTop +
-      60
+  useEffect(() => {
+    if (scroll.distanceFromBottom > 200) return
+    if (Date.now() - timeOfLastLoad < 1000) return
 
     const endOfItemsReached = visiblePosts.length == posts.length
+    if (endOfItemsReached) return
 
-    if (!endOfItemsReached && distanceFromBottom < 200)
-      setVisiblePosts(posts.slice(0, visiblePosts.length + pageSize))
-  }
+    console.log("Loading next page")
+    setTimeOfLastLoad(Date.now())
+    setVisiblePosts(posts.slice(0, visiblePosts.length + pageSize))
+  }, [scroll.distanceFromBottom])
+
+  let paddingLeft = 450
+  if (windowSize.width < 1280) paddingLeft = 250
+  if (windowSize.width < 1025) paddingLeft = 100
 
   return (
     <Page className={styles}>
@@ -76,11 +75,7 @@ export default function IndexPage({ data }: Props) {
         ]}
       />
       <ResponsiveSidebar />
-      <div
-        className={contentStyles}
-        style={{ padding: windowSize.width > 500 ? 40 : 10 }}
-        onScroll={onScroll}
-      >
+      <div className={contentStyles} style={{ paddingLeft }}>
         <div className={postListStyles}>
           {visiblePosts.map((p, i) => (
             <div key={p.id + i} style={{ marginTop: 40, marginBottom: 40 }}>

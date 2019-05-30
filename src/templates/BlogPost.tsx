@@ -3,13 +3,15 @@ import { graphql } from "gatsby"
 import { PostByIdQuery } from "../generated"
 import { notNull, coverImage } from "../utils/utils"
 import { Page } from "../components/Page"
-import { Container, Header, Visibility } from "semantic-ui-react"
+import { Container, Header, Visibility, Divider } from "semantic-ui-react"
 import { style } from "typestyle"
 import { Navbar } from "../components/Navbar"
 import { DiscussionEmbed, CommentCount } from "disqus-react"
 import { SearchDialog } from "../components/search/SearchDialog"
 import { MarkdownHtml } from "../components/MarkdownHtml"
 import Helmet from "react-helmet"
+import { MailchimpSignupForm } from "../components/MailchimpSignupForm"
+import { MailchimpSignupPopup } from "../components/MailchimpSignupPopup"
 
 const coverImgStyles = style({
   width: "100%",
@@ -59,7 +61,9 @@ export default function BlogPost({ data }: Props) {
             </Header.Subheader>
           </Header>
           <MarkdownHtml html={markdownRemark.html} />
-          <div style={{ height: 40 }} />
+          <Divider horizontal>Subscribe</Divider>
+          <MailchimpSignupForm />
+          <Divider horizontal>Comment</Divider>
           <DiscussionEmbed
             shortname="devwbfg"
             config={{
@@ -74,6 +78,7 @@ export default function BlogPost({ data }: Props) {
         open={searchVisible}
         onClose={() => setSearchVisible(false)}
       />
+      <MailchimpSignupPopup />
     </Page>
   )
 }

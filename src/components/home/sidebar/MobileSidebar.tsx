@@ -20,8 +20,11 @@ const styles = style({
   alignContent: "center",
   color: "#ebebeb",
   fontSize: 20,
+  position: "fixed",
+  top: 0,
+  left: 0,
   textAlign: "center",
-  backgroundSize: "cover"
+  backgroundSize: "cover",
 })
 
 interface Props {

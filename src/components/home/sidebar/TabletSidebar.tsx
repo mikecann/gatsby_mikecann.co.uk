@@ -21,6 +21,9 @@ const styles = style({
   color: "#ebebeb",
   fontSize: 20,
   textAlign: "center",
+  position: "fixed",
+  top: 0,
+  left: 0,
   backgroundSize: "cover",
 })
 
