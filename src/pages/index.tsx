@@ -10,14 +10,9 @@ import { ResponsiveSidebar } from "../components/home/sidebar/ResponsiveSidebar"
 import { PostTeaser } from "../components/home/PostTeaser"
 import { useWindowSize } from "../utils/useWindowSize"
 import { useScroll } from "../utils/useScroll"
+import { ContentWrapper } from "../components/ContentWrapper"
 
 const styles = style({
-  width: "100%",
-  height: "100%",
-})
-
-const contentStyles = style({
-  padding: "40px 40px 40px 450px",
   width: "100%",
   height: "100%",
 })
@@ -57,10 +52,6 @@ export default function IndexPage({ data }: Props) {
     setVisiblePosts(posts.slice(0, visiblePosts.length + pageSize))
   }, [scroll.distanceFromBottom])
 
-  let paddingLeft = 450
-  if (windowSize.width < 1280) paddingLeft = 250
-  if (windowSize.width < 1025) paddingLeft = 100
-
   return (
     <Page className={styles}>
       <SEO
@@ -75,7 +66,7 @@ export default function IndexPage({ data }: Props) {
         ]}
       />
       <ResponsiveSidebar />
-      <div className={contentStyles} style={{ paddingLeft }}>
+      <ContentWrapper>
         <div className={postListStyles}>
           {visiblePosts.map((p, i) => (
             <div key={p.id + i} style={{ marginTop: 40, marginBottom: 40 }}>
@@ -84,7 +75,7 @@ export default function IndexPage({ data }: Props) {
             </div>
           ))}
         </div>
-      </div>
+      </ContentWrapper>
     </Page>
   )
 }

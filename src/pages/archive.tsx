@@ -7,6 +7,7 @@ import { notNull } from "../utils/utils"
 import { Page } from "../components/Page"
 import { List, Header } from "semantic-ui-react"
 import { ResponsiveSidebar } from "../components/home/sidebar/ResponsiveSidebar"
+import { ContentWrapper } from "../components/ContentWrapper"
 
 const styles = style({
   display: "flex",
@@ -15,19 +16,8 @@ const styles = style({
   height: "100%",
 })
 
-const contentStyles = style({
-  flex: 1,
-  display: "flex",
-  alignItems: "column",
-  padding: 40,
-  width: "100%",
-  height: "100%",
-  overflowY: "auto",
-  justifyContent: "center",
-})
-
 const postListStyles = style({
-  width: 750,
+  maxWidth: 750,
 })
 
 interface Props {
@@ -57,14 +47,14 @@ export default function ArchivePage({ data }: Props) {
         ]}
       />
       <ResponsiveSidebar />
-      <div className={contentStyles}>
+      <ContentWrapper>
         <List className={postListStyles}>
           <Header as="h1" style={{ marginBottom: 20 }}>
             Post Archive
           </Header>
           <PostsByYear posts={posts} />
         </List>
-      </div>
+      </ContentWrapper>
     </Page>
   )
 }

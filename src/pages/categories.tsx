@@ -7,6 +7,7 @@ import { notNull, urlify } from "../utils/utils"
 import { Page } from "../components/Page"
 import { List, Header } from "semantic-ui-react"
 import { ResponsiveSidebar } from "../components/home/sidebar/ResponsiveSidebar"
+import { ContentWrapper } from "../components/ContentWrapper"
 
 const styles = style({
   display: "flex",
@@ -27,7 +28,7 @@ const contentStyles = style({
 })
 
 const postListStyles = style({
-  width: 750,
+  maxWidth: 750,
 })
 
 interface Props {
@@ -57,14 +58,14 @@ export default function CategoriesPage({ data }: Props) {
         ]}
       />
       <ResponsiveSidebar />
-      <div className={contentStyles}>
+      <ContentWrapper>
         <List className={postListStyles}>
           <Header as="h1" style={{ marginBottom: 20 }}>
             Post Categories
           </Header>
           <PostsByCategory posts={posts} />
         </List>
-      </div>
+      </ContentWrapper>
     </Page>
   )
 }

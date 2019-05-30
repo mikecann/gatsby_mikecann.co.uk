@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { style } from "typestyle"
 import { Responsive } from "semantic-ui-react"
 import { LargeScreenSidebar } from "./LargeScreenSidebar"
@@ -11,11 +11,24 @@ import { useWindowSize } from "../../../utils/useWindowSize"
 
 const styles = style({ backgroundColor: "red" })
 
-interface Props extends React.Props<{}> {}
+interface Props extends React.Props<{}> {
+  searchVisible?: boolean
+  onSearchVisibleChanged?: (b: boolean) => any
+}
 
-export function ResponsiveSidebar({  }: Props) {
-  const [searchVisible, setSearchVisible] = useState(false)
+export function ResponsiveSidebar(props: Props) {
+  const [searchVisible, setSearchVisible] = useState(
+    props.searchVisible || false
+  )
   const { width } = useWindowSize()
+
+  useEffect(() => {
+    setSearchVisible(props.searchVisible || false)
+  }, [props.searchVisible])
+
+  useEffect(() => {
+    props.onSearchVisibleChanged && props.onSearchVisibleChanged(searchVisible)
+  }, [searchVisible])
 
   return (
     <div id="sidebar">

@@ -8,23 +8,13 @@ import { Page } from "../components/Page"
 import { Header } from "semantic-ui-react"
 import { ResponsiveSidebar } from "../components/home/sidebar/ResponsiveSidebar"
 import { MarkdownHtml } from "../components/MarkdownHtml"
+import { ContentWrapper } from "../components/ContentWrapper"
 
 const styles = style({
   display: "flex",
   alignItems: "row",
   width: "100%",
   height: "100%",
-})
-
-const contentStyles = style({
-  flex: 1,
-  display: "flex",
-  flexDirection: "column",
-  alignItems: "center",
-  padding: 40,
-  width: "100%",
-  height: "100%",
-  overflowY: "auto",
 })
 
 interface Props {
@@ -50,14 +40,14 @@ export default function ArchivePage({ data }: Props) {
         ]}
       />
       <ResponsiveSidebar />
-      <div className={contentStyles}>
+      <ContentWrapper>
         <div style={{ maxWidth: 750 }}>
           <Header as="h1" style={{ marginBottom: 20 }}>
             About
           </Header>
           <MarkdownHtml html={post.html} />
         </div>
-      </div>
+      </ContentWrapper>
     </Page>
   )
 }
