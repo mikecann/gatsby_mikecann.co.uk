@@ -25,7 +25,9 @@ export function useScroll() {
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
-  const distanceFromBottom =
-    document.documentElement.scrollHeight - window.innerHeight - scrollY
+  const hasDocument = typeof document != "undefined"
+  const distanceFromBottom = hasDocument
+    ? document.documentElement.scrollHeight - window.innerHeight - scrollY
+    : 1000
   return { ...position, distanceFromBottom }
 }
