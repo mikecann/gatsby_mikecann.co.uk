@@ -106,7 +106,7 @@ export function SearchDialog({ onClose, open }: Props) {
 function Teaser({ hit }: { hit: Hit }) {
   const frontmatter = notNull(hit.frontmatter)
   const coverImg = coverImage(hit)
-  const url = hit.fields!.slug
+  const url = "/" + hit.fields!.slug
   return (
     <PostTeaser
       title={frontmatter.title + ""}

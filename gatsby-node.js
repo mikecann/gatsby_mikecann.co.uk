@@ -70,6 +70,7 @@ exports.createPages = async ({ graphql, actions }) => {
           node {
             id
             html
+            excerpt
             fields {
               slug
             }
@@ -99,17 +100,17 @@ exports.createPages = async ({ graphql, actions }) => {
     const algoliasearch = require("algoliasearch")
     const client = algoliasearch(ALGOLIA_APP_ID, ALGOLIA_ADMIN_KEY)
     const index = client.initIndex("gatsbyblog")
+    await index.clearIndex()
+    const toAdd = result.data.allMarkdownRemark.edges.map(e => ({
+      ...omit(e.node, "id", "html"),
+      html: e.node.html.substr(0, 3000),
+      createdAt: new Date(e.node.frontmatter.date).getTime(),
+      objectID: e.node.id,
+    }))
 
     console.log("")
     console.log("indexing posts in algolia..")
-    await index.addObjects(
-      result.data.allMarkdownRemark.edges.map(e => ({
-        ...omit(e.node, "id", "html"),
-        html: e.node.html.substr(0, 3000),
-        createdAt: new Date(e.node.frontmatter.date).getTime(),
-        objectID: e.node.id,
-      }))
-    )
+    await index.addObjects(toAdd)
   }
 
   // Create blog posts pages..
