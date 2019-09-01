@@ -20,22 +20,22 @@ Its been a little while since I have done a pure tech focused blog post but I di
 
 So the problem is; if you build a chrome extension with a background page and try to use a `useEffect` hook on that page, you will notice that the handler of the effect doesn't trigger.
 
-```
-import * as React from "react";
-import { render } from "react-dom";
-import { useEffect } from "react";
+```typescript
+import * as React from "react"
+import { render } from "react-dom"
+import { useEffect } from "react"
 
 function App() {
-  console.log("Execution reaches here..");
+  console.log("Execution reaches here..")
 
   useEffect(() => {
-    console.log("..but this never gets triggered.");
-  }, []);
+    console.log("..but this never gets triggered.")
+  }, [])
 
-  return <div />;
+  return <div />
 }
 
-render(<App />, document.getElementById("root"));
+render(<App />, document.getElementById("root"))
 ```
 
 This is obviously not quite right.
@@ -48,13 +48,13 @@ It appears as if this issue started happening somewhere between 16.8 and 16.9 so
 
 I also discovered that you can workaround the issue with this little hack:
 
-```
+```typescript
 function useBackgroundKeepaliveHack() {
-  const [tick, setTick] = useState(0);
+  const [tick, setTick] = useState(0)
   useLayoutEffect(() => {
-    setTick(1);
-    setInterval(() => setTick(prev => prev + 1), 1000);
-  }, []);
+    setTick(1)
+    setInterval(() => setTick(prev => prev + 1), 1000)
+  }, [])
 }
 ```
 
