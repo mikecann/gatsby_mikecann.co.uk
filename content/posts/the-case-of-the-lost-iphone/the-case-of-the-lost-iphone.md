@@ -13,6 +13,12 @@ Todays post is a little different from my usual technical or business related po
 
 <!-- more -->
 
+# TLDR;
+
+`youtube: https://www.youtube.com/watch?v=4r3j5qWkO34`
+
+I was contacted to give an interview by Dariya Salmin of ABC's South West Radio show "Mornings" about the found iPhone, give it a listen if you dont do readin' :)
+
 # The Discovery
 
 A few weekends ago it was an unusually hot spring day here in Western Australia and we were on a weekend break at the seaside town of Busselton. As it was so warm I decided to head down the beach for an early-season swim under the famous Jetty.
