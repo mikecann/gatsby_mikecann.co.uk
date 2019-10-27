@@ -13,7 +13,7 @@ tags:
 date: 2019-10-27 08:51:40
 ---
 
-Lately we (Markd Ltd) have been working on a few different projects, today we are happy to announce one of those new projects, LinkedIn Notes.
+Lately we (Markd Ltd) have been working on a few different projects, today we are happy to announce one of those new projects, [LinkedIn Notes](https://chrome.google.com/webstore/detail/linkedin-notes/efjjkjipkkciokjblkmmfbihellibile).
 
 <!-- more -->
 
@@ -25,7 +25,7 @@ The above is a demo of it in action, should give you an indication of what its a
 
 # What?
 
-LinkedIn Notes is a Chrome Extension that makes it easy to add tags and notes to LinkedIn Connections then gather them together for later processing.
+[LinkedIn Notes](https://chrome.google.com/webstore/detail/linkedin-notes/efjjkjipkkciokjblkmmfbihellibile) is a Chrome Extension that makes it easy to add tags and notes to LinkedIn Connections then gather them together for later processing.
 
 Once installed you can simply visit any LinkedIn Connection page and you will see a sidebar open on the right hand side of the screen.
 
