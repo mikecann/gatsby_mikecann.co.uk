@@ -10,7 +10,7 @@ tags:
   - Async
   - Typescript
   - Battleships
-date: 2019-17-11 09:51:40
+date: 2019-11-17 09:51:40
 ---
 
 This one has been quite a while in the making but im proud to announce this innovative new game we have been working on.
