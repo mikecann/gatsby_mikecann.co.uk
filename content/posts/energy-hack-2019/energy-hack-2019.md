@@ -9,7 +9,7 @@ tags:
   - Energy
   - Startups
   - Perth
-date: 2019-19-11 13:51:40
+date: 2019-11-19 13:51:40
 ---
 
 Just a quick post on my recent attendance of the one-day hackathon "Energy Hack".
