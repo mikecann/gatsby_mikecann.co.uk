@@ -54,7 +54,7 @@ export function LargeScreenSidebar({ onOpenSearch }: Props) {
           href="https://www.linkedin.com/in/mikecann/"
           name="linkedin"
         />
-        <SocialIcon href="mike.cann@gmail.com" name="mail" />
+        <SocialIcon href="mailto:mike.cann@gmail.com" name="mail" />
       </div>
       <div style={{ width: 320 }}>
         <Pages onOpenSearch={onOpenSearch} />
