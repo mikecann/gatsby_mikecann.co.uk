@@ -81,7 +81,7 @@ I couldn't believe it. I was totally expecting it just to not power up or the ma
 
 I wanted to see if I could get the handles and other mounting brackets 3D printed.
 
-![](./3d-prts.png)
+![](./3d-prts.jpg)
 
 I downloaded the SDL files supplied by Adafruit and went over to a mates place who owned a 3D printer.
 
