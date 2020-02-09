@@ -54,6 +54,7 @@ export function SearchDialog({ onClose, open }: Props) {
   const [term, setTerm] = useState("")
   const [results, setResults] = useState<Hit[]>([])
   const windowSize = useWindowSize()
+  const [input, setInput] = useState<Input | null>(null)
 
   useEffect(() => {
     index.search(term).then(resp => {
@@ -62,11 +63,17 @@ export function SearchDialog({ onClose, open }: Props) {
     })
   }, [term])
 
+  useEffect(() => {
+    if (!input) return
+    input.focus()
+  }, [input])
+
   return (
     <Modal open={open} size="small">
       <Modal.Content>
         <div style={{ width: "100%", display: "flex", flexDirection: "row" }}>
           <Input
+            ref={setInput}
             icon="search"
             iconPosition="left"
             placeholder="Search..."
