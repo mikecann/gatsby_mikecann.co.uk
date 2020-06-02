@@ -11,7 +11,7 @@ tags:
   - MST
   - OpenSource
   - Github
-date: 2020-07-01 08:31:40
+date: 2020-06-01 08:31:40
 ---
 
 I have generally steered away from building open-source libraries mainly for selfish reasons (I didn't want to spend the time maintaining them) but I decided that the current work I was doing would benefit from input and improvement from others and so I decided to release two things as libraries and im really happy with how things went.
