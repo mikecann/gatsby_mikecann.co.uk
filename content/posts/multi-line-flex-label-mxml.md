@@ -22,11 +22,11 @@ Just stumbled across this one while writing some mxml for a personal project 
 
 Have you ever wanted to have multi-line text in your label component in spark and thought the following should work?
 
-[codesyntax lang="mxml"]
+```
 
-<pre>&lt;s:Label text="I like text on the n next line" /&gt;</pre>
+&lt;s:Label text="I like text on the n next line" /&gt;
 
-[/codesyntax]
+```
 
 But all it produces is:
 
@@ -36,11 +36,11 @@ Yep me too.
 
 After some playing however I stumbled accross the following solution:
 
-[codesyntax lang="mxml"]
+```
 
-<pre>&lt;s:Label text="I like text on the {'n'} next line" /&gt;</pre>
+&lt;s:Label text="I like text on the {'n'} next line" /&gt;
 
-[/codesyntax]
+```
 
 It then produces the expected result:
 

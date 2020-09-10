@@ -48,12 +48,12 @@ The language JavaFX Script is great. It took a little getting used to as it is a
 
 A little sample of code to give you a feel of how its declarative approach works:
 
-<pre>Stage {
+Stage {
     title: "Ello World"
     width: 300
     height: 300
 
-    scene: Scene {
+scene: Scene {
         content: [
              Text {
                font: Font { size: 22 }
@@ -63,7 +63,7 @@ A little sample of code to give you a feel of how its declarative approach works
              }
         ]
      }
-}</pre>
+}
 
 This is your standard "Hello World" (but with a British twist):
 

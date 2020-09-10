@@ -117,25 +117,27 @@ To get dat.GUI to work with haxe, I used the awesome [Extern feature of HaXe](ht
 
 [code lang="actionscript3" lines="normal"][/code]
 
-<pre>package dat;
+package dat;
 
-/**
- * ...
- * @author Mike Cann
- */
+/\*\*
+
+- ...
+- @author Mike Cann
+  \*/
 
 extern class GUI
 {
 
-	public function new(options:Dynamic) : Void;
-	public function add(options:Dynamic, name:String) : GUI;
-	public function name(value:String) : GUI;
-	public function min(value:Float) : GUI;
-	public function max(value:Float) : GUI;
-	public function step(value:Float) : GUI;
-	public function onFinishChange(f:Void -&gt; Void) : GUI;
-	public function listen() : GUI;
-}</pre>
+    public function new(options:Dynamic) : Void;
+    public function add(options:Dynamic, name:String) : GUI;
+    public function name(value:String) : GUI;
+    public function min(value:Float) : GUI;
+    public function max(value:Float) : GUI;
+    public function step(value:Float) : GUI;
+    public function onFinishChange(f:Void -&gt; Void) : GUI;
+    public function listen() : GUI;
+
+}
 
 [/code ]
 
@@ -143,51 +145,53 @@ Then I used it like:
 
 [code lang="actionscript3"][/code]
 
-<pre>package ;
+package ;
 import dat.GUI;
 
-/**
- * ...
- * @author
- */
+/\*\*
+
+- ...
+- @author
+  \*/
 
 class GUIManager
 {
-	public var goldChance : Float;
-	public var rockChance : Float;
-	public var diamondsChance : Float;
-	public var mapWidth : Int;
-	public var mapHeight : Int;
+public var goldChance : Float;
+public var rockChance : Float;
+public var diamondsChance : Float;
+public var mapWidth : Int;
+public var mapHeight : Int;
 
-	private var gui : GUI;
-	private var game : Game;
+    private var gui : GUI;
+    private var game : Game;
 
-	public function new(game:Game)
-	{
-		this.game = game;
+    public function new(game:Game)
+    {
+    	this.game = game;
 
-		gui = new GUI( { height : 5 * 32 - 1 } );
+    	gui = new GUI( { height : 5 * 32 - 1 } );
 
-		goldChance = game.tilemap.goldSpawnChance;
-		rockChance = game.tilemap.rockSpawnChance;
-		diamondsChance = game.tilemap.diamondsSpawnChance;
-		game.tilemap.mapResized = onTilemapResized;
-		mapWidth = 0;
-		mapHeight = 0;
+    	goldChance = game.tilemap.goldSpawnChance;
+    	rockChance = game.tilemap.rockSpawnChance;
+    	diamondsChance = game.tilemap.diamondsSpawnChance;
+    	game.tilemap.mapResized = onTilemapResized;
+    	mapWidth = 0;
+    	mapHeight = 0;
 
-		gui.add(this, 'goldChance').name("Gold").min(0).max(1).step(0.001).onFinishChange(function() { game.tilemap.goldSpawnChance = goldChance; } );
-		gui.add(this, 'rockChance').name("Rock").min(0).max(1).step(0.001).onFinishChange(function() { game.tilemap.rockSpawnChance = rockChance; } );
-		gui.add(this, 'diamondsChance').name("Diamond").min(0).max(1).step(0.001).onFinishChange(function() { game.tilemap.diamondsSpawnChance = diamondsChance; } );
-		gui.add(this, 'mapWidth').listen();
-		gui.add(this, 'mapHeight').listen();
-	}
+    	gui.add(this, 'goldChance').name("Gold").min(0).max(1).step(0.001).onFinishChange(function() { game.tilemap.goldSpawnChance = goldChance; } );
+    	gui.add(this, 'rockChance').name("Rock").min(0).max(1).step(0.001).onFinishChange(function() { game.tilemap.rockSpawnChance = rockChance; } );
+    	gui.add(this, 'diamondsChance').name("Diamond").min(0).max(1).step(0.001).onFinishChange(function() { game.tilemap.diamondsSpawnChance = diamondsChance; } );
+    	gui.add(this, 'mapWidth').listen();
+    	gui.add(this, 'mapHeight').listen();
+    }
 
-	private function onTilemapResized(mapW:Int, mapH:Int):Void
-	{
-		mapWidth = mapW;
-		mapHeight = mapH;
-	}
-}</pre>
+    private function onTilemapResized(mapW:Int, mapH:Int):Void
+    {
+    	mapWidth = mapW;
+    	mapHeight = mapH;
+    }
+
+}
 
 [/code ]
 

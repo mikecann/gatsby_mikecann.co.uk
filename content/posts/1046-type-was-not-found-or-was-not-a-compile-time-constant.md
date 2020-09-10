@@ -29,92 +29,97 @@ To cut a long story short it seems that if you try to new a member property that
 
 So for example take the two following classes:
 
-[codesyntax lang="actionscript3"]
+```
 
-<pre>package package2
+package package2
 {
-	import package1.MyTestClass;
+import package1.MyTestClass;
 
-	public class MyTestClass2
-	{
-		public var type : Class = MyTestClass;
-	}
-}</pre>
+    public class MyTestClass2
+    {
+    	public var type : Class = MyTestClass;
+    }
 
-[/codesyntax]
+}
+
+```
 
 And
 
-[codesyntax lang="actionscript"]
+```
 
-<pre>package package1
+package package1
 {
-	public class MyTestClass
-	{
-		public function MyTestClass(someVar:String)
-		{
-			trace(someVar);
-		}
-	}
-}</pre>
+public class MyTestClass
+{
+public function MyTestClass(someVar:String)
+{
+trace(someVar);
+}
+}
+}
 
-[/codesyntax]
+```
 
 Now try using them in the following fashion:
 
-[codesyntax lang="mxml"]
+```
 
-<pre>&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;s:Application xmlns:fx="https://ns.adobe.com/mxml/2009" 
-			   xmlns:s="library://ns.adobe.com/flex/spark" 
-			   xmlns:mx="library://ns.adobe.com/flex/mx" creationComplete="application1_creationCompleteHandler(event)"&gt;
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;s:Application xmlns:fx="https://ns.adobe.com/mxml/2009"
+xmlns:s="library://ns.adobe.com/flex/spark"
+xmlns:mx="library://ns.adobe.com/flex/mx" creationComplete="application1_creationCompleteHandler(event)"&gt;
 
-	&lt;fx:Script&gt;
-		&lt;![CDATA[
-			import mx.events.FlexEvent;			
+    &lt;fx:Script&gt;
+    	&lt;![CDATA[
+    		import mx.events.FlexEvent;
 
-			protected function application1_creationCompleteHandler(event:FlexEvent):void
-			{
-				var class2 : MyTestClass2 = new MyTestClass2();
-				var class1 : MyTestClass = new (class2.type)("hello");
-			}
+    		protected function application1_creationCompleteHandler(event:FlexEvent):void
+    		{
+    			var class2 : MyTestClass2 = new MyTestClass2();
+    			var class1 : MyTestClass = new (class2.type)("hello");
+    		}
 
-		]]&gt;
-	&lt;/fx:Script&gt;
+    	]]&gt;
+    &lt;/fx:Script&gt;
 
-&lt;/s:Application&gt;</pre>
+&lt;/s:Application&gt;
 
-[/codesyntax]
+```
 
 And uh oh, bad times:
 
-[codesyntax lang="php"]
+```
 
-<pre>1046: Type was not found or was not a compile-time constant: MyTestClass.	FlexBugExperiment.mxml	/FlexBugExperiment/src/main	line 14	Flex Problem
+1046: Type was not found or was not a compile-time constant: MyTestClass. FlexBugExperiment.mxml /FlexBugExperiment/src/main line 14 Flex Problem
 
-1046: Type was not found or was not a compile-time constant: MyTestClass2.	FlexBugExperiment.mxml	/FlexBugExperiment/src/main	line 13	Flex Problem
+1046: Type was not found or was not a compile-time constant: MyTestClass2. FlexBugExperiment.mxml /FlexBugExperiment/src/main line 13 Flex Problem
 
-1180: Call to a possibly undefined method MyTestClass2.	FlexBugExperiment.mxml	/FlexBugExperiment/src/main	line 13	Flex Problem</pre>
+1180: Call to a possibly undefined method MyTestClass2. FlexBugExperiment.mxml /FlexBugExperiment/src/main line 13 Flex Problem
 
-[/codesyntax]
+```
 
 The bad line is:
 
-[codesyntax lang="actionscript"]
+```
 
-<pre>var class1 : MyTestClass = new (class2.type)("hello");</pre>
+var class1 : MyTestClass = new (class2.type)("hello");
 
-[/codesyntax]
+```
 
 If you take away the "hello" part or you split it out into two lines like so:
 
-[codesyntax lang="actionscript"]
+```
 
-<pre>var tmpC : Class = (class2.type);
-var class1 : MyTestClass = new tmpC("hello");</pre>
+var tmpC : Class = (class2.type);
+var class1 : MyTestClass = new tmpC("hello");
 
-[/codesyntax]
+```
 
 Then everything is gravy
 
 Anyway, I hope this helped someone out!
+
+```
+
+```

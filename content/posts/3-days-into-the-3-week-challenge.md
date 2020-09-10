@@ -33,54 +33,55 @@ At runtime all I do is load the level data image and loop through the pixels, gr
 
 Loading this key first I can then determine what colour the platform will be recognising a particular tile type as. So to generate the level the code looks like:
 
-[codesyntax lang="actionscript3"]
+```
 
-<pre>class LevelManager 
+class LevelManager
 {
-	public static var TYPES : Hash&lt;Class&lt;Dynamic&gt;&gt;;	
+public static var TYPES : Hash&lt;Class&lt;Dynamic&gt;&gt;;
 
-	public var gridW : Int;
-	public var gridH : Int;
-	public var tiles : Array&lt;BaseObject&gt;;
+    public var gridW : Int;
+    public var gridH : Int;
+    public var tiles : Array&lt;BaseObject&gt;;
 
-	public function new() 
-	{
-		if (TYPES == null)
-		{
-			var objectTypes = [null, SolidBlock, SpawnPoint, Ring];			
-			TYPES = new Hash&lt;Class&lt;Dynamic&gt;&gt;();
-			var bmd =  Assets.getBitmapData("assets/levels/key.png");
-			if (bmd == null) throw new Error("key png is null for some reason!");
-			var i = 0;
-			for (y in 0...bmd.height) for (x in 0...bmd.width) if(i&lt;objectTypes.length) TYPES.set("" + StringTools.hex(bmd.getPixel(x, y), 6), objectTypes[i++]);
-		}
-	}
+    public function new()
+    {
+    	if (TYPES == null)
+    	{
+    		var objectTypes = [null, SolidBlock, SpawnPoint, Ring];
+    		TYPES = new Hash&lt;Class&lt;Dynamic&gt;&gt;();
+    		var bmd =  Assets.getBitmapData("assets/levels/key.png");
+    		if (bmd == null) throw new Error("key png is null for some reason!");
+    		var i = 0;
+    		for (y in 0...bmd.height) for (x in 0...bmd.width) if(i&lt;objectTypes.length) TYPES.set("" + StringTools.hex(bmd.getPixel(x, y), 6), objectTypes[i++]);
+    	}
+    }
 
-	public function loadLevel(stageIndex:Int, levelIndex:Int) 
-	{
-		var bmd =  Assets.getBitmapData("assets/levels/s" + stageIndex + "_l" + levelIndex+"/world.png");
-		gridW = bmd.width;
-		gridH = bmd.height;
-		tiles = [];
+    public function loadLevel(stageIndex:Int, levelIndex:Int)
+    {
+    	var bmd =  Assets.getBitmapData("assets/levels/s" + stageIndex + "_l" + levelIndex+"/world.png");
+    	gridW = bmd.width;
+    	gridH = bmd.height;
+    	tiles = [];
 
-		for (y in 0...gridH)
-		{
-			for (x in 0...gridW)
-			{
-				var c = StringTools.hex(bmd.getPixel(x, y), 6);
-				var t = TYPES.get(c + "");
-				if (t == null) { continue; }			
-				var o : BaseObject = Type.createInstance(t, []);
-				o.x = x * Game.GRID_SIZE;
-				o.y = y * Game.GRID_SIZE;
-				Game.I.addObject(o);
-				tiles[y * gridW + x] = o;
-			}			
-		}
-	}
-...</pre>
+    	for (y in 0...gridH)
+    	{
+    		for (x in 0...gridW)
+    		{
+    			var c = StringTools.hex(bmd.getPixel(x, y), 6);
+    			var t = TYPES.get(c + "");
+    			if (t == null) { continue; }
+    			var o : BaseObject = Type.createInstance(t, []);
+    			o.x = x * Game.GRID_SIZE;
+    			o.y = y * Game.GRID_SIZE;
+    			Game.I.addObject(o);
+    			tiles[y * gridW + x] = o;
+    		}
+    	}
+    }
 
-[/codesyntax]
+...
+
+```
 
 Once I had the level populating I started getting the basics of the physics sorted. At first I thought it was going to be a nightmare as in the original version of the game it appeared as if the whole world rotated about the player ([see video for reminder](https://www.youtube.com/watch?v=r1gUc-WMhfI&feature=player_embedded)), I worried about how I was going to handle the complex physics of a grid at odd angles while continually rotating. After a while however I realised that what was actually going on was that the world was standing still and all that was happening was that the camera was rotating at same rate at which the gravity vectyor was changing, thus giving the illusion of a rotating world, eg:
 
@@ -94,9 +95,9 @@ The solution it turns out took a little longer than I thought but I eventually c
 
 As can be seen from above that all you need do is split the problem up into a grid, then in turn check each of the 8 neighbouring cells from the current cell. The north, east, south and west cells can be classed as one type and only need to have their relevant axis checked against the radius of the player wheres the corner cells need to be checked against the distance from the closest point. In code this looks something like:
 
-[codesyntax lang="actionscript3"]
+```
 
-<pre>// From Player.hx
+// From Player.hx
 
 override public function update(delta:Int) : Void
 {
@@ -111,11 +112,11 @@ override public function update(delta:Int) : Void
 
 	var d = delta * 0.01;
 	vel.x += gravity.x * d;
-	vel.y += gravity.y * d;		
+	vel.y += gravity.y * d;
 
 	var newPos = new Vec2(x + vel.x * d, y + vel.y * d);
 	var ntx : Int = Std.int(newPos.x / Game.GRID_SIZE);
-	var nty : Int = Std.int(newPos.y / Game.GRID_SIZE);				
+	var nty : Int = Std.int(newPos.y / Game.GRID_SIZE);
 
 	checkTileCollide(ntx, nty, ntx - 1, nty + 1, newPos, vel);
 	checkTileCollide(ntx, nty, ntx + 1, nty + 1, newPos, vel);
@@ -124,7 +125,7 @@ override public function update(delta:Int) : Void
 	checkTileCollide(ntx, nty, ntx, nty + 1, newPos, vel);
 	checkTileCollide(ntx, nty, ntx, nty - 1, newPos, vel);
 	checkTileCollide(ntx, nty, ntx + 1, nty , newPos, vel);
-	checkTileCollide(ntx, nty, ntx - 1, nty , newPos, vel);	
+	checkTileCollide(ntx, nty, ntx - 1, nty , newPos, vel);
 
 	x = newPos.x;
 	y = newPos.y;
@@ -136,7 +137,7 @@ private function checkTileCollide(fromTX:Int, fromTY:Int, toTX:Int, toTY:Int, po
 	var dTX = fromTX - toTX;
 	var dTY = fromTY - toTY;
 	if (tile != null &amp;&amp; tile.is(SolidBlock))
-	{				
+	{
 		if (dTX == 0)
 		{
 			var d =  Math.abs(pos.y-((toTY - fromTY) &gt; 0?toTY * Game.GRID_SIZE:fromTY * Game.GRID_SIZE));
@@ -156,25 +157,25 @@ private function checkTileCollide(fromTX:Int, fromTY:Int, toTX:Int, toTY:Int, po
 				vel.x = 0;
 				return true;
 			}
-		}			
+		}
 		else
-		{	
-			var tp = new Vec2((dTX&gt;0?fromTX:toTX)*Game.GRID_SIZE, (dTY&gt;0?fromTY:toTY)*Game.GRID_SIZE);				
-			var vToCorner = new Vec2(tp.x - pos.x, tp.y - pos.y);			
+		{
+			var tp = new Vec2((dTX&gt;0?fromTX:toTX)*Game.GRID_SIZE, (dTY&gt;0?fromTY:toTY)*Game.GRID_SIZE);
+			var vToCorner = new Vec2(tp.x - pos.x, tp.y - pos.y);
 			if (vToCorner.lengthSqr() &lt; radius * radius)
-			{					
-				var ang = Math.atan2(vToCorner.y, vToCorner.x);							
+			{
+				var ang = Math.atan2(vToCorner.y, vToCorner.x);
 				pos.x = tp.x - Math.cos(ang) * radius;
-				pos.y = tp.y - Math.sin(ang) * radius;				
+				pos.y = tp.y - Math.sin(ang) * radius;
 				//vel.x = vel.y = 0;
 				return true;
-			}			
+			}
 		}
 	}
 	return false;
-}</pre>
+}
 
-[/codesyntax]
+```
 
 Its not 100% perfect, there is some oddness when the player hits a corner but will do for now.
 
@@ -186,21 +187,21 @@ You may have noticed that currently the game is in Flash. That's because with NM
 
 One of the problems I faced (and I banged my against the wall for a while on this one) was that for some reason when the level was populating from the PNG, certain tiles weren't being built. I couldn't for the life of me work out why. To cut a long story short, apparently when building for iOS in Haxe you MUST put the super call in the constructor BEFORE any other call, else the code before the super call in the constructor wont be executed:
 
-[codesyntax lang="actionscript3"]
+```
 
-<pre>class Player extends BaseObject
-{	
+class Player extends BaseObject
+{
 
-	public function new() 
-	{		
-		trace("This will not be executed when built for iOS but WILL be executed when built for flash");	
-		super();
-		trace("This will be execute on flash AND iOS");	
-	}
+    public function new()
+    {
+    	trace("This will not be executed when built for iOS but WILL be executed when built for flash");
+    	super();
+    	trace("This will be execute on flash AND iOS");
+    }
 
-...</pre>
+...
 
-[/codesyntax]
+```
 
 A small thing to remember but quite a gotcha for the NME Haxe newbie!
 

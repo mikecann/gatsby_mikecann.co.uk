@@ -1,5 +1,5 @@
 ---
-title: MobX Keystone
+title: Tinkering with MobX Keystone
 categories:
   - Programming
 featuredImage: ./header.jpg
@@ -16,13 +16,13 @@ Its no secret that im a fan of MobX and have been using it for many years now. I
 
 ## MobX State Tree
 
-[MobX State Tree](https://mobx-state-tree.js.org/intro/philosophy) is a fantastic library that I have been using for some time to simplify state management in my various web projects. Its main premise is that all the state for your app should be contained in a single hierarchical "tree". 
+[MobX State Tree](https://mobx-state-tree.js.org/intro/philosophy) is a fantastic library that I have been using for some time to simplify state management in my various web projects. Its main premise is that all the state for your app should be contained in a single hierarchical "tree".
 
-Although this sounds pretty much exactly like [Redux](https://github.com/reduxjs/redux) there is one major difference from Redux in that the state lives close to the code that modifies it and this state is is modified in a "mutable" manner. 
+Although this sounds pretty much exactly like [Redux](https://github.com/reduxjs/redux) there is one major difference from Redux in that the state lives close to the code that modifies it and this state is is modified in a "mutable" manner.
 
-Although you change state by assigning to variables and pushing into arrays you aren't actually mutating data. The underlying state is maintained as an immutable "snapshot" of the entire tree. Actions that modify the state produce new snapshots. 
+Although you change state by assigning to variables and pushing into arrays you aren't actually mutating data. The underlying state is maintained as an immutable "snapshot" of the entire tree. Actions that modify the state produce new snapshots.
 
-The benefits of having this "layer of indirection" from you and your state is that you can have functionality such as transparent references. References allow one part of the state to reference another part of the state but hide that underlying reference in the API. Its only when a snapshot is created or restored is that reference converted into a serializable "id" reference. 
+The benefits of having this "layer of indirection" from you and your state is that you can have functionality such as transparent references. References allow one part of the state to reference another part of the state but hide that underlying reference in the API. Its only when a snapshot is created or restored is that reference converted into a serializable "id" reference.
 
 There are many other benefits of this way of working but I wont enumerate them all, the docs do a pretty good job of explaining that: https://mobx-state-tree.js.org/concepts/trees
 
@@ -40,17 +40,17 @@ MST although awesome is not without its issues. [This](https://medium.com/@xavie
 
 ## MobX Keystone
 
-[MobX Keystone](https://mobx-keystone.js.org/) is very similar to MST conceptually but it implementation differs in some key ways allowing it to overcome many of the problems encountered in MST. 
+[MobX Keystone](https://mobx-keystone.js.org/) is very similar to MST conceptually but it implementation differs in some key ways allowing it to overcome many of the problems encountered in MST.
 
 1. Keystone's [models are classes](https://mobx-keystone.js.org/classModels) rather than modular functional "chunks". Typescript has great support for classes even in recursive or circular scenarios. This is great for building complex interconnected models. It also solves the "this or self" problem listed above as its always just "this".
 
 2. Keystone's [references](https://mobx-keystone.js.org/references) are objects in themselves rather than direct instances of another model. This indirection allows for more flexibility in how models reference each other. This opens up lots more possibilities when you have multiple trees for example.
 
-3. Runtime type checking is optional. In MST you were forced to use the "types" object to enforce types in your model, in Keystone is this optional. This can make things a good deal simpler if you are happy just to rely on the Typescript compiler and don't want the overhead of type-checking at runtime too. 
+3. Runtime type checking is optional. In MST you were forced to use the "types" object to enforce types in your model, in Keystone is this optional. This can make things a good deal simpler if you are happy just to rely on the Typescript compiler and don't want the overhead of type-checking at runtime too.
 
 ## Keystone Problems
 
-1. Keystone's [snapshots](https://mobx-keystone.js.org/snapshots) contain some "meta" information such as the "type" of the model and the "id" of the instance. I understand the reason for this requirement having worked with generic serialization libraries in C# and other languages before, its necessary that the system know the type of object so it can correctly construct an instance of it. 
+1. Keystone's [snapshots](https://mobx-keystone.js.org/snapshots) contain some "meta" information such as the "type" of the model and the "id" of the instance. I understand the reason for this requirement having worked with generic serialization libraries in C# and other languages before, its necessary that the system know the type of object so it can correctly construct an instance of it.
 
 MST doesn't have this issue because it enforces the runtime types and the precise structure of the tree thus in most (not unions) situations it knows what the type the data represents.
 

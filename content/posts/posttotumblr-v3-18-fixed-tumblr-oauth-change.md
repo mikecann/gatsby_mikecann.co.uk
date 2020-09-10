@@ -41,23 +41,21 @@ You see at the end of the query string there is now a "#_=_" well this was causi
 
 My solution is quick and dirty, just strip out the "#_=_" from the url while parsing:
 
-<pre>// MIKE HACK!!	  
-if(param.indexOf('oauth_verifier=')!=-1) 
+// MIKE HACK!!  
+if(param.indexOf('oauth*verifier=')!=-1)
 {
-	param = param.replace('oauth_verifier=','');
-	param = param.replace('#_=_','');		  
-	decoded['oauth_verifier'] = ChromeExOAuth.fromRfc3986(param);
+param = param.replace('oauth_verifier=','');
+param = param.replace('#*=\_','');  
+ decoded['oauth_verifier'] = ChromeExOAuth.fromRfc3986(param);
 }
 else
-{	  	  
-	var keyval = param.split("=");
-	if (keyval.length == 2) {
-		var key = ChromeExOAuth.fromRfc3986(keyval[0]);
-		var val = ChromeExOAuth.fromRfc3986(keyval[1]);
-		decoded[key] = val;
-	}
+{  
+ var keyval = param.split("=");
+if (keyval.length == 2) {
+var key = ChromeExOAuth.fromRfc3986(keyval[0]);
+var val = ChromeExOAuth.fromRfc3986(keyval[1]);
+decoded[key] = val;
 }
-
-</pre>
+}
 
 Well I hope this helps anyone else that may encounter this issue too!

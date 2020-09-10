@@ -28,37 +28,37 @@ Rather than beginning the port from scratch I decided to use as3hx to take the l
 
 Once downloaded its just a simple matter of compiling the source into a neko executable:
 
-[codesyntax lang="powershell" lines="normal"]
+```
 
-<pre>haxe as3hx.hx</pre>
+haxe as3hx.hx
 
-[/codesyntax]
+```
 
 Then you can run it with:
 
-[codesyntax lang="powershell" lines="normal"]
+```
 
-<pre>neko as3hx.n</pre>
+neko as3hx.n
 
-[/codesyntax]
+```
 
 [![](https://mikecann.co.uk/wp-content/uploads/2012/06/screenshot_01.gif "screenshot_01")](https://mikecann.co.uk/wp-content/uploads/2012/06/screenshot_01.gif)
 
 To convert a AS3 project give it an input and output folder:
 
-[codesyntax lang="powershell" lines="normal"]
+```
 
-<pre>neko as3hx.n -vector2array -uint2int robotlegs2 robotlegs2out</pre>
+neko as3hx.n -vector2array -uint2int robotlegs2 robotlegs2out
 
-[/codesyntax]
+```
 
 In this case the input folder is the source download from the [RobotLegs2 GitHub page](https://github.com/robotlegs/robotlegs-framework).
 
 It will start to convert but will get stuck:
 
-[codesyntax lang="powershell" lines="normal"]
+```
 
-<pre>C:/Users/MikeC/Desktop/as3hx/robotlegs2/src/robotlegs/bender/extensions/eventCommandMap/api/IEventCommandMap.as
+C:/Users/MikeC/Desktop/as3hx/robotlegs2/src/robotlegs/bender/extensions/eventCommandMap/api/IEventCommandMap.as
 C:/Users/MikeC/Desktop/as3hx/robotlegs2out/robotlegs/bender/extensions/eventcommandmap/api/IEventCommandMap.hx
 C:/Users/MikeC/Desktop/as3hx/robotlegs2/src/robotlegs/bender/extensions/eventCommandMap/impl/EventCommandExecutor.as
 C:/Users/MikeC/Desktop/as3hx/robotlegs2out/robotlegs/bender/extensions/eventcommandmap/impl/EventCommandExecutor.hx
@@ -94,18 +94,18 @@ Called from as3hx/Parser.hx line 1179
 Called from as3hx/Parser.hx line 330
 Called from as3hx/Parser.hx line 1003
 Uncaught exception - In C:/Users/MikeC/Desktop/as3hx/robotlegs2/src/robotlegs/bender/extensions/eventCommandMap/impl/Eve
-ntCommandTrigger.as(75) : Unexpected .</pre>
+ntCommandTrigger.as(75) : Unexpected .
 
-[/codesyntax]
+```
 
 It seems like as3hx is getting confused around this line in the AS3 source:
 
-[codesyntax lang="actionscript" lines="normal"]
+```
 
-<pre>if (describeType(mapping.commandClass).factory.method.(@name == "execute").length() == 0)
-				throw new Error("Command Class must expose an execute method");</pre>
+if (describeType(mapping.commandClass).factory.method.(@name == "execute").length() == 0)
+throw new Error("Command Class must expose an execute method");
 
-[/codesyntax]
+```
 
 It looks like a bit of E4X is confusing the script. To solve this sort of problem I made a note of the location and file and just commented the offending line out. This allows as3hx to get past that particular snag. After going through this process a few times the project should be fully converted.
 
@@ -125,3 +125,7 @@ Unfortunately, I have run out of time on this little side project for now so am 
 [https://github.com/mikecann/RobotLegs2Hx](https://github.com/mikecann/RobotLegs2Hx)
 
 I had indented, once everything was passing, was to do a branch of the project and incorporate some features that only the Haxe language can support. Features such as proper generics and macros would bring some added awesome.
+
+```
+
+```

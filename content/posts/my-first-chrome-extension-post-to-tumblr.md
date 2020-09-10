@@ -34,40 +34,41 @@ Currently it only posts images as that's all I needed for now but if enough peop
 
 The source couldn't be any simpler really, infact this is it here:
 
-[codesyntax lang="javascript" lines="normal" blockstate="expanded"]
+```typescript
+chrome.contextMenus.create({
+  title: "Post Image To Tumblr",
+  contexts: ["image"],
+  onclick: postImage,
+})
 
-<pre>chrome.contextMenus.create({"title": "Post Image To Tumblr", "contexts":["image"], "onclick": postImage});
+function postImage(info, tab) {
+  var email = localStorage["tumblr_email"]
+  var password = localStorage["tumblr_pass"]
 
-function postImage(info, tab)
-{
-	var email = localStorage["tumblr_email"];
-	var password = localStorage["tumblr_pass"];
+  if (!email || email == "" || !password || password == "") {
+    alert(
+      "Need to set your Tumblr username and password in the options before posting!"
+    )
+  } else {
+    var o = {
+      email: email,
+      password: password,
+      type: "photo",
+      source: info.srcUrl,
+    }
 
-	if(!email || email=="" || !password || password=="")
-	{
-		alert("Need to set your Tumblr username and password in the options before posting!");
-	}
-	else
-	{
-		var o =
-		{
-			"email":email,
-			"password":password,
-			"type":"photo",
-			"source":info.srcUrl
-		};
+    var success = function(data, textStatus, request) {
+      if (textStatus == "success") {
+        alert("Image posted to Tumblr. Image -&gt; " + info.srcUrl)
+      } else {
+        alert("Bad email or password")
+      }
+    }
 
-		var success = function(data,textStatus,request)
-		{
-			if(textStatus=="success"){ alert("Image posted to Tumblr. Image -&gt; "+info.srcUrl); }
-			else { alert("Bad email or password"); }
-		}
-
-		$.post("https://www.tumblr.com/api/write",o, success);
-	}
-}</pre>
-
-[/codesyntax]
+    $.post("https://www.tumblr.com/api/write", o, success)
+  }
+}
+```
 
 Simples!
 

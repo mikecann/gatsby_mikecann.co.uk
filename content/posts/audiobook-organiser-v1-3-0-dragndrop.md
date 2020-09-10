@@ -27,15 +27,16 @@ Well I was just doing some audio book organising and realised that it would be g
 
 Anyways after a little searching through the docs I came up with this little ditty:
 
-<pre>var cp : Clipboard = new Clipboard();
+var cp : Clipboard = new Clipboard();
 cp.setData(ClipboardFormats.FILE_LIST_FORMAT, [new File(book.url)], false);
-NativeDragManager.doDrag(null,cp);</pre>
+NativeDragManager.doDrag(null,cp);
+
 <div>Which gets fired by my DataGrid in the view:</div>
-<pre>
+
 <div>&lt;mx:DataGrid width="100%" height="100%" dataProvider="{books}" editable="true"</div>
 <div>  itemEditEnd="{dispatchEvent(new BooksEvent(BooksEvent.PROPERTY_CHANGED));}"</div>
 <div>  dragEnabled="true"</div>
-<div>  dragStart="{dispatchEvent(new BooksEvent(BooksEvent.BOOK_BEGIN_DRAG, AudioBookModel(event.currentTarget.selectedItem)))}"&gt;</div></pre>
+<div>  dragStart="{dispatchEvent(new BooksEvent(BooksEvent.BOOK_BEGIN_DRAG, AudioBookModel(event.currentTarget.selectedItem)))}"&gt;</div>
 <div>Its pretty cool.</div>
 <div>Anyways, the latest version and the source is below:</div>
 <div>

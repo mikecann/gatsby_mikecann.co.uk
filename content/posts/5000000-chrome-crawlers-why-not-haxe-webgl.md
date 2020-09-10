@@ -58,9 +58,9 @@ So I kind of cheated. The fountain simulation on the GPU isn't the same as my 
 
 Currently each crawler's position is calculated in the vertex shader each frame like so:
 
-[codesyntax lang="glsl"]
+```
 
-<pre>attribute float maxAge;
+attribute float maxAge;
 attribute float startingAge;
 attribute float velX;
 attribute float velY;
@@ -72,17 +72,18 @@ varying float invAgeRatioSq;
 
 void main(void)
 {
-	float age = mod(uTime+startingAge, maxAge);
-	float ageRatio = age / maxAge;
-	float invAge = 1.0 - ageRatio;
-	invAgeRatioSq = 1.0 - (ageRatio * ageRatio);
+float age = mod(uTime+startingAge, maxAge);
+float ageRatio = age / maxAge;
+float invAge = 1.0 - ageRatio;
+invAgeRatioSq = 1.0 - (ageRatio \* ageRatio);
 
-	gl_Position = vec4((-velX*ageRatio*0.8), (velY*ageRatio)+(-0.4*age*ageRatio)-0.5, 0., 1.);
+    gl_Position = vec4((-velX*ageRatio*0.8), (velY*ageRatio)+(-0.4*age*ageRatio)-0.5, 0., 1.);
 
-	gl_PointSize = uPointSize;
-}</pre>
+    gl_PointSize = uPointSize;
 
-[/codesyntax]
+}
+
+```
 
 To preserve state between frames I need to use textures to record each crawlers position and velocity, then using Vertex Texture Fetch a vertices position can be calculated.
 
@@ -93,3 +94,7 @@ I have uploaded the source for this project here incase anyone was interested:
 [https://mikecann.co.uk/projects/HTML5SpeedTests/HTML5SpeedTests_2.zip](https://mikecann.co.uk/projects/HTML5SpeedTests/HTML5SpeedTests_2.zip)
 
 I warn you its ugly and uncommented, however it should be enough of a start for anyone looking to do something similar.
+
+```
+
+```

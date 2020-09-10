@@ -30,9 +30,9 @@ After a brief search we decided on Mike Stead's [MassiveUnit](https://github.com
 
 An example of a test we wrote is:
 
-[codesyntax lang="actionscript3" lines="normal"]
+```
 
-<pre>package ;
+package ;
 import massive.munit.Assert;
 import Grid;
 
@@ -75,17 +75,17 @@ class GridTest
 		Assert.isTrue(liveNeighbors == 3);
 	}
 
-}</pre>
+}
 
-[/codesyntax]
+```
 
 It should look fairly familiar to anyone who has used FlexUnit before. The metatags @Before @After and @Test perform in exactly the same way as they do in FlexUnit. Another benefit of using munit over the built in testing framework in haXe is that you are given a tool to run tests on all platforms simultaneously:
 
-[codesyntax lang="text"]
+```
 
-<pre> haxelib run munit test test.hxml</pre>
+haxelib run munit test test.hxml
 
-[/codesyntax]
+```
 
 When executed you get something that looks like the following:
 
@@ -97,9 +97,9 @@ Once built and tested we decided to give the code a simple visual representation
 
 [NME ](https://www.haxenme.org/)is a library and tool chain for haXe designed to allow the developer to use the flash API on multiple platforms. They achieve this by writing platform targeted version of the flash API. So what this means is code such as the following:
 
-[codesyntax lang="actionscript3" lines="no"]
+```
 
-<pre>package ;
+package ;
 import flash.display.Bitmap;
 import flash.display.BitmapData;
 import flash.display.MovieClip;
@@ -147,22 +147,22 @@ class Render
 		_renderTarget.unlock();
 	}
 
-}</pre>
+}
 
-[/codesyntax]
+```
 
 Will compile down to flash, c++ and Javascript! NME also includes packaging abilities for webos, android and ios. So with a few scripted command lines you can target most app marketplaces:
 
-[codesyntax lang="text"]
+```
 
-<pre>haxelib run nme test YourProject.nmml flash
+haxelib run nme test YourProject.nmml flash
 haxelib run nme update YourProject.nmml ios
 haxelib run nme test YourProject.nmml webos
 haxelib run nme test YourProject.nmml android
 haxelib run nme test YourProject.nmml cpp
-haxelib run nme test YourProject.nmml cpp -64</pre>
+haxelib run nme test YourProject.nmml cpp -64
 
-[/codesyntax]
+```
 
 What it means for this project is we could very quickly get a view for our game of life running in flash, JS and native desktop.
 
@@ -175,3 +175,7 @@ You can see the HTML5 build here: [https://mikecann.co.uk/projects/gameoflife/E
 And the flash build here: [https://mikecann.co.uk/projects/gameoflife/Export/flash/bin/MyApplication.swf](https://mikecann.co.uk/projects/gameoflife/Export/flash/bin/MyApplication.swf)
 
 I have uploaded the source for the project here: [https://mikecann.co.uk/projects/gameoflife/gameoflife.zip](https://mikecann.co.uk/projects/gameoflife/gameoflife.zip)
+
+```
+
+```

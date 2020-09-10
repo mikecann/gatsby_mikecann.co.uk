@@ -27,11 +27,11 @@ Normally when you hear that there is an issue with a site on IE and not on FF or
 
 To cut a long story short I worked my way up from the bottom of the page to the top until I reaced the very top line:
 
-<pre>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"&gt;</pre>
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"&gt;
 
 This line was the only line that differed in the index to the category page, which read:
 
-<pre>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"&gt;</pre>
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"&gt;
 
 So I took out the "Transitional" and low and behold it worked!
 

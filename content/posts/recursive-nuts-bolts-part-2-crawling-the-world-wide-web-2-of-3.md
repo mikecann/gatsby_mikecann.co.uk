@@ -53,25 +53,25 @@ The Crawler represents a single crawl instance. Its responsibility is to follow 
 
 One issue I encountered while developing Recursive (and Chrome Crawler) was the performance and security issues involved with parsing the HTML returned from the crawl. The way I originally handled this was to pass the entire HTML to JQuery then ask it for all ‘src’ and ‘href’ attributes:
 
-[codesyntax lang="javascript" lines="normal"]
+```
 
-<pre>function getAllLinksOnPage(page)
+function getAllLinksOnPage(page)
 {
-	var links = new Array();
-	$(page).find('[src]').each(function(){ links.push($(this).attr('src')); });
-	$(page).find('[href]').each(function(){ links.push($(this).attr('href')) });
-	return links;
-}</pre>
+var links = new Array();
+$(page).find('[src]').each(function(){ links.push($(this).attr('src')); });
+$(page).find('[href]').each(function(){ links.push($(this).attr('href')) });
+return links;
+}
 
-[/codesyntax]
+```
 
 The problem with this is that behind the scenes jQuery is constructing a DOM which it uses for querying. Normally this is what you want, but in this instance its a problem because its rather slow process, also the browser executes the script tags and other elements when it generates the DOM. The result of which is the crawling is really slow and there were many security errors generated while crawling.
 
 The solution was to use regex to parse the HTML and look for the attributes manually like so:
 
-[codesyntax lang="javascript" lines="normal"]
+```
 
-<pre>var links = new string[];
+var links = new string[];
 
 // Grab all HREF links
 var results = c.pageHTML.match(/hrefs*=s*"([^"]*)/g);
@@ -79,9 +79,9 @@ if (results) results.forEach(s=&gt;links.push(s.split(""")[1]));
 
 // And all SRC links
 results = c.pageHTML.match(/srcs*=s*"([^"]*)/g);
-if (results) results.forEach(s=&gt;links.push(s.split(""")[1]));</pre>
+if (results) results.forEach(s=&gt;links.push(s.split(""")[1]));
 
-[/codesyntax]
+```
 
 I was worried that the sheer amount of html text that must be parsed by the regex would result in things being really slow however it seems to hold up quite well, and is definitely not the bottle neck in the app.
 

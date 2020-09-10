@@ -28,9 +28,10 @@ There were so many requests for new features and things that I thought I would p
 
 From the change log:
 
-<pre id="cx-desc-text">- v.0.8 -- 19/06/11 --
-+ Text, Page, and Links are now supported in addition to Images
-+ Added an app icon to the bar for easy access to the options</pre>
+- v.0.8 -- 19/06/11 --
+
+* Text, Page, and Links are now supported in addition to Images
+* Added an app icon to the bar for easy access to the options
 
 To highlight these new changes I decided to update the promo video too:
 

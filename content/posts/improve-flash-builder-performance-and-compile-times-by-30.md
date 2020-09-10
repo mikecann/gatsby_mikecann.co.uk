@@ -43,21 +43,20 @@ Not a good start. The two projects wont even compile. They get so far through th
 
 So the first improvement is to up the amount of memory that Flash Builder has. Incredibly  (in this day and age) you have to manually do this, it isn't built into Flash Builder (which is built on Eclipse). So to do this you need to edit the FlashBuilder.ini found (on my machine) at:
 
-[codesyntax lang="text"]
+```
 
-<pre>
-C:Program Files (x86)AdobeAdobe Flash Builder 4.6FlashBuilder.ini</pre>
+C:Program Files (x86)AdobeAdobe Flash Builder 4.6FlashBuilder.ini
 
-[/codesyntax]
+```
 
 The main setting for the amount of memory is "-Xmx512m" which sets the maximum value of the heap to 512Mb. So to give FB more memory set that to:
 
-[codesyntax lang="text"]
+```
 
-<pre>
--Xmx1024m</pre>
 
-[/codesyntax]
+-Xmx1024m
+
+```
 
 If you try to set it any higher than this then FB either wont start or will crash at some point. This is to do with the maximum addressable memory when running the 32bit JVM (which FB uses).
 

@@ -21,10 +21,11 @@ Just a quick update to my [Chrome Extension PostToTumblr](https://chrome.google.
 
 The change log:
 
-<pre>- v3.13 -- 20/01/13 
-+ More one-click options for post state, tags and caption
-+ New button in the options for resetting Tumblr auth
-+ New button for formatted posts for posting to draft
-+ Fixed it so you no longer have a menu on one-click if you only have one blog
-+ Correct verbs are now displayed in the desktop notifications when posting
-+ Fixed an issue with white pages if you rename your blog</pre>
+- v3.13 -- 20/01/13
+
+* More one-click options for post state, tags and caption
+* New button in the options for resetting Tumblr auth
+* New button for formatted posts for posting to draft
+* Fixed it so you no longer have a menu on one-click if you only have one blog
+* Correct verbs are now displayed in the desktop notifications when posting
+* Fixed an issue with white pages if you rename your blog

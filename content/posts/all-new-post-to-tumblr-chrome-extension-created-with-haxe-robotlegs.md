@@ -49,9 +49,9 @@ An example of this is the way in which you access the "localStorage" object in c
 
 So to access the localStorage you can use untyped to quickly get access to a global variable, I then decided to wrap this little hack in a Model class to make it a little neater:
 
-[codesyntax lang="actionscript3" lines="normal"]
+```
 
-<pre>package models;
+package models;
 import js.Lib;
 
 /**
@@ -75,9 +75,9 @@ class ChromeLocalStorageModel extends BaseModel
 		untyped localStorage[key] = val;
 	}
 
-}</pre>
+}
 
-[/codesyntax]
+```
 
 This lets you just just mix and match the type-safe stuff when you need to and just do a little "hack" when you need to ;)
 
@@ -87,26 +87,26 @@ The only problem is the issue with Views and Mediation. Because unlike Flash eve
 
 Im not sure if the way I have used RobotLegs is the correct or best way, it was more of an experiment as I went along. The way I have done it is to wrap many of the main HTML elements in my own view classes. So for example I have a "DivView" that represents a "div" and extends BaseView:
 
-[codesyntax lang="actionscript3" lines="normal"]
+```
 
-<pre>class DivView extends BaseView
+class DivView extends BaseView
 {
 
-	public function new(elementId:String=null) 
+	public function new(elementId:String=null)
 	{
 		super(Lib.document.createElement('div'));
 		if (elementId != null) element.id = elementId;
 	}
 
-}</pre>
+}
 
-[/codesyntax]
+```
 
 BaseView implements the IViewContainer interface:
 
-[codesyntax lang="actionscript3" lines="normal"]
+```
 
-<pre>class BaseView implements IViewContainer
+class BaseView implements IViewContainer
 {
 	public var viewAdded:Dynamic -&gt; Void;
 	public var viewRemoved:Dynamic -&gt; Void;
@@ -117,12 +117,12 @@ BaseView implements the IViewContainer interface:
 
 ....
 
-	public function new(element:HtmlDom) 
+	public function new(element:HtmlDom)
 	{
 		this.element = element;
 		this.children = [];
 		isLayoutInvalid = true;
-	}	
+	}
 
 	...
 
@@ -131,7 +131,7 @@ BaseView implements the IViewContainer interface:
 		children.push(child);
 		child.parent = this;
 		child.viewAdded = viewAdded;
-		child.viewRemoved = viewRemoved;		
+		child.viewRemoved = viewRemoved;
 		if(viewAdded!=null) child.addChildren();
 		element.appendChild(child.element);
 		if (viewAdded != null) viewAdded(child);
@@ -151,66 +151,68 @@ BaseView implements the IViewContainer interface:
 
 	...
 
-}</pre>
+}
 
-[/codesyntax]
+```
 
 Then say I want to construct the following html:
 
-[codesyntax lang="html4strict"]
+```
 
-<pre>&lt;div id="container"&gt;
-	&lt;div id="inner"&gt;Hello World!&lt;/div&gt;
-&lt;/div&gt;</pre>
+&lt;div id="container"&gt;
+&lt;div id="inner"&gt;Hello World!&lt;/div&gt;
+&lt;/div&gt;
 
-[/codesyntax]
+```
 
 I would do something like this:
 
-[codesyntax lang="actionscript3" lines="normal"]
+```
 
-<pre>class MainPopupContainer extends DivView
+class MainPopupContainer extends DivView
 {
-	private var inner : DivView;
+private var inner : DivView;
 
-	public function new() 
-	{
-		super("container");
+    public function new()
+    {
+    	super("container");
 
-		inner = new DivView("inner");
-		inner.element.innerHTML = "Hello World!";		
-		add(inner);		
-	}	
-}</pre>
+    	inner = new DivView("inner");
+    	inner.element.innerHTML = "Hello World!";
+    	add(inner);
+    }
 
-[/codesyntax]
+}
+
+```
 
 Then perhaps I want to turn the "Hello World!" red when clicked I would do something like this:
 
-[codesyntax lang="actionscript3" lines="normal"]
+```
 
-<pre>class MainPopupContainer extends DivView
+class MainPopupContainer extends DivView
 {
-	private var inner : DivView;
+private var inner : DivView;
 
-	public function new() 
-	{
-		super("container");
+    public function new()
+    {
+    	super("container");
 
-		inner = new DivView("inner");
-		inner.element.innerHTML = "Hello World!";		
-		add(inner);
+    	inner = new DivView("inner");
+    	inner.element.innerHTML = "Hello World!";
+    	add(inner);
 
-		new JQuery(inner.element).click(onInnerClicked);
-	}	
+    	new JQuery(inner.element).click(onInnerClicked);
+    }
 
-	private function onInnerClicked()
-	{
-		inner.element.style.color = "#FF0000";
-	}
-}</pre>
+    private function onInnerClicked()
+    {
+    	inner.element.style.color = "#FF0000";
+    }
 
-[/codesyntax]
+}
+
+```
 
 What this means is you have a RobotLegs-familiar looking View with a Mediator behind it (thanks to the mediation happening when you call add()) which is nice. What it does mean however is I have quite abit of boiler plate wrapping the HTML nodes, which definitely slowed down my development.
 
@@ -221,3 +223,7 @@ For example I may have a "HeaderOptionButton" that defines some inline styles th
 As I said, im not sure if im doing it the "right" or "best" way, its just the way that seemed to work at the time ;)
 
 Well that's a quick overview of where im at. Once I have cleaned the project up a little and added some missing features ill be sticking the source up on GitHub for anyone interested.
+
+```
+
+```

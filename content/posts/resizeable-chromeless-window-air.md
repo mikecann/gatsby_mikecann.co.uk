@@ -29,9 +29,9 @@ The coloured edges indicate where the application is draggable, including the 
 
 The component that lets you do this is pretty simple:
 
-[codesyntax lang="mxml"]
+```
 
-<pre>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;s:Group xmlns:fx="https://ns.adobe.com/mxml/2009"
 xmlns:s="library://ns.adobe.com/flex/spark"
 xmlns:mx="library://ns.adobe.com/flex/halo"&gt;
@@ -57,14 +57,14 @@ protected function onMouseDown(event:MouseEvent):void
 var grp : Group = event.target as Group;
 var resizeFrom:String = "";
 
-if (grp==topSide){ resizeFrom=NativeWindowResize.TOP;	}
+if (grp==topSide){ resizeFrom=NativeWindowResize.TOP; }
 else if (grp==rightSide) { resizeFrom=NativeWindowResize.RIGHT; }
 else if (grp==bottomSide) { resizeFrom=NativeWindowResize.BOTTOM; }
-else if (grp==leftSide) { resizeFrom=NativeWindowResize.LEFT;	}
-else if (grp==topLeft) { resizeFrom=NativeWindowResize.TOP_LEFT;	}
-else if (grp==topRight) { resizeFrom=NativeWindowResize.TOP_RIGHT;	}
-else if (grp==bottomRight) { resizeFrom=NativeWindowResize.BOTTOM_RIGHT;	}
-else if (grp==bottomLeft) { resizeFrom=NativeWindowResize.BOTTOM_LEFT;	}
+else if (grp==leftSide) { resizeFrom=NativeWindowResize.LEFT; }
+else if (grp==topLeft) { resizeFrom=NativeWindowResize.TOP_LEFT; }
+else if (grp==topRight) { resizeFrom=NativeWindowResize.TOP_RIGHT; }
+else if (grp==bottomRight) { resizeFrom=NativeWindowResize.BOTTOM_RIGHT; }
+else if (grp==bottomLeft) { resizeFrom=NativeWindowResize.BOTTOM_LEFT; }
 else { return; }
 
 stage.nativeWindow.startResize(resizeFrom);
@@ -145,22 +145,22 @@ x="0" y="{height-RESIZE_AREA}" width="{RESIZE_AREA}" height="{RESIZE_AREA}"&gt;
 &lt;/s:Rect&gt;
 &lt;/s:Group&gt;
 
-&lt;/s:Group&gt;</pre>
+&lt;/s:Group&gt;
 
-[/codesyntax]
+```
 
 To use it in your app just add the component into your existing view somewhere:
 
-[codesyntax lang="mxml"]
+```
 
-<pre>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;s:SkinnableContainer xmlns:fx="https://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark" xmlns:mx="library://ns.adobe.com/flex/halo"&gt;
 
 &lt;components:WindowResizer width="{width}" height="{height}" alpha="0" buttonMode="true" /&gt;
 
-&lt;/s:SkinnableContainer&gt;</pre>
+&lt;/s:SkinnableContainer&gt;
 
-[/codesyntax]
+```
 
 Setting the alpha to zero will obviously hide the coloured areas at the side of the window.
 

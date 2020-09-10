@@ -32,26 +32,26 @@ Joa has taken a different approach to doing dependency injection. The approach m
 
 As an example, with Swift Suspenders you would define a class for injection with something like the following:
 
-[codesyntax lang="actionscript3" lines="normal" tab_width="4"]
+```
 
-<pre>class MyInjectedClass
+class MyInjectedClass
 {
-	public function sayHello(toSay:String)
-	{
-		trace("Hello "+toStay);
-	}
+public function sayHello(toSay:String)
+{
+trace("Hello "+toStay);
+}
 }
 
 var injector : Injector = new Injector();
-injector.mapSingleton(MyInjectedClass);</pre>
+injector.mapSingleton(MyInjectedClass);
 
-[/codesyntax]
+```
 
 Here we are telling the Injector to make a single instance of our class and hold it internally ready for when it is next requested, such as:
 
-[codesyntax lang="actionscript3" lines="normal" tab_width="4"]
+```
 
-<pre>class MyDependantClass
+class MyDependantClass
 {
 	[Inject] public var myClass : MyInjectedClass;
 
@@ -59,19 +59,19 @@ Here we are telling the Injector to make a single instance of our class and hold
 	{
 		myClass.sayHello("World");
 	}
-}</pre>
+}
 
-[/codesyntax]
+```
 
 Here the [Inject] meta-data indicates that we want the framework to supply the class with an instance of type MyInjectedClass. The final part is to make an instance of the dendant class and inject into it:
 
-[codesyntax lang="actionscript3" lines="normal" tab_width="4"]
+```
 
-<pre>var dependant : MyDependantClass = new MyDependantClass();
+var dependant : MyDependantClass = new MyDependantClass();
 injector.injectInto(dependant);
-dependant.performAction();</pre>
+dependant.performAction();
 
-[/codesyntax]
+```
 
 As you can see this is a nice way of handling inter-module dependencies in your code, when coupled with a MVC framework such as RobotLegs it becomes and extremely powerful yet elegant way of coding.
 
@@ -82,9 +82,9 @@ It however isnt perfect and Joa, on his [google code page](https://code.google.c
 *   Steep learning curve.
 This is where he suggests his alternative method, which is quite ingenious. Using the same example as above you would see something like the following:
 
-[codesyntax lang="actionscript3" lines="normal" tab_width="4"]
+```
 
-<pre>class MyInjectedClass
+class MyInjectedClass
 {
 	public function sayHello(toSay:String)
 	{
@@ -92,34 +92,35 @@ This is where he suggests his alternative method, which is quite ingenious. Usin
 	}
 }
 
-bind(MyInjectedClass).asSingleton();</pre>
+bind(MyInjectedClass).asSingleton();
 
-[/codesyntax]
+```
 
 Then the dependant class would look like the following:
 
-[codesyntax lang="actionscript3" lines="normal" tab_width="4"]
+```
 
-<pre>class MyInjectedClass
+class MyInjectedClass
 {
-	protected var myClass : MyInjectedClass = inject(MyInjectedClass);
+protected var myClass : MyInjectedClass = inject(MyInjectedClass);
 
-	public function performAction()
-	{
-		myClass.sayHello("World");
-	}
-}</pre>
+    public function performAction()
+    {
+    	myClass.sayHello("World");
+    }
 
-[/codesyntax]
+}
+
+```
 
 And making an instance of it could be as simple as:
 
-[codesyntax lang="actionscript3" lines="normal" tab_width="4"]
+```
 
-<pre>var dependant : MyDependantClass = new MyDependantClass();
-dependant.performAction();</pre>
+var dependant : MyDependantClass = new MyDependantClass();
+dependant.performAction();
 
-[/codesyntax]
+```
 
 As can be seen there are some benefits to this method, the biggest one in my opinion is that injected properties dont have to be public as they are provided by the call from within the class scope rather than from outside.
 

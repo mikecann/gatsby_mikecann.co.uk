@@ -42,9 +42,9 @@ To test the problem quickly (without needing to do an iPhone build every time) I
 
 I knew that the reason for this problem lay somewhere in my update function in my Player class. My usual method of running update loops is to work out the time between two frames (delta) in milliseconds, pass that into the update loop for a game object then have the game modulate its update based on that delta. So as a very simple example:
 
-[codesyntax lang="actionscript3" lines="normal"]
+```
 
-<pre>class Player
+class Player
 {
 	public var position : Vector2;
 	public var velocity : Vector2;
@@ -54,14 +54,14 @@ I knew that the reason for this problem lay somewhere in my update function in m
 	public function update(delta:Int)
 	{
 		position.x += velocity.x * delta;
-		position.y += velocity.y * delta;	
+		position.y += velocity.y * delta;
 	}
 
 	...
 
-}</pre>
+}
 
-[/codesyntax]
+```
 
 This is pretty standard stuff and should be familiar to any game programmer. In theory it shouldn't matter what frame rate the game is running at, the player movement should be consistent because the velocity is being modulated by the time between the previous frame and now.
 
@@ -71,9 +71,9 @@ I had however read of a different technique [documented by deWiTTERS](https://ww
 
 I wont detail the process here as dewitter explains it very well in his post. The result is a greatly simplified update loop for my Player by removing all the delta time factors. My resulting update loop now looks like:
 
-[codesyntax lang="actionscript3" lines="normal"]
+```
 
-<pre>class Game
+class Game
 {
 	public static var TICKS_PER_SECOND : Float = 50;
     public static var SKIP_TICKS : Float = 1000 / TICKS_PER_SECOND;
@@ -81,7 +81,7 @@ I wont detail the process here as dewitter explains it very well in his post. Th
 
 	...
 
-	private function onEnterFrame(e:Event):Void 
+	private function onEnterFrame(e:Event):Void
 	{
 		var loops : Int = 0;
         while( Lib.getTimer() > nextFrameTime && loops < MAX_FRAMESKIP) {
@@ -90,9 +90,9 @@ I wont detail the process here as dewitter explains it very well in his post. Th
             loops++;
         }
         render();
-	}	
+	}
 
-	private function update() 
+	private function update()
 	{
 		Ctrl.instance.update();
 		objects.update();
@@ -100,16 +100,16 @@ I wont detail the process here as dewitter explains it very well in his post. Th
 		bg.update();
 	}
 
-	private function render() 
+	private function render()
 	{
 		tiles.render();
 	}
 
 	...
 
-}</pre>
+}
 
-[/codesyntax]
+```
 
 The result of doing this is that the game now runs consistently at 60fps or 10fps. I haven't tried it out on my 3G yet but I have high hopes for the technique.
 

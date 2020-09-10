@@ -30,9 +30,9 @@ First I tackled rendering. In my previous update the tiles in the world rendered
 
 Fortunately for me those clever guys who wrote NME were way ahead of me and developed the "[Tilesheet.drawTiles()](https://code.google.com/p/nekonme/source/browse/trunk/nme/display/Tilesheet.hx?r=1600)" API:
 
-[codesyntax lang="actionscript3" lines="normal"]
+```
 
-<pre>extern class Tilesheet
+extern class Tilesheet
 {
 	static var TILE_SCALE:Int;
 	static var TILE_ROTATION:Int;
@@ -48,27 +48,27 @@ Fortunately for me those clever guys who wrote NME were way ahead of me and deve
 
 	/**
 	 * Fast method to draw a batch of tiles using a Tilesheet
-	 * 
+	 *
 	 * The input array accepts the x, y and tile ID for each tile you wish to draw.
 	 * For example, an array of [ 0, 0, 0, 10, 10, 1 ] would draw tile 0 to (0, 0) and
 	 * tile 1 to (10, 10)
-	 * 
+	 *
 	 * You can also set flags for TILE_SCALE, TILE_ROTATION, TILE_RGB and
 	 * TILE_ALPHA.
-	 * 
+	 *
 	 * Depending on which flags are active, this is the full order of the array:
-	 * 
+	 *
 	 * [ x, y, tile ID, scale, rotation, red, green, blue, alpha, x, y ... ]
-	 * 
+	 *
 	 * @param	graphics		The nme.display.Graphics object to use for drawing
 	 * @param	tileData		An array of all position, ID and optional values for use in drawing
 	 * @param	smooth		(Optional) Whether drawn tiles should be smoothed (Default: false)
 	 * @param	flags		(Optional) Flags to enable scale, rotation, RGB and/or alpha when drawing (Default: 0)
 	 */
 	function drawTiles (graphics:Graphics, tileData:Array&lt;Float&gt;, smooth:Bool = false, flags:Int = 0):Void;
-}</pre>
+}
 
-[/codesyntax]
+```
 
 With it you pass an array of tile data with a number of optional properties such as Rotation, Alpha and Scale. It then does the heavy lifting behind the scenes of building a vertex buffer and sending it to the GPU for rendering with your Tilesheet texture. This results in two big wins for performance; 1) you can render a great many sprites on the GPU in the same render, 2) you dont perform any expensive texture switches if all your sprites are on the same texture.
 
@@ -100,16 +100,16 @@ As suspected this had a marked improvement in FPS, the game was now running on m
 
 After some more experimentation I discovered another problem. In the code for checking whether to render a tile or not I was doing the following:
 
-[codesyntax lang="actionscript3" lines="normal"]
+```
 
-<pre>public function update(delta:Int) : Void
-{				
+public function update(delta:Int) : Void
+{
 	var dx = x - game.player.x;
 	var dy = y - game.player.y;
 	visible = animated = (dx * dx) + (dy * dy) &lt; game.root.stage.stageWidth * game.root.stage.stageHeight;
-}</pre>
+}
 
-[/codesyntax]
+```
 
 The problem is that apparently the call to "stage.stageWidth" and "stage.stageHeight" is very expensive. I presume behind the scenes NME is making an expensive call to the device for width and height information.
 

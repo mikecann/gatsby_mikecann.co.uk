@@ -32,9 +32,9 @@ I realised that this too would apply to the work I had been doing using the Robo
 
 Its a very nice, elegant, solution to RIA development. However there is one catch. I have so far been using signals such as:
 
-[codesyntax lang="actionscript3" lines="normal"]
+```
 
-<pre>public class MyMediator extends Mediator
+public class MyMediator extends Mediator
 {
 	// View
 	[Inject] public var view : MyView;
@@ -47,15 +47,15 @@ Its a very nice, elegant, solution to RIA development. However there is one catc
 	{
 		view.someSignal.add(eventOccured.dispatch);
 		modelChanged.add(onModelChanged);
-	}	
+	}
 
 	protected function onModelChanged()
 	{
 		view.updateView();
 	}
-}</pre>
+}
 
-[/codesyntax]
+```
 
 So here we can see a typical use of Signals in a mediator. There are two things going on here that are of concern, lets break them down.
 
@@ -80,9 +80,9 @@ From Grant's post:
 
 I created a very simple Signal dispatcher:
 
-[codesyntax lang="actionscript3" lines="normal"]
+```
 
-<pre>package
+package
 {
 	import flash.events.EventDispatcher;
 	import flash.utils.Dictionary;
@@ -109,15 +109,15 @@ I created a very simple Signal dispatcher:
 			}
 		}
 	}
-}</pre>
+}
 
-[/codesyntax]
+```
 
 And a very simple listening object:
 
-[codesyntax lang="actionscript3" lines="normal"]
+```
 
-<pre>package
+package
 {
 	public class SimpleListener
 	{
@@ -131,59 +131,59 @@ And a very simple listening object:
 			trace(this+" - ping");
 		}
 	}
-}</pre>
+}
 
-[/codesyntax]
+```
 
 And then a simple Application to hook it all together:
 
-[codesyntax lang="mxml" lines="normal"]
+```
 
-<pre>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;s:Application xmlns:fx="https://ns.adobe.com/mxml/2009"
-			   xmlns:s="library://ns.adobe.com/flex/spark"
-			   xmlns:mx="library://ns.adobe.com/flex/mx"&gt;
+xmlns:s="library://ns.adobe.com/flex/spark"
+xmlns:mx="library://ns.adobe.com/flex/mx"&gt;
 
-	&lt;fx:Script&gt;
-		&lt;![CDATA[
-			import mx.controls.List;
+    &lt;fx:Script&gt;
+    	&lt;![CDATA[
+    		import mx.controls.List;
 
-			protected var _dispatcher : SimpleDispatcher = new SimpleDispatcher(true);
-			protected var _listener : SimpleListener;
+    		protected var _dispatcher : SimpleDispatcher = new SimpleDispatcher(true);
+    		protected var _listener : SimpleListener;
 
-			protected function onAddListenerClicked(event:MouseEvent):void
-			{
-				_listener = new SimpleListener();
-				_listener.listen(_dispatcher);
-			}	
+    		protected function onAddListenerClicked(event:MouseEvent):void
+    		{
+    			_listener = new SimpleListener();
+    			_listener.listen(_dispatcher);
+    		}
 
-			protected function onRunGCClicked(event:MouseEvent):void
-			{
-				try
-				{
-					new LocalConnection().connect('foo');
-					new LocalConnection().connect('foo');
-				}
-				catch (e:*) {}
-			}				
+    		protected function onRunGCClicked(event:MouseEvent):void
+    		{
+    			try
+    			{
+    				new LocalConnection().connect('foo');
+    				new LocalConnection().connect('foo');
+    			}
+    			catch (e:*) {}
+    		}
 
-			protected function onDispatchClicked(event:MouseEvent):void
-			{
-				_dispatcher.dispatch();
-			}		
+    		protected function onDispatchClicked(event:MouseEvent):void
+    		{
+    			_dispatcher.dispatch();
+    		}
 
-		]]&gt;
-	&lt;/fx:Script&gt;	
+    	]]&gt;
+    &lt;/fx:Script&gt;
 
-	&lt;s:VGroup width="100%" height="100%" horizontalAlign="center" verticalAlign="middle"&gt;
-		&lt;s:Button label="Add Listener" click="onAddListenerClicked(event)" /&gt;
-		&lt;s:Button label="Run GC" click="onRunGCClicked(event)" /&gt;
-		&lt;s:Button label="Dispatch" click="onDispatchClicked(event)" /&gt;
-	&lt;/s:VGroup&gt;
+    &lt;s:VGroup width="100%" height="100%" horizontalAlign="center" verticalAlign="middle"&gt;
+    	&lt;s:Button label="Add Listener" click="onAddListenerClicked(event)" /&gt;
+    	&lt;s:Button label="Run GC" click="onRunGCClicked(event)" /&gt;
+    	&lt;s:Button label="Dispatch" click="onDispatchClicked(event)" /&gt;
+    &lt;/s:VGroup&gt;
 
-&lt;/s:Application&gt;</pre>
+&lt;/s:Application&gt;
 
-[/codesyntax]
+```
 
 So what I should expect to see from this example is that when I click "Add Listener" it should create a listener reference which will then listen for when the signal is dispatched and trace out a "ping".
 
