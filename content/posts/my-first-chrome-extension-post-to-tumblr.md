@@ -20,13 +20,13 @@ date: 2010-10-14 20:02:33
 
 [![](https://mikecann.co.uk/wp-content/uploads/2010/10/Shot_002.png "Shot_002")](https://mikecann.co.uk/wp-content/uploads/2010/10/Shot_002.png)
 
-Mummy wow! Im a big boy now! I have just published my first Chrome extension.
+Woo! I have just published my first Chrome extension :)
 
 <!-- more -->
 
-It was really annoying me that when I found a funny cat or some other silly image I would have to go through a whole ball-ache process to get that image on [my Tumblr account](https://mikeysee.tumblr.com).
+It was really annoying me that when I found a funny cat or some other silly image I would have to go through an annoying process to get that image on [my Tumblr account](https://mikeysee.tumblr.com).
 
-What I really wanted was some right-click-post action going on and wondered why no one had one it yet. So with an hour or so to spare I whipped this extension up really quick.
+What I really wanted was some right-click-post action going on and wondered why no one had done one it yet. So with an hour or so to spare I whipped this extension up really quick.
 
 It uses the Chrome 6 Context Menu API so you obviously need to have Chrome 6 to be able to use it.
 
