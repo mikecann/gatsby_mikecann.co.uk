@@ -15,7 +15,7 @@ This is a technique my girlfriend I have have been practicing every day for year
 
 <!-- more -->
 
-[Kelsie is a welness coach](https://www.abetterme.com.au/) and so she knows a thing or two about good routines and techniques for being happy and productive. So when, a few years back, she proposed a routine to strengthen our relationship and make us happier, I thought "sure why not?".
+[Kelsie is a wellness coach](https://www.abetterme.com.au/) and so she knows a thing or two about good routines and techniques for being happy and productive. So when, a few years back, she proposed a routine to strengthen our relationship and make us happier, I thought "sure why not?".
 
 The idea is pretty simple: at the end of the day you take it in turns to say one thing you have been grateful for during the day.
 
