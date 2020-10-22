@@ -1,6 +1,6 @@
 import React, { ComponentProps } from "react"
 import { setupPage, normalize } from "csstips"
-import { style } from "typestyle"
+import { cssRaw, style } from "typestyle"
 import { Image, Button, Icon } from "semantic-ui-react"
 import { SocialIcon } from "./SocialIcon"
 import { PageButton } from "./PageButton"
@@ -8,6 +8,23 @@ import { Link } from "gatsby"
 import { Pages } from "./Pages"
 import cover from "../../../images/cover.jpg"
 import me from "../../../images/me-shaved-head.jpg"
+
+cssRaw(`
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-10px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+`)
 
 const styles = style({
   backgroundImage: `url(${cover})`,
@@ -34,8 +51,21 @@ interface Props {
 export function LargeScreenSidebar({ onOpenSearch }: Props) {
   return (
     <div className={styles}>
-      <div style={{ display: "flex", justifyContent: "center", margin: 20 }}>
-        <Image src={me} circular />
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          margin: "20px 20px 10px 20px",
+        }}
+      >
+        <div
+          style={{
+            borderRadius: "50%",
+            animation: "float 6s ease-in-out infinite",
+          }}
+        >
+          <Image src={me} circular />
+        </div>
       </div>
       <p>Mike Cann</p>
       <p style={{ fontSize: 16 }}>
