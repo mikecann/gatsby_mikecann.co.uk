@@ -7,3 +7,5 @@
 // You can delete this file if you're not using it
 
 require("prismjs/themes/prism-tomorrow.css")
+// require("./src/css/semantic.min.css")
+// require("./src/css/main.css")

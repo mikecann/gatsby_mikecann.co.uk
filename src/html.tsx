@@ -1,6 +1,5 @@
 import React from "react"
-import PropTypes from "prop-types"
-import { WindowSizeContainer } from "./utils/useWindowSize"
+import { cssRaw } from "typestyle"
 
 export default function HTML(props: any) {
   return (
@@ -11,10 +10,6 @@ export default function HTML(props: any) {
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
         />
         {props.headComponents}
       </head>
@@ -29,6 +24,10 @@ export default function HTML(props: any) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+        />
       </body>
     </html>
   )

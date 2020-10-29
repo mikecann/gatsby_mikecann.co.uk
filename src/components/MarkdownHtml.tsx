@@ -6,6 +6,8 @@ const contentStyles = style({
   color: "#5d686f",
   fontWeight: 400,
   fontSize: "1.3rem",
+  fontFamily:
+    "Inter var,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji",
   marginTop: 40,
   marginBottom: 40,
   $nest: {
