@@ -1,12 +1,14 @@
 ---
 title: BattleTabs - Ships and Fleets Update
 categories:
-  - Projects
+  - BattleTabs
 featuredImage: ./header.jpg
 coverMeta: out
 tags:
-  - Photos and Personal
-date: 2020-10-28 08:31:40
+  - Game
+  - Design
+  - Business
+date: 2020-10-31 07:31:40
 ---
 
 After months of hard work we are excited to announce that our latest and largest ever update to [BattleTabs](https://www.battletabs.com/) is finally live! Read on to find out about some of the gory details.
@@ -37,9 +39,9 @@ This was enjoyable enough but we always felt it lacked a little depth so after a
 
 A fleet contains 4 ships which each have a [special ability](https://www.battletabs.com/how-to-play-battletabs-v2/) that they can use.
 
-Some ships live in multiple fleets but they are carefully tuned so that each fleet has an play style.
+Some ships live in multiple fleets but they are carefully tuned so that each fleet has a specific play style.
 
-For example the "Reveal & Snipe" fleet is high risk vs high reward fleet that revolves around discovering the location of the enemy ships with "Reveal" abilities then taking them out in one hit with the Coracle.
+For example the "Reveal & Snipe" fleet is high risk vs high reward fleet that revolves around discovering the location of the enemy ships with "Reveal" abilities then taking them out in one hit with the "Snipe" ability of the Coracle.
 
 [![](./reveal-and-snipe.png)](./reveal-and-snipe.png)
 
@@ -51,11 +53,11 @@ One other strong part of this design is that it is an obvious point of extension
 
 # Tutorial
 
-Because the Ships and Fleets is now quite a bit more complex we also decided to take the time and build a proper tutorial into the game.
+Because the game is quite a bit more complex than before we decided to take the time and build a proper tutorial into the game.
 
 [![](./tutorial.png)](./tutorial.png)
 
-Previously we simply popped up a modal with a couple of short gif animations that gave you the general gist of how to play but we always knew that was a temporary measure.
+Previously we simply opened a modal with a couple of short gif animations that gave you the general gist of how to play. This was fine for an early prototype but we always knew that we should have something a little more fleshed out than that.
 
 The tutorial now guides you step by step through how to play the game.
 
@@ -63,7 +65,7 @@ The tutorial now guides you step by step through how to play the game.
 
 # Sidebar
 
-We know from our analytics that a large percentage of our users are playing on chromebooks or small windows laptops both of which have very limited vertical height. This meant that the play area they had was small and made smaller thanks to a bunch of vertical space eaten by our UI at the bottom of the screen:
+We know from our analytics that a large percentage of our users are playing on chromebooks or small windows laptops, both of which have very limited vertical height. This means that the play area they have is rather small and made smaller thanks to a bunch of vertical space eaten by our UI at the bottom of the screen:
 
 [![](./old-sidebar.png)](./old-sidebar.png)
 
@@ -91,6 +93,6 @@ We added a whole bunch of other stuff as part of this update that I wont detail 
 
 # Conclusion
 
-We are really proud of this update as we think it brings some much needed depth and polish to the game. Hopefully it also sets us up nicely for a bunch of future features we have planned so stay tuned!
+We are really proud of this update as we think it brings some much needed depth and polish to the game. Hopefully it also sets us up nicely for a bunch of future features we have planned, so stay tuned!
 
 If you want to checkout the game head over to: [https://www.battletabs.com/](https://www.battletabs.com/)
